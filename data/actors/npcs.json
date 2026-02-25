@@ -18,11 +18,79 @@
             "wounds": { "value": 85, "max": 85 },
             "movement": { "half": 6, "full": 12, "charge": 18, "run": 36 },
             "threatRating": "Dire",
-            "description": "The immortal master of Barovus. Once a decorated Imperial commander, now a warp-touched abomination sustained by centuries of dark pacts and life-draining predation. He appears as a tall, gaunt man in archaic officer's regalia, his features noble but corpse-pale, his eyes burning with cold warp-light.",
-            "notes": "Regeneration (10), Warp Phase, Domination, Life Drain, Castle Command (Lair Actions). Unkillable without Dawn's Edge + Rosette + Heart destruction. Phase 2 at 50 wounds, Phase 3 at 20 wounds.",
+            "description": "The immortal master of Barovus. Four centuries ago, Lord-Governor Strahd von Zarovich was the most decorated Imperial commander in the subsector — a brilliant strategist who conquered this world for the Imperium through sheer tactical genius and ruthless efficiency. When the brother he loved was ordained as a Ministorum priest and wed the woman Strahd coveted, he bargained with a Daemon Prince of Slaanesh for immortality, murdered Sergei on his wedding night, and damned the entire world.\n\nHe appears as a tall, gaunt man in archaic officer's regalia — dress uniform of a pattern not worn for four hundred years, immaculately maintained. His features are noble but corpse-pale, cheekbones sharp as blades, eyes burning with cold warp-light that shifts between violet and pale gold. His voice is a deep, cultured baritone. He moves with the fluid precision of a master swordsman and the patience of something that has all the time in the world.\n\nAfter four centuries, Strahd is profoundly, dangerously BORED. He has read every book, mastered every skill, broken every soul on Barovus. The Acolytes are the first interesting thing to happen in decades. He will toy with them, test them, invite them to dinner, compliment their courage, and ultimately try to destroy everything they care about — not from malice, but because their suffering is the only thing that makes him feel alive.\n\nHe loves Tatyana/Ireena with the obsessive, possessive love of a collector for a masterwork. Every generation she reincarnates, and every generation she dies before he can claim her. This is his curse, and he refuses to accept it.",
+            "notes": "SKILLS: Command +20, Deceive +20, Intimidate +30, Scrutiny +20, Awareness +20, Dodge +20, Parry +20, Forbidden Lore (Warp) +20, Scholastic Lore (Imperial) +10.\n\nTALENTS: Swift Attack, Lightning Attack, Crushing Blow, Step Aside, Counter-Attack, Combat Master, True Grit, Iron Jaw, Peer (Nobility).\n\nTRAITS: Fear (4), Dark Sight, Unnatural Strength (x2), Unnatural Toughness (x2), Unnatural Willpower (x2), From Beyond, Warp-Touched.\n\nSPECIAL ABILITIES:\n\n• Regeneration (10) — Recovers 10 Wounds at start of each turn. Negated for 1 full round by wounds from Dawn's Edge, holy weapons, or blessed ammunition.\n\n• Warp Phase — Half Action: becomes incorporeal. Immune to mundane attacks, passes through solid matter. Psychic attacks, force weapons, and holy weapons still affect him. Remains phased indefinitely; returns to corporeal as Free Action.\n\n• Domination — Locks eyes with target within 20m. Target must pass Opposed WP test at –20 or fall under Strahd's control for 1d5 rounds. Dominated targets act on Strahd's turn, follow telepathic commands including attacking allies. New WP test at –10 per round to break free (Half Action).\n\n• Life Drain — Melee touch attack: target suffers 1d10 Wounds ignoring armour and Toughness Bonus. Strahd heals equal damage dealt. Target reduced to 0 by Life Drain dies and rises as Warp-Thrall within 1d5 rounds.\n\n• Warp Lightning — Psychic bolt, 30m range: 2d10+8 E damage, Pen 6. May target up to 3 enemies within 5m of each other.\n\nCASTLE COMMAND (Lair Actions) — While within Zarovich Spire, Strahd takes one Lair Action at Initiative 0 each round:\n  – Phase through walls to reposition anywhere in the Spire\n  – Command up to 6 Gargoyle-Servitors or Malfunctioning Servitors; they activate and act immediately\n  – Seal exits: blast doors lock (Strength –30 or Tech-Use –20 to force)\n  – Warp Surge: one room floods with warp energy — occupants take 1d10 E (ignoring armour) and WP test or gain 1d5 Corruption Points\n\nPHASE ESCALATION:\n\n• Phase 2 (below 50 Wounds or Heart/Coffin threatened): All Characteristics +10. Fear increases to (5). Gains Psy Rating 5 — Warp Lightning, Telekinetic Storm (15m, Ag test or Prone + 1d10+5 I), Psychic Shriek (10m, WP test or Stunned 1 round + 1d10 Insanity Points).\n\n• Phase 3 (below 20 Wounds or Heart destroyed): Gains Daemonic trait. Unnatural multipliers increase to x3. Fear (6). Warp Instability — if fails WP at 0 Wounds, banished unless Dawn's Edge struck killing blow while Rosette active. Burning Pact: loses 5 Wounds/turn (cannot be healed). Phase 3 lasts ~8 rounds.\n\nDESTRUCTION CONDITIONS — ALL THREE must be met simultaneously:\n  1. Heart of the Spire destroyed\n  2. Strahd's coffin destroyed\n  3. Killing blow struck with Dawn's Edge while Rosette active\nIf any condition unmet, Strahd regenerates within 1d10 days.\n\nGM GUIDANCE: Before the Acolytes acquire holy artifacts, Strahd should feel functionally invincible — regeneration outpaces any damage they can inflict. Only with Dawn's Edge and the Rosette should they have a genuine chance. Strahd fights defensively, retreats when pressed, uses the environment as a weapon. He never raises his voice. He should appear early and often — not just at the finale. Run the dinner scene at the Spire to establish his character. He is unfailingly polite until he decides to be terrifying, and the transition should be instant and chilling.",
             "armour": { "value": 8, "description": "Warp-infused carapace (AP 8 all locations)" }
         },
-        "items": [],
+        "items": [
+            {
+                "_id": "a1b2c3d4e5f60001",
+                "name": "Grief (Master-crafted Power Sword)",
+                "type": "weapon",
+                "system": {
+                    "class": "Melee",
+                    "subtype": "Power Sword (Master-crafted)",
+                    "damage": "1d10+12",
+                    "damageType": "E",
+                    "penetration": 7,
+                    "special": "Power Field, Balanced",
+                    "weight": 3.5,
+                    "description": "Strahd's personal weapon. An archaic Imperial power sword of extraordinary craftsmanship, maintained over four centuries.",
+                    "availability": "Unique"
+                }
+            },
+            {
+                "_id": "a1b2c3d4e5f60002",
+                "name": "Integrated Inferno Pistol",
+                "type": "weapon",
+                "system": {
+                    "class": "Pistol",
+                    "subtype": "Inferno Pistol (Integrated)",
+                    "damage": "1d10+12",
+                    "damageType": "E",
+                    "penetration": 12,
+                    "range": 10,
+                    "rateOfFire": "S/-/-",
+                    "clip": 3,
+                    "reload": "2 Full",
+                    "special": "",
+                    "weight": 0,
+                    "description": "Integrated into Strahd's augmented form. Short range but devastating.",
+                    "availability": "Unique"
+                }
+            },
+            {
+                "_id": "a1b2c3d4e5f60003",
+                "name": "Strahd's Warp-Infused Carapace",
+                "type": "armour",
+                "system": {
+                    "ap": { "head": 8, "body": 8, "leftArm": 8, "rightArm": 8, "leftLeg": 8, "rightLeg": 8 },
+                    "weight": 15,
+                    "description": "Archaic carapace armour sustained and reinforced by centuries of warp-infusion. AP 8 all locations.",
+                    "availability": "Unique"
+                }
+            },
+            {
+                "_id": "a1b2c3d4e5f60004",
+                "name": "Zarovich Spire Control Signet",
+                "type": "gear",
+                "system": {
+                    "weight": 0,
+                    "description": "Master control signet ring for Zarovich Spire. Activates lair actions, commands servitors, seals/opens all doors.",
+                    "availability": "Unique"
+                }
+            },
+            {
+                "_id": "a1b2c3d4e5f60005",
+                "name": "Personal Teleportarium Beacon",
+                "type": "gear",
+                "system": {
+                    "weight": 0,
+                    "description": "Allows instantaneous relocation to any point within Zarovich Spire. Spire only — does not function outside.",
+                    "availability": "Unique"
+                }
+            }
+        ],
         "flags": { "dh2e-dread-of-zarovich": { "role": "major-npc", "act": "all" } }
     },
     {
@@ -44,11 +112,99 @@
             "wounds": { "value": 16, "max": 16 },
             "movement": { "half": 3, "full": 6, "charge": 9, "run": 18 },
             "threatRating": "Challenging",
-            "description": "An elderly Ordo Malleus veteran hiding as 'Dr. Richtus' in Fortress Vallak. His face is a roadmap of scars. One eye is augmetic. He speaks with quiet authority and carries the weight of every comrade he has buried.",
-            "notes": "True value is knowledge — +20 to tests about Strahd's weaknesses, warp entities, Barovus geography. Will not charge into danger.",
+            "description": "An elderly Ordo Malleus Inquisitor who has been trapped on Barovus for twenty-seven years, surviving through extreme competence, ruthlessness, and a refusal to die. He hides in Fortress Vallak under the identity 'Dr. Richtus,' a travelling physician — a cover that lets him move freely while gathering intelligence on Strahd.\n\nHis face is a roadmap of scars. One eye is augmetic, clicking faintly as it refocuses. His hands are steady but liver-spotted, and he moves with the careful economy of a man who knows exactly how much strength he has left. He speaks with quiet authority, each word chosen with the precision of a man who has learned that careless speech kills.\n\nVan Richten arrived on Barovus with a full retinue — acolytes, savants, a combat servitor. All dead within three years. He carries their names like wounds. He talks to them sometimes, in the small hours, when he thinks no one can hear. He trusts no one, least of all himself. Prone to long suspicious silences and sudden agitation.\n\nHis core conviction remains unbroken: duty to the Inquisition, duty to the Emperor. He wants to destroy Strahd, redeem his failure, and die with purpose. He will not reveal his true identity unless the Acolytes demonstrate genuine competence and commitment. Once convinced, he becomes an invaluable ally — not as a combatant, but as a strategist and intelligence source.",
+            "notes": "SKILLS: Forbidden Lore (Daemonology) +30, Inquiry +20, Scrutiny +20, Medicae +10, Scholastic Lore (Occult) +20, Awareness +10, Common Lore (Imperial, Ecclesiarchy) +10.\n\nTALENTS: Resistance (Psychic Powers), Strong Minded, Hatred (Warp-Touched), Nerves of Steel, Jaded.\n\nSPECIAL NOTES:\n\n• Knowledge Value — Van Richten's true value is intelligence. If the Acolytes ask the right questions, he provides +20 bonuses to all tests related to Strahd's weaknesses, warp-touched entities, and Barovus geography. He has decades of research data-slates with comprehensive intelligence.\n\n• Non-combatant Strategist — Will not charge headlong into danger. Too old and damaged for frontline combat. Fights only when cornered. His bolt pistol has blessed rounds effective against warp-touched entities.\n\n• Hidden Identity — 'Dr. Richtus,' travelling physician. Players must discover his true nature through investigation. He tests them before revealing himself.\n\n• Hexagrammic Wards — Personal wards grant +10 WP vs daemonic psychic powers.\n\nGEAR: Inquisitorial rosette (hidden), decades of research data-slates, blessed ammunition (3 spare clips), hexagrammic wards, medikit, micro-bead.\n\nGM GUIDANCE: Van Richten is held together by willpower and bitterness. Play him as paranoid, exhausted, haunted — but never broken. He is the campaign's primary exposition NPC for Strahd's weaknesses and the three destruction conditions. Reveal him gradually. If the Acolytes are reckless with his identity, Strahd will find and kill him — and the campaign becomes much harder without his intelligence. He should feel like a real person weighed down by decades of failure, not a quest-giver.",
             "armour": { "value": 5, "description": "Worn carapace (AP 5 body, AP 4 limbs)" }
         },
-        "items": [],
+        "items": [
+            {
+                "_id": "b1b2c3d4e5f60001",
+                "name": "Bolt Pistol (Blessed Rounds)",
+                "type": "weapon",
+                "system": {
+                    "class": "Pistol",
+                    "subtype": "Bolt Pistol",
+                    "damage": "1d10+5",
+                    "damageType": "X",
+                    "penetration": 4,
+                    "range": 30,
+                    "rateOfFire": "S/2/-",
+                    "clip": 8,
+                    "reload": "Full",
+                    "special": "Tearing, Blessed",
+                    "weight": 3.5,
+                    "description": "Van Richten's sidearm. Loaded with blessed bolt rounds effective against warp-touched entities.",
+                    "availability": "Very Rare"
+                }
+            },
+            {
+                "_id": "b1b2c3d4e5f60002",
+                "name": "Mono-Sword",
+                "type": "weapon",
+                "system": {
+                    "class": "Melee",
+                    "subtype": "Sword (Mono)",
+                    "damage": "1d10+3",
+                    "damageType": "R",
+                    "penetration": 2,
+                    "special": "",
+                    "weight": 3,
+                    "description": "A well-maintained mono-edged sword. Van Richten's backup weapon.",
+                    "availability": "Scarce"
+                }
+            },
+            {
+                "_id": "b1b2c3d4e5f60003",
+                "name": "Stake-Crossbow",
+                "type": "weapon",
+                "system": {
+                    "class": "Basic",
+                    "subtype": "Crossbow (Modified)",
+                    "damage": "1d10+2",
+                    "damageType": "R",
+                    "penetration": 2,
+                    "range": 30,
+                    "rateOfFire": "S/-/-",
+                    "clip": 1,
+                    "reload": "2 Full",
+                    "special": "Blessed, Accurate",
+                    "weight": 4,
+                    "description": "Van Richten's specialized weapon for hunting warp-touched entities. Fires blessed silver-tipped stakes.",
+                    "availability": "Unique"
+                }
+            },
+            {
+                "_id": "b1b2c3d4e5f60004",
+                "name": "Worn Carapace Armour",
+                "type": "armour",
+                "system": {
+                    "ap": { "head": 4, "body": 5, "leftArm": 4, "rightArm": 4, "leftLeg": 4, "rightLeg": 4 },
+                    "weight": 12,
+                    "description": "Battered carapace armour maintained over 27 years on Barovus. AP 5 body, AP 4 limbs.",
+                    "availability": "Scarce"
+                }
+            },
+            {
+                "_id": "b1b2c3d4e5f60005",
+                "name": "Hexagrammic Wards",
+                "type": "gear",
+                "system": {
+                    "weight": 0.5,
+                    "description": "Personal hexagrammic wards inscribed on sub-dermal plates. +10 WP vs daemonic psychic powers.",
+                    "availability": "Extremely Rare"
+                }
+            },
+            {
+                "_id": "b1b2c3d4e5f60006",
+                "name": "Research Data-Slates",
+                "type": "gear",
+                "system": {
+                    "weight": 2,
+                    "description": "Decades of intelligence on Strahd, warp-thralls, Barovus geography, and the three destruction conditions. Grants +20 to relevant Lore tests when consulted.",
+                    "availability": "Unique"
+                }
+            }
+        ],
         "flags": { "dh2e-dread-of-zarovich": { "role": "major-npc", "act": "2-4" } }
     },
     {
@@ -70,11 +226,42 @@
             "wounds": { "value": 10, "max": 10 },
             "movement": { "half": 3, "full": 6, "charge": 9, "run": 18 },
             "threatRating": "Non-combatant",
-            "description": "Tatyana reincarnation, emerging psyker. A young woman with dark hair and pale features. She does not know why Strahd is obsessed with her. Carries an autopistol she barely knows how to use.",
-            "notes": "Latent Psyker. Precognition (passive +10 Initiative), Empathic Reading (10m), Psychic Scream (involuntary, 5m, Stun 1 round).",
+            "description": "The latest reincarnation of Tatyana — the woman Strahd murdered his brother to possess, and who has died in every incarnation before he could claim her. Ireena does not know any of this. She knows only that the Lord-Governor is obsessed with her, that her adopted father died trying to protect her, and that something is awakening inside her mind.\n\nShe is a young woman with dark hair and pale, sharp features — striking rather than beautiful, with eyes that seem to look through people rather than at them. She carries an autopistol she barely knows how to use, and wears her father's aquila pendant.\n\nIreena is brave, intelligent, practical, and deeply compassionate. She is also angry — at Strahd, at her helplessness, at the entire situation. She does not trust easily and she will not be a passive damsel. She will fight, argue, make her own decisions, sometimes to the Acolytes' frustration. She is grieving her father but functional.\n\nShe feels a strange, unwanted pull toward Strahd — a residual soul-bond from centuries of reincarnation. She hates this. She loves Ismark deeply and worries about his self-destructive protectiveness.\n\nHer latent psychic abilities are emerging under the stress of the campaign — precognitive flashes, empathic sensitivity, and an involuntary psychic scream when directly threatened. Each use risks psychic phenomena and draws the attention of warp-sensitive entities.",
+            "notes": "SKILLS: Awareness +10, Dodge, Common Lore (Imperial), Linguistics (Local Barovian dialect).\n\nTRAITS: Latent Psyker, Barovus Native.\n\nSPECIAL ABILITIES:\n\n• Precognition (Passive) — Unconscious warp connection grants +10 to Initiative rolls. GM may grant brief, fragmented visions of imminent danger ('Don't open that door,' 'He's behind us'). Not mechanically reliable — narrative warnings only.\n\n• Empathic Reading — Senses strong emotions within 10m. Automatically detects hostility, deception (grants allies +10 to Scrutiny against source), and warp-taint in nearby individuals.\n\n• Psychic Scream (Involuntary) — Triggered when directly threatened with violence or when Strahd attempts Domination. All creatures within 5m must pass WP test or be Stunned for 1 round. Warp-touched entities in area also suffer 1d10 E damage ignoring armour. Ireena cannot control this — leaves her Fatigued afterward. Each use has 20% chance of triggering Psychic Phenomena.\n\nFOUR POSSIBLE FATES:\n  1. Claimed by Strahd (tragic ending)\n  2. Killed before Strahd can claim her (bittersweet)\n  3. Psychic awakening — destroys soul-bond, becomes sanctioned psyker (heroic)\n  4. Self-sacrifice — channels all psychic power to weaken Strahd permanently (noble)\n\nGM GUIDANCE: Ireena is a person, not a quest item. Play her as a fully-realized character with opinions, fears, and agency. If stashed 'safely' and ignored, she makes dangerous independent decisions. If included and respected, she develops her psychic abilities and becomes a powerful narrative ally. She is doomed — in every previous incarnation Tatyana dies before Strahd claims her. This cycle breaks only if the Acolytes destroy Strahd. Make the tension palpable: close calls, near misses, death almost claiming her. Never let the players forget she is fragile and vital.",
             "armour": { "value": 0, "description": "None" }
         },
-        "items": [],
+        "items": [
+            {
+                "_id": "c1b2c3d4e5f60001",
+                "name": "Autopistol",
+                "type": "weapon",
+                "system": {
+                    "class": "Pistol",
+                    "subtype": "Autopistol",
+                    "damage": "1d10+2",
+                    "damageType": "I",
+                    "penetration": 0,
+                    "range": 30,
+                    "rateOfFire": "S/-/6",
+                    "clip": 18,
+                    "reload": "Full",
+                    "special": "",
+                    "weight": 1.5,
+                    "description": "Ireena barely knows how to use this. She has fired it twice.",
+                    "availability": "Average"
+                }
+            },
+            {
+                "_id": "c1b2c3d4e5f60002",
+                "name": "Father's Aquila Pendant",
+                "type": "gear",
+                "system": {
+                    "weight": 0.1,
+                    "description": "Burgomaster Kolyan's aquila pendant. No mechanical effect, but deeply personal. Ireena will not willingly part with it.",
+                    "availability": "Common"
+                }
+            }
+        ],
         "flags": { "dh2e-dread-of-zarovich": { "role": "major-npc", "act": "1-4" } }
     },
     {
@@ -96,11 +283,59 @@
             "wounds": { "value": 14, "max": 14 },
             "movement": { "half": 3, "full": 6, "charge": 9, "run": 18 },
             "threatRating": "Ordinary",
-            "description": "Ireena's brother. Ex-Imperial Guard, competent fighter, deeply protective of his sister. Practical and brave but not reckless.",
-            "notes": "Escort quest NPC. Solid melee combatant. Will fight to the death to protect Ireena.",
+            "description": "Ireena's brother and the son of the late Burgomaster Kolyan of Barovus Village. Ismark served three years in the planetary defence militia — close enough to Imperial Guard training to make him a competent fighter, far enough from real war to leave him unprepared for what Barovus has become.\n\nHe is broad-shouldered and solid, with the calloused hands of a man who works the land when he isn't fighting. His face is open and honest — a terrible quality on Barovus. He wears battered flak armour and carries a chainsword he maintains with religious devotion.\n\nIsmark is practical, brave, and deeply protective of Ireena — sometimes to a self-destructive degree. He will fight to the death to protect her without hesitation. He is not reckless, but he is not clever either; he follows orders well and fights steadily, but complex plans confuse him. He is grieving his father and terrified for his sister, though he hides both behind a mask of gruff competence.\n\nHe drinks too much Vostra spirit and sleeps too little. He is a good man in a place where goodness is a liability.",
+            "notes": "SKILLS: Common Lore (War), Dodge, Parry, Awareness, Survival, Intimidate.\n\nTALENTS: Rapid Reload, Quick Draw, Sound Constitution (x2), Nerves of Steel.\n\nTRAITS: Barovus Native.\n\nSPECIAL NOTES:\n\n• Escort NPC — Accompanies the party during Acts I-II as Ireena's protector. Solid melee combatant. Will follow Acolyte orders unless they endanger Ireena.\n\n• Protect Ireena — Will fight to the death to protect his sister. If Ireena is in immediate danger, Ismark abandons all other objectives to reach her. This can be exploited by enemies (and Strahd knows it).\n\n• Leadership Potential — If the Acolytes encourage him, Ismark can rally Barovus Village militia (up to 12 poorly-armed civilians, WS 20, BS 15, 6 Wounds). This is a narrative option, not a given.\n\nGM GUIDANCE: Ismark is the party's first ally and their barometer for Barovian morale. Play him as earnest, loyal, and slightly out of his depth. He's the NPC the players will like and want to protect — which makes him an excellent target for Strahd's cruelty. If Strahd wants to hurt the party emotionally, Ismark is the softest target. Do not kill him cheaply; make it devastating if it happens.",
             "armour": { "value": 4, "description": "Flak armour (AP 4 body and limbs)" }
         },
-        "items": [],
+        "items": [
+            {
+                "_id": "d1b2c3d4e5f60001",
+                "name": "Chainsword",
+                "type": "weapon",
+                "system": {
+                    "class": "Melee",
+                    "subtype": "Chainsword",
+                    "damage": "1d10+4",
+                    "damageType": "R",
+                    "penetration": 2,
+                    "special": "Tearing, Balanced",
+                    "weight": 6,
+                    "description": "Militia-issue chainsword, lovingly maintained. Ismark's most prized possession after his sister.",
+                    "availability": "Average"
+                }
+            },
+            {
+                "_id": "d1b2c3d4e5f60002",
+                "name": "Autopistol",
+                "type": "weapon",
+                "system": {
+                    "class": "Pistol",
+                    "subtype": "Autopistol",
+                    "damage": "1d10+2",
+                    "damageType": "I",
+                    "penetration": 0,
+                    "range": 30,
+                    "rateOfFire": "S/-/6",
+                    "clip": 18,
+                    "reload": "Full",
+                    "special": "",
+                    "weight": 1.5,
+                    "description": "Standard sidearm. Two spare clips.",
+                    "availability": "Average"
+                }
+            },
+            {
+                "_id": "d1b2c3d4e5f60003",
+                "name": "Flak Armour",
+                "type": "armour",
+                "system": {
+                    "ap": { "head": 0, "body": 4, "leftArm": 4, "rightArm": 4, "leftLeg": 4, "rightLeg": 4 },
+                    "weight": 8,
+                    "description": "Battered militia-issue flak armour. No helmet.",
+                    "availability": "Common"
+                }
+            }
+        ],
         "flags": { "dh2e-dread-of-zarovich": { "role": "major-npc", "act": "1-2" } }
     },
     {
@@ -122,11 +357,64 @@
             "wounds": { "value": 25, "max": 25 },
             "movement": { "half": 3, "full": 6, "charge": 9, "run": 18 },
             "threatRating": "Dangerous",
-            "description": "Corrupted Tech-Priest at Krezk Biologis Facility. A grotesque fusion of corroded machinery and pulsing, mutated flesh. Building a 'bride' for Strahd.",
-            "notes": "Command Mongrelfolk (up to 6), Flesh-Warp (touch, mutation), Emergency Self-Repair (1d10+5 once/encounter). Only cybernetics maintenance option on Barovus.",
+            "description": "A Magos-Biologis of the Adeptus Mechanicus who came to Barovus decades ago on a research expedition and never left. The warp rift corroded his logic-engines and his sanity in equal measure. He now operates out of the Krezk Biologis Facility — once a legitimate medicae installation, now a charnel house of unethical experimentation.\n\nAbaron is a grotesque fusion of corroded machinery and pulsing, mutated flesh. His body is largely hidden beneath augmetics, stained robes, and professional apparatus. His face is unnaturally smooth and waxy — he has been practicing flesh-sculpting on himself. His eyes are multi-spectral augmetic lenses that whir and refocus constantly. His hands are the real horror: surgical tools fused directly into his fingers, blades and syringes extending from his knuckles, the boundary between tool and flesh deliberately erased.\n\nHe retains the cold logic and obsessive focus of the Mechanicus, but warped into something grotesque. He speaks calmly and precisely about procedures that would make a Chirurgeon vomit. He genuinely believes he is helping. He regards organ harvesting, flesh-sculpting, and constructing abominable servitor-constructs from the villagers of Krezk as necessary steps toward salvation.\n\nHis project: building a 'perfect vessel' — a bride for Strahd, constructed from harvested biological components. He believes completing this gift will earn Krezk's freedom. He does not recognize that his plan is morally abhorrent and practically impossible.\n\nHe is the only individual on Barovus who can maintain cybernetics — at escalating moral cost (1d5 CP per visit).",
+            "notes": "SKILLS: Tech-Use +30, Medicae +30, Forbidden Lore (Xenos, Warp) +20, Scholastic Lore (Chymistry) +20, Awareness +10.\n\nTALENTS: Mechadendrite Use (all), Technical Knock, Luminen Charge.\n\nTRAITS: Mechanicus Implants, Multiple Arms (4 mechadendrites), Dark Sight.\n\nSPECIAL ABILITIES:\n\n• Command Mongrelfolk — Free Action: directs up to 6 Mongrelfolk per round via implanted compliance devices. Obey without question. If Abaron is killed, Mongrelfolk become confused and non-hostile (unless provoked).\n\n• Flesh-Warp — Half Action, melee touch attack: target must pass Toughness test or suffer 1d10 damage and gain a temporary mutation (roll on Temporary Mutation table — extra finger-limbs, translucent skin, migrating eye, etc.). Mutation fades after 1d10 days. Even on successful test, target suffers 1d5 damage as flesh briefly distorts.\n\n• Emergency Self-Repair — Once per encounter, Full Action: restores 1d10+5 Wounds via internal repair protocols.\n\n• Injector Claw Toxin — Target hit by injector claw must pass Toughness test or suffer –20 to all tests for 1d10 rounds.\n\nGEAR: Surgical tools, chymistry lab equipment, experimental compound vials, research data-slates, mongrelfolk remote control device.\n\nGM GUIDANCE: Abaron is polite, helpful, and utterly insane. He offers cybernetics maintenance (the only source on Barovus) but every visit costs 1d5 Corruption Points as his 'improvements' inch toward the obscene. He's an NPC the Acolytes may need but should never trust. Play the body horror carefully — the revulsion should build, not peak on first meeting. His mongrelfolk are pitiable, not threatening. If the Acolytes discover what he's doing to the Krezk villagers, the moral choice is sharp: destroy the only tech-priest on the planet, or tolerate his atrocities.",
             "armour": { "value": 6, "description": "Mechanical body (AP 6 all locations)" }
         },
-        "items": [],
+        "items": [
+            {
+                "_id": "e1b2c3d4e5f60001",
+                "name": "Mechadendrites (x4)",
+                "type": "weapon",
+                "system": {
+                    "class": "Melee",
+                    "subtype": "Mechadendrite",
+                    "damage": "1d10+5",
+                    "damageType": "R",
+                    "penetration": 0,
+                    "special": "May attack with up to 4 per round as Full Action",
+                    "weight": 0,
+                    "description": "Four prehensile mechadendrites, each tipped with surgical tools and grasping claws.",
+                    "availability": "Very Rare"
+                }
+            },
+            {
+                "_id": "e1b2c3d4e5f60002",
+                "name": "Integrated Laspistol",
+                "type": "weapon",
+                "system": {
+                    "class": "Pistol",
+                    "subtype": "Laspistol (Integrated)",
+                    "damage": "1d10+2",
+                    "damageType": "E",
+                    "penetration": 0,
+                    "range": 30,
+                    "rateOfFire": "S/-/-",
+                    "clip": 30,
+                    "reload": "Full",
+                    "special": "",
+                    "weight": 0,
+                    "description": "Built into Abaron's augmented frame.",
+                    "availability": "Common"
+                }
+            },
+            {
+                "_id": "e1b2c3d4e5f60003",
+                "name": "Injector Claw",
+                "type": "weapon",
+                "system": {
+                    "class": "Melee",
+                    "subtype": "Natural Weapon (Modified)",
+                    "damage": "1d10+3",
+                    "damageType": "R",
+                    "penetration": 0,
+                    "special": "Toxic — target must pass Toughness test or –20 all tests for 1d10 rounds",
+                    "weight": 0,
+                    "description": "A syringe-tipped claw that injects paralytic compounds.",
+                    "availability": "Unique"
+                }
+            }
+        ],
         "flags": { "dh2e-dread-of-zarovich": { "role": "major-npc", "act": "2-3" } }
     },
     {
@@ -148,11 +436,111 @@
             "wounds": { "value": 12, "max": 12 },
             "movement": { "half": 2, "full": 4, "charge": 6, "run": 12 },
             "threatRating": "Non-combatant",
-            "description": "Ancient Vostra matriarch and warp-seer. Blind but sees more clearly than anyone on Barovus. Immune to Strahd's Domination and all warp-based scrying.",
-            "notes": "Psyker (PR 4). True Divination (1/day), Warp Navigation (safe mist travel), Unreadable (immune to Strahd, +30 WP in 5m radius).",
-            "armour": { "value": 0, "description": "Warp-warding charms (AP 3 vs psychic only)" }
+            "description": "The ancient matriarch of the Vostra — a clan of warp-touched Rogue Traders who navigate the mists of Barovus where others go mad. She is impossibly old. No one knows how old. She may not know herself.\n\nShe is wrapped in layers of dark fabric and bone-bead necklaces, each bead carved with a tiny hexagrammic ward. Her face is a landscape of wrinkles so deep they cast their own shadows. Her eyes are sharp, black as polished obsidian — and completely blind. She sees with something else entirely. Her hands are steady as stone. She smells of incense, warp-ozone, and something older than either.\n\nMadam Eva speaks in riddles — not from mystical affectation, but because the future she perceives is genuinely non-linear and cannot be expressed in straight sentences. She is darkly amused by suffering, not from cruelty but from the exhaustion of someone who has seen every possible outcome and knows most of them end badly.\n\nShe is neither good nor evil in any simple sense. She serves the Tarot — fate's will, the Emperor's will, or some incomprehensible force that supersedes all other loyalties. She aids those who oppose Strahd, yet her relationship with him is ancient and ambiguous. She knows things she should not know: the Acolytes' names, what they had for breakfast, the secret fears they have never spoken aloud.\n\nHer Tarot readings are genuine. The cards do not lie, though they are often cruel.",
+            "notes": "SKILLS: Psyniscience +30, Forbidden Lore (Warp) +20, Scrutiny +30, Charm +20, Common Lore (Vostra Traditions) +20, Linguistics (Imperial, Barovian, Vostra).\n\nTALENTS: Strong Minded, Resistance (Psychic Powers), Warp Sense.\n\nTRAITS: Psyker (Psy Rating 4), Warp Seer.\n\nSPECIAL ABILITIES:\n\n• True Divination — Once per day, performs an Emperor's Tarot reading. May answer one question truthfully, though answers are often cryptic and symbolic. GM should provide genuine guidance wrapped in metaphor. Functions even within the Mists (extraordinary — nothing else does).\n\n• Warp Navigation — Guides travel through the Mists without travellers becoming lost. Groups following her instructions precisely avoid disorientation and Insanity effects of Mist travel.\n\n• Unreadable — Completely immune to Strahd's Domination and all warp-based scrying/divination. Strahd cannot locate her, read her thoughts, or influence her mind. Protection extends 5m radius: those within gain +30 to WP tests to resist Strahd's Domination.\n\nGEAR: Emperor's Tarot deck (genuine psychically-attuned set), warp-warding charms (AP 3 vs psychic attacks only), Vostra wagon with esoteric supplies, decades of collected lore, walking stick.\n\nGM GUIDANCE: The Tarot reading scene is one of the campaign's most important moments. Play it with full dramatic weight — dim the lights, lower your voice, take your time. Every card should feel significant. Address each Acolyte individually with at least one unsettlingly accurate observation about them. Madam Eva should feel genuinely alien — not hostile, but operating on a different plane of understanding. She answers questions with questions, smiles at inappropriate moments, and occasionally says something so precisely true that it's more frightening than anything Strahd could do.",
+            "armour": { "value": 0, "description": "Warp-warding charms (AP 3 vs psychic attacks only)" }
         },
-        "items": [],
+        "items": [
+            {
+                "_id": "f1b2c3d4e5f60001",
+                "name": "Emperor's Tarot Deck",
+                "type": "gear",
+                "system": {
+                    "weight": 0.5,
+                    "description": "A genuine psychically-attuned Emperor's Tarot deck. The cards are warm to the touch and faintly luminescent. Used for the campaign's central randomization mechanic (5-card draw).",
+                    "availability": "Unique"
+                }
+            },
+            {
+                "_id": "f1b2c3d4e5f60002",
+                "name": "Warp-Warding Charms",
+                "type": "gear",
+                "system": {
+                    "weight": 0.3,
+                    "description": "Dozens of bone-bead necklaces and woven talismans. Provide AP 3 against psychic attacks only. Also serve as the anchor for her 5m Unreadable aura.",
+                    "availability": "Unique"
+                }
+            },
+            {
+                "_id": "f1b2c3d4e5f60003",
+                "name": "Walking Stick",
+                "type": "weapon",
+                "system": {
+                    "class": "Melee",
+                    "subtype": "Improvised",
+                    "damage": "1d5",
+                    "damageType": "I",
+                    "penetration": 0,
+                    "special": "Primitive",
+                    "weight": 1,
+                    "description": "A gnarled walking stick. Theoretically a weapon. Madam Eva has never used it as one.",
+                    "availability": "Plentiful"
+                }
+            }
+        ],
         "flags": { "dh2e-dread-of-zarovich": { "role": "major-npc", "act": "1-4" } }
+    },
+    {
+        "name": "Baba Lysaga — The Warp-Hag",
+        "type": "npc",
+        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/baba-lysaga.svg",
+        "system": {
+            "characteristics": {
+                "ws": { "value": 30 },
+                "bs": { "value": 25 },
+                "s": { "value": 35 },
+                "t": { "value": 40 },
+                "ag": { "value": 30 },
+                "int": { "value": 55 },
+                "per": { "value": 50 },
+                "wp": { "value": 75 },
+                "fel": { "value": 15 }
+            },
+            "wounds": { "value": 30, "max": 30 },
+            "movement": { "half": 3, "full": 6, "charge": 9, "run": 18 },
+            "threatRating": "Severe",
+            "description": "Baba Lysaga dwells in the Drowned Ruins of Berez, in a walking hab-unit animated by warp energy. She is impossibly old — ancient beyond biology, her body sustained by centuries of warp-infusion. Her skin ripples and shifts like water. Her fingers are too long, her smile too wide, her eyes solid black from edge to edge.\n\nShe claims to be Strahd's 'spiritual mother' — she was present at his birth, whispered dark lore to him throughout his childhood, and considers herself responsible for shaping him into the creature he became. Her devotion to Strahd is absolute, maternal, and deeply insane. She will destroy anything that threatens her 'son.'\n\nShe is Psy Rating 7 — the most powerful psyker on Barovus after Strahd himself. She commands warp-fire, telekinesis, domination, flesh-warping, and can sustain a devastating warp storm. She fights from inside her walking hab-unit, using its bulk and armour as both weapon and shield.\n\nShe holds the second Sacred Seed, stolen from the Recaf Distillery.\n\nWALKING HAB-UNIT:\n  Type: Walker / Warp-Animated Construct\n  Structural Integrity: 30\n  Armour: 20 (all facings)\n  Movement: 4/8/12/16\n  Weapons: 2x Stomping Legs (2d10+10 I, Pen 5, Concussive [2]); Warp-Animated Tendrils (1d10+8 R, Snare — Strength –10 or Grappled, 1d10+8 R/round while grappled)\n  Traits: Size (Enormous), Warp-Animated\n  Special: Not a true machine — animated by warp energy. Cannot be affected by Tech-Use or haywire. Vulnerable to holy/blessed weapons (ignore 10 points of Armour). If reduced to 0 SI, collapses — Lysaga passes Ag test or takes 2d10 I, then fights on foot.",
+            "notes": "SKILLS: Psyniscience +20, Forbidden Lore (Warp, Daemonology) +30, Intimidate +20, Survival +20, Awareness +10.\n\nTALENTS: Warp Lock, Strong Minded.\n\nTRAITS: Psyker (Psy Rating 7), Fear (3), Dark Sight, Warp-Touched.\n\nPSYCHIC POWERS:\n\n• Warp Fire — Half Action, 20m cone: 3d10+7 E damage, Pen 4, Flame quality. Targets taking damage are On Fire.\n\n• Telekinesis — Half Action: hurl object up to Size (Hulking) at target within 30m (2d10+5 I damage), OR shove all creatures within 10m backward 1d10 metres (Agility test or Prone).\n\n• Domination — Half Action, single target within 15m: Willpower test at –10 or controlled for 1d5 rounds.\n\n• Flesh Warp — Full Action, touch: target passes Toughness test at –10 or suffers 2d10 damage (ignoring armour) and gains permanent mutation. Even on success, 1d5 damage.\n\n• Warp Storm — Full Action (sustained): 15m radius, point within 30m. Creatures in area at start of turn suffer 2d10 E damage and WP test or gain 1d5 Corruption Points. Sustained as Half Action each round.\n\nSPECIAL RULES:\n\n• Walking Hab-Unit — Lysaga fights from within. Uses vehicle Armour/SI instead of personal Wounds/AP. Can only be targeted separately via called shot at –20 through observation slit. See hab-unit stats in description.\n\n• Destroy to Strand — If hab-unit destroyed, Lysaga fights on foot at personal stats. Much more vulnerable but still Psy Rating 7.\n\nGM GUIDANCE: Baba Lysaga is a boss encounter. The fight should feel like fighting a small vehicle that also casts devastating psychic powers. Phase 1: the hab-unit stomps and grabs while Lysaga casts from inside. Phase 2 (hab-unit destroyed): desperate, on-foot psyker fight. She fights to the death — retreat is beneath her. The moral dimension: the Mongrelfolk of Berez are her servants and she treats them with contemptuous affection. She calls them 'my little ones' while using them as human shields.",
+            "armour": { "value": 4, "description": "Warp-hardened flesh (AP 4 all locations)" }
+        },
+        "items": [
+            {
+                "_id": "ca12c3d4e5f60001",
+                "name": "Staff",
+                "type": "weapon",
+                "system": {
+                    "class": "Melee",
+                    "subtype": "Staff",
+                    "damage": "1d10+4",
+                    "damageType": "I",
+                    "penetration": 0,
+                    "special": "",
+                    "weight": 2,
+                    "description": "A gnarled staff of petrified wood, older than Barovus itself.",
+                    "availability": "Unique"
+                }
+            },
+            {
+                "_id": "ca12c3d4e5f60002",
+                "name": "Sacred Seed (Stolen)",
+                "type": "gear",
+                "system": {
+                    "weight": 0.1,
+                    "description": "The second Sacred Seed, stolen from the Recaf Distillery. Blessed by a Ministorum saint centuries ago. Lysaga keeps it as a trophy.",
+                    "availability": "Unique"
+                }
+            },
+            {
+                "_id": "ca12c3d4e5f60003",
+                "name": "Defiled Holy Relics",
+                "type": "gear",
+                "system": {
+                    "weight": 3,
+                    "description": "A collection of stolen holy relics — aquila pendants, prayer beads, Ministorum icons — all defiled and repurposed as warp-fetishes. Carrying these inflicts 1d5 CP.",
+                    "availability": "Unique"
+                }
+            }
+        ],
+        "flags": { "dh2e-dread-of-zarovich": { "role": "boss-npc", "act": "2-3" } }
     }
 ]

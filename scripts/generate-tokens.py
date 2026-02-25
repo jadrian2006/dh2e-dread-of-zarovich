@@ -217,6 +217,29 @@ TOKENS = [
         "data": [],
     },
 
+    # ── Additional NPC / Boss Tokens ──────────────────────────────────
+    {
+        "file": "baba-lysaga.svg",
+        "label": "BABA LYSAGA",
+        "ring": "#44aa44",
+        "symbol": "paths",
+        "data": [],
+    },
+    {
+        "file": "elite-guard.svg",
+        "label": "ELITE GUARD",
+        "ring": "#8b1a1a",
+        "symbol": "paths",
+        "data": [],
+    },
+    {
+        "file": "servitor-guard.svg",
+        "label": "SERVITOR-GUARD",
+        "ring": "#556677",
+        "symbol": "paths",
+        "data": [],
+    },
+
     # ── Weapon Icons ────────────────────────────────────────────────────
     {
         "file": "dawns-edge.svg",
@@ -800,6 +823,126 @@ def build_symbol_inferno():
     return elements
 
 
+def build_symbol_baba_lysaga():
+    """Twisted tree/hag — gnarled branches spreading from a hunched form."""
+    elements = []
+    # Trunk (bent, gnarled)
+    elements.append({"tag": "path", "attribs": {
+        "d": "M {},{} Q {},{} {},{} Q {},{} {},{}".format(
+            CX, CY + 42,
+            CX - 8, CY + 20,
+            CX - 5, CY,
+            CX - 15, CY - 20,
+            CX - 8, CY - 38),
+        "fill": "none",
+        "stroke": SYMBOL_FILL,
+        "stroke-width": "5",
+        "stroke-linecap": "round",
+    }})
+    # Left branch
+    elements.append({"tag": "path", "attribs": {
+        "d": "M {},{} Q {},{} {},{}".format(
+            CX - 10, CY - 10,
+            CX - 35, CY - 25,
+            CX - 45, CY - 40),
+        "fill": "none",
+        "stroke": SYMBOL_FILL,
+        "stroke-width": "3",
+        "stroke-linecap": "round",
+    }})
+    # Right branch
+    elements.append({"tag": "path", "attribs": {
+        "d": "M {},{} Q {},{} {},{}".format(
+            CX - 5, CY - 15,
+            CX + 20, CY - 30,
+            CX + 40, CY - 38),
+        "fill": "none",
+        "stroke": SYMBOL_FILL,
+        "stroke-width": "3",
+        "stroke-linecap": "round",
+    }})
+    # Small branch
+    elements.append({"tag": "path", "attribs": {
+        "d": "M {},{} L {},{}".format(
+            CX - 8, CY + 5,
+            CX + 25, CY - 5),
+        "fill": "none",
+        "stroke": SYMBOL_FILL,
+        "stroke-width": "2",
+        "stroke-linecap": "round",
+    }})
+    # Glowing eye
+    elements.append({"tag": "circle", "attribs": {
+        "cx": str(CX - 3), "cy": str(CY - 30),
+        "r": "5",
+        "fill": "#44aa44",
+    }})
+    return elements
+
+
+def build_symbol_elite_guard():
+    """Shield with Zarovich crest — heraldic shield outline with S monogram."""
+    elements = []
+    # Shield shape
+    elements.append({"tag": "path", "attribs": {
+        "d": "M {},{} L {},{} L {},{} Q {},{} {},{} Q {},{} {},{} L {},{} Z".format(
+            CX, CY - 42,
+            CX + 35, CY - 30,
+            CX + 35, CY + 5,
+            CX + 35, CY + 30,
+            CX, CY + 42,
+            CX - 35, CY + 30,
+            CX - 35, CY + 5,
+            CX - 35, CY - 30),
+        "fill": "none",
+        "stroke": SYMBOL_FILL,
+        "stroke-width": "3.5",
+    }})
+    # S monogram inside
+    elements.append({"tag": "text", "attribs": {
+        "x": str(CX), "y": str(CY + 15),
+        "text-anchor": "middle",
+        "font-family": "serif",
+        "font-size": "55",
+        "font-weight": "bold",
+        "font-style": "italic",
+        "fill": "#8b1a1a",
+    }, "text": "S"})
+    return elements
+
+
+def build_symbol_servitor_guard():
+    """Combat servitor — cog with targeting reticle."""
+    elements = []
+    # Cog outline
+    cog_d = _cog_teeth_path(CX, CY, 42, 32, 8, tooth_width_deg=8)
+    elements.append({"tag": "path", "attribs": {
+        "d": cog_d,
+        "fill": "none",
+        "stroke": SYMBOL_FILL,
+        "stroke-width": "2.5",
+    }})
+    # Targeting crosshair (horizontal)
+    elements.append({"tag": "line", "attribs": {
+        "x1": str(CX - 20), "y1": str(CY),
+        "x2": str(CX + 20), "y2": str(CY),
+        "stroke": "#556677", "stroke-width": "2",
+    }})
+    # Targeting crosshair (vertical)
+    elements.append({"tag": "line", "attribs": {
+        "x1": str(CX), "y1": str(CY - 20),
+        "x2": str(CX), "y2": str(CY + 20),
+        "stroke": "#556677", "stroke-width": "2",
+    }})
+    # Center dot
+    elements.append({"tag": "circle", "attribs": {
+        "cx": str(CX), "cy": str(CY),
+        "r": "4",
+        "fill": "#556677",
+    }})
+    return elements
+
+
 # ---------------------------------------------------------------------------
 # Assign dynamically-built symbols to their token entries
 # ---------------------------------------------------------------------------
@@ -817,6 +960,9 @@ def _assign_symbols():
         "lesser-daemon.svg": build_symbol_daemon,
         "warp-hound.svg": build_symbol_hound,
         "mongrelfolk.svg": build_symbol_mongrel,
+        "baba-lysaga.svg": build_symbol_baba_lysaga,
+        "elite-guard.svg": build_symbol_elite_guard,
+        "servitor-guard.svg": build_symbol_servitor_guard,
         "dawns-edge.svg": build_symbol_dawns_edge,
         "grief.svg": build_symbol_grief,
         "inferno-pistol.svg": build_symbol_inferno,
@@ -929,11 +1075,12 @@ def main():
     # Categories summary
     npcs = [t for t in TOKENS if t["file"] in {
         "strahd.svg", "van-richten.svg", "ireena.svg",
-        "ismark.svg", "abaron.svg", "madam-eva.svg"}]
+        "ismark.svg", "abaron.svg", "madam-eva.svg", "baba-lysaga.svg"}]
     enemies = [t for t in TOKENS if t["file"] in {
         "plague-revenant.svg", "warp-thrall.svg", "warp-mutant.svg",
         "gargoyle-servitor.svg", "malfunctioning-servitor.svg",
-        "lesser-daemon.svg", "warp-hound.svg", "mongrelfolk.svg"}]
+        "lesser-daemon.svg", "warp-hound.svg", "mongrelfolk.svg",
+        "elite-guard.svg", "servitor-guard.svg"}]
     weapons = [t for t in TOKENS if t["file"] in {
         "dawns-edge.svg", "grief.svg", "inferno-pistol.svg"}]
 

@@ -82,11 +82,11 @@ function showImportDialog() {
         content: `
             <div style="margin-bottom: 12px;">
                 <p>Import all <strong>Dread of Zarovich</strong> campaign content into this world?</p>
-                <p>This will create <strong>110 entries</strong> across 14 compendium packs,
+                <p>This will create <strong>113 entries</strong> across 14 compendium packs,
                 organized into labelled folders:</p>
                 <ul style="columns: 2; margin-top: 4px; font-size: 12px;">
-                    <li>6 Major NPCs</li>
-                    <li>8 Enemy stat blocks</li>
+                    <li>7 Major NPCs</li>
+                    <li>10 Enemy stat blocks</li>
                     <li>8 Weapons</li>
                     <li>4 Armour sets</li>
                     <li>13 Gear &amp; Relics</li>
@@ -132,7 +132,7 @@ function showOrganizeDialog() {
                 <p>Your <strong>Dread of Zarovich</strong> content was imported without
                 folder organization.</p>
                 <p>This will create a <strong>\u201CDread of Zarovich\u201D</strong> folder tree
-                in each sidebar tab and move all 110 imported documents into the
+                in each sidebar tab and move all 113 imported documents into the
                 appropriate sub-folders. No documents will be deleted or modified
                 \u2014 only sorted.</p>
             </div>`,

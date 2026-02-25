@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280" width="280" height="280">
+  <defs>
+    <clipPath id="token-clip">
+      <circle cx="140" cy="130" r="120" />
+    </clipPath>
+  </defs>
+  <circle cx="140" cy="130" r="120" fill="#1a1a2e" />
+  <g clip-path="url(#token-clip)">
+    <path d="M 140,88 L 175,100 L 175,135 Q 175,160 140,172 Q 105,160 105,135 L 105,100 Z" fill="none" stroke="#e0e0e0" stroke-width="3.5" />
+    <text x="140" y="145" text-anchor="middle" font-family="serif" font-size="55" font-weight="bold" font-style="italic" fill="#8b1a1a">S</text>
+  </g>
+  <circle cx="140" cy="130" r="120" fill="none" stroke="#8b1a1a" stroke-width="8" />
+  <text x="140" y="265" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#8b1a1a">ELITE GUARD</text>
+</svg>

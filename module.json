@@ -26,6 +26,9 @@
             }
         ]
     },
+    "esmodules": [
+        "scripts/import-all.mjs"
+    ],
     "styles": [
         "styles/vox-handouts.css"
     ],

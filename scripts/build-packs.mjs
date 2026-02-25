@@ -117,6 +117,16 @@ async function buildPack(packDef) {
                 }
             }
         }
+
+        // Handle embedded pages for journal entries
+        if (packDef.collection === "journal" && Array.isArray(entry.pages)) {
+            for (const page of entry.pages) {
+                if (!page._id) page._id = foundryId();
+                if (!page._stats) page._stats = { ...entry._stats };
+                const pageKey = `!journal.pages!${entry._id}.${page._id}`;
+                batch.put(pageKey, page);
+            }
+        }
     }
 
     await batch.write();

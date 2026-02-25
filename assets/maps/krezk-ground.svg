@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3000 2500" width="3000" height="2500">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1e2e1e" />
+      <stop offset="100%" stop-color="#001000" />
+    </radialGradient>
+  </defs>
+  <rect x="0" y="0" width="3000" height="2500" fill="url(#bgGrad)" />
+  <g opacity="0.05" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="0" x2="0" y2="2500" />
+    <line x1="100" y1="0" x2="100" y2="2500" />
+    <line x1="200" y1="0" x2="200" y2="2500" />
+    <line x1="300" y1="0" x2="300" y2="2500" />
+    <line x1="400" y1="0" x2="400" y2="2500" />
+    <line x1="500" y1="0" x2="500" y2="2500" />
+    <line x1="600" y1="0" x2="600" y2="2500" />
+    <line x1="700" y1="0" x2="700" y2="2500" />
+    <line x1="800" y1="0" x2="800" y2="2500" />
+    <line x1="900" y1="0" x2="900" y2="2500" />
+    <line x1="1000" y1="0" x2="1000" y2="2500" />
+    <line x1="1100" y1="0" x2="1100" y2="2500" />
+    <line x1="1200" y1="0" x2="1200" y2="2500" />
+    <line x1="1300" y1="0" x2="1300" y2="2500" />
+    <line x1="1400" y1="0" x2="1400" y2="2500" />
+    <line x1="1500" y1="0" x2="1500" y2="2500" />
+    <line x1="1600" y1="0" x2="1600" y2="2500" />
+    <line x1="1700" y1="0" x2="1700" y2="2500" />
+    <line x1="1800" y1="0" x2="1800" y2="2500" />
+    <line x1="1900" y1="0" x2="1900" y2="2500" />
+    <line x1="2000" y1="0" x2="2000" y2="2500" />
+    <line x1="2100" y1="0" x2="2100" y2="2500" />
+    <line x1="2200" y1="0" x2="2200" y2="2500" />
+    <line x1="2300" y1="0" x2="2300" y2="2500" />
+    <line x1="2400" y1="0" x2="2400" y2="2500" />
+    <line x1="2500" y1="0" x2="2500" y2="2500" />
+    <line x1="2600" y1="0" x2="2600" y2="2500" />
+    <line x1="2700" y1="0" x2="2700" y2="2500" />
+    <line x1="2800" y1="0" x2="2800" y2="2500" />
+    <line x1="2900" y1="0" x2="2900" y2="2500" />
+    <line x1="3000" y1="0" x2="3000" y2="2500" />
+    <line x1="0" y1="0" x2="3000" y2="0" />
+    <line x1="0" y1="100" x2="3000" y2="100" />
+    <line x1="0" y1="200" x2="3000" y2="200" />
+    <line x1="0" y1="300" x2="3000" y2="300" />
+    <line x1="0" y1="400" x2="3000" y2="400" />
+    <line x1="0" y1="500" x2="3000" y2="500" />
+    <line x1="0" y1="600" x2="3000" y2="600" />
+    <line x1="0" y1="700" x2="3000" y2="700" />
+    <line x1="0" y1="800" x2="3000" y2="800" />
+    <line x1="0" y1="900" x2="3000" y2="900" />
+    <line x1="0" y1="1000" x2="3000" y2="1000" />
+    <line x1="0" y1="1100" x2="3000" y2="1100" />
+    <line x1="0" y1="1200" x2="3000" y2="1200" />
+    <line x1="0" y1="1300" x2="3000" y2="1300" />
+    <line x1="0" y1="1400" x2="3000" y2="1400" />
+    <line x1="0" y1="1500" x2="3000" y2="1500" />
+    <line x1="0" y1="1600" x2="3000" y2="1600" />
+    <line x1="0" y1="1700" x2="3000" y2="1700" />
+    <line x1="0" y1="1800" x2="3000" y2="1800" />
+    <line x1="0" y1="1900" x2="3000" y2="1900" />
+    <line x1="0" y1="2000" x2="3000" y2="2000" />
+    <line x1="0" y1="2100" x2="3000" y2="2100" />
+    <line x1="0" y1="2200" x2="3000" y2="2200" />
+    <line x1="0" y1="2300" x2="3000" y2="2300" />
+    <line x1="0" y1="2400" x2="3000" y2="2400" />
+    <line x1="0" y1="2500" x2="3000" y2="2500" />
+  </g>
+  <rect x="300" y="1000" width="400" height="300" fill="#1a2a1a" stroke="#051005" stroke-width="3" />
+  <text x="500" y="1150" fill="#88cc88" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Reception</text>
+  <rect x="696" y="1140" width="8" height="20" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="700" y="1110" width="2000" height="80" fill="#1a2a1a" stroke="#051005" stroke-width="2" />
+  <rect x="1160" y="600" width="80" height="1100" fill="#1a2a1a" stroke="#051005" stroke-width="2" />
+  <rect x="800" y="400" width="400" height="400" fill="#1a2a1a" stroke="#051005" stroke-width="3" />
+  <text x="1000" y="592" fill="#88cc88" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Operating</text>
+  <text x="1000" y="610" fill="#88cc88" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Theater 1</text>
+  <rect x="990" y="796" width="20" height="8" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="985" y="585" width="30" height="30" fill="#33cc66" stroke="#88cc88" stroke-width="2" opacity="0.7" />
+  <text x="1000" y="628" fill="#88cc88" font-size="10" text-anchor="middle" font-family="monospace" opacity="0.7">Slab</text>
+  <rect x="1400" y="400" width="400" height="400" fill="#1a2a1a" stroke="#051005" stroke-width="3" />
+  <text x="1600" y="592" fill="#88cc88" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Operating</text>
+  <text x="1600" y="610" fill="#88cc88" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Theater 2</text>
+  <rect x="1590" y="796" width="20" height="8" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="1585" y="585" width="30" height="30" fill="#33cc66" stroke="#88cc88" stroke-width="2" opacity="0.7" />
+  <text x="1600" y="628" fill="#88cc88" font-size="10" text-anchor="middle" font-family="monospace" opacity="0.7">Slab</text>
+  <rect x="1900" y="600" width="500" height="400" fill="#1a2a1a" stroke="#051005" stroke-width="3" />
+  <text x="2150" y="800" fill="#88cc88" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Vat Chamber</text>
+  <rect x="1896" y="790" width="8" height="20" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <circle cx="2050" cy="750" r="15" fill="#33cc66" stroke="#88cc88" stroke-width="2" opacity="0.8" />
+  <text x="2050" y="778" fill="#88cc88" font-size="10" text-anchor="middle" font-family="monospace" opacity="0.7">Vat</text>
+  <circle cx="2250" cy="750" r="15" fill="#33cc66" stroke="#88cc88" stroke-width="2" opacity="0.8" />
+  <text x="2250" y="778" fill="#88cc88" font-size="10" text-anchor="middle" font-family="monospace" opacity="0.7">Vat</text>
+  <rect x="800" y="1400" width="400" height="300" fill="#1a2a1a" stroke="#051005" stroke-width="3" />
+  <text x="1000" y="1542" fill="#88cc88" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Mongrelfolk</text>
+  <text x="1000" y="1560" fill="#88cc88" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Ward</text>
+  <circle cx="1000" cy="1400" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
+  <rect x="1400" y="1400" width="300" height="200" fill="#1a2a1a" stroke="#051005" stroke-width="3" />
+  <text x="1550" y="1500" fill="#88cc88" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Storage</text>
+  <rect x="1540" y="1490" width="20" height="20" fill="#33cc66" stroke="#88cc88" stroke-width="2" opacity="0.7" />
+  <rect x="2485" y="1135" width="30" height="30" fill="none" stroke="#88cc88" stroke-width="1" />
+  <polygon points="2500,1140 2492,1155 2508,1155" fill="#88cc88" opacity="0.6" />
+  <text x="2500" y="1178" fill="#88cc88" font-size="9" text-anchor="middle" font-family="monospace" opacity="0.6">Stairs Up</text>
+  <text x="2980" y="2485" fill="#ffffff" font-size="20" text-anchor="end" font-family="monospace" opacity="0.15">Krezk Ground Floor</text>
+</svg>

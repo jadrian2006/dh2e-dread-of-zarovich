@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 4500 3500" width="4500" height="3500">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1e1e42" />
+      <stop offset="100%" stop-color="#000024" />
+    </radialGradient>
+  </defs>
+  <rect x="0" y="0" width="4500" height="3500" fill="url(#bgGrad)" />
+  <g opacity="0.05" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="0" x2="0" y2="3500" />
+    <line x1="100" y1="0" x2="100" y2="3500" />
+    <line x1="200" y1="0" x2="200" y2="3500" />
+    <line x1="300" y1="0" x2="300" y2="3500" />
+    <line x1="400" y1="0" x2="400" y2="3500" />
+    <line x1="500" y1="0" x2="500" y2="3500" />
+    <line x1="600" y1="0" x2="600" y2="3500" />
+    <line x1="700" y1="0" x2="700" y2="3500" />
+    <line x1="800" y1="0" x2="800" y2="3500" />
+    <line x1="900" y1="0" x2="900" y2="3500" />
+    <line x1="1000" y1="0" x2="1000" y2="3500" />
+    <line x1="1100" y1="0" x2="1100" y2="3500" />
+    <line x1="1200" y1="0" x2="1200" y2="3500" />
+    <line x1="1300" y1="0" x2="1300" y2="3500" />
+    <line x1="1400" y1="0" x2="1400" y2="3500" />
+    <line x1="1500" y1="0" x2="1500" y2="3500" />
+    <line x1="1600" y1="0" x2="1600" y2="3500" />
+    <line x1="1700" y1="0" x2="1700" y2="3500" />
+    <line x1="1800" y1="0" x2="1800" y2="3500" />
+    <line x1="1900" y1="0" x2="1900" y2="3500" />
+    <line x1="2000" y1="0" x2="2000" y2="3500" />
+    <line x1="2100" y1="0" x2="2100" y2="3500" />
+    <line x1="2200" y1="0" x2="2200" y2="3500" />
+    <line x1="2300" y1="0" x2="2300" y2="3500" />
+    <line x1="2400" y1="0" x2="2400" y2="3500" />
+    <line x1="2500" y1="0" x2="2500" y2="3500" />
+    <line x1="2600" y1="0" x2="2600" y2="3500" />
+    <line x1="2700" y1="0" x2="2700" y2="3500" />
+    <line x1="2800" y1="0" x2="2800" y2="3500" />
+    <line x1="2900" y1="0" x2="2900" y2="3500" />
+    <line x1="3000" y1="0" x2="3000" y2="3500" />
+    <line x1="3100" y1="0" x2="3100" y2="3500" />
+    <line x1="3200" y1="0" x2="3200" y2="3500" />
+    <line x1="3300" y1="0" x2="3300" y2="3500" />
+    <line x1="3400" y1="0" x2="3400" y2="3500" />
+    <line x1="3500" y1="0" x2="3500" y2="3500" />
+    <line x1="3600" y1="0" x2="3600" y2="3500" />
+    <line x1="3700" y1="0" x2="3700" y2="3500" />
+    <line x1="3800" y1="0" x2="3800" y2="3500" />
+    <line x1="3900" y1="0" x2="3900" y2="3500" />
+    <line x1="4000" y1="0" x2="4000" y2="3500" />
+    <line x1="4100" y1="0" x2="4100" y2="3500" />
+    <line x1="4200" y1="0" x2="4200" y2="3500" />
+    <line x1="4300" y1="0" x2="4300" y2="3500" />
+    <line x1="4400" y1="0" x2="4400" y2="3500" />
+    <line x1="4500" y1="0" x2="4500" y2="3500" />
+    <line x1="0" y1="0" x2="4500" y2="0" />
+    <line x1="0" y1="100" x2="4500" y2="100" />
+    <line x1="0" y1="200" x2="4500" y2="200" />
+    <line x1="0" y1="300" x2="4500" y2="300" />
+    <line x1="0" y1="400" x2="4500" y2="400" />
+    <line x1="0" y1="500" x2="4500" y2="500" />
+    <line x1="0" y1="600" x2="4500" y2="600" />
+    <line x1="0" y1="700" x2="4500" y2="700" />
+    <line x1="0" y1="800" x2="4500" y2="800" />
+    <line x1="0" y1="900" x2="4500" y2="900" />
+    <line x1="0" y1="1000" x2="4500" y2="1000" />
+    <line x1="0" y1="1100" x2="4500" y2="1100" />
+    <line x1="0" y1="1200" x2="4500" y2="1200" />
+    <line x1="0" y1="1300" x2="4500" y2="1300" />
+    <line x1="0" y1="1400" x2="4500" y2="1400" />
+    <line x1="0" y1="1500" x2="4500" y2="1500" />
+    <line x1="0" y1="1600" x2="4500" y2="1600" />
+    <line x1="0" y1="1700" x2="4500" y2="1700" />
+    <line x1="0" y1="1800" x2="4500" y2="1800" />
+    <line x1="0" y1="1900" x2="4500" y2="1900" />
+    <line x1="0" y1="2000" x2="4500" y2="2000" />
+    <line x1="0" y1="2100" x2="4500" y2="2100" />
+    <line x1="0" y1="2200" x2="4500" y2="2200" />
+    <line x1="0" y1="2300" x2="4500" y2="2300" />
+    <line x1="0" y1="2400" x2="4500" y2="2400" />
+    <line x1="0" y1="2500" x2="4500" y2="2500" />
+    <line x1="0" y1="2600" x2="4500" y2="2600" />
+    <line x1="0" y1="2700" x2="4500" y2="2700" />
+    <line x1="0" y1="2800" x2="4500" y2="2800" />
+    <line x1="0" y1="2900" x2="4500" y2="2900" />
+    <line x1="0" y1="3000" x2="4500" y2="3000" />
+    <line x1="0" y1="3100" x2="4500" y2="3100" />
+    <line x1="0" y1="3200" x2="4500" y2="3200" />
+    <line x1="0" y1="3300" x2="4500" y2="3300" />
+    <line x1="0" y1="3400" x2="4500" y2="3400" />
+    <line x1="0" y1="3500" x2="4500" y2="3500" />
+  </g>
+  <polygon points="2509.8,1600.0 2509.8,1900.0 2250.0,2050.0 1990.2,1900.0 1990.2,1600.0 2250.0,1450.0" fill="#d4a846" stroke="#050518" stroke-width="3" />
+  <circle cx="2250" cy="1750" r="180" fill="none" stroke="#d4a846" stroke-width="1" stroke-dasharray="6,4" opacity="0.5" />
+  <text x="2250" y="1750" fill="#a0a0d0" font-size="13" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Central Nexus</text>
+  <circle cx="2250" cy="1750" r="200" fill="none" stroke="#d4a846" stroke-width="2" opacity="0.6" />
+  <line x1="2050" y1="1750" x2="2450" y2="1750" stroke="#d4a846" stroke-width="1" opacity="0.3" />
+  <line x1="2250" y1="1550" x2="2250" y2="1950" stroke="#d4a846" stroke-width="1" opacity="0.3" />
+  <circle cx="2250" cy="1750" r="66" fill="none" stroke="#d4a846" stroke-width="1" opacity="0.4" stroke-dasharray="4,3" />
+  <polygon points="2379.9,775.0 2379.9,925.0 2250.0,1000.0 2120.1,925.0 2120.1,775.0 2250.0,700.0" fill="#d4a846" stroke="#050518" stroke-width="3" />
+  <circle cx="2250" cy="850" r="90" fill="none" stroke="#d4a846" stroke-width="1" stroke-dasharray="6,4" opacity="0.5" />
+  <text x="2250" y="842" fill="#a0a0d0" font-size="13" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Cell Alpha</text>
+  <text x="2250" y="860" fill="#a0a0d0" font-size="11" text-anchor="middle" dominant-baseline="central" font-family="monospace">Strahd's Pact</text>
+  <line x1="2250" y1="1750" x2="2250" y2="850" stroke="#151535" stroke-width="50" stroke-linecap="round" />
+  <line x1="2250" y1="1750" x2="2250" y2="850" stroke="#050518" stroke-width="56" opacity="0.25" stroke-linecap="round" />
+  <circle cx="2250" cy="850" r="80" fill="none" stroke="#d4a846" stroke-width="2" opacity="0.6" />
+  <line x1="2170" y1="850" x2="2330" y2="850" stroke="#d4a846" stroke-width="1" opacity="0.3" />
+  <line x1="2250" y1="770" x2="2250" y2="930" stroke="#d4a846" stroke-width="1" opacity="0.3" />
+  <circle cx="2250" cy="850" r="26" fill="none" stroke="#d4a846" stroke-width="1" opacity="0.4" stroke-dasharray="4,3" />
+  <polygon points="3234.9,1396.0 3234.9,1546.0 3105.0,1621.0 2975.1,1546.0 2975.1,1396.0 3105.0,1321.0" fill="#151535" stroke="#050518" stroke-width="3" />
+  <text x="3105" y="1471" fill="#a0a0d0" font-size="13" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Cell Beta</text>
+  <line x1="2250" y1="1750" x2="3105" y2="1471" stroke="#151535" stroke-width="50" stroke-linecap="round" />
+  <line x1="2250" y1="1750" x2="3105" y2="1471" stroke="#050518" stroke-width="56" opacity="0.25" stroke-linecap="round" />
+  <circle cx="3105" cy="1471" r="80" fill="none" stroke="#d4a846" stroke-width="2" opacity="0.6" />
+  <line x1="3025" y1="1471" x2="3185" y2="1471" stroke="#d4a846" stroke-width="1" opacity="0.3" />
+  <line x1="3105" y1="1391" x2="3105" y2="1551" stroke="#d4a846" stroke-width="1" opacity="0.3" />
+  <circle cx="3105" cy="1471" r="26" fill="none" stroke="#d4a846" stroke-width="1" opacity="0.4" stroke-dasharray="4,3" />
+  <polygon points="2908.9,2403.0 2908.9,2553.0 2779.0,2628.0 2649.1,2553.0 2649.1,2403.0 2779.0,2328.0" fill="#151535" stroke="#050518" stroke-width="3" />
+  <text x="2779" y="2478" fill="#a0a0d0" font-size="13" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Cell Gamma</text>
+  <line x1="2250" y1="1750" x2="2779" y2="2478" stroke="#151535" stroke-width="50" stroke-linecap="round" />
+  <line x1="2250" y1="1750" x2="2779" y2="2478" stroke="#050518" stroke-width="56" opacity="0.25" stroke-linecap="round" />
+  <circle cx="2779" cy="2478" r="80" fill="none" stroke="#d4a846" stroke-width="2" opacity="0.6" />
+  <line x1="2699" y1="2478" x2="2859" y2="2478" stroke="#d4a846" stroke-width="1" opacity="0.3" />
+  <line x1="2779" y1="2398" x2="2779" y2="2558" stroke="#d4a846" stroke-width="1" opacity="0.3" />
+  <circle cx="2779" cy="2478" r="26" fill="none" stroke="#d4a846" stroke-width="1" opacity="0.4" stroke-dasharray="4,3" />
+  <polygon points="1849.9,2403.0 1849.9,2553.0 1720.0,2628.0 1590.1,2553.0 1590.1,2403.0 1720.0,2328.0" fill="#151535" stroke="#050518" stroke-width="3" />
+  <text x="1720" y="2478" fill="#a0a0d0" font-size="13" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Cell Delta</text>
+  <line x1="2250" y1="1750" x2="1720" y2="2478" stroke="#151535" stroke-width="50" stroke-linecap="round" />
+  <line x1="2250" y1="1750" x2="1720" y2="2478" stroke="#050518" stroke-width="56" opacity="0.25" stroke-linecap="round" />
+  <circle cx="1720" cy="2478" r="80" fill="none" stroke="#d4a846" stroke-width="2" opacity="0.6" />
+  <line x1="1640" y1="2478" x2="1800" y2="2478" stroke="#d4a846" stroke-width="1" opacity="0.3" />
+  <line x1="1720" y1="2398" x2="1720" y2="2558" stroke="#d4a846" stroke-width="1" opacity="0.3" />
+  <circle cx="1720" cy="2478" r="26" fill="none" stroke="#d4a846" stroke-width="1" opacity="0.4" stroke-dasharray="4,3" />
+  <polygon points="1523.9,1396.0 1523.9,1546.0 1394.0,1621.0 1264.1,1546.0 1264.1,1396.0 1394.0,1321.0" fill="#151535" stroke="#050518" stroke-width="3" />
+  <text x="1394" y="1471" fill="#a0a0d0" font-size="13" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Cell Epsilon</text>
+  <line x1="2250" y1="1750" x2="1394" y2="1471" stroke="#151535" stroke-width="50" stroke-linecap="round" />
+  <line x1="2250" y1="1750" x2="1394" y2="1471" stroke="#050518" stroke-width="56" opacity="0.25" stroke-linecap="round" />
+  <circle cx="1394" cy="1471" r="80" fill="none" stroke="#d4a846" stroke-width="2" opacity="0.6" />
+  <line x1="1314" y1="1471" x2="1474" y2="1471" stroke="#d4a846" stroke-width="1" opacity="0.3" />
+  <line x1="1394" y1="1391" x2="1394" y2="1551" stroke="#d4a846" stroke-width="1" opacity="0.3" />
+  <circle cx="1394" cy="1471" r="26" fill="none" stroke="#d4a846" stroke-width="1" opacity="0.4" stroke-dasharray="4,3" />
+  <polygon points="2250.0,832.0 2253.4,841.7 2262.7,837.3 2258.3,846.6 2268.0,850.0 2258.3,853.4 2262.7,862.7 2253.4,858.3 2250.0,868.0 2246.6,858.3 2237.3,862.7 2241.7,853.4 2232.0,850.0 2241.7,846.6 2237.3,837.3 2246.6,841.7" fill="#cc44aa" stroke="#ff88dd" stroke-width="1" opacity="0.8" />
+  <polygon points="3973.2,1650.0 3973.2,1850.0 3800.0,1950.0 3626.8,1850.0 3626.8,1650.0 3800.0,1550.0" fill="#151535" stroke="#050518" stroke-width="3" />
+  <text x="3800" y="1750" fill="#a0a0d0" font-size="13" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Archive Annex</text>
+  <line x1="2550" y1="1750" x2="3600" y2="1750" stroke="#151535" stroke-width="50" stroke-linecap="round" />
+  <line x1="2550" y1="1750" x2="3600" y2="1750" stroke="#050518" stroke-width="56" opacity="0.25" stroke-linecap="round" />
+  <polygon points="2379.9,3125.0 2379.9,3275.0 2250.0,3350.0 2120.1,3275.0 2120.1,3125.0 2250.0,3050.0" fill="#151535" stroke="#050518" stroke-width="3" />
+  <text x="2250" y="3200" fill="#a0a0d0" font-size="13" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Exit Shaft</text>
+  <line x1="2250" y1="2050" x2="2250" y2="3050" stroke="#151535" stroke-width="50" stroke-linecap="round" />
+  <line x1="2250" y1="2050" x2="2250" y2="3050" stroke="#050518" stroke-width="56" opacity="0.25" stroke-linecap="round" />
+  <rect x="2235" y="3185" width="30" height="30" fill="none" stroke="#a0a0d0" stroke-width="1" />
+  <polygon points="2250,3190 2242,3205 2258,3205" fill="#a0a0d0" opacity="0.6" />
+  <text x="2250" y="3228" fill="#a0a0d0" font-size="9" text-anchor="middle" font-family="monospace" opacity="0.6">Stairs Up</text>
+  <text x="4480" y="3485" fill="#ffffff" font-size="20" text-anchor="end" font-family="monospace" opacity="0.15">Empyrean Vault L2</text>
+</svg>

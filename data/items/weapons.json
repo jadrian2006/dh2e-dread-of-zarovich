@@ -2,7 +2,7 @@
     {
         "name": "Dawn's Edge",
         "type": "weapon",
-        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/dawns-edge.webp",
+        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/dawns-edge.svg",
         "system": {
             "class": "Melee",
             "subtype": "Power Sword (Relic)",
@@ -19,7 +19,7 @@
     {
         "name": "Grief (Strahd's Power Sword)",
         "type": "weapon",
-        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/grief.webp",
+        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/grief.svg",
         "system": {
             "class": "Melee",
             "subtype": "Power Sword (Master-crafted)",
@@ -36,7 +36,7 @@
     {
         "name": "Strahd's Inferno Pistol",
         "type": "weapon",
-        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/inferno-pistol.webp",
+        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/inferno-pistol.svg",
         "system": {
             "class": "Pistol",
             "subtype": "Inferno Pistol (Integrated)",

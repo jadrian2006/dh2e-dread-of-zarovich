@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 4000 3500" width="4000" height="3500">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#321e1e" />
+      <stop offset="100%" stop-color="#140000" />
+    </radialGradient>
+  </defs>
+  <rect x="0" y="0" width="4000" height="3500" fill="url(#bgGrad)" />
+  <g opacity="0.05" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="0" x2="0" y2="3500" />
+    <line x1="100" y1="0" x2="100" y2="3500" />
+    <line x1="200" y1="0" x2="200" y2="3500" />
+    <line x1="300" y1="0" x2="300" y2="3500" />
+    <line x1="400" y1="0" x2="400" y2="3500" />
+    <line x1="500" y1="0" x2="500" y2="3500" />
+    <line x1="600" y1="0" x2="600" y2="3500" />
+    <line x1="700" y1="0" x2="700" y2="3500" />
+    <line x1="800" y1="0" x2="800" y2="3500" />
+    <line x1="900" y1="0" x2="900" y2="3500" />
+    <line x1="1000" y1="0" x2="1000" y2="3500" />
+    <line x1="1100" y1="0" x2="1100" y2="3500" />
+    <line x1="1200" y1="0" x2="1200" y2="3500" />
+    <line x1="1300" y1="0" x2="1300" y2="3500" />
+    <line x1="1400" y1="0" x2="1400" y2="3500" />
+    <line x1="1500" y1="0" x2="1500" y2="3500" />
+    <line x1="1600" y1="0" x2="1600" y2="3500" />
+    <line x1="1700" y1="0" x2="1700" y2="3500" />
+    <line x1="1800" y1="0" x2="1800" y2="3500" />
+    <line x1="1900" y1="0" x2="1900" y2="3500" />
+    <line x1="2000" y1="0" x2="2000" y2="3500" />
+    <line x1="2100" y1="0" x2="2100" y2="3500" />
+    <line x1="2200" y1="0" x2="2200" y2="3500" />
+    <line x1="2300" y1="0" x2="2300" y2="3500" />
+    <line x1="2400" y1="0" x2="2400" y2="3500" />
+    <line x1="2500" y1="0" x2="2500" y2="3500" />
+    <line x1="2600" y1="0" x2="2600" y2="3500" />
+    <line x1="2700" y1="0" x2="2700" y2="3500" />
+    <line x1="2800" y1="0" x2="2800" y2="3500" />
+    <line x1="2900" y1="0" x2="2900" y2="3500" />
+    <line x1="3000" y1="0" x2="3000" y2="3500" />
+    <line x1="3100" y1="0" x2="3100" y2="3500" />
+    <line x1="3200" y1="0" x2="3200" y2="3500" />
+    <line x1="3300" y1="0" x2="3300" y2="3500" />
+    <line x1="3400" y1="0" x2="3400" y2="3500" />
+    <line x1="3500" y1="0" x2="3500" y2="3500" />
+    <line x1="3600" y1="0" x2="3600" y2="3500" />
+    <line x1="3700" y1="0" x2="3700" y2="3500" />
+    <line x1="3800" y1="0" x2="3800" y2="3500" />
+    <line x1="3900" y1="0" x2="3900" y2="3500" />
+    <line x1="4000" y1="0" x2="4000" y2="3500" />
+    <line x1="0" y1="0" x2="4000" y2="0" />
+    <line x1="0" y1="100" x2="4000" y2="100" />
+    <line x1="0" y1="200" x2="4000" y2="200" />
+    <line x1="0" y1="300" x2="4000" y2="300" />
+    <line x1="0" y1="400" x2="4000" y2="400" />
+    <line x1="0" y1="500" x2="4000" y2="500" />
+    <line x1="0" y1="600" x2="4000" y2="600" />
+    <line x1="0" y1="700" x2="4000" y2="700" />
+    <line x1="0" y1="800" x2="4000" y2="800" />
+    <line x1="0" y1="900" x2="4000" y2="900" />
+    <line x1="0" y1="1000" x2="4000" y2="1000" />
+    <line x1="0" y1="1100" x2="4000" y2="1100" />
+    <line x1="0" y1="1200" x2="4000" y2="1200" />
+    <line x1="0" y1="1300" x2="4000" y2="1300" />
+    <line x1="0" y1="1400" x2="4000" y2="1400" />
+    <line x1="0" y1="1500" x2="4000" y2="1500" />
+    <line x1="0" y1="1600" x2="4000" y2="1600" />
+    <line x1="0" y1="1700" x2="4000" y2="1700" />
+    <line x1="0" y1="1800" x2="4000" y2="1800" />
+    <line x1="0" y1="1900" x2="4000" y2="1900" />
+    <line x1="0" y1="2000" x2="4000" y2="2000" />
+    <line x1="0" y1="2100" x2="4000" y2="2100" />
+    <line x1="0" y1="2200" x2="4000" y2="2200" />
+    <line x1="0" y1="2300" x2="4000" y2="2300" />
+    <line x1="0" y1="2400" x2="4000" y2="2400" />
+    <line x1="0" y1="2500" x2="4000" y2="2500" />
+    <line x1="0" y1="2600" x2="4000" y2="2600" />
+    <line x1="0" y1="2700" x2="4000" y2="2700" />
+    <line x1="0" y1="2800" x2="4000" y2="2800" />
+    <line x1="0" y1="2900" x2="4000" y2="2900" />
+    <line x1="0" y1="3000" x2="4000" y2="3000" />
+    <line x1="0" y1="3100" x2="4000" y2="3100" />
+    <line x1="0" y1="3200" x2="4000" y2="3200" />
+    <line x1="0" y1="3300" x2="4000" y2="3300" />
+    <line x1="0" y1="3400" x2="4000" y2="3400" />
+    <line x1="0" y1="3500" x2="4000" y2="3500" />
+  </g>
+  <rect x="1600" y="300" width="500" height="500" fill="#8b1a1a" stroke="#0e0505" stroke-width="4" />
+  <rect x="1604" y="304" width="492" height="492" fill="none" stroke="#c0a0a0" stroke-width="1" stroke-dasharray="8,4" opacity="0.5" />
+  <text x="1850" y="550" fill="#c0a0a0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Strahd's Study</text>
+  <rect x="1840" y="796" width="20" height="8" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="1735" y="485" width="30" height="30" fill="#8b1a1a" stroke="#c0a0a0" stroke-width="2" opacity="0.7" />
+  <text x="1750" y="528" fill="#c0a0a0" font-size="10" text-anchor="middle" font-family="monospace" opacity="0.7">Desk</text>
+  <rect x="700" y="300" width="600" height="500" fill="#8b1a1a" stroke="#0e0505" stroke-width="4" />
+  <rect x="704" y="304" width="592" height="492" fill="none" stroke="#c0a0a0" stroke-width="1" stroke-dasharray="8,4" opacity="0.5" />
+  <text x="1000" y="550" fill="#c0a0a0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Throne Room</text>
+  <rect x="990" y="796" width="20" height="8" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <circle cx="1000" cy="550" r="15" fill="#8b1a1a" stroke="#c0a0a0" stroke-width="2" opacity="0.8" />
+  <text x="1000" y="578" fill="#c0a0a0" font-size="10" text-anchor="middle" font-family="monospace" opacity="0.7">Throne</text>
+  <rect x="2400" y="400" width="500" height="400" fill="#2e1515" stroke="#0e0505" stroke-width="3" />
+  <text x="2650" y="600" fill="#c0a0a0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Library</text>
+  <rect x="2396" y="590" width="8" height="20" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="2540" y="540" width="20" height="20" fill="#8b1a1a" stroke="#c0a0a0" stroke-width="2" opacity="0.7" />
+  <rect x="2740" y="540" width="20" height="20" fill="#8b1a1a" stroke="#c0a0a0" stroke-width="2" opacity="0.7" />
+  <rect x="700" y="1100" width="400" height="300" fill="#2e1515" stroke="#0e0505" stroke-width="3" />
+  <text x="900" y="1250" fill="#c0a0a0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Guest Chambers</text>
+  <rect x="890" y="1096" width="20" height="8" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="2400" y="1100" width="400" height="400" fill="#2e1515" stroke="#0e0505" stroke-width="3" />
+  <text x="2600" y="1300" fill="#c0a0a0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Observatory</text>
+  <circle cx="2600" cy="1300" r="120" fill="#2e1515" stroke="#0e0505" stroke-width="3" />
+  <text x="2600" y="1300" fill="#c0a0a0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Lens</text>
+  <rect x="2396" y="1290" width="8" height="20" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="1600" y="1100" width="300" height="300" fill="#8b1a1a" stroke="#0e0505" stroke-width="4" />
+  <rect x="1604" y="1104" width="292" height="292" fill="none" stroke="#c0a0a0" stroke-width="1" stroke-dasharray="8,4" opacity="0.5" />
+  <text x="1750" y="1242" fill="#c0a0a0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Heart Chamber</text>
+  <text x="1750" y="1260" fill="#c0a0a0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Access</text>
+  <circle cx="1750" cy="1100" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
+  <rect x="700" y="1600" width="600" height="200" fill="#2e1515" stroke="#0e0505" stroke-width="3" />
+  <text x="1000" y="1700" fill="#c0a0a0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Balcony</text>
+  <rect x="1000" y="810" width="600" height="80" fill="#2e1515" stroke="#0e0505" stroke-width="2" />
+  <rect x="2100" y="560" width="300" height="80" fill="#2e1515" stroke="#0e0505" stroke-width="2" />
+  <rect x="1100" y="1210" width="500" height="80" fill="#2e1515" stroke="#0e0505" stroke-width="2" />
+  <rect x="1900" y="1210" width="500" height="80" fill="#2e1515" stroke="#0e0505" stroke-width="2" />
+  <rect x="3185" y="835" width="30" height="30" fill="none" stroke="#c0a0a0" stroke-width="1" />
+  <polygon points="3200,860 3192,845 3208,845" fill="#c0a0a0" opacity="0.6" />
+  <text x="3200" y="878" fill="#c0a0a0" font-size="9" text-anchor="middle" font-family="monospace" opacity="0.6">Stairs Down</text>
+  <rect x="3185" y="1085" width="30" height="30" fill="none" stroke="#c0a0a0" stroke-width="1" />
+  <polygon points="3200,1090 3192,1105 3208,1105" fill="#c0a0a0" opacity="0.6" />
+  <text x="3200" y="1128" fill="#c0a0a0" font-size="9" text-anchor="middle" font-family="monospace" opacity="0.6">Stairs Up</text>
+  <text x="3980" y="3485" fill="#ffffff" font-size="20" text-anchor="end" font-family="monospace" opacity="0.15">Spire Upper Levels</text>
+</svg>

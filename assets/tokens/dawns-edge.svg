@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280" width="280" height="280">
+  <defs>
+    <clipPath id="token-clip">
+      <circle cx="140" cy="130" r="120" />
+    </clipPath>
+  </defs>
+  <circle cx="140" cy="130" r="120" fill="#1a1a2e" />
+  <g clip-path="url(#token-clip)">
+    <path d="M 140,78 L 132,86 L 132,145 L 148,145 L 148,86 Z" fill="#e0e0e0" opacity="0.95" />
+    <line x1="140" y1="90" x2="140" y2="140" stroke="#d4a846" stroke-width="2" />
+    <line x1="115" y1="145" x2="165" y2="145" stroke="#d4a846" stroke-width="5" stroke-linecap="round" />
+    <rect x="136" y="148" width="8" height="22" fill="#e0e0e0" />
+    <circle cx="140" cy="174" r="6" fill="#d4a846" />
+  </g>
+  <circle cx="140" cy="130" r="120" fill="none" stroke="#d4a846" stroke-width="8" />
+  <text x="140" y="265" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#d4a846">DAWN'S EDGE</text>
+</svg>

@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 5000 4000" width="5000" height="4000">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#2e2e32" />
+      <stop offset="100%" stop-color="#101014" />
+    </radialGradient>
+  </defs>
+  <rect x="0" y="0" width="5000" height="4000" fill="url(#bgGrad)" />
+  <g opacity="0.05" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="0" x2="0" y2="4000" />
+    <line x1="100" y1="0" x2="100" y2="4000" />
+    <line x1="200" y1="0" x2="200" y2="4000" />
+    <line x1="300" y1="0" x2="300" y2="4000" />
+    <line x1="400" y1="0" x2="400" y2="4000" />
+    <line x1="500" y1="0" x2="500" y2="4000" />
+    <line x1="600" y1="0" x2="600" y2="4000" />
+    <line x1="700" y1="0" x2="700" y2="4000" />
+    <line x1="800" y1="0" x2="800" y2="4000" />
+    <line x1="900" y1="0" x2="900" y2="4000" />
+    <line x1="1000" y1="0" x2="1000" y2="4000" />
+    <line x1="1100" y1="0" x2="1100" y2="4000" />
+    <line x1="1200" y1="0" x2="1200" y2="4000" />
+    <line x1="1300" y1="0" x2="1300" y2="4000" />
+    <line x1="1400" y1="0" x2="1400" y2="4000" />
+    <line x1="1500" y1="0" x2="1500" y2="4000" />
+    <line x1="1600" y1="0" x2="1600" y2="4000" />
+    <line x1="1700" y1="0" x2="1700" y2="4000" />
+    <line x1="1800" y1="0" x2="1800" y2="4000" />
+    <line x1="1900" y1="0" x2="1900" y2="4000" />
+    <line x1="2000" y1="0" x2="2000" y2="4000" />
+    <line x1="2100" y1="0" x2="2100" y2="4000" />
+    <line x1="2200" y1="0" x2="2200" y2="4000" />
+    <line x1="2300" y1="0" x2="2300" y2="4000" />
+    <line x1="2400" y1="0" x2="2400" y2="4000" />
+    <line x1="2500" y1="0" x2="2500" y2="4000" />
+    <line x1="2600" y1="0" x2="2600" y2="4000" />
+    <line x1="2700" y1="0" x2="2700" y2="4000" />
+    <line x1="2800" y1="0" x2="2800" y2="4000" />
+    <line x1="2900" y1="0" x2="2900" y2="4000" />
+    <line x1="3000" y1="0" x2="3000" y2="4000" />
+    <line x1="3100" y1="0" x2="3100" y2="4000" />
+    <line x1="3200" y1="0" x2="3200" y2="4000" />
+    <line x1="3300" y1="0" x2="3300" y2="4000" />
+    <line x1="3400" y1="0" x2="3400" y2="4000" />
+    <line x1="3500" y1="0" x2="3500" y2="4000" />
+    <line x1="3600" y1="0" x2="3600" y2="4000" />
+    <line x1="3700" y1="0" x2="3700" y2="4000" />
+    <line x1="3800" y1="0" x2="3800" y2="4000" />
+    <line x1="3900" y1="0" x2="3900" y2="4000" />
+    <line x1="4000" y1="0" x2="4000" y2="4000" />
+    <line x1="4100" y1="0" x2="4100" y2="4000" />
+    <line x1="4200" y1="0" x2="4200" y2="4000" />
+    <line x1="4300" y1="0" x2="4300" y2="4000" />
+    <line x1="4400" y1="0" x2="4400" y2="4000" />
+    <line x1="4500" y1="0" x2="4500" y2="4000" />
+    <line x1="4600" y1="0" x2="4600" y2="4000" />
+    <line x1="4700" y1="0" x2="4700" y2="4000" />
+    <line x1="4800" y1="0" x2="4800" y2="4000" />
+    <line x1="4900" y1="0" x2="4900" y2="4000" />
+    <line x1="5000" y1="0" x2="5000" y2="4000" />
+    <line x1="0" y1="0" x2="5000" y2="0" />
+    <line x1="0" y1="100" x2="5000" y2="100" />
+    <line x1="0" y1="200" x2="5000" y2="200" />
+    <line x1="0" y1="300" x2="5000" y2="300" />
+    <line x1="0" y1="400" x2="5000" y2="400" />
+    <line x1="0" y1="500" x2="5000" y2="500" />
+    <line x1="0" y1="600" x2="5000" y2="600" />
+    <line x1="0" y1="700" x2="5000" y2="700" />
+    <line x1="0" y1="800" x2="5000" y2="800" />
+    <line x1="0" y1="900" x2="5000" y2="900" />
+    <line x1="0" y1="1000" x2="5000" y2="1000" />
+    <line x1="0" y1="1100" x2="5000" y2="1100" />
+    <line x1="0" y1="1200" x2="5000" y2="1200" />
+    <line x1="0" y1="1300" x2="5000" y2="1300" />
+    <line x1="0" y1="1400" x2="5000" y2="1400" />
+    <line x1="0" y1="1500" x2="5000" y2="1500" />
+    <line x1="0" y1="1600" x2="5000" y2="1600" />
+    <line x1="0" y1="1700" x2="5000" y2="1700" />
+    <line x1="0" y1="1800" x2="5000" y2="1800" />
+    <line x1="0" y1="1900" x2="5000" y2="1900" />
+    <line x1="0" y1="2000" x2="5000" y2="2000" />
+    <line x1="0" y1="2100" x2="5000" y2="2100" />
+    <line x1="0" y1="2200" x2="5000" y2="2200" />
+    <line x1="0" y1="2300" x2="5000" y2="2300" />
+    <line x1="0" y1="2400" x2="5000" y2="2400" />
+    <line x1="0" y1="2500" x2="5000" y2="2500" />
+    <line x1="0" y1="2600" x2="5000" y2="2600" />
+    <line x1="0" y1="2700" x2="5000" y2="2700" />
+    <line x1="0" y1="2800" x2="5000" y2="2800" />
+    <line x1="0" y1="2900" x2="5000" y2="2900" />
+    <line x1="0" y1="3000" x2="5000" y2="3000" />
+    <line x1="0" y1="3100" x2="5000" y2="3100" />
+    <line x1="0" y1="3200" x2="5000" y2="3200" />
+    <line x1="0" y1="3300" x2="5000" y2="3300" />
+    <line x1="0" y1="3400" x2="5000" y2="3400" />
+    <line x1="0" y1="3500" x2="5000" y2="3500" />
+    <line x1="0" y1="3600" x2="5000" y2="3600" />
+    <line x1="0" y1="3700" x2="5000" y2="3700" />
+    <line x1="0" y1="3800" x2="5000" y2="3800" />
+    <line x1="0" y1="3900" x2="5000" y2="3900" />
+    <line x1="0" y1="4000" x2="5000" y2="4000" />
+  </g>
+  <rect x="100" y="100" width="4800" height="3800" fill="none" stroke="#0a0a0e" stroke-width="4" />
+  <rect x="2400" y="3700" width="200" height="200" fill="#2a2a30" stroke="#0a0a0e" stroke-width="3" />
+  <text x="2500" y="3800" fill="#c0b090" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Gate</text>
+  <polyline points="2500,3700 2500,200" fill="none" stroke="#2a2a30" stroke-width="80" stroke-linecap="round" stroke-linejoin="round" opacity="0.6" />
+  <polyline points="200,2000 4800,2000" fill="none" stroke="#2a2a30" stroke-width="80" stroke-linecap="round" stroke-linejoin="round" opacity="0.6" />
+  <rect x="2000" y="1500" width="600" height="500" fill="#8b7355" stroke="#0a0a0e" stroke-width="4" />
+  <rect x="2004" y="1504" width="592" height="492" fill="none" stroke="#c0b090" stroke-width="1" stroke-dasharray="8,4" opacity="0.5" />
+  <text x="2300" y="1750" fill="#c0b090" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Blue Water Inn</text>
+  <rect x="2290" y="1996" width="20" height="8" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="2085" y="1685" width="30" height="30" fill="#8b7355" stroke="#c0b090" stroke-width="2" opacity="0.7" />
+  <rect x="2385" y="1685" width="30" height="30" fill="#8b7355" stroke="#c0b090" stroke-width="2" opacity="0.7" />
+  <rect x="3500" y="500" width="500" height="500" fill="#2a2a30" stroke="#0a0a0e" stroke-width="3" />
+  <text x="3750" y="750" fill="#c0b090" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Wachter Estate</text>
+  <rect x="3740" y="996" width="20" height="8" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="500" y="500" width="400" height="400" fill="#2a2a30" stroke="#0a0a0e" stroke-width="3" />
+  <text x="700" y="692" fill="#c0b090" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">St. Andral</text>
+  <text x="700" y="710" fill="#c0b090" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Chapel</text>
+  <circle cx="700" cy="700" r="15" fill="#8b7355" stroke="#c0b090" stroke-width="2" opacity="0.8" />
+  <text x="700" y="728" fill="#c0b090" font-size="10" text-anchor="middle" font-family="monospace" opacity="0.7">Altar</text>
+  <rect x="690" y="896" width="20" height="8" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="2200" y="2400" width="600" height="600" fill="#2a2a30" stroke="#0a0a0e" stroke-width="3" />
+  <text x="2500" y="2700" fill="#c0b090" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Market Square</text>
+  <rect x="2390" y="2590" width="20" height="20" fill="#8b7355" stroke="#c0b090" stroke-width="2" opacity="0.7" />
+  <rect x="2590" y="2690" width="20" height="20" fill="#8b7355" stroke="#c0b090" stroke-width="2" opacity="0.7" />
+  <rect x="3800" y="1500" width="500" height="400" fill="#2a2a30" stroke="#0a0a0e" stroke-width="3" />
+  <text x="4050" y="1700" fill="#c0b090" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Barracks</text>
+  <rect x="3796" y="1690" width="8" height="20" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="2000" y="300" width="600" height="400" fill="#8b7355" stroke="#0a0a0e" stroke-width="4" />
+  <rect x="2004" y="304" width="592" height="392" fill="none" stroke="#c0b090" stroke-width="1" stroke-dasharray="8,4" opacity="0.5" />
+  <text x="2300" y="500" fill="#c0b090" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Burgomaster's Hall</text>
+  <rect x="2290" y="696" width="20" height="8" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="500" y="1200" width="400" height="300" fill="#2a2a30" stroke="#0a0a0e" stroke-width="3" />
+  <text x="700" y="1350" fill="#c0b090" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Provisioner</text>
+  <rect x="500" y="2400" width="400" height="300" fill="#2a2a30" stroke="#0a0a0e" stroke-width="3" />
+  <text x="700" y="2550" fill="#c0b090" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Coffin-Maker</text>
+  <rect x="3800" y="2400" width="400" height="300" fill="#2a2a30" stroke="#0a0a0e" stroke-width="3" />
+  <text x="4000" y="2550" fill="#c0b090" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Stockade</text>
+  <circle cx="2500" cy="2000" r="15" fill="#8b7355" stroke="#c0b090" stroke-width="2" opacity="0.8" />
+  <text x="2500" y="2028" fill="#c0b090" font-size="10" text-anchor="middle" font-family="monospace" opacity="0.7">Town Well</text>
+  <text x="4980" y="3985" fill="#ffffff" font-size="20" text-anchor="end" font-family="monospace" opacity="0.15">Fortress Vallak</text>
+</svg>

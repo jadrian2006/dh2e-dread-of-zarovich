@@ -1,57 +1,222 @@
 [
     {
         "name": "Village of Barovus",
-        "pages": [{ "name": "Description", "type": "text", "text": { "format": 1, "content": "<p><strong>Village of Barovus</strong> — The first settlement the Acolytes encounter. Perhaps two hundred souls in grey stone hab-blocks. The Burgomaster's manor (barricaded, under siege), Ecclesiarchy chapel, 'Blood of the Vein' tavern. The village is terrified and dying.</p>" } }],
-        "flags": { "dh2e-dread-of-zarovich": { "act": "1", "mapRef": "Map 1" } }
+        "pages": [
+            {
+                "name": "Description",
+                "type": "text",
+                "text": {
+                    "format": 1,
+                    "content": "<p><strong>Village of Barovus</strong> — The first settlement the Acolytes encounter. Perhaps two hundred souls in grey stone hab-blocks. The Burgomaster's manor (barricaded, under siege), Ecclesiarchy chapel, 'Blood of the Vein' tavern. The village is terrified and dying.</p>"
+                },
+                "_id": "c20bd0899c584caf"
+            }
+        ],
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "act": "1",
+                "mapRef": "Map 1"
+            }
+        }
     },
     {
         "name": "The Vessel of Lament",
-        "pages": [{ "name": "Description", "type": "text", "text": { "format": 1, "content": "<p><strong>The Vessel of Lament</strong> — Cursed warp ship, introductory dungeon. 3 decks (Upper: 7 rooms, Mid: 8 rooms, Lower: 7 rooms). Critical path rooms lead to the boss encounter (Lament Configuration) in the warp drive chamber. Former command of Captain Gustav Durst, Slaaneshi cult ship.</p>" } }],
-        "flags": { "dh2e-dread-of-zarovich": { "act": "1", "mapRef": "Map 2" } }
+        "pages": [
+            {
+                "name": "Description",
+                "type": "text",
+                "text": {
+                    "format": 1,
+                    "content": "<p><strong>The Vessel of Lament</strong> — Cursed warp ship, introductory dungeon. 3 decks (Upper: 7 rooms, Mid: 8 rooms, Lower: 7 rooms). Critical path rooms lead to the boss encounter (Lament Configuration) in the warp drive chamber. Former command of Captain Gustav Durst, Slaaneshi cult ship.</p>"
+                },
+                "_id": "8dde3ea4a9ad4a1e"
+            }
+        ],
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "act": "1",
+                "mapRef": "Map 2"
+            }
+        }
     },
     {
         "name": "Fortress Vallak",
-        "pages": [{ "name": "Description", "type": "text", "text": { "format": 1, "content": "<p><strong>Fortress Vallak</strong> — Largest surviving settlement. Garrison town ruled by paranoid Burgomaster Vallakovich. Key locations: Blue Water Inn, Wachter estate, Saint Andral chapel, market square, barracks. Political powder keg between Vallakovich and Lady Wachter. Van Richten hides here as 'Dr. Richtus.'</p>" } }],
-        "flags": { "dh2e-dread-of-zarovich": { "act": "2", "mapRef": "Map 3" } }
+        "pages": [
+            {
+                "name": "Description",
+                "type": "text",
+                "text": {
+                    "format": 1,
+                    "content": "<p><strong>Fortress Vallak</strong> — Largest surviving settlement. Garrison town ruled by paranoid Burgomaster Vallakovich. Key locations: Blue Water Inn, Wachter estate, Saint Andral chapel, market square, barracks. Political powder keg between Vallakovich and Lady Wachter. Van Richten hides here as 'Dr. Richtus.'</p>"
+                },
+                "_id": "ed58fc58c3434db1"
+            }
+        ],
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "act": "2",
+                "mapRef": "Map 3"
+            }
+        }
     },
     {
         "name": "Krezk Biologis Facility",
-        "pages": [{ "name": "Description", "type": "text", "text": { "format": 1, "content": "<p><strong>Krezk Biologis Facility</strong> — Corrupted Tech-Priest Abaron's domain. Ground floor: reception, operating theaters, vat chambers, mongrelfolk quarters. Upper floor: Abaron's lab with the Bride. Sacred pool courtyard. Only cybernetics maintenance facility on Barovus.</p>" } }],
-        "flags": { "dh2e-dread-of-zarovich": { "act": "2", "mapRef": "Map 4" } }
+        "pages": [
+            {
+                "name": "Description",
+                "type": "text",
+                "text": {
+                    "format": 1,
+                    "content": "<p><strong>Krezk Biologis Facility</strong> — Corrupted Tech-Priest Abaron's domain. Ground floor: reception, operating theaters, vat chambers, mongrelfolk quarters. Upper floor: Abaron's lab with the Bride. Sacred pool courtyard. Only cybernetics maintenance facility on Barovus.</p>"
+                },
+                "_id": "0200b5854f024c43"
+            }
+        ],
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "act": "2",
+                "mapRef": "Map 4"
+            }
+        }
     },
     {
         "name": "Fallen Astartes Outpost (Silver Drakes)",
-        "pages": [{ "name": "Description", "type": "text", "text": { "format": 1, "content": "<p><strong>Fallen Astartes Outpost</strong> — Ruined Silver Drakes chapter outpost. Key areas: courtyard, barracks, armory/relic vault, chapel (Trial of Faith), command center (Strategium), Beacon Tower. Haunted by revenant Space Marines led by Commander Gorev and the bitter Chaplain Vladimir.</p>" } }],
-        "flags": { "dh2e-dread-of-zarovich": { "act": "2", "mapRef": "Map 5" } }
+        "pages": [
+            {
+                "name": "Description",
+                "type": "text",
+                "text": {
+                    "format": 1,
+                    "content": "<p><strong>Fallen Astartes Outpost</strong> — Ruined Silver Drakes chapter outpost. Key areas: courtyard, barracks, armory/relic vault, chapel (Trial of Faith), command center (Strategium), Beacon Tower. Haunted by revenant Space Marines led by Commander Gorev and the bitter Chaplain Vladimir.</p>"
+                },
+                "_id": "723c17c5da3d4658"
+            }
+        ],
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "act": "2",
+                "mapRef": "Map 5"
+            }
+        }
     },
     {
         "name": "The Warp Nexus (Yester Hill)",
-        "pages": [{ "name": "Description", "type": "text", "text": { "format": 1, "content": "<p><strong>The Warp Nexus</strong> — Where reality surrenders. Hilltop with 12 xenos standing stones, the corrupted Warp-Tree (Strahd's psychic echo), and Nature-Corruption Devotees attempting a summoning ritual. Wintersplinter (mutant warlord) guards the tree. Vision quest reveals Strahd's pact with Slaanesh.</p>" } }],
-        "flags": { "dh2e-dread-of-zarovich": { "act": "2", "mapRef": "Map 6" } }
+        "pages": [
+            {
+                "name": "Description",
+                "type": "text",
+                "text": {
+                    "format": 1,
+                    "content": "<p><strong>The Warp Nexus</strong> — Where reality surrenders. Hilltop with 12 xenos standing stones, the corrupted Warp-Tree (Strahd's psychic echo), and Nature-Corruption Devotees attempting a summoning ritual. Wintersplinter (mutant warlord) guards the tree. Vision quest reveals Strahd's pact with Slaanesh.</p>"
+                },
+                "_id": "d22fa814043f475e"
+            }
+        ],
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "act": "2",
+                "mapRef": "Map 6"
+            }
+        }
     },
     {
         "name": "Crashed Munitorum Transport",
-        "pages": [{ "name": "Description", "type": "text", "text": { "format": 1, "content": "<p><strong>Crashed Munitorum Transport</strong> — A Cargo-8 Ridgehauler half-buried in a hillside, crashed 50-70 years ago. One-time supply cache: lasgun cells, autogun mags, bolt mags, grenades, medikits, rations, flak armour, carapace plate, vox units. Guarded by warp-mutant scavengers. Strahd observes via servitor-skull.</p>" } }],
-        "flags": { "dh2e-dread-of-zarovich": { "act": "2", "mapRef": "Map 7" } }
+        "pages": [
+            {
+                "name": "Description",
+                "type": "text",
+                "text": {
+                    "format": 1,
+                    "content": "<p><strong>Crashed Munitorum Transport</strong> — A Cargo-8 Ridgehauler half-buried in a hillside, crashed 50-70 years ago. One-time supply cache: lasgun cells, autogun mags, bolt mags, grenades, medikits, rations, flak armour, carapace plate, vox units. Guarded by warp-mutant scavengers. Strahd observes via servitor-skull.</p>"
+                },
+                "_id": "a2813e41990a45b3"
+            }
+        ],
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "act": "2",
+                "mapRef": "Map 7"
+            }
+        }
     },
     {
         "name": "The Recaf Distillery",
-        "pages": [{ "name": "Description", "type": "text", "text": { "format": 1, "content": "<p><strong>The Recaf Distillery</strong> — Vital supply point operated by the Martikov family (warp-touched shapeshifters). Under siege when Acolytes arrive. Three sacred seeds stolen (Warp Nexus, Berez, Zarovich Spire). Securing the distillery establishes supply lines and reveals the Martikovs' secret.</p>" } }],
-        "flags": { "dh2e-dread-of-zarovich": { "act": "2", "mapRef": "Map 8" } }
+        "pages": [
+            {
+                "name": "Description",
+                "type": "text",
+                "text": {
+                    "format": 1,
+                    "content": "<p><strong>The Recaf Distillery</strong> — Vital supply point operated by the Martikov family (warp-touched shapeshifters). Under siege when Acolytes arrive. Three sacred seeds stolen (Warp Nexus, Berez, Zarovich Spire). Securing the distillery establishes supply lines and reveals the Martikovs' secret.</p>"
+                },
+                "_id": "1025e68a12db4c4c"
+            }
+        ],
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "act": "2",
+                "mapRef": "Map 8"
+            }
+        }
     },
     {
         "name": "Berez — The Drowned Ruins",
-        "pages": [{ "name": "Description", "type": "text", "text": { "format": 1, "content": "<p><strong>Berez</strong> — Destroyed by Strahd's rage two centuries ago. Flooded ruins haunted by plague revenants. Baba Lysaga (Psy Rating 7 warp-hag) dwells here in a walking hab-unit. She holds the second sacred seed and considers herself Strahd's mother. Marina's monument reveals the Tatyana reincarnation cycle.</p>" } }],
-        "flags": { "dh2e-dread-of-zarovich": { "act": "2", "mapRef": "Map 9" } }
+        "pages": [
+            {
+                "name": "Description",
+                "type": "text",
+                "text": {
+                    "format": 1,
+                    "content": "<p><strong>Berez</strong> — Destroyed by Strahd's rage two centuries ago. Flooded ruins haunted by plague revenants. Baba Lysaga (Psy Rating 7 warp-hag) dwells here in a walking hab-unit. She holds the second sacred seed and considers herself Strahd's mother. Marina's monument reveals the Tatyana reincarnation cycle.</p>"
+                },
+                "_id": "7d96dfbd6e5b48e5"
+            }
+        ],
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "act": "2",
+                "mapRef": "Map 9"
+            }
+        }
     },
     {
         "name": "The Empyrean Vault (Amber Temple)",
-        "pages": [{ "name": "Description", "type": "text", "text": { "format": 1, "content": "<p><strong>The Empyrean Vault</strong> — Pre-Imperial xenos containment facility in the mountains. Lethally cold approach. Bound daemons offer pacts (Tzeentch, Nurgle, Khorne, Slaanesh, Unknown). Cell Alpha-Prime is where Strahd made his pact. Kasimir guides the Acolytes seeking to resurrect his sister. The Vault Guardian AI provides fragmentary information.</p>" } }],
-        "flags": { "dh2e-dread-of-zarovich": { "act": "2", "mapRef": "Map 10" } }
+        "pages": [
+            {
+                "name": "Description",
+                "type": "text",
+                "text": {
+                    "format": 1,
+                    "content": "<p><strong>The Empyrean Vault</strong> — Pre-Imperial xenos containment facility in the mountains. Lethally cold approach. Bound daemons offer pacts (Tzeentch, Nurgle, Khorne, Slaanesh, Unknown). Cell Alpha-Prime is where Strahd made his pact. Kasimir guides the Acolytes seeking to resurrect his sister. The Vault Guardian AI provides fragmentary information.</p>"
+                },
+                "_id": "de361223d32646fa"
+            }
+        ],
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "act": "2",
+                "mapRef": "Map 10"
+            }
+        }
     },
     {
         "name": "Zarovich Spire",
-        "pages": [{ "name": "Description", "type": "text", "text": { "format": 1, "content": "<p><strong>Zarovich Spire</strong> — Strahd's fortress-palace. 5 sub-maps: Courtyard & Approach, Ground Level (grand hall, dining hall, chapel), Upper Levels (study, Heart chamber), Crypts (Strahd's coffin, Sergei's tomb, teleportation braziers), Heart Chamber (warp crystal boss arena). Full dungeon crawl in Act III.</p>" } }],
-        "flags": { "dh2e-dread-of-zarovich": { "act": "3", "mapRef": "Map 11" } }
+        "pages": [
+            {
+                "name": "Description",
+                "type": "text",
+                "text": {
+                    "format": 1,
+                    "content": "<p><strong>Zarovich Spire</strong> — Strahd's fortress-palace. 5 sub-maps: Courtyard & Approach, Ground Level (grand hall, dining hall, chapel), Upper Levels (study, Heart chamber), Crypts (Strahd's coffin, Sergei's tomb, teleportation braziers), Heart Chamber (warp crystal boss arena). Full dungeon crawl in Act III.</p>"
+                },
+                "_id": "b6a1879f88c24d9a"
+            }
+        ],
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "act": "3",
+                "mapRef": "Map 11"
+            }
+        }
     }
 ]

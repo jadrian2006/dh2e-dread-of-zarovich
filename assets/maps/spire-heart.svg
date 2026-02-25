@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2000 2000" width="2000" height="2000">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#321e1e" />
+      <stop offset="100%" stop-color="#140000" />
+    </radialGradient>
+  </defs>
+  <rect x="0" y="0" width="2000" height="2000" fill="url(#bgGrad)" />
+  <g opacity="0.05" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="0" x2="0" y2="2000" />
+    <line x1="100" y1="0" x2="100" y2="2000" />
+    <line x1="200" y1="0" x2="200" y2="2000" />
+    <line x1="300" y1="0" x2="300" y2="2000" />
+    <line x1="400" y1="0" x2="400" y2="2000" />
+    <line x1="500" y1="0" x2="500" y2="2000" />
+    <line x1="600" y1="0" x2="600" y2="2000" />
+    <line x1="700" y1="0" x2="700" y2="2000" />
+    <line x1="800" y1="0" x2="800" y2="2000" />
+    <line x1="900" y1="0" x2="900" y2="2000" />
+    <line x1="1000" y1="0" x2="1000" y2="2000" />
+    <line x1="1100" y1="0" x2="1100" y2="2000" />
+    <line x1="1200" y1="0" x2="1200" y2="2000" />
+    <line x1="1300" y1="0" x2="1300" y2="2000" />
+    <line x1="1400" y1="0" x2="1400" y2="2000" />
+    <line x1="1500" y1="0" x2="1500" y2="2000" />
+    <line x1="1600" y1="0" x2="1600" y2="2000" />
+    <line x1="1700" y1="0" x2="1700" y2="2000" />
+    <line x1="1800" y1="0" x2="1800" y2="2000" />
+    <line x1="1900" y1="0" x2="1900" y2="2000" />
+    <line x1="2000" y1="0" x2="2000" y2="2000" />
+    <line x1="0" y1="0" x2="2000" y2="0" />
+    <line x1="0" y1="100" x2="2000" y2="100" />
+    <line x1="0" y1="200" x2="2000" y2="200" />
+    <line x1="0" y1="300" x2="2000" y2="300" />
+    <line x1="0" y1="400" x2="2000" y2="400" />
+    <line x1="0" y1="500" x2="2000" y2="500" />
+    <line x1="0" y1="600" x2="2000" y2="600" />
+    <line x1="0" y1="700" x2="2000" y2="700" />
+    <line x1="0" y1="800" x2="2000" y2="800" />
+    <line x1="0" y1="900" x2="2000" y2="900" />
+    <line x1="0" y1="1000" x2="2000" y2="1000" />
+    <line x1="0" y1="1100" x2="2000" y2="1100" />
+    <line x1="0" y1="1200" x2="2000" y2="1200" />
+    <line x1="0" y1="1300" x2="2000" y2="1300" />
+    <line x1="0" y1="1400" x2="2000" y2="1400" />
+    <line x1="0" y1="1500" x2="2000" y2="1500" />
+    <line x1="0" y1="1600" x2="2000" y2="1600" />
+    <line x1="0" y1="1700" x2="2000" y2="1700" />
+    <line x1="0" y1="1800" x2="2000" y2="1800" />
+    <line x1="0" y1="1900" x2="2000" y2="1900" />
+    <line x1="0" y1="2000" x2="2000" y2="2000" />
+  </g>
+  <circle cx="1000" cy="1000" r="850" fill="none" stroke="#2e1515" stroke-width="80" />
+  <circle cx="1000" cy="1000" r="850" fill="none" stroke="#0e0505" stroke-width="3" />
+  <circle cx="1000" cy="1000" r="700" fill="#2e1515" stroke="#0e0505" stroke-width="3" />
+  <circle cx="1500" cy="1000" r="12" fill="#8b1a1a" stroke="#c0a0a0" stroke-width="2" opacity="0.8" />
+  <text x="1500" y="1028" fill="#c0a0a0" font-size="10" text-anchor="middle" font-family="monospace" opacity="0.7">Pillar</text>
+  <circle cx="1000" cy="1500" r="12" fill="#8b1a1a" stroke="#c0a0a0" stroke-width="2" opacity="0.8" />
+  <text x="1000" y="1528" fill="#c0a0a0" font-size="10" text-anchor="middle" font-family="monospace" opacity="0.7">Pillar</text>
+  <circle cx="500" cy="1000" r="12" fill="#8b1a1a" stroke="#c0a0a0" stroke-width="2" opacity="0.8" />
+  <text x="500" y="1028" fill="#c0a0a0" font-size="10" text-anchor="middle" font-family="monospace" opacity="0.7">Pillar</text>
+  <circle cx="1000" cy="500" r="12" fill="#8b1a1a" stroke="#c0a0a0" stroke-width="2" opacity="0.8" />
+  <text x="1000" y="528" fill="#c0a0a0" font-size="10" text-anchor="middle" font-family="monospace" opacity="0.7">Pillar</text>
+  <g opacity="0.3" stroke="#8b1a1a" stroke-width="2">
+    <line x1="1000" y1="1000" x2="1650" y2="1000" />
+    <line x1="1000" y1="1000" x2="1562" y2="1324" />
+    <line x1="1000" y1="1000" x2="1325" y2="1562" />
+    <line x1="1000" y1="1000" x2="1000" y2="1650" />
+    <line x1="1000" y1="1000" x2="676" y2="1562" />
+    <line x1="1000" y1="1000" x2="438" y2="1324" />
+    <line x1="1000" y1="1000" x2="350" y2="1000" />
+    <line x1="1000" y1="1000" x2="438" y2="676" />
+    <line x1="1000" y1="1000" x2="675" y2="438" />
+    <line x1="1000" y1="1000" x2="1000" y2="350" />
+    <line x1="1000" y1="1000" x2="1325" y2="438" />
+    <line x1="1000" y1="1000" x2="1562" y2="675" />
+  </g>
+  <polygon points="1000,982 1012,1000 1000,1018 988,1000" fill="#d4a846" stroke="#ffffff" stroke-width="2" opacity="0.9" />
+  <text x="1000" y="1028" fill="#c0a0a0" font-size="10" text-anchor="middle" font-family="monospace" opacity="0.7">Heart of/the Spire</text>
+  <rect x="960" y="1700" width="80" height="200" fill="#2e1515" stroke="#0e0505" stroke-width="2" />
+  <circle cx="1000" cy="1700" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
+  <text x="1000" y="1950" fill="#c0a0a0" font-size="12" text-anchor="middle" font-family="monospace" opacity="0.5">Entrance</text>
+  <text x="1980" y="1985" fill="#ffffff" font-size="20" text-anchor="end" font-family="monospace" opacity="0.15">Heart Chamber</text>
+</svg>

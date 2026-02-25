@@ -2,7 +2,7 @@
     {
         "name": "Lord-Governor Strahd von Zarovich",
         "type": "npc",
-        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/strahd.webp",
+        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/strahd.svg",
         "system": {
             "characteristics": {
                 "ws": { "value": 75 },
@@ -28,7 +28,7 @@
     {
         "name": "Inquisitor Van Richten",
         "type": "npc",
-        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/van-richten.webp",
+        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/van-richten.svg",
         "system": {
             "characteristics": {
                 "ws": { "value": 40 },
@@ -54,7 +54,7 @@
     {
         "name": "Ireena Kolyana",
         "type": "npc",
-        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/ireena.webp",
+        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/ireena.svg",
         "system": {
             "characteristics": {
                 "ws": { "value": 25 },
@@ -80,7 +80,7 @@
     {
         "name": "Ismark Kolyana",
         "type": "npc",
-        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/ismark.webp",
+        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/ismark.svg",
         "system": {
             "characteristics": {
                 "ws": { "value": 40 },
@@ -106,7 +106,7 @@
     {
         "name": "Magos-Biologis Abaron",
         "type": "npc",
-        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/abaron.webp",
+        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/abaron.svg",
         "system": {
             "characteristics": {
                 "ws": { "value": 45 },
@@ -132,7 +132,7 @@
     {
         "name": "Madam Eva",
         "type": "npc",
-        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/madam-eva.webp",
+        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/madam-eva.svg",
         "system": {
             "characteristics": {
                 "ws": { "value": 15 },

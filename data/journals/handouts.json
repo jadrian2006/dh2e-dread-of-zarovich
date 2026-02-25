@@ -8,10 +8,16 @@
                 "text": {
                     "format": 1,
                     "content": "<div class=\"doz-vox-transmission\"><div class=\"vox-classification\">CLASSIFIED — VERMILLION LEVEL</div><div class=\"vox-header\">ORDO MALLEUS — OPERATIONAL DIRECTIVE<br><span class=\"vox-timestamp\">DATE: 3.142.817.M41 | REF: OMD-SIGMA-IX-7742</span></div><div class=\"vox-body\"><p>FROM: Inquisitor Aldric Thorne, Ordo Malleus, Conclave Obscurus</p><p>TO: Cell Sigma-Raven-IX, assigned operatives</p><p>RE: Operation Pale Threshold</p><p>+++</p><p>A derelict vessel, tentatively designated DURST'S LAMENT, has been detected at the edge of Warp Anomaly Theta-VII-Sigma in the <span class=\"vox-redacted\">REDACTED</span> subsector. The vessel is broadcasting a repeating distress signal on Imperial frequencies. The signal is approximately <span class=\"vox-redacted\">REDACTED</span> years old.</p><p>Warp Anomaly Theta-VII-Sigma has been flagged by the Ordo Malleus as a region of persistent reality instability. Previous expeditions into the anomaly's periphery have reported temporal displacement, psychic interference, and the loss of three survey craft.</p><p>Your mission parameters are as follows:</p><p>1. Board the derelict vessel and determine its origin, crew status, and cargo.</p><p>2. Assess the nature and source of the warp anomaly.</p><p>3. Recover any intelligence assets, artifacts, or specimens of value to the Ordo.</p><p>4. Eliminate any hostile entities encountered.</p><p>5. Report findings via astropathic relay upon completion.</p><p>Your vessel, the Dawn's Reproach, will maintain position at the anomaly's edge. Standard extraction protocols apply.</p><p>The Emperor protects. Trust nothing.</p></div><div class=\"vox-footer\">INQUISITORIAL SEAL VERIFIED | THORNE.A | ORD.MAL</div><div class=\"vox-seal\">⦿ ORDO MALLEUS ⦿</div></div>"
-                }
+                },
+                "_id": "c2d805a7eaf44eee"
             }
         ],
-        "flags": { "dh2e-dread-of-zarovich": { "act": "1", "handoutNumber": 1 } }
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "act": "1",
+                "handoutNumber": 1
+            }
+        }
     },
     {
         "name": "Captain Durst's Journal",
@@ -22,10 +28,16 @@
                 "text": {
                     "format": 1,
                     "content": "<div class=\"doz-parchment\"><div class=\"parchment-seal\">PERSONAL LOG — CAPTAIN GUSTAV DURST</div><div class=\"parchment-body\"><p>Year 7 of the Becalming — We have been adrift in the anomaly for seven years now. No warp route out. No astropathic contact. The Navigator is dead. Elisabeth says we must find our own path. She has been reading texts recovered from the lower cargo holds — volumes bound in leather that feels warm to the touch. She says there are powers that listen when the Emperor does not.</p><p>Year 11 — The rituals have begun in earnest. Elisabeth leads them. I confess I no longer resist. The sensations... the visions... they are beyond anything I have known. We have cleared the lower engineering decks. The crew do not ask questions. Those who do are given to the altar.</p><p>Year 14 — The children must not know. Rose suspects. She is too clever. Thorn is too young to understand why Mother and Father go below-decks at night. The sounds from engineering — Elisabeth says they are 'hymns.' I no longer know the difference between a hymn and a scream.</p><p>Year 15 — It is done. The thing fused with the warp drive is awake. Elisabeth says it is a gift from the Prince of Pleasure. I say it is our damnation. But I cannot look away. I cannot stop. None of us can stop.</p><p class=\"parchment-bloodstain\">The children are dead. We locked them in their cabin to keep them safe. We forgot. Emperor forgive us, we forgot them.</p></div><div class=\"parchment-signature\">Gustav Durst, Master of Durst's Lament</div></div>"
-                }
+                },
+                "_id": "a22c199caf9349a7"
             }
         ],
-        "flags": { "dh2e-dread-of-zarovich": { "act": "1", "handoutNumber": 2 } }
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "act": "1",
+                "handoutNumber": 2
+            }
+        }
     },
     {
         "name": "Elisabeth Durst's Letter",
@@ -36,10 +48,16 @@
                 "text": {
                     "format": 1,
                     "content": "<div class=\"doz-parchment\"><div class=\"parchment-seal\">☠</div><div class=\"parchment-body\"><p>To any who find this — I was the architect of my family's damnation. I sought power when the Emperor's light faded. The Prince answered. He always answers. The thing fused with the warp drive is my final gift to this vessel — it feeds on suffering, and this ship will never lack for that. Gustav is dead. He could not bear what we had become. The children — Emperor forgive me — I locked them away to spare them from what the rituals would do to their minds. I told myself I would return for them. I did not. The Prince whispered that their fear was sweeter than any offering I could carve from flesh.</p><p>Do not go to the lower decks. But you will. The ship will make sure of it. It is too late for us. Perhaps it is too late for you, too.</p></div><div class=\"parchment-signature\">Elisabeth Durst, in the year of our damnation</div></div>"
-                }
+                },
+                "_id": "5567e1f27c694531"
             }
         ],
-        "flags": { "dh2e-dread-of-zarovich": { "act": "1", "handoutNumber": 3 } }
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "act": "1",
+                "handoutNumber": 3
+            }
+        }
     },
     {
         "name": "Strahd's Dinner Invitation",
@@ -50,10 +68,16 @@
                 "text": {
                     "format": 1,
                     "content": "<div class=\"doz-parchment\"><div class=\"parchment-seal\">ZAROVICH</div><div class=\"parchment-body\"><p>My esteemed guests,</p><p>I have watched your progress with considerable interest. You are resourceful, faithful, and — I confess — more tenacious than I had anticipated. These are admirable qualities. I respect tenacity. I have survived on it for four centuries.</p><p>I wish to extend a formal invitation to dine with me at the Zarovich Spire. You will be my guests. You will be safe — I give you my word, and my word has been good since before your Imperium forgot what honour meant. The food will be excellent. The wine is pre-rift vintage. The conversation, I hope, will be stimulating.</p><p>I have questions about the galaxy. You have questions about Barovus. I see no reason we cannot exchange answers like civilised beings.</p><p>My carriage will arrive at sunset. I trust you will not insult me by declining.</p></div><div class=\"parchment-signature\">Lord-Governor Strahd von Zarovich, Master of Barovus</div></div>"
-                }
+                },
+                "_id": "69b69cd921f8421e"
             }
         ],
-        "flags": { "dh2e-dread-of-zarovich": { "act": "2", "handoutNumber": 4 } }
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "act": "2",
+                "handoutNumber": 4
+            }
+        }
     },
     {
         "name": "Tome of Strahd — Decoded Excerpts",
@@ -64,10 +88,16 @@
                 "text": {
                     "format": 1,
                     "content": "<div class=\"doz-vox-transmission\"><div class=\"vox-classification\">DECRYPTED — COGITATOR ARCHIVE</div><div class=\"vox-header\">PERSONAL RECORDS — LORD-GOVERNOR STRAHD VON ZAROVICH<br><span class=\"vox-timestamp\">DECRYPTION STATUS: PARTIAL | INTEGRITY: 73%</span></div><div class=\"vox-body\"><p>[ENTRY 001 — UNDATED]</p><p>I have conquered this world. I have conquered death. I have conquered everything except the one thing that matters. She does not love me. She loved <em>him</em>. My brother. My weak, pious, beautiful brother who could not swing a sword or hold a line or make the sacrifices that empire demands.</p><p>[ENTRY 247 — UNDATED]</p><p>She returned. Different face, different name, but the same soul. I know it. I can <em>taste</em> it. The Prince promised me she would come back. He did not promise she would stay.</p><p>[ENTRY 891 — UNDATED]</p><p>The Inquisitor came. Markovia. She was magnificent. She burned through my guards like a torch through paper. She stood in my throne room and told me I was an abomination. She was right. I told her she was doomed. I was also right.</p><p class=\"vox-corrupt\">[ENTRIES 892-1,247 — CORRUPTED / UNRECOVERABLE]</span></p><p>[ENTRY 1,248 — UNDATED]</p><p>The coffin is in the crypts. The Heart is in the tower. Without both, I endure. The blade she carried — the golden one — is the only weapon that cuts deep enough to matter. I have hidden it well. Not destroyed. I cannot bring myself to destroy it. It reminds me of the sun.</p><p>[ENTRY 1,249 — FINAL RECOVERABLE]</p><p>She will come again. Tatyana always comes again. And this time I will be ready. This time she will understand. This time she will love me. Or I will burn this world to nothing and start again.</p></div><div class=\"vox-footer\">END OF RECOVERABLE DATA | FURTHER DECRYPTION ATTEMPTS MAY YIELD ADDITIONAL ENTRIES</div></div>"
-                }
+                },
+                "_id": "31eb260ae2ec4d24"
             }
         ],
-        "flags": { "dh2e-dread-of-zarovich": { "act": "2-3", "handoutNumber": 5 } }
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "act": "2-3",
+                "handoutNumber": 5
+            }
+        }
     },
     {
         "name": "Van Richten's Intelligence Brief",
@@ -78,10 +108,16 @@
                 "text": {
                     "format": 1,
                     "content": "<div class=\"doz-vox-transmission\"><div class=\"vox-classification\">INQUISITORIAL — EYES ONLY</div><div class=\"vox-header\">INTELLIGENCE ASSESSMENT — LORD-GOVERNOR STRAHD VON ZAROVICH<br><span class=\"vox-timestamp\">COMPILED BY: INQ. VAN RICHTEN, ORDO MALLEUS | YEARS OF OBSERVATION: 27</span></div><div class=\"vox-body\"><p>SUBJECT is a warp-touched immortal of extraordinary power. Classification: DIRE threat. Do not engage without full preparation.</p><p>PHYSICAL CAPABILITIES: Superhuman strength, speed, and resilience. Regenerates from all wounds unless inflicted by sanctified weaponry. Can phase through solid matter. Can dominate minds through sustained eye contact.</p><p>KNOWN WEAKNESSES:</p><p>1. Holy symbols held with genuine faith cause physical distress.</p><p>2. Sanctified weapons negate his regeneration temporarily.</p><p>3. The relic blade 'Dawn's Edge' causes him visible pain and fear.</p><p>4. He retreats to his coffin in the Spire's crypts when critically wounded.</p><p>5. The 'Heart of Sorrow' — a warp crystal in the Spire's upper levels — anchors his immortality. Destroy it first.</p><p>CONDITIONS FOR PERMANENT DESTRUCTION:</p><p>1. The Heart of Sorrow must be destroyed.</p><p>2. His coffin must be destroyed.</p><p>3. The killing blow must be struck with Dawn's Edge while the Rosette of Saint Markovia is active within proximity.</p><p>All three conditions must be met simultaneously. Failure on any point allows him to regenerate.</p><p class=\"vox-corrupt\">I have spent 27 years preparing. I am too old and too damaged to wield the blade myself. I need someone younger, stronger, and more faithful than I have ever been.</p><p>Emperor willing, that someone is you.</p></div><div class=\"vox-footer\">VAN RICHTEN, V. | ORDO MALLEUS (RETIRED) | THE EMPEROR PROTECTS</div></div>"
-                }
+                },
+                "_id": "58ecb43c2ae246d6"
             }
         ],
-        "flags": { "dh2e-dread-of-zarovich": { "act": "2", "handoutNumber": 6 } }
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "act": "2",
+                "handoutNumber": 6
+            }
+        }
     },
     {
         "name": "Strahd's Post-Resurrection Note",
@@ -92,9 +128,15 @@
                 "text": {
                     "format": 1,
                     "content": "<div class=\"doz-parchment\"><div class=\"parchment-body\"><p>You survived the return. Most do not retain their sanity. I look forward to seeing what you do with your borrowed time.</p><div class=\"parchment-marginalia\">The Prince of Pleasure grows fond of you. That should terrify you more than dying ever could.</div></div><div class=\"parchment-signature\">S.</div></div>"
-                }
+                },
+                "_id": "b58f4fb6da2845d2"
             }
         ],
-        "flags": { "dh2e-dread-of-zarovich": { "act": "any", "handoutNumber": 7 } }
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "act": "any",
+                "handoutNumber": 7
+            }
+        }
     }
 ]

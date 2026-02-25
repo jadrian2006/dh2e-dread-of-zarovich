@@ -1,0 +1,307 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <!-- Main parchment gradient (135 degrees) -->
+    <linearGradient id="parchmentBase" x1="0%" y1="0%" x2="70.7%" y2="70.7%">
+      <stop offset="0%" stop-color="#f4e4c1"/>
+      <stop offset="25%" stop-color="#e8d5a3"/>
+      <stop offset="50%" stop-color="#f0deb5"/>
+      <stop offset="75%" stop-color="#e5d09a"/>
+      <stop offset="100%" stop-color="#f2e0b0"/>
+    </linearGradient>
+
+    <!-- Warm center overlay -->
+    <radialGradient id="warmOverlay" cx="50%" cy="45%" r="55%" fx="48%" fy="42%">
+      <stop offset="0%" stop-color="rgba(255,245,200,0.15)"/>
+      <stop offset="50%" stop-color="rgba(255,240,190,0.06)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0)"/>
+    </radialGradient>
+
+    <!-- Age stain 1 — upper left area -->
+    <radialGradient id="stain1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(139,90,43,0.08)"/>
+      <stop offset="60%" stop-color="rgba(139,90,43,0.04)"/>
+      <stop offset="100%" stop-color="rgba(139,90,43,0)"/>
+    </radialGradient>
+
+    <!-- Age stain 2 — center right -->
+    <radialGradient id="stain2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(120,75,30,0.07)"/>
+      <stop offset="50%" stop-color="rgba(120,75,30,0.03)"/>
+      <stop offset="100%" stop-color="rgba(120,75,30,0)"/>
+    </radialGradient>
+
+    <!-- Age stain 3 — bottom left -->
+    <radialGradient id="stain3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(150,100,50,0.09)"/>
+      <stop offset="65%" stop-color="rgba(150,100,50,0.03)"/>
+      <stop offset="100%" stop-color="rgba(150,100,50,0)"/>
+    </radialGradient>
+
+    <!-- Age stain 4 — upper right corner -->
+    <radialGradient id="stain4" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(130,85,40,0.06)"/>
+      <stop offset="55%" stop-color="rgba(130,85,40,0.02)"/>
+      <stop offset="100%" stop-color="rgba(130,85,40,0)"/>
+    </radialGradient>
+
+    <!-- Wax seal gradient -->
+    <radialGradient id="waxSeal" cx="45%" cy="40%" r="50%" fx="40%" fy="35%">
+      <stop offset="0%" stop-color="#c03030"/>
+      <stop offset="30%" stop-color="#a02020"/>
+      <stop offset="80%" stop-color="#7a1515"/>
+      <stop offset="100%" stop-color="#6a1010"/>
+    </radialGradient>
+
+    <!-- Wax seal shadow -->
+    <radialGradient id="sealShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(0,0,0,0)"/>
+      <stop offset="70%" stop-color="rgba(0,0,0,0)"/>
+      <stop offset="85%" stop-color="rgba(0,0,0,0.08)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.15)"/>
+    </radialGradient>
+
+    <!-- Wax seal highlight -->
+    <radialGradient id="sealHighlight" cx="35%" cy="30%" r="40%" fx="35%" fy="30%">
+      <stop offset="0%" stop-color="rgba(255,180,180,0.25)"/>
+      <stop offset="100%" stop-color="rgba(255,180,180,0)"/>
+    </radialGradient>
+
+    <!-- Fiber / paper grain noise pattern -->
+    <filter id="paperGrain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" seed="2" result="noise"/>
+      <feColorMatrix type="saturate" values="0" in="noise" result="grayNoise"/>
+      <feBlend in="SourceGraphic" in2="grayNoise" mode="multiply" result="blended"/>
+      <feComponentTransfer in="blended">
+        <feFuncA type="linear" slope="1"/>
+      </feComponentTransfer>
+    </filter>
+
+    <!-- Subtle vignette for depth -->
+    <radialGradient id="vignette" cx="50%" cy="50%" r="60%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="rgba(0,0,0,0)"/>
+      <stop offset="70%" stop-color="rgba(0,0,0,0)"/>
+      <stop offset="100%" stop-color="rgba(80,50,20,0.06)"/>
+    </radialGradient>
+
+    <!-- Torn edge clip path — irregular polygon approximating ragged paper -->
+    <clipPath id="tornEdges">
+      <polygon points="
+        5,3
+        12,0
+        28,4
+        45,1
+        68,3
+        95,0
+        120,2
+        148,5
+        170,1
+        195,3
+        220,0
+        250,4
+        275,2
+        300,5
+        325,1
+        355,3
+        380,0
+        410,4
+        435,2
+        460,5
+        485,1
+        510,3
+        540,0
+        565,4
+        590,2
+        615,5
+        640,1
+        665,3
+        690,0
+        715,4
+        740,2
+        760,5
+        780,1
+        795,3
+        800,8
+        798,25
+        800,50
+        797,75
+        800,100
+        798,130
+        800,155
+        797,180
+        800,210
+        798,240
+        800,265
+        797,290
+        800,320
+        798,345
+        800,375
+        797,400
+        800,430
+        798,455
+        800,480
+        797,510
+        800,535
+        798,555
+        800,575
+        797,592
+        795,597
+        780,600
+        760,597
+        740,600
+        715,598
+        690,595
+        665,600
+        640,597
+        615,600
+        590,596
+        565,600
+        540,597
+        510,600
+        485,596
+        460,600
+        435,597
+        410,600
+        380,596
+        355,600
+        325,597
+        300,600
+        275,596
+        250,600
+        220,597
+        195,600
+        170,596
+        148,600
+        120,597
+        95,600
+        68,596
+        45,600
+        28,597
+        12,600
+        5,597
+        0,592
+        3,575
+        0,555
+        2,535
+        0,510
+        3,480
+        0,455
+        2,430
+        0,400
+        3,375
+        0,345
+        2,320
+        0,290
+        3,265
+        0,240
+        2,210
+        0,180
+        3,155
+        0,130
+        2,100
+        0,75
+        3,50
+        0,25
+        2,8
+      "/>
+    </clipPath>
+  </defs>
+
+  <!-- Background behind parchment (shadow/surround) -->
+  <rect x="0" y="0" width="800" height="600" fill="#3a2a1a"/>
+
+  <!-- Clipped parchment group -->
+  <g clip-path="url(#tornEdges)">
+
+    <!-- Main parchment fill -->
+    <rect x="0" y="0" width="800" height="600" fill="url(#parchmentBase)"/>
+
+    <!-- Paper grain texture overlay -->
+    <rect x="0" y="0" width="800" height="600" fill="url(#parchmentBase)" filter="url(#paperGrain)" opacity="0.3"/>
+
+    <!-- Warm center overlay -->
+    <rect x="0" y="0" width="800" height="600" fill="url(#warmOverlay)"/>
+
+    <!-- Age stain 1 — upper left -->
+    <ellipse cx="120" cy="110" rx="130" ry="100" fill="url(#stain1)"/>
+
+    <!-- Age stain 2 — center right -->
+    <ellipse cx="650" cy="280" rx="150" ry="120" fill="url(#stain2)"/>
+
+    <!-- Age stain 3 — bottom left -->
+    <ellipse cx="180" cy="480" rx="140" ry="110" fill="url(#stain3)"/>
+
+    <!-- Age stain 4 — upper right corner -->
+    <ellipse cx="700" cy="80" rx="110" ry="90" fill="url(#stain4)"/>
+
+    <!-- Vignette / edge darkening -->
+    <rect x="0" y="0" width="800" height="600" fill="url(#vignette)"/>
+
+    <!-- Inner border following the page edge (inset slightly) -->
+    <rect x="12" y="12" width="776" height="576" rx="1" ry="1"
+          fill="none" stroke="#c4a86a" stroke-width="1" opacity="0.35"/>
+
+    <!-- Decorative corner flourish — top-left -->
+    <g opacity="0.3" stroke="#c4a86a" stroke-width="1.5" fill="none" stroke-linecap="round">
+      <!-- Horizontal bar -->
+      <line x1="18" y1="18" x2="55" y2="18"/>
+      <!-- Vertical bar -->
+      <line x1="18" y1="18" x2="18" y2="55"/>
+      <!-- Small ornamental tick -->
+      <line x1="55" y1="18" x2="55" y2="25"/>
+      <line x1="18" y1="55" x2="25" y2="55"/>
+      <!-- Corner dot -->
+      <circle cx="18" cy="18" r="2" fill="#c4a86a" stroke="none"/>
+    </g>
+
+    <!-- Decorative corner flourish — top-right -->
+    <g opacity="0.3" stroke="#c4a86a" stroke-width="1.5" fill="none" stroke-linecap="round">
+      <line x1="782" y1="18" x2="745" y2="18"/>
+      <line x1="782" y1="18" x2="782" y2="55"/>
+      <line x1="745" y1="18" x2="745" y2="25"/>
+      <line x1="782" y1="55" x2="775" y2="55"/>
+      <circle cx="782" cy="18" r="2" fill="#c4a86a" stroke="none"/>
+    </g>
+
+    <!-- Decorative corner flourish — bottom-left -->
+    <g opacity="0.3" stroke="#c4a86a" stroke-width="1.5" fill="none" stroke-linecap="round">
+      <line x1="18" y1="582" x2="55" y2="582"/>
+      <line x1="18" y1="582" x2="18" y2="545"/>
+      <line x1="55" y1="582" x2="55" y2="575"/>
+      <line x1="18" y1="545" x2="25" y2="545"/>
+      <circle cx="18" cy="582" r="2" fill="#c4a86a" stroke="none"/>
+    </g>
+
+    <!-- Decorative corner flourish — bottom-right -->
+    <g opacity="0.3" stroke="#c4a86a" stroke-width="1.5" fill="none" stroke-linecap="round">
+      <line x1="782" y1="582" x2="745" y2="582"/>
+      <line x1="782" y1="582" x2="782" y2="545"/>
+      <line x1="745" y1="582" x2="745" y2="575"/>
+      <line x1="782" y1="545" x2="775" y2="545"/>
+      <circle cx="782" cy="582" r="2" fill="#c4a86a" stroke="none"/>
+    </g>
+
+    <!-- Faint fold line (horizontal, slightly off-center) for realism -->
+    <line x1="30" y1="298" x2="770" y2="302" stroke="rgba(160,130,80,0.08)" stroke-width="2"/>
+
+    <!-- Wax seal shadow (offset slightly down-right) -->
+    <circle cx="402" cy="542" r="30" fill="rgba(0,0,0,0.12)"/>
+
+    <!-- Wax seal body -->
+    <circle cx="400" cy="540" r="25" fill="url(#waxSeal)"/>
+
+    <!-- Wax seal edge shadow (inner) -->
+    <circle cx="400" cy="540" r="25" fill="url(#sealShadow)"/>
+
+    <!-- Wax seal highlight -->
+    <circle cx="400" cy="540" r="25" fill="url(#sealHighlight)"/>
+
+    <!-- Wax seal border ring -->
+    <circle cx="400" cy="540" r="25" fill="none" stroke="rgba(60,10,10,0.3)" stroke-width="0.5"/>
+
+    <!-- Small "I" for Inquisition stamp in wax -->
+    <text x="400" y="545" text-anchor="middle" font-family="'Times New Roman', 'Georgia', serif"
+          font-size="18" font-weight="bold" fill="rgba(50,8,8,0.35)"
+          dominant-baseline="middle" letter-spacing="0">I</text>
+
+  </g>
+</svg>

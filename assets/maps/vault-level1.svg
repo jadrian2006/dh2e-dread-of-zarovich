@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 4500 3500" width="4500" height="3500">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1e1e42" />
+      <stop offset="100%" stop-color="#000024" />
+    </radialGradient>
+  </defs>
+  <rect x="0" y="0" width="4500" height="3500" fill="url(#bgGrad)" />
+  <g opacity="0.05" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="0" x2="0" y2="3500" />
+    <line x1="100" y1="0" x2="100" y2="3500" />
+    <line x1="200" y1="0" x2="200" y2="3500" />
+    <line x1="300" y1="0" x2="300" y2="3500" />
+    <line x1="400" y1="0" x2="400" y2="3500" />
+    <line x1="500" y1="0" x2="500" y2="3500" />
+    <line x1="600" y1="0" x2="600" y2="3500" />
+    <line x1="700" y1="0" x2="700" y2="3500" />
+    <line x1="800" y1="0" x2="800" y2="3500" />
+    <line x1="900" y1="0" x2="900" y2="3500" />
+    <line x1="1000" y1="0" x2="1000" y2="3500" />
+    <line x1="1100" y1="0" x2="1100" y2="3500" />
+    <line x1="1200" y1="0" x2="1200" y2="3500" />
+    <line x1="1300" y1="0" x2="1300" y2="3500" />
+    <line x1="1400" y1="0" x2="1400" y2="3500" />
+    <line x1="1500" y1="0" x2="1500" y2="3500" />
+    <line x1="1600" y1="0" x2="1600" y2="3500" />
+    <line x1="1700" y1="0" x2="1700" y2="3500" />
+    <line x1="1800" y1="0" x2="1800" y2="3500" />
+    <line x1="1900" y1="0" x2="1900" y2="3500" />
+    <line x1="2000" y1="0" x2="2000" y2="3500" />
+    <line x1="2100" y1="0" x2="2100" y2="3500" />
+    <line x1="2200" y1="0" x2="2200" y2="3500" />
+    <line x1="2300" y1="0" x2="2300" y2="3500" />
+    <line x1="2400" y1="0" x2="2400" y2="3500" />
+    <line x1="2500" y1="0" x2="2500" y2="3500" />
+    <line x1="2600" y1="0" x2="2600" y2="3500" />
+    <line x1="2700" y1="0" x2="2700" y2="3500" />
+    <line x1="2800" y1="0" x2="2800" y2="3500" />
+    <line x1="2900" y1="0" x2="2900" y2="3500" />
+    <line x1="3000" y1="0" x2="3000" y2="3500" />
+    <line x1="3100" y1="0" x2="3100" y2="3500" />
+    <line x1="3200" y1="0" x2="3200" y2="3500" />
+    <line x1="3300" y1="0" x2="3300" y2="3500" />
+    <line x1="3400" y1="0" x2="3400" y2="3500" />
+    <line x1="3500" y1="0" x2="3500" y2="3500" />
+    <line x1="3600" y1="0" x2="3600" y2="3500" />
+    <line x1="3700" y1="0" x2="3700" y2="3500" />
+    <line x1="3800" y1="0" x2="3800" y2="3500" />
+    <line x1="3900" y1="0" x2="3900" y2="3500" />
+    <line x1="4000" y1="0" x2="4000" y2="3500" />
+    <line x1="4100" y1="0" x2="4100" y2="3500" />
+    <line x1="4200" y1="0" x2="4200" y2="3500" />
+    <line x1="4300" y1="0" x2="4300" y2="3500" />
+    <line x1="4400" y1="0" x2="4400" y2="3500" />
+    <line x1="4500" y1="0" x2="4500" y2="3500" />
+    <line x1="0" y1="0" x2="4500" y2="0" />
+    <line x1="0" y1="100" x2="4500" y2="100" />
+    <line x1="0" y1="200" x2="4500" y2="200" />
+    <line x1="0" y1="300" x2="4500" y2="300" />
+    <line x1="0" y1="400" x2="4500" y2="400" />
+    <line x1="0" y1="500" x2="4500" y2="500" />
+    <line x1="0" y1="600" x2="4500" y2="600" />
+    <line x1="0" y1="700" x2="4500" y2="700" />
+    <line x1="0" y1="800" x2="4500" y2="800" />
+    <line x1="0" y1="900" x2="4500" y2="900" />
+    <line x1="0" y1="1000" x2="4500" y2="1000" />
+    <line x1="0" y1="1100" x2="4500" y2="1100" />
+    <line x1="0" y1="1200" x2="4500" y2="1200" />
+    <line x1="0" y1="1300" x2="4500" y2="1300" />
+    <line x1="0" y1="1400" x2="4500" y2="1400" />
+    <line x1="0" y1="1500" x2="4500" y2="1500" />
+    <line x1="0" y1="1600" x2="4500" y2="1600" />
+    <line x1="0" y1="1700" x2="4500" y2="1700" />
+    <line x1="0" y1="1800" x2="4500" y2="1800" />
+    <line x1="0" y1="1900" x2="4500" y2="1900" />
+    <line x1="0" y1="2000" x2="4500" y2="2000" />
+    <line x1="0" y1="2100" x2="4500" y2="2100" />
+    <line x1="0" y1="2200" x2="4500" y2="2200" />
+    <line x1="0" y1="2300" x2="4500" y2="2300" />
+    <line x1="0" y1="2400" x2="4500" y2="2400" />
+    <line x1="0" y1="2500" x2="4500" y2="2500" />
+    <line x1="0" y1="2600" x2="4500" y2="2600" />
+    <line x1="0" y1="2700" x2="4500" y2="2700" />
+    <line x1="0" y1="2800" x2="4500" y2="2800" />
+    <line x1="0" y1="2900" x2="4500" y2="2900" />
+    <line x1="0" y1="3000" x2="4500" y2="3000" />
+    <line x1="0" y1="3100" x2="4500" y2="3100" />
+    <line x1="0" y1="3200" x2="4500" y2="3200" />
+    <line x1="0" y1="3300" x2="4500" y2="3300" />
+    <line x1="0" y1="3400" x2="4500" y2="3400" />
+    <line x1="0" y1="3500" x2="4500" y2="3500" />
+  </g>
+  <polygon points="959.8,1600.0 959.8,1900.0 700.0,2050.0 440.2,1900.0 440.2,1600.0 700.0,1450.0" fill="#151535" stroke="#050518" stroke-width="3" />
+  <text x="700" y="1750" fill="#a0a0d0" font-size="13" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Grand Entry</text>
+  <polygon points="1573.2,1650.0 1573.2,1850.0 1400.0,1950.0 1226.8,1850.0 1226.8,1650.0 1400.0,1550.0" fill="#151535" stroke="#050518" stroke-width="3" />
+  <text x="1400" y="1750" fill="#a0a0d0" font-size="13" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Antechamber</text>
+  <line x1="1000" y1="1750" x2="1200" y2="1750" stroke="#151535" stroke-width="60" stroke-linecap="round" />
+  <line x1="1000" y1="1750" x2="1200" y2="1750" stroke="#050518" stroke-width="66" opacity="0.25" stroke-linecap="round" />
+  <polygon points="2416.5,1625.0 2416.5,1875.0 2200.0,2000.0 1983.5,1875.0 1983.5,1625.0 2200.0,1500.0" fill="#151535" stroke="#050518" stroke-width="3" />
+  <text x="2200" y="1742" fill="#a0a0d0" font-size="13" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Guardian</text>
+  <text x="2200" y="1760" fill="#a0a0d0" font-size="11" text-anchor="middle" dominant-baseline="central" font-family="monospace">Chamber</text>
+  <line x1="1600" y1="1750" x2="1950" y2="1750" stroke="#151535" stroke-width="60" stroke-linecap="round" />
+  <line x1="1600" y1="1750" x2="1950" y2="1750" stroke="#050518" stroke-width="66" opacity="0.25" stroke-linecap="round" />
+  <polygon points="2200.0,1732.0 2203.4,1741.7 2212.7,1737.3 2208.3,1746.6 2218.0,1750.0 2208.3,1753.4 2212.7,1762.7 2203.4,1758.3 2200.0,1768.0 2196.6,1758.3 2187.3,1762.7 2191.7,1753.4 2182.0,1750.0 2191.7,1746.6 2187.3,1737.3 2196.6,1741.7" fill="#cc44aa" stroke="#ff88dd" stroke-width="1" opacity="0.8" />
+  <polygon points="2929.9,1675.0 2929.9,1825.0 2800.0,1900.0 2670.1,1825.0 2670.1,1675.0 2800.0,1600.0" fill="#151535" stroke="#050518" stroke-width="3" />
+  <text x="2800" y="1750" fill="#a0a0d0" font-size="13" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Trial 1</text>
+  <polygon points="3329.9,1675.0 3329.9,1825.0 3200.0,1900.0 3070.1,1825.0 3070.1,1675.0 3200.0,1600.0" fill="#151535" stroke="#050518" stroke-width="3" />
+  <text x="3200" y="1750" fill="#a0a0d0" font-size="13" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Trial 2</text>
+  <line x1="2800" y1="1750" x2="3200" y2="1750" stroke="#151535" stroke-width="50" stroke-linecap="round" />
+  <line x1="2800" y1="1750" x2="3200" y2="1750" stroke="#050518" stroke-width="56" opacity="0.25" stroke-linecap="round" />
+  <polygon points="3729.9,1675.0 3729.9,1825.0 3600.0,1900.0 3470.1,1825.0 3470.1,1675.0 3600.0,1600.0" fill="#151535" stroke="#050518" stroke-width="3" />
+  <text x="3600" y="1750" fill="#a0a0d0" font-size="13" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Trial 3</text>
+  <line x1="3200" y1="1750" x2="3600" y2="1750" stroke="#151535" stroke-width="50" stroke-linecap="round" />
+  <line x1="3200" y1="1750" x2="3600" y2="1750" stroke="#050518" stroke-width="56" opacity="0.25" stroke-linecap="round" />
+  <line x1="2450" y1="1750" x2="2650" y2="1750" stroke="#151535" stroke-width="50" stroke-linecap="round" />
+  <line x1="2450" y1="1750" x2="2650" y2="1750" stroke="#050518" stroke-width="56" opacity="0.25" stroke-linecap="round" />
+  <polygon points="2373.2,800.0 2373.2,1000.0 2200.0,1100.0 2026.8,1000.0 2026.8,800.0 2200.0,700.0" fill="#151535" stroke="#050518" stroke-width="3" />
+  <text x="2200" y="900" fill="#a0a0d0" font-size="13" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Archive</text>
+  <line x1="2200" y1="1500" x2="2200" y2="1100" stroke="#151535" stroke-width="50" stroke-linecap="round" />
+  <line x1="2200" y1="1500" x2="2200" y2="1100" stroke="#050518" stroke-width="56" opacity="0.25" stroke-linecap="round" />
+  <circle cx="2200" cy="900" r="100" fill="none" stroke="#d4a846" stroke-width="2" opacity="0.6" />
+  <line x1="2100" y1="900" x2="2300" y2="900" stroke="#d4a846" stroke-width="1" opacity="0.3" />
+  <line x1="2200" y1="800" x2="2200" y2="1000" stroke="#d4a846" stroke-width="1" opacity="0.3" />
+  <circle cx="2200" cy="900" r="33" fill="none" stroke="#d4a846" stroke-width="1" opacity="0.4" stroke-dasharray="4,3" />
+  <polygon points="4129.9,1675.0 4129.9,1825.0 4000.0,1900.0 3870.1,1825.0 3870.1,1675.0 4000.0,1600.0" fill="#151535" stroke="#050518" stroke-width="3" />
+  <text x="4000" y="1750" fill="#a0a0d0" font-size="13" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Stairway Down</text>
+  <line x1="3750" y1="1750" x2="3850" y2="1750" stroke="#151535" stroke-width="50" stroke-linecap="round" />
+  <line x1="3750" y1="1750" x2="3850" y2="1750" stroke="#050518" stroke-width="56" opacity="0.25" stroke-linecap="round" />
+  <rect x="3985" y="1735" width="30" height="30" fill="none" stroke="#a0a0d0" stroke-width="1" />
+  <polygon points="4000,1760 3992,1745 4008,1745" fill="#a0a0d0" opacity="0.6" />
+  <text x="4000" y="1778" fill="#a0a0d0" font-size="9" text-anchor="middle" font-family="monospace" opacity="0.6">Stairs Down</text>
+  <circle cx="700" cy="1750" r="150" fill="none" stroke="#d4a846" stroke-width="2" opacity="0.6" />
+  <line x1="550" y1="1750" x2="850" y2="1750" stroke="#d4a846" stroke-width="1" opacity="0.3" />
+  <line x1="700" y1="1600" x2="700" y2="1900" stroke="#d4a846" stroke-width="1" opacity="0.3" />
+  <circle cx="700" cy="1750" r="50" fill="none" stroke="#d4a846" stroke-width="1" opacity="0.4" stroke-dasharray="4,3" />
+  <circle cx="1400" cy="1750" r="100" fill="none" stroke="#d4a846" stroke-width="2" opacity="0.6" />
+  <line x1="1300" y1="1750" x2="1500" y2="1750" stroke="#d4a846" stroke-width="1" opacity="0.3" />
+  <line x1="1400" y1="1650" x2="1400" y2="1850" stroke="#d4a846" stroke-width="1" opacity="0.3" />
+  <circle cx="1400" cy="1750" r="33" fill="none" stroke="#d4a846" stroke-width="1" opacity="0.4" stroke-dasharray="4,3" />
+  <polygon points="1555.9,810.0 1555.9,990.0 1400.0,1080.0 1244.1,990.0 1244.1,810.0 1400.0,720.0" fill="#151535" stroke="#050518" stroke-width="3" />
+  <text x="1400" y="900" fill="#a0a0d0" font-size="13" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Xenos Records</text>
+  <line x1="1400" y1="1550" x2="1400" y2="1080" stroke="#151535" stroke-width="50" stroke-linecap="round" />
+  <line x1="1400" y1="1550" x2="1400" y2="1080" stroke="#050518" stroke-width="56" opacity="0.25" stroke-linecap="round" />
+  <circle cx="1400" cy="900" r="90" fill="none" stroke="#d4a846" stroke-width="2" opacity="0.6" />
+  <line x1="1310" y1="900" x2="1490" y2="900" stroke="#d4a846" stroke-width="1" opacity="0.3" />
+  <line x1="1400" y1="810" x2="1400" y2="990" stroke="#d4a846" stroke-width="1" opacity="0.3" />
+  <circle cx="1400" cy="900" r="30" fill="none" stroke="#d4a846" stroke-width="1" opacity="0.4" stroke-dasharray="4,3" />
+  <text x="4480" y="3485" fill="#ffffff" font-size="20" text-anchor="end" font-family="monospace" opacity="0.15">Empyrean Vault L1</text>
+</svg>

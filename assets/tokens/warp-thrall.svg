@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280" width="280" height="280">
+  <defs>
+    <clipPath id="token-clip">
+      <circle cx="140" cy="130" r="120" />
+    </clipPath>
+  </defs>
+  <circle cx="140" cy="130" r="120" fill="#1a1a2e" />
+  <g clip-path="url(#token-clip)">
+    <circle cx="140" cy="130" r="38" fill="none" stroke="#e0e0e0" stroke-width="2.5" />
+    <circle cx="126" cy="124" r="5" fill="#442255" />
+    <circle cx="154" cy="124" r="5" fill="#442255" />
+  </g>
+  <circle cx="140" cy="130" r="120" fill="none" stroke="#442255" stroke-width="8" />
+  <text x="140" y="265" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#442255">THRALL</text>
+</svg>

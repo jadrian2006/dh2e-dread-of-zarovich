@@ -1,6 +1,6 @@
 {
     "name": "dh2e-dread-of-zarovich",
-    "version": "0.1.0",
+    "version": "0.3.0",
     "private": true,
     "type": "module",
     "description": "Foundry VTT module: Dread of Zarovich campaign for Dark Heresy 2E",

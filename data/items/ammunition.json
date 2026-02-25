@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Blessed Bolt Rounds (1 Magazine)",
+        "type": "ammunition",
+        "system": {
+            "quantity": 8,
+            "weaponType": "Bolt",
+            "description": "Holy/blessed ammunition. Negates Regeneration trait on warp-touched entities for 1 round per hit. Extremely Rare on Barovus. Must be blessed by a sanctioned Ministorum priest.",
+            "availability": "Extremely Rare"
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "category": "blessed" } }
+    },
+    {
+        "name": "Silver Autogun Rounds (30)",
+        "type": "ammunition",
+        "system": {
+            "quantity": 30,
+            "weaponType": "Autogun",
+            "description": "Silver-tipped rounds effective against Warp-Mutants (+2 damage, causes pain — WP test or disengage). Requires Trade (Armourer) to manufacture from silver sources.",
+            "availability": "Very Rare"
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "category": "special" } }
+    },
+    {
+        "name": "Reloaded Rounds (Generic)",
+        "type": "ammunition",
+        "system": {
+            "quantity": 20,
+            "weaponType": "Various",
+            "description": "Ammunition reloaded via Trade (Armourer). 10% chance per round of jamming (96-00 on attack roll, weapon jams as Unreliable). Produced at 2d10 rounds per hour of work.",
+            "availability": "Crafted"
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "category": "crafted" } }
+    },
+    {
+        "name": "Sacred Oil Application (3 uses)",
+        "type": "ammunition",
+        "system": {
+            "quantity": 3,
+            "weaponType": "Any Melee",
+            "description": "Sacred oils from the Fallen Astartes Outpost. Each application grants the Sanctified quality to one melee weapon for 24 hours. 3 applications available (one-time reward for passing the Trial of Faith).",
+            "availability": "Unique"
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "category": "blessed" } }
+    }
+]

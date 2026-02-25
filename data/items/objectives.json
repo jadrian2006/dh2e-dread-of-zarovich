@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Operation Pale Threshold",
+        "type": "objective",
+        "system": {
+            "format": "parchment",
+            "status": "active",
+            "description": "Board and investigate the derelict vessel designated 'Durst's Lament.' Determine the source and nature of the warp anomaly surrounding it. Recover any intelligence assets. Eliminate any hostile entities encountered. Report findings to Inquisitor Thorne via astropathic relay.",
+            "issuer": "Inquisitor Aldric Thorne, Ordo Malleus",
+            "notes": "Initial mission brief. Superseded by events upon arrival on Barovus."
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "act": "1" } }
+    },
+    {
+        "name": "Escort Ireena Kolyana to Safety",
+        "type": "objective",
+        "system": {
+            "format": "vox",
+            "status": "pending",
+            "description": "Ireena Kolyana, daughter of the late Burgomaster of Barovus Village, is a target of Lord-Governor Strahd's obsessive attention. She must be escorted to a place of safety — Fortress Vallak, Krezk, or the Fallen Astartes Outpost. Her survival may be critical to breaking Strahd's power over Barovus.",
+            "issuer": "Self-assigned / Ismark Kolyana",
+            "notes": "Acquired in Act I, Chapter 3."
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "act": "1-2" } }
+    },
+    {
+        "name": "Recover the Three Relics",
+        "type": "objective",
+        "system": {
+            "format": "vox",
+            "status": "pending",
+            "description": "The Emperor's Tarot reading has identified three artifacts essential to confronting Lord-Governor Strahd: Dawn's Edge (a relic power sword), the Rosette of Saint Markovia (an Inquisitorial rosette), and the Tome of Strahd (an encrypted data-cogitator). Their locations have been divined. Recover all three.",
+            "issuer": "Madam Eva / Emperor's Tarot",
+            "notes": "Locations determined by the 5-card Tarot draw in Act I, Chapter 4."
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "act": "2" } }
+    },
+    {
+        "name": "Liberate the Recaf Distillery",
+        "type": "objective",
+        "system": {
+            "format": "vox",
+            "status": "pending",
+            "description": "The Recaf Distillery is under siege by warp-corrupted flora and Nature-Corruption Devotees. Liberate the facility and recover the three Sacred Seeds to restore its production. Seeds located at: Warp Nexus, Berez, Zarovich Spire.",
+            "issuer": "Martikov Family",
+            "notes": "Act II side quest. Securing the Distillery establishes supply lines."
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "act": "2" } }
+    },
+    {
+        "name": "Investigate Fortress Vallak",
+        "type": "objective",
+        "system": {
+            "format": "vox",
+            "status": "pending",
+            "description": "Fortress Vallak is the largest surviving settlement on Barovus. Investigate the political situation: Burgomaster Vallakovich's paranoid regime, Lady Fiona Wachter's secret Chaos cult, and the location of Inquisitor Van Richten (hiding as 'Dr. Richtus').",
+            "issuer": "Self-assigned",
+            "notes": "Act II primary location. Multiple quest threads converge here."
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "act": "2" } }
+    },
+    {
+        "name": "Destroy the Heart of Sorrow",
+        "type": "objective",
+        "system": {
+            "format": "vox",
+            "status": "pending",
+            "description": "The Heart of Sorrow is a warp crystal at the core of Zarovich Spire that anchors Strahd's immortality. It must be destroyed before Strahd can be permanently killed. Located in the upper levels of the Spire, heavily guarded.",
+            "issuer": "Intelligence from Tome of Strahd / Van Richten",
+            "notes": "Act III objective. One of three conditions for Strahd's destruction."
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "act": "3" } }
+    }
+]

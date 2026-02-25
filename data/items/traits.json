@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Warp-Touched",
+        "type": "trait",
+        "system": {
+            "description": "This entity has been fundamentally altered by prolonged exposure to the warp. It is affected by holy weapons, blessed ammunition, and sanctified items as though it were a daemonic entity. Dawn's Edge deals bonus damage against it. The Rosette of Saint Markovia's abilities affect it.",
+            "notes": "Applied to Strahd, Warp-Thralls, and other campaign-specific entities."
+        },
+        "flags": { "dh2e-dread-of-zarovich": {} }
+    },
+    {
+        "name": "Warp Reclamation",
+        "type": "trait",
+        "system": {
+            "description": "When this character dies on Barovus, their soul is caught in the warp rift and recycled back into their body. See 'Death on Barovus' rules. 1st death: 1d10 CP/IP, weapon destroyed. 2nd: 2d10 CP/IP, all gear lost, Minor Mutation. 3rd: 3d10 CP/IP, Major Mutation, -1d5 random Characteristic. 4th+: permanent death.",
+            "notes": "Applied to all player characters upon arrival on Barovus."
+        },
+        "flags": { "dh2e-dread-of-zarovich": {} }
+    },
+    {
+        "name": "Barovus Native",
+        "type": "trait",
+        "system": {
+            "description": "This character has lived on Barovus for their entire life within the warp rift. They are inured to low-level warp phenomena (immune to Corruption from ambient warp exposure, but not from direct contact with entities or artifacts). They suffer -10 to Willpower tests to resist Strahd's Domination.",
+            "notes": "Applied to Barovian NPCs: Ireena, Ismark, Burgomaster, etc."
+        },
+        "flags": { "dh2e-dread-of-zarovich": {} }
+    },
+    {
+        "name": "Latent Psyker",
+        "type": "trait",
+        "system": {
+            "description": "This character possesses untrained psychic potential. They can sense warp phenomena instinctively, gain +10 to Initiative, and may manifest involuntary psychic abilities under stress. They are a beacon to warp-sensitive entities.",
+            "notes": "Applied to Ireena Kolyana."
+        },
+        "flags": { "dh2e-dread-of-zarovich": {} }
+    },
+    {
+        "name": "Strahd's Marked",
+        "type": "trait",
+        "system": {
+            "description": "Strahd has taken personal interest in this character. He can sense their general location and emotional state at all times while they are on Barovus. He will comment on their actions, send gifts, and ensure they survive — until he decides otherwise.",
+            "notes": "May be acquired by accepting 3+ gifts from Strahd or drawing his personal attention through noteworthy actions."
+        },
+        "flags": { "dh2e-dread-of-zarovich": {} }
+    }
+]

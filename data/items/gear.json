@@ -1,0 +1,132 @@
+[
+    {
+        "name": "Rosette of Saint Markovia",
+        "type": "gear",
+        "system": {
+            "weight": 0.5,
+            "description": "Inquisitorial rosette relic. Invoke Faith (1/encounter, 10m, warp entities flee 1d5 rounds on WP-20 fail). Holy Radiance (1/day, 20m, 2d10 E ignoring armour to daemons). Passive: +20 WP vs psychic/warp. Against Strahd: 3m exclusion zone, Domination fails in 5m, Regeneration halved in 20m.",
+            "availability": "Unique"
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "category": "relic", "tarotItem": true } }
+    },
+    {
+        "name": "Tome of Strahd (Data-Cogitator)",
+        "type": "gear",
+        "system": {
+            "weight": 2,
+            "description": "Heavily encrypted data-cogitator containing Strahd's personal records spanning centuries. Decryption: Hard (-20) Tech-Use/Cipher. Once decoded: +20 to tests vs Strahd, +10 WP vs his powers, reveals coffin location and three conditions for permanent destruction.",
+            "availability": "Unique"
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "category": "relic", "tarotItem": true } }
+    },
+    {
+        "name": "Warp-Warding Charm",
+        "type": "gear",
+        "system": {
+            "weight": 0.1,
+            "description": "Vostra-crafted talisman. +5 WP vs warp phenomena. Single-use emergency: absorb one psychic attack entirely, then crumbles to dust. Only one active at a time.",
+            "availability": "Scarce"
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "category": "consumable" } }
+    },
+    {
+        "name": "Vostra Spirit",
+        "type": "gear",
+        "system": {
+            "weight": 0.5,
+            "description": "Extraordinarily potent alcohol. +10 WP for 1 hour, -10 BS and Ag for 1 hour. If consumed within 1 hour of trauma, remove 1d5 IP (1/day).",
+            "availability": "Common (Vostra), Rare (elsewhere)"
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "category": "consumable" } }
+    },
+    {
+        "name": "Barovus Recaf (Standard)",
+        "type": "gear",
+        "system": {
+            "weight": 0.2,
+            "description": "Removes 1 level of Fatigue. Tastes of ash and desperation.",
+            "availability": "Common"
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "category": "consumable" } }
+    },
+    {
+        "name": "Barovus Recaf (Blessed Distillery)",
+        "type": "gear",
+        "system": {
+            "weight": 0.2,
+            "description": "Removes 1 Fatigue and grants +5 WP for 1d5 hours. Brewed at Krezk distillery using Sacred Pool water.",
+            "availability": "Scarce"
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "category": "consumable" } }
+    },
+    {
+        "name": "Strahd's Letter of Passage",
+        "type": "gear",
+        "system": {
+            "weight": 0.1,
+            "description": "Formal letter with Strahd's seal and psychic imprint. Strahd's servitors will not attack the bearer. Hidden cost: functions as psychic beacon — Strahd always knows bearer's location and emotional state.",
+            "availability": "Unique"
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "category": "document", "tainted": true } }
+    },
+    {
+        "name": "Gellar Field Modulator",
+        "type": "gear",
+        "system": {
+            "weight": 2,
+            "description": "Portable device recovered from Vessel of Lament (LD7). Single charge. Creates 10m warp-ward for 8 hours: no warp phenomena, +20 Corruption Tests, warp-touched creatures -10 all characteristics. One use only.",
+            "availability": "Unique"
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "category": "vessel-loot" } }
+    },
+    {
+        "name": "Sanctified Incense Censer",
+        "type": "gear",
+        "system": {
+            "weight": 1,
+            "description": "Bronze censer from Vessel of Lament cargo hold (MD8). 3 charges of sanctified incense. When lit: 5m radius purified air for 10 minutes, +10 WP vs warp phenomena/fear/psychic attacks.",
+            "availability": "Unique"
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "category": "vessel-loot" } }
+    },
+    {
+        "name": "Astropath's Sending-Stone",
+        "type": "gear",
+        "system": {
+            "weight": 0.3,
+            "description": "Psychic amplification stone from Vessel of Lament (UD7). +20 to attacks against the altar-engine in LD3. During Phase 2 boss fight: can be activated (Half Action) to dissolve warp-echo cultists, stop room constriction, and deal 2d10 E to the entity. Crumbles to dust after altar destroyed.",
+            "availability": "Unique"
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "category": "vessel-loot" } }
+    },
+    {
+        "name": "Durst's Data-Slate",
+        "type": "gear",
+        "system": {
+            "weight": 0.5,
+            "description": "Stasis-field-protected data-slate recovered from Vessel of Lament wreckage. Contains Captain Durst's records of Strahd's early rule. +10 to all Common Lore (Barovus) tests for the campaign.",
+            "availability": "Unique"
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "category": "vessel-loot" } }
+    },
+    {
+        "name": "Sacred Seed",
+        "type": "gear",
+        "system": {
+            "weight": 0.1,
+            "description": "Blessed by a Ministorum saint centuries ago. Three exist, stolen from the Recaf Distillery. Locations: Warp-Tree (Nexus), Baba Lysaga (Berez), Zarovich Spire. Replanting restores Distillery function.",
+            "availability": "Unique"
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "category": "quest-item" } }
+    },
+    {
+        "name": "Blessed Water (Vial)",
+        "type": "gear",
+        "system": {
+            "weight": 0.2,
+            "description": "Sanctified by a Ministorum priest. Single-use holy weapon: 1d5 E damage to daemons, ignoring armour. Thrown as a ranged attack (5m range).",
+            "availability": "Rare"
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "category": "consumable" } }
+    }
+]

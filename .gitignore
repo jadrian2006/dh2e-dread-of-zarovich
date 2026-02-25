@@ -1,0 +1,13 @@
+# Generated LevelDB compendium packs
+packs/
+
+# Node modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Map/token/background assets (added separately when created)
+# Uncomment below to track assets:
+# !assets/.gitkeep

@@ -1,0 +1,145 @@
+[
+    {
+        "name": "Dawn's Edge",
+        "type": "weapon",
+        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/dawns-edge.webp",
+        "system": {
+            "class": "Melee",
+            "subtype": "Power Sword (Relic)",
+            "damage": "1d10+10",
+            "damageType": "E",
+            "penetration": 8,
+            "special": "Power Field, Balanced, Holy, Bane (Warp)",
+            "weight": 3.5,
+            "description": "Forged by Saint Markovia's personal artificer. The blade remembers the light of a sun this world has not seen in four hundred years. Inert until activated (Half Action, Ordinary WP test). Active: 20m golden light, suppresses warp phenomena, +10 WP to wielder vs Fear/corruption. Against Strahd: double damage, no regeneration, Strahd must test WP-10 to stay in melee.",
+            "availability": "Unique"
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "category": "relic", "tarotItem": true } }
+    },
+    {
+        "name": "Grief (Strahd's Power Sword)",
+        "type": "weapon",
+        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/grief.webp",
+        "system": {
+            "class": "Melee",
+            "subtype": "Power Sword (Master-crafted)",
+            "damage": "1d10+12",
+            "damageType": "E",
+            "penetration": 7,
+            "special": "Power Field, Balanced",
+            "weight": 3.5,
+            "description": "Strahd's personal weapon. A master-crafted power sword of archaic Imperial design.",
+            "availability": "Unique"
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "category": "npc-weapon" } }
+    },
+    {
+        "name": "Strahd's Inferno Pistol",
+        "type": "weapon",
+        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/inferno-pistol.webp",
+        "system": {
+            "class": "Pistol",
+            "subtype": "Inferno Pistol (Integrated)",
+            "damage": "1d10+12",
+            "damageType": "E",
+            "penetration": 12,
+            "range": 10,
+            "rateOfFire": "S/-/-",
+            "clip": 3,
+            "reload": "2 Full",
+            "special": "",
+            "weight": 0,
+            "description": "Integrated into Strahd's augmented form.",
+            "availability": "Unique"
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "category": "npc-weapon" } }
+    },
+    {
+        "name": "Van Richten's Stake-Crossbow",
+        "type": "weapon",
+        "system": {
+            "class": "Basic",
+            "subtype": "Crossbow (Modified)",
+            "damage": "1d10+2",
+            "damageType": "R",
+            "penetration": 2,
+            "range": 30,
+            "rateOfFire": "S/-/-",
+            "clip": 1,
+            "reload": "2 Full",
+            "special": "Blessed, Accurate",
+            "weight": 4,
+            "description": "Van Richten's specialized weapon for hunting warp-touched entities.",
+            "availability": "Unique"
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "category": "npc-weapon" } }
+    },
+    {
+        "name": "Boarding Cutlass (Vessel of Lament)",
+        "type": "weapon",
+        "system": {
+            "class": "Melee",
+            "subtype": "Sword (Best Quality)",
+            "damage": "1d10+3",
+            "damageType": "R",
+            "penetration": 0,
+            "special": "Balanced",
+            "weight": 3,
+            "description": "A naval boarding cutlass recovered from the Vessel of Lament armory (UD6). Best Quality.",
+            "availability": "Unique"
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "category": "vessel-loot" } }
+    },
+    {
+        "name": "Naval Pistol (Vessel of Lament)",
+        "type": "weapon",
+        "system": {
+            "class": "Pistol",
+            "subtype": "Autopistol (Best Quality)",
+            "damage": "1d10+2",
+            "damageType": "I",
+            "penetration": 0,
+            "range": 30,
+            "rateOfFire": "S/-/6",
+            "clip": 18,
+            "reload": "Full",
+            "special": "",
+            "weight": 1.5,
+            "description": "A naval autopistol recovered from the Vessel of Lament armory (UD6). Best Quality, 18 rounds remaining.",
+            "availability": "Unique"
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "category": "vessel-loot" } }
+    },
+    {
+        "name": "Sanctified Mono-Knife",
+        "type": "weapon",
+        "system": {
+            "class": "Melee",
+            "subtype": "Knife (Best Quality)",
+            "damage": "1d10+2",
+            "damageType": "R",
+            "penetration": 2,
+            "special": "Sanctified",
+            "weight": 0.5,
+            "description": "A mono-knife sanctified through decades of proximity to desperate faith. Recovered from the Vessel of Lament wreckage.",
+            "availability": "Unique"
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "category": "vessel-loot" } }
+    },
+    {
+        "name": "Chaos Ritual Knife",
+        "type": "weapon",
+        "system": {
+            "class": "Melee",
+            "subtype": "Knife (Best Quality, Chaos-tainted)",
+            "damage": "1d10+3",
+            "damageType": "R",
+            "penetration": 1,
+            "special": "Chaos-tainted",
+            "weight": 0.5,
+            "description": "Curved sacrificial knife from the Vessel of Lament preparation chamber (LD5). Impossibly sharp. Carrying it inflicts 1 CP/day; WP test (Challenging) to voluntarily put it down. Glows faintly near warp entities.",
+            "availability": "Unique"
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "category": "vessel-loot", "tainted": true } }
+    }
+]

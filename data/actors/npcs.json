@@ -1,0 +1,158 @@
+[
+    {
+        "name": "Lord-Governor Strahd von Zarovich",
+        "type": "npc",
+        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/strahd.webp",
+        "system": {
+            "characteristics": {
+                "ws": { "value": 75 },
+                "bs": { "value": 60 },
+                "s": { "value": 55, "modified": 110 },
+                "t": { "value": 60, "modified": 120 },
+                "ag": { "value": 65 },
+                "int": { "value": 70 },
+                "per": { "value": 65 },
+                "wp": { "value": 80, "modified": 160 },
+                "fel": { "value": 75 }
+            },
+            "wounds": { "value": 85, "max": 85 },
+            "movement": { "half": 6, "full": 12, "charge": 18, "run": 36 },
+            "threatRating": "Dire",
+            "description": "The immortal master of Barovus. Once a decorated Imperial commander, now a warp-touched abomination sustained by centuries of dark pacts and life-draining predation. He appears as a tall, gaunt man in archaic officer's regalia, his features noble but corpse-pale, his eyes burning with cold warp-light.",
+            "notes": "Regeneration (10), Warp Phase, Domination, Life Drain, Castle Command (Lair Actions). Unkillable without Dawn's Edge + Rosette + Heart destruction. Phase 2 at 50 wounds, Phase 3 at 20 wounds.",
+            "armour": { "value": 8, "description": "Warp-infused carapace (AP 8 all locations)" }
+        },
+        "items": [],
+        "flags": { "dh2e-dread-of-zarovich": { "role": "major-npc", "act": "all" } }
+    },
+    {
+        "name": "Inquisitor Van Richten",
+        "type": "npc",
+        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/van-richten.webp",
+        "system": {
+            "characteristics": {
+                "ws": { "value": 40 },
+                "bs": { "value": 50 },
+                "s": { "value": 30 },
+                "t": { "value": 35 },
+                "ag": { "value": 35 },
+                "int": { "value": 65 },
+                "per": { "value": 55 },
+                "wp": { "value": 70 },
+                "fel": { "value": 45 }
+            },
+            "wounds": { "value": 16, "max": 16 },
+            "movement": { "half": 3, "full": 6, "charge": 9, "run": 18 },
+            "threatRating": "Challenging",
+            "description": "An elderly Ordo Malleus veteran hiding as 'Dr. Richtus' in Fortress Vallak. His face is a roadmap of scars. One eye is augmetic. He speaks with quiet authority and carries the weight of every comrade he has buried.",
+            "notes": "True value is knowledge — +20 to tests about Strahd's weaknesses, warp entities, Barovus geography. Will not charge into danger.",
+            "armour": { "value": 5, "description": "Worn carapace (AP 5 body, AP 4 limbs)" }
+        },
+        "items": [],
+        "flags": { "dh2e-dread-of-zarovich": { "role": "major-npc", "act": "2-4" } }
+    },
+    {
+        "name": "Ireena Kolyana",
+        "type": "npc",
+        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/ireena.webp",
+        "system": {
+            "characteristics": {
+                "ws": { "value": 25 },
+                "bs": { "value": 20 },
+                "s": { "value": 25 },
+                "t": { "value": 30 },
+                "ag": { "value": 35 },
+                "int": { "value": 40 },
+                "per": { "value": 50 },
+                "wp": { "value": 55 },
+                "fel": { "value": 45 }
+            },
+            "wounds": { "value": 10, "max": 10 },
+            "movement": { "half": 3, "full": 6, "charge": 9, "run": 18 },
+            "threatRating": "Non-combatant",
+            "description": "Tatyana reincarnation, emerging psyker. A young woman with dark hair and pale features. She does not know why Strahd is obsessed with her. Carries an autopistol she barely knows how to use.",
+            "notes": "Latent Psyker. Precognition (passive +10 Initiative), Empathic Reading (10m), Psychic Scream (involuntary, 5m, Stun 1 round).",
+            "armour": { "value": 0, "description": "None" }
+        },
+        "items": [],
+        "flags": { "dh2e-dread-of-zarovich": { "role": "major-npc", "act": "1-4" } }
+    },
+    {
+        "name": "Ismark Kolyana",
+        "type": "npc",
+        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/ismark.webp",
+        "system": {
+            "characteristics": {
+                "ws": { "value": 40 },
+                "bs": { "value": 35 },
+                "s": { "value": 40 },
+                "t": { "value": 40 },
+                "ag": { "value": 35 },
+                "int": { "value": 30 },
+                "per": { "value": 30 },
+                "wp": { "value": 35 },
+                "fel": { "value": 35 }
+            },
+            "wounds": { "value": 14, "max": 14 },
+            "movement": { "half": 3, "full": 6, "charge": 9, "run": 18 },
+            "threatRating": "Ordinary",
+            "description": "Ireena's brother. Ex-Imperial Guard, competent fighter, deeply protective of his sister. Practical and brave but not reckless.",
+            "notes": "Escort quest NPC. Solid melee combatant. Will fight to the death to protect Ireena.",
+            "armour": { "value": 4, "description": "Flak armour (AP 4 body and limbs)" }
+        },
+        "items": [],
+        "flags": { "dh2e-dread-of-zarovich": { "role": "major-npc", "act": "1-2" } }
+    },
+    {
+        "name": "Magos-Biologis Abaron",
+        "type": "npc",
+        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/abaron.webp",
+        "system": {
+            "characteristics": {
+                "ws": { "value": 45 },
+                "bs": { "value": 40 },
+                "s": { "value": 45 },
+                "t": { "value": 50 },
+                "ag": { "value": 30 },
+                "int": { "value": 75 },
+                "per": { "value": 45 },
+                "wp": { "value": 55 },
+                "fel": { "value": 20 }
+            },
+            "wounds": { "value": 25, "max": 25 },
+            "movement": { "half": 3, "full": 6, "charge": 9, "run": 18 },
+            "threatRating": "Dangerous",
+            "description": "Corrupted Tech-Priest at Krezk Biologis Facility. A grotesque fusion of corroded machinery and pulsing, mutated flesh. Building a 'bride' for Strahd.",
+            "notes": "Command Mongrelfolk (up to 6), Flesh-Warp (touch, mutation), Emergency Self-Repair (1d10+5 once/encounter). Only cybernetics maintenance option on Barovus.",
+            "armour": { "value": 6, "description": "Mechanical body (AP 6 all locations)" }
+        },
+        "items": [],
+        "flags": { "dh2e-dread-of-zarovich": { "role": "major-npc", "act": "2-3" } }
+    },
+    {
+        "name": "Madam Eva",
+        "type": "npc",
+        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/madam-eva.webp",
+        "system": {
+            "characteristics": {
+                "ws": { "value": 15 },
+                "bs": { "value": 15 },
+                "s": { "value": 20 },
+                "t": { "value": 30 },
+                "ag": { "value": 20 },
+                "int": { "value": 60 },
+                "per": { "value": 75 },
+                "wp": { "value": 85 },
+                "fel": { "value": 60 }
+            },
+            "wounds": { "value": 12, "max": 12 },
+            "movement": { "half": 2, "full": 4, "charge": 6, "run": 12 },
+            "threatRating": "Non-combatant",
+            "description": "Ancient Vostra matriarch and warp-seer. Blind but sees more clearly than anyone on Barovus. Immune to Strahd's Domination and all warp-based scrying.",
+            "notes": "Psyker (PR 4). True Divination (1/day), Warp Navigation (safe mist travel), Unreadable (immune to Strahd, +30 WP in 5m radius).",
+            "armour": { "value": 0, "description": "Warp-warding charms (AP 3 vs psychic only)" }
+        },
+        "items": [],
+        "flags": { "dh2e-dread-of-zarovich": { "role": "major-npc", "act": "1-4" } }
+    }
+]

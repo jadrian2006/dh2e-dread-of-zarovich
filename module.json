@@ -1,0 +1,148 @@
+{
+    "id": "dh2e-dread-of-zarovich",
+    "title": "Dread of Zarovich — A Dark Heresy 2E Campaign",
+    "description": "Campaign module adapting Curse of Strahd / I6: Ravenloft into the Warhammer 40k Dark Heresy RPG system. Contains NPCs, enemies, items, handouts, scenes, and roll tables for the complete Dread of Zarovich campaign set on the warp-sealed world of Barovus.",
+    "version": "0.1.0",
+    "compatibility": {
+        "minimum": "13.348",
+        "verified": "13.351",
+        "maximum": "13"
+    },
+    "authors": [
+        {
+            "name": "jadrian2006"
+        }
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "dh2e",
+                "type": "system",
+                "compatibility": {
+                    "minimum": "0.1.0"
+                }
+            }
+        ]
+    },
+    "styles": [
+        "styles/vox-handouts.css"
+    ],
+    "packs": [
+        {
+            "name": "npcs",
+            "label": "DoZ — Major NPCs",
+            "path": "packs/npcs",
+            "type": "Actor",
+            "system": "dh2e"
+        },
+        {
+            "name": "enemies",
+            "label": "DoZ — Enemies & Creatures",
+            "path": "packs/enemies",
+            "type": "Actor",
+            "system": "dh2e"
+        },
+        {
+            "name": "weapons",
+            "label": "DoZ — Weapons",
+            "path": "packs/weapons",
+            "type": "Item",
+            "system": "dh2e"
+        },
+        {
+            "name": "armour",
+            "label": "DoZ — Armour",
+            "path": "packs/armour",
+            "type": "Item",
+            "system": "dh2e"
+        },
+        {
+            "name": "gear",
+            "label": "DoZ — Gear & Relics",
+            "path": "packs/gear",
+            "type": "Item",
+            "system": "dh2e"
+        },
+        {
+            "name": "ammunition",
+            "label": "DoZ — Ammunition",
+            "path": "packs/ammunition",
+            "type": "Item",
+            "system": "dh2e"
+        },
+        {
+            "name": "objectives",
+            "label": "DoZ — Mission Objectives",
+            "path": "packs/objectives",
+            "type": "Item",
+            "system": "dh2e"
+        },
+        {
+            "name": "traits",
+            "label": "DoZ — Campaign Traits",
+            "path": "packs/traits",
+            "type": "Item",
+            "system": "dh2e"
+        },
+        {
+            "name": "handouts",
+            "label": "DoZ — Player Handouts",
+            "path": "packs/handouts",
+            "type": "JournalEntry"
+        },
+        {
+            "name": "locations",
+            "label": "DoZ — Location Descriptions",
+            "path": "packs/locations",
+            "type": "JournalEntry"
+        },
+        {
+            "name": "npc-profiles",
+            "label": "DoZ — NPC Profiles",
+            "path": "packs/npc-profiles",
+            "type": "JournalEntry"
+        },
+        {
+            "name": "campaign-rules",
+            "label": "DoZ — Campaign Rules",
+            "path": "packs/campaign-rules",
+            "type": "JournalEntry"
+        },
+        {
+            "name": "scenes",
+            "label": "DoZ — Scenes & Maps",
+            "path": "packs/scenes",
+            "type": "Scene"
+        },
+        {
+            "name": "tables",
+            "label": "DoZ — Roll Tables",
+            "path": "packs/tables",
+            "type": "RollTable"
+        }
+    ],
+    "packFolders": [
+        {
+            "name": "Dread of Zarovich",
+            "color": "#8b1a1a",
+            "folders": [
+                {
+                    "name": "Actors",
+                    "packs": ["npcs", "enemies"]
+                },
+                {
+                    "name": "Items",
+                    "packs": ["weapons", "armour", "gear", "ammunition", "objectives", "traits"]
+                },
+                {
+                    "name": "Journals",
+                    "packs": ["handouts", "locations", "npc-profiles", "campaign-rules"]
+                },
+                {
+                    "name": "Scenes & Tables",
+                    "packs": ["scenes", "tables"]
+                }
+            ]
+        }
+    ]
+}

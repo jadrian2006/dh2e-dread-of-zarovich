@@ -1,0 +1,168 @@
+[
+    {
+        "name": "Emperor's Tarot — Draw 1: The Ally",
+        "formula": "1d10",
+        "replacement": true,
+        "displayRoll": true,
+        "results": [
+            { "range": [1, 1], "text": "The Warrior — Ismark Kolyanovich", "flags": { "dh2e-dread-of-zarovich": { "reading": "A man burdened by a lesser name. His sword arm is true, his heart truer still." } } },
+            { "range": [2, 2], "text": "The Sage — Inquisitor Van Richten", "flags": { "dh2e-dread-of-zarovich": { "reading": "Broken but not beaten. The old hunter knows the beast's lair." } } },
+            { "range": [3, 3], "text": "The Seer — Madam Eva", "flags": { "dh2e-dread-of-zarovich": { "reading": "She who reads the threads will cut one for you — at a price." } } },
+            { "range": [4, 4], "text": "The Penitent — Kasimir Velikov", "flags": { "dh2e-dread-of-zarovich": { "reading": "Guilt drives him into the dark. His knowledge of forbidden places is unmatched." } } },
+            { "range": [5, 5], "text": "The Artificer — Davian Martikov", "flags": { "dh2e-dread-of-zarovich": { "reading": "Wings in the shadow. Eyes where you least expect. The raven family sees all." } } },
+            { "range": [6, 6], "text": "The Broken Knight — Commander Gorev", "flags": { "dh2e-dread-of-zarovich": { "reading": "Even death could not quiet his duty. The silver light endures." } } },
+            { "range": [7, 7], "text": "The Heretic — Lady Cordelia", "flags": { "dh2e-dread-of-zarovich": { "reading": "She turned from the dark path. Now she walks between worlds." } } },
+            { "range": [8, 8], "text": "The Beast-Master — Zuleika", "flags": { "dh2e-dread-of-zarovich": { "reading": "The alpha of the changed ones. She remembers what she was." } } },
+            { "range": [9, 9], "text": "The Wanderer — Ezmerelda d'Avos", "flags": { "dh2e-dread-of-zarovich": { "reading": "The monster-hunter who hunts alone. Her blade has tasted warp-blood." } } },
+            { "range": [10, 10], "text": "The Innocent — Ireena Kolyana", "flags": { "dh2e-dread-of-zarovich": { "reading": "The soul he craves is the weapon he fears. Her light burns him." } } }
+        ],
+        "flags": { "dh2e-dread-of-zarovich": { "draw": 1, "category": "ally" } }
+    },
+    {
+        "name": "Emperor's Tarot — Draw 2: Dawn's Edge Location",
+        "formula": "1d10",
+        "replacement": true,
+        "displayRoll": true,
+        "results": [
+            { "range": [1, 1], "text": "The Tomb — Sergei's Crypt, Zarovich Spire" },
+            { "range": [2, 2], "text": "The Beacon — Fallen Astartes Outpost" },
+            { "range": [3, 3], "text": "The Market — Fortress Vallak" },
+            { "range": [4, 4], "text": "The Vault — Empyrean Vault" },
+            { "range": [5, 5], "text": "The Swamp — Berez Ruins" },
+            { "range": [6, 6], "text": "The Garden — Krezk Sacred Pool" },
+            { "range": [7, 7], "text": "The Camp — Vostra Encampment" },
+            { "range": [8, 8], "text": "The Chapel — Village of Barovus" },
+            { "range": [9, 9], "text": "The Throne — Zarovich Spire, Audience Chamber" },
+            { "range": [10, 10], "text": "The Pyre — The Warp Nexus" }
+        ],
+        "flags": { "dh2e-dread-of-zarovich": { "draw": 2, "category": "artifact" } }
+    },
+    {
+        "name": "Emperor's Tarot — Draw 3: Rosette Location",
+        "formula": "1d10",
+        "replacement": true,
+        "displayRoll": true,
+        "results": [
+            { "range": [1, 1], "text": "The Crypt — Markovia's False Tomb, Zarovich Spire" },
+            { "range": [2, 2], "text": "The Garrison — Fortress Vallak Armory" },
+            { "range": [3, 3], "text": "The Laboratory — Krezk Biologis Facility" },
+            { "range": [4, 4], "text": "The Ruins — Fallen Astartes Outpost" },
+            { "range": [5, 5], "text": "The Depths — Empyrean Vault" },
+            { "range": [6, 6], "text": "The Mire — Berez Monument" },
+            { "range": [7, 7], "text": "The Cellar — Recaf Distillery" },
+            { "range": [8, 8], "text": "The Altar — Village of Barovus Chapel" },
+            { "range": [9, 9], "text": "The Study — Zarovich Spire, Strahd's Quarters" },
+            { "range": [10, 10], "text": "The Carriage — Strahd's Personal Transport" }
+        ],
+        "flags": { "dh2e-dread-of-zarovich": { "draw": 3, "category": "artifact" } }
+    },
+    {
+        "name": "Emperor's Tarot — Draw 4: Tome Location",
+        "formula": "1d10",
+        "replacement": true,
+        "displayRoll": true,
+        "results": [
+            { "range": [1, 1], "text": "The Library — Zarovich Spire, Study" },
+            { "range": [2, 2], "text": "The Attic — House of Lament wreckage" },
+            { "range": [3, 3], "text": "The Safe — Fortress Vallak, Wachter Estate" },
+            { "range": [4, 4], "text": "The Amber — Empyrean Vault" },
+            { "range": [5, 5], "text": "The Coffin — Zarovich Spire, Strahd's Tomb" },
+            { "range": [6, 6], "text": "The Hag — Berez, Lysaga's Hoard" },
+            { "range": [7, 7], "text": "The Inn — Fortress Vallak, Blue Water Inn" },
+            { "range": [8, 8], "text": "The Pool — Krezk Sacred Pool" },
+            { "range": [9, 9], "text": "The Wagon — Vostra Encampment" },
+            { "range": [10, 10], "text": "The Observation — Zarovich Spire, North Tower" }
+        ],
+        "flags": { "dh2e-dread-of-zarovich": { "draw": 4, "category": "intelligence" } }
+    },
+    {
+        "name": "Emperor's Tarot — Draw 5: Final Confrontation",
+        "formula": "1d10",
+        "replacement": true,
+        "displayRoll": true,
+        "results": [
+            { "range": [1, 1], "text": "The Throne — Audience Chamber" },
+            { "range": [2, 2], "text": "The Altar — Desecrated Chapel" },
+            { "range": [3, 3], "text": "The Tomb — The Crypts" },
+            { "range": [4, 4], "text": "The Tower — South Tower Balcony" },
+            { "range": [5, 5], "text": "The Heart — Heart Chamber" },
+            { "range": [6, 6], "text": "The Hall — Grand Entry Hall" },
+            { "range": [7, 7], "text": "The Study — Strahd's Personal Quarters" },
+            { "range": [8, 8], "text": "The Bridge — The Drawbridge" },
+            { "range": [9, 9], "text": "The Roof — Highest Parapet" },
+            { "range": [10, 10], "text": "The Vault — The Empyrean Vault" }
+        ],
+        "flags": { "dh2e-dread-of-zarovich": { "draw": 5, "category": "battlesite" } }
+    },
+    {
+        "name": "Random Encounters — Roads of Barovus",
+        "formula": "1d100",
+        "replacement": true,
+        "displayRoll": true,
+        "results": [
+            { "range": [1, 15], "text": "No Encounter — Oppressive silence, vox static that almost sounds like words." },
+            { "range": [16, 25], "text": "Vostra Caravan — 2d5 wagons. Trade, information, or passage. Commerce/Fellowship test." },
+            { "range": [26, 35], "text": "Refugee Column — 3d10 civilians. Starving, terrified. 15% chance of Strahd spy." },
+            { "range": [36, 40], "text": "Strahd's Servitor Patrol — 1d5+2 elite PDF in black carapace. Demand ID, confiscate relics." },
+            { "range": [41, 50], "text": "Warp-Mutants — 2d5 mutants. Attack on sight. 1-in-5 packs has minor psyker." },
+            { "range": [51, 57], "text": "Plague Revenants — 1d10+3 walking dead. Toxic miasma on destruction (3m, T test)." },
+            { "range": [58, 63], "text": "The Hanging Tree — 2d5 executed civilians. One twitches (alive). 30% reanimate." },
+            { "range": [64, 70], "text": "Warp Phenomena — Roll on Warp Phenomena table or select from list. 1 IP." },
+            { "range": [71, 77], "text": "Strahd's Wolves — 2d10 void-wolves. Shadow party, attack if weakened. Alpha has fear aura." },
+            { "range": [78, 83], "text": "Abandoned Vehicle — 50% supplies, 30% trap, 10% functional (2 segments fuel)." },
+            { "range": [84, 88], "text": "The Black Carriage — Strahd's personal transport. Empty. Invitation/warning/taunt note." },
+            { "range": [89, 93], "text": "Vostra Seer — Lone elder with cryptic genuine advice. Cannot be caught or harmed." },
+            { "range": [94, 98], "text": "Warp Predator — Major daemon (Daemonette/Bloodletter/Plaguebearer/Horror). Serious fight." },
+            { "range": [99, 100], "text": "Strahd Himself — In person. Does not attack first. Courteous, terrifying. Hard -20 WP or 1d5 IP." }
+        ],
+        "flags": { "dh2e-dread-of-zarovich": { "category": "encounter", "note": "Night travel: add +20 to roll" } }
+    },
+    {
+        "name": "Random Warp Phenomena",
+        "formula": "1d20",
+        "replacement": true,
+        "displayRoll": true,
+        "results": [
+            { "range": [1, 1], "text": "Temporal Echo — See yourselves from 1d10 minutes ago. Unsettling but harmless." },
+            { "range": [2, 2], "text": "Gravity Flux — Gravity shifts 45° for 1d5 rounds. Ag test or fall: 1d10+2 I." },
+            { "range": [3, 3], "text": "Whisper Storm — Personal whispers (dead loved ones, Strahd). WP test or 1 IP." },
+            { "range": [4, 4], "text": "Blood Rain — Rains blood for 1d10 minutes. WP test or 1 IP." },
+            { "range": [5, 5], "text": "Warp Mirage — Nonexistent settlement/person appears. Investigation wastes 1d5 hours." },
+            { "range": [6, 6], "text": "Corpse Light — Ghostly lights lead to danger. Per test to recognize. Following triggers encounter." },
+            { "range": [7, 7], "text": "Memory Bleed — Vivid foreign memory (Strahd's/Tatyana's/victim's). WP test or confused 1 round." },
+            { "range": [8, 8], "text": "The Silence — All sound ceases 1d10 rounds. Vox fails. Psyker powers +10, Perils on any doubles." },
+            { "range": [9, 9], "text": "Doppelganger — One Acolyte splits in two. Hostile copy (half wounds) attacks 1d5 rounds." },
+            { "range": [10, 10], "text": "Warp Quake — Ground shakes. Ag test or prone. Structures may crack." },
+            { "range": [11, 11], "text": "Emotional Surge — Overwhelming emotion (d6 type). WP test or act on it 1d5 rounds. 1 CP." },
+            { "range": [12, 12], "text": "Fleshwarp Wind — T test or minor cosmetic mutation. 1 CP." },
+            { "range": [13, 13], "text": "Clock Stop — Chronometers stop/reverse. 1d10 hours pass unnoticed." },
+            { "range": [14, 14], "text": "Ghost Procession — Translucent dead march past. Non-interactive. 1 IP." },
+            { "range": [15, 15], "text": "Vox Broadcast — All vox devices broadcast Strahd commenting on Acolytes' current actions." },
+            { "range": [16, 16], "text": "Warp Bloom — Flora explodes in 20m (teeth-flowers, eye-bark). Difficult terrain. 1 CP." },
+            { "range": [17, 17], "text": "The Fog Thickens — Visibility 5m for 1d10 hours. All Per tests at -20." },
+            { "range": [18, 18], "text": "Psychic Scream — Psykers: 1d5 damage + WP test or stunned. Non-psykers: whisper." },
+            { "range": [19, 19], "text": "Reality Thin Spot — Warp visible 1d5 rounds. WP test or 1d5 IP. Psykers +20 powers but Perils on doubles." },
+            { "range": [20, 20], "text": "Strahd's Attention — Servitor-skull descends, observes 1 minute, reports. He now knows everything." }
+        ],
+        "flags": { "dh2e-dread-of-zarovich": { "category": "phenomena" } }
+    },
+    {
+        "name": "Strahd Intervention Actions",
+        "formula": "1d10",
+        "replacement": true,
+        "displayRoll": true,
+        "results": [
+            { "range": [1, 1], "text": "Observation — A servitor-skull appears, watches, and departs. Strahd gathers intelligence." },
+            { "range": [2, 2], "text": "Gift — Supplies appear at the Acolytes' camp. A note reads: 'You will need this. — S.'" },
+            { "range": [3, 3], "text": "Weather — The weather shifts to match Strahd's mood. Storms if angry, eerie calm if amused." },
+            { "range": [4, 4], "text": "Agent — An NPC the Acolytes trust is revealed to be reporting to Strahd. Or was always his." },
+            { "range": [5, 5], "text": "Invitation — A formal letter arrives via Black Carriage. Dinner at the Spire. Attendance expected." },
+            { "range": [6, 6], "text": "Demonstration — Strahd destroys something the Acolytes value (a safe house, an ally's home) to demonstrate his reach." },
+            { "range": [7, 7], "text": "Conversation — Strahd appears in person for a 'chat.' He is polite, terrifying, and genuine." },
+            { "range": [8, 8], "text": "Test — Strahd sends a challenging enemy (Warp-Thrall squad, daemon) to test the Acolytes' strength." },
+            { "range": [9, 9], "text": "Information — Strahd provides genuine, useful intelligence about a rival or obstacle. Because it amuses him." },
+            { "range": [10, 10], "text": "Abduction — Strahd takes someone (Ireena, an ally, a settlement leader). Ransom: complete a task for him." }
+        ],
+        "flags": { "dh2e-dread-of-zarovich": { "category": "gm-tool" } }
+    }
+]

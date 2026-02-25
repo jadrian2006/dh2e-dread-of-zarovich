@@ -1,0 +1,290 @@
+/* =============================================================================
+   Dread of Zarovich — Handout Styles
+   Two themed presentations for player handouts:
+   1. .doz-vox-transmission  — Green-on-black CRT terminal (Inquisitorial docs)
+   2. .doz-parchment         — Aged paper (Strahd's personal correspondence)
+   ============================================================================= */
+
+/* ---------------------------------------------------------------------------
+   VOX TRANSMISSION — CRT Terminal Style
+   --------------------------------------------------------------------------- */
+
+.doz-vox-transmission {
+    background: #0a0e0a;
+    color: #33ff33;
+    font-family: "Courier New", "Lucida Console", "Consolas", monospace;
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 2em;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #1a3a1a;
+    border-radius: 4px;
+}
+
+/* Scanline overlay */
+.doz-vox-transmission::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: repeating-linear-gradient(
+        to bottom,
+        transparent 0px,
+        transparent 2px,
+        rgba(0, 0, 0, 0.15) 2px,
+        rgba(0, 0, 0, 0.15) 4px
+    );
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* CRT screen glow */
+.doz-vox-transmission::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(
+        ellipse at center,
+        rgba(51, 255, 51, 0.06) 0%,
+        transparent 70%
+    );
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* Ensure content sits above overlays */
+.doz-vox-transmission > * {
+    position: relative;
+    z-index: 2;
+}
+
+/* --- Vox sub-elements --- */
+
+.doz-vox-transmission .vox-header {
+    border-bottom: 1px solid #1a5a1a;
+    padding-bottom: 0.8em;
+    margin-bottom: 1em;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #44ff44;
+}
+
+.doz-vox-transmission .vox-classification {
+    display: inline-block;
+    background: #33ff33;
+    color: #0a0e0a;
+    padding: 2px 8px;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+
+.doz-vox-transmission .vox-body {
+    margin: 1em 0;
+    white-space: pre-wrap;
+}
+
+.doz-vox-transmission .vox-body p {
+    margin: 0.5em 0;
+    color: #33ff33;
+}
+
+.doz-vox-transmission .vox-footer {
+    border-top: 1px solid #1a5a1a;
+    padding-top: 0.8em;
+    margin-top: 1em;
+    font-size: 12px;
+    color: #22aa22;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.doz-vox-transmission .vox-seal {
+    text-align: center;
+    margin-top: 1.5em;
+    font-size: 24px;
+    color: #44ff44;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+/* Redacted text — blacked out */
+.doz-vox-transmission .vox-redacted {
+    background: #33ff33;
+    color: #33ff33;
+    padding: 0 4px;
+    user-select: none;
+    cursor: not-allowed;
+}
+
+/* Corrupted signal — garbled text effect */
+.doz-vox-transmission .vox-corrupt {
+    color: #ff3333;
+    font-style: italic;
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+/* Signal strength indicator */
+.doz-vox-transmission .vox-signal {
+    float: right;
+    font-size: 11px;
+    color: #22aa22;
+}
+
+/* Timestamp styling */
+.doz-vox-transmission .vox-timestamp {
+    font-size: 11px;
+    color: #1a8a1a;
+    margin-bottom: 0.3em;
+}
+
+/* ---------------------------------------------------------------------------
+   PARCHMENT — Aged Paper Style
+   --------------------------------------------------------------------------- */
+
+.doz-parchment {
+    background: linear-gradient(
+        135deg,
+        #f4e4c1 0%,
+        #e8d5a3 25%,
+        #f0deb5 50%,
+        #e5d09a 75%,
+        #f2e0b0 100%
+    );
+    color: #2a1a0a;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", serif;
+    font-size: 15px;
+    line-height: 1.8;
+    padding: 2.5em;
+    position: relative;
+    border: 1px solid #c4a86a;
+    border-radius: 2px;
+    box-shadow:
+        inset 0 0 40px rgba(139, 109, 56, 0.15),
+        2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Aged paper texture overlay */
+.doz-parchment::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:
+        radial-gradient(ellipse at 20% 80%, rgba(139, 90, 43, 0.08) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 20%, rgba(139, 90, 43, 0.06) 0%, transparent 50%),
+        radial-gradient(ellipse at 50% 50%, rgba(139, 90, 43, 0.03) 0%, transparent 70%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* Ensure content sits above overlay */
+.doz-parchment > * {
+    position: relative;
+    z-index: 1;
+}
+
+/* --- Parchment sub-elements --- */
+
+.doz-parchment .parchment-seal {
+    text-align: center;
+    margin-bottom: 1.5em;
+    font-size: 28px;
+    color: #8b1a1a;
+    letter-spacing: 2px;
+}
+
+.doz-parchment .parchment-seal::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 0.5em auto 0;
+    border-radius: 50%;
+    background: radial-gradient(
+        circle,
+        #a02020 0%,
+        #8b1a1a 40%,
+        #6a1010 100%
+    );
+    box-shadow:
+        0 2px 4px rgba(0, 0, 0, 0.3),
+        inset 0 1px 2px rgba(255, 255, 255, 0.15);
+}
+
+.doz-parchment .parchment-body {
+    margin: 1em 0;
+    text-indent: 1.5em;
+}
+
+.doz-parchment .parchment-body p {
+    margin: 0.8em 0;
+    color: #2a1a0a;
+}
+
+.doz-parchment .parchment-body p:first-child::first-letter {
+    font-size: 2.5em;
+    float: left;
+    line-height: 1;
+    margin-right: 0.1em;
+    color: #8b1a1a;
+    font-weight: bold;
+}
+
+.doz-parchment .parchment-signature {
+    text-align: right;
+    margin-top: 2em;
+    font-style: italic;
+    font-size: 17px;
+    color: #3a2a1a;
+}
+
+.doz-parchment .parchment-signature::before {
+    content: "— ";
+}
+
+/* Faded or damaged text on parchment */
+.doz-parchment .parchment-faded {
+    opacity: 0.4;
+    font-style: italic;
+}
+
+/* Marginalia — handwritten notes in the margins */
+.doz-parchment .parchment-marginalia {
+    font-size: 12px;
+    color: #5a3a1a;
+    font-style: italic;
+    border-left: 2px solid #c4a86a;
+    padding-left: 0.8em;
+    margin: 0.5em 0 0.5em 2em;
+}
+
+/* Blood stain effect */
+.doz-parchment .parchment-bloodstain {
+    color: #6a1010;
+    font-weight: bold;
+}
+
+/* Wax seal inline */
+.doz-parchment .parchment-wax-inline {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #8b1a1a;
+    vertical-align: middle;
+    margin: 0 4px;
+}

@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Lord-Governor Strahd von Zarovich",
+        "pages": [{ "name": "Profile", "type": "text", "text": { "format": 1, "content": "<p><strong>Strahd von Zarovich</strong> — The immortal master of Barovus. Warp-touched predator sustained by a pact with a Daemon Prince of Slaanesh. Appears as a tall, gaunt man in archaic officer's regalia. Cultured, polite, menacing. Bored after four centuries. Treats the Acolytes as entertainment. Obsessed with Tatyana/Ireena. Unkillable without Dawn's Edge + Rosette + Heart destruction + coffin destruction.</p><p><em>Personality:</em> BORED. Erudite, courteous, and terrifying. He does not threaten — the threat is implicit. He respects tenacity and despises weakness.</p>" } }],
+        "flags": { "dh2e-dread-of-zarovich": { "role": "antagonist" } }
+    },
+    {
+        "name": "Ireena Kolyana",
+        "pages": [{ "name": "Profile", "type": "text", "text": { "format": 1, "content": "<p><strong>Ireena Kolyana</strong> — Tatyana reincarnation, emerging latent psyker. Daughter of the late Burgomaster of Barovus Village. Dark hair, pale features. Does not know why Strahd is obsessed with her. Non-combatant escort NPC. Her fate is one of the campaign's central narrative threads (4 possible endings).</p><p><em>Personality:</em> Quiet resolve beneath fragile appearance. Increasingly aware of her psychic gifts. Haunted by dreams she doesn't understand.</p>" } }],
+        "flags": { "dh2e-dread-of-zarovich": { "role": "escort-npc" } }
+    },
+    {
+        "name": "Ismark Kolyana",
+        "pages": [{ "name": "Profile", "type": "text", "text": { "format": 1, "content": "<p><strong>Ismark Kolyana</strong> — Ireena's brother, ex-Imperial Guard. Competent fighter, deeply protective. Practical, brave, but not reckless. Accompanies the party as escort for Ireena during Act I-II.</p>" } }],
+        "flags": { "dh2e-dread-of-zarovich": { "role": "ally-npc" } }
+    },
+    {
+        "name": "Madam Eva",
+        "pages": [{ "name": "Profile", "type": "text", "text": { "format": 1, "content": "<p><strong>Madam Eva</strong> — Ancient Vostra matriarch, warp-seer, Psy Rating 4. Blind but sees more than anyone. Reads the Emperor's Tarot in Act I. Immune to Strahd's powers. Speaks in riddles or terrifying clarity. Her relationship with Strahd is ambiguous — she serves him yet also aids those who oppose him.</p>" } }],
+        "flags": { "dh2e-dread-of-zarovich": { "role": "quest-npc" } }
+    },
+    {
+        "name": "Inquisitor Van Richten",
+        "pages": [{ "name": "Profile", "type": "text", "text": { "format": 1, "content": "<p><strong>Inquisitor Van Richten</strong> — Ordo Malleus veteran hiding as 'Dr. Richtus' in Fortress Vallak. 27 years studying Strahd. Too old and damaged to fight directly. His value is intelligence: +20 to tests about Strahd's weaknesses. Cautious strategist. Carries blessed ammunition and hexagrammic wards.</p>" } }],
+        "flags": { "dh2e-dread-of-zarovich": { "role": "ally-npc" } }
+    },
+    {
+        "name": "Magos-Biologis Abaron",
+        "pages": [{ "name": "Profile", "type": "text", "text": { "format": 1, "content": "<p><strong>Magos-Biologis Abaron</strong> — Corrupted Tech-Priest at Krezk. Grotesque fusion of machinery and mutated flesh. Building a 'bride' for Strahd from biological components. Commands Mongrelfolk via implants. The only individual on Barovus who can maintain cybernetics — at escalating moral cost (1d5 CP per visit).</p>" } }],
+        "flags": { "dh2e-dread-of-zarovich": { "role": "ambiguous-npc" } }
+    },
+    {
+        "name": "Baba Lysaga — The Warp-Hag",
+        "pages": [{ "name": "Profile", "type": "text", "text": { "format": 1, "content": "<p><strong>Baba Lysaga</strong> — Psy Rating 7 warp-hag in Berez. Ancient beyond biology, sustained by warp-infusion. Considers herself Strahd's true mother. Fights from inside a walking hab-unit (SI 30, AP 20). Boss encounter. Holds the second sacred seed.</p>" } }],
+        "flags": { "dh2e-dread-of-zarovich": { "role": "boss-npc" } }
+    },
+    {
+        "name": "Burgomaster Vallakovich",
+        "pages": [{ "name": "Profile", "type": "text", "text": { "format": 1, "content": "<p><strong>Burgomaster Vallakovich</strong> — Paranoid commander of Fortress Vallak. Enforces mandatory 'Festivals of Joy' and 'ALL IS WELL' propaganda. Oppressive but not evil — genuinely believes forced happiness wards off the darkness. His regime is cracking under the strain.</p>" } }],
+        "flags": { "dh2e-dread-of-zarovich": { "role": "political-npc" } }
+    },
+    {
+        "name": "Lady Fiona Wachter",
+        "pages": [{ "name": "Profile", "type": "text", "text": { "format": 1, "content": "<p><strong>Lady Fiona Wachter</strong> — Secret Chaos cultist in Fortress Vallak. Outwardly respectable, inwardly devoted to Strahd. Runs a Slaaneshi cult cell from her estate. Seeks to overthrow Vallakovich and install herself as puppet governor under Strahd's direct rule.</p>" } }],
+        "flags": { "dh2e-dread-of-zarovich": { "role": "antagonist-npc" } }
+    }
+]

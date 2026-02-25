@@ -1,0 +1,210 @@
+[
+    {
+        "name": "Plague Revenant",
+        "type": "npc",
+        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/plague-revenant.webp",
+        "system": {
+            "characteristics": {
+                "ws": { "value": 25 },
+                "bs": { "value": 0 },
+                "s": { "value": 30 },
+                "t": { "value": 40 },
+                "ag": { "value": 15 },
+                "int": { "value": 0 },
+                "per": { "value": 20 },
+                "wp": { "value": 20 },
+                "fel": { "value": 0 }
+            },
+            "wounds": { "value": 15, "max": 15 },
+            "movement": { "half": 1, "full": 2, "charge": 3, "run": 6 },
+            "threatRating": "Ordinary",
+            "description": "Warp-reanimated corpse, swollen with toxic gases. Shamble in groups, drawn to the warmth of living flesh.",
+            "notes": "Undying (ignore crit on 1-5, destroyed by fire/holy/head), Shambling (no Run, always last), Mindless (immune to Fear/Pinning/mental), Toxic (T test or +1d10 damage ignoring armour).",
+            "armour": { "value": 2, "description": "Rotting flesh (AP 2 all)" }
+        },
+        "items": [],
+        "flags": { "dh2e-dread-of-zarovich": { "category": "undead" } }
+    },
+    {
+        "name": "Warp-Thrall",
+        "type": "npc",
+        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/warp-thrall.webp",
+        "system": {
+            "characteristics": {
+                "ws": { "value": 45 },
+                "bs": { "value": 30 },
+                "s": { "value": 45, "modified": 90 },
+                "t": { "value": 40 },
+                "ag": { "value": 50 },
+                "int": { "value": 30 },
+                "per": { "value": 35 },
+                "wp": { "value": 30 },
+                "fel": { "value": 25 }
+            },
+            "wounds": { "value": 20, "max": 20 },
+            "movement": { "half": 5, "full": 10, "charge": 15, "run": 30 },
+            "threatRating": "Challenging",
+            "description": "Those drained by Strahd become pale, predatory things — faster and stronger than any human, slavishly devoted to their master.",
+            "notes": "Life Drain (Bite heals equal damage), Dominated (Strahd sees through senses), Regeneration (3, negated by holy/silver), Holy Symbol weakness (flee 1d5 rounds on failed WP).",
+            "armour": { "value": 2, "description": "Scrounged flak (AP 2-3 varies)" }
+        },
+        "items": [],
+        "flags": { "dh2e-dread-of-zarovich": { "category": "warp-touched" } }
+    },
+    {
+        "name": "Warp-Mutant",
+        "type": "npc",
+        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/warp-mutant.webp",
+        "system": {
+            "characteristics": {
+                "ws": { "value": 50 },
+                "bs": { "value": 15 },
+                "s": { "value": 50, "modified": 100 },
+                "t": { "value": 45 },
+                "ag": { "value": 40 },
+                "int": { "value": 15 },
+                "per": { "value": 35 },
+                "wp": { "value": 25 },
+                "fel": { "value": 10 }
+            },
+            "wounds": { "value": 18, "max": 18 },
+            "movement": { "half": 4, "full": 8, "charge": 12, "run": 24 },
+            "threatRating": "Challenging",
+            "description": "Humans warped beyond recognition by warp exposure. Hunched, bestial things with elongated limbs, jutting bone spurs, and too many teeth.",
+            "notes": "Pack Tactics (+10 WS per ally engaged, max +30), Bestial (immune Fear/Pinning, no ranged/complex tasks), Silver Vulnerability (+2 damage, WP test or disengage).",
+            "armour": { "value": 2, "description": "Matted hide (Natural Armor AP 2 all)" }
+        },
+        "items": [],
+        "flags": { "dh2e-dread-of-zarovich": { "category": "mutant" } }
+    },
+    {
+        "name": "Gargoyle-Servitor",
+        "type": "npc",
+        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/gargoyle-servitor.webp",
+        "system": {
+            "characteristics": {
+                "ws": { "value": 35 },
+                "bs": { "value": 0 },
+                "s": { "value": 50, "modified": 100 },
+                "t": { "value": 55, "modified": 110 },
+                "ag": { "value": 20 },
+                "int": { "value": 10 },
+                "per": { "value": 30 },
+                "wp": { "value": 30 },
+                "fel": { "value": 0 }
+            },
+            "wounds": { "value": 25, "max": 25 },
+            "movement": { "half": 2, "full": 4, "charge": 6, "run": 12 },
+            "threatRating": "Challenging",
+            "description": "Stone constructs animated by warp energy, perching motionless as architectural decoration until activated. The grinding of stone on stone is the only warning.",
+            "notes": "Dormant (Hard -20 to detect), Machine (4, reduces all damage by 4), Swooping Attack (+2d10 on flying charge), Flyer (6). Activated by Strahd or proximity.",
+            "armour": { "value": 8, "description": "Stone body (AP 8 all)" }
+        },
+        "items": [],
+        "flags": { "dh2e-dread-of-zarovich": { "category": "construct" } }
+    },
+    {
+        "name": "Malfunctioning Servitor",
+        "type": "npc",
+        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/malfunctioning-servitor.webp",
+        "system": {
+            "characteristics": {
+                "ws": { "value": 30 },
+                "bs": { "value": 30 },
+                "s": { "value": 35 },
+                "t": { "value": 40 },
+                "ag": { "value": 20 },
+                "int": { "value": 15 },
+                "per": { "value": 25 },
+                "wp": { "value": 15 },
+                "fel": { "value": 0 }
+            },
+            "wounds": { "value": 12, "max": 12 },
+            "movement": { "half": 2, "full": 4, "charge": 6, "run": 12 },
+            "threatRating": "Ordinary",
+            "description": "Standard Imperial servitors with warp-corroded programming. Wander corridors repeating fragments of old tasks, lashing out when damaged logic-engines misidentify threats.",
+            "notes": "Erratic behavior (d10 each turn: 1-3 attack nearest, 4-6 repeat last action, 7-8 wander, 9-10 shutdown). Machine (2).",
+            "armour": { "value": 4, "description": "Metal frame (AP 4 body)" }
+        },
+        "items": [],
+        "flags": { "dh2e-dread-of-zarovich": { "category": "construct" } }
+    },
+    {
+        "name": "Lesser Warp-Daemon",
+        "type": "npc",
+        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/lesser-daemon.webp",
+        "system": {
+            "characteristics": {
+                "ws": { "value": 40 },
+                "bs": { "value": 30 },
+                "s": { "value": 40 },
+                "t": { "value": 35 },
+                "ag": { "value": 45 },
+                "int": { "value": 30 },
+                "per": { "value": 35 },
+                "wp": { "value": 40 },
+                "fel": { "value": 20 }
+            },
+            "wounds": { "value": 15, "max": 15 },
+            "movement": { "half": 4, "full": 8, "charge": 12, "run": 24 },
+            "threatRating": "Challenging",
+            "description": "Minor daemonic entities manifesting as shifting, semi-translucent shapes — part smoke, part malice. Their claws are all too solid.",
+            "notes": "Daemonic (TB +4 vs non-blessed, mundane weapons deal min damage), Warp Weapon (claws ignore non-warded armour), Warp Instability.",
+            "armour": { "value": 0, "description": "None (Daemonic trait)" }
+        },
+        "items": [],
+        "flags": { "dh2e-dread-of-zarovich": { "category": "daemon" } }
+    },
+    {
+        "name": "Warp-Hound",
+        "type": "npc",
+        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/warp-hound.webp",
+        "system": {
+            "characteristics": {
+                "ws": { "value": 40 },
+                "bs": { "value": 0 },
+                "s": { "value": 35 },
+                "t": { "value": 30 },
+                "ag": { "value": 50 },
+                "int": { "value": 15 },
+                "per": { "value": 45 },
+                "wp": { "value": 25 },
+                "fel": { "value": 0 }
+            },
+            "wounds": { "value": 12, "max": 12 },
+            "movement": { "half": 6, "full": 12, "charge": 18, "run": 36 },
+            "threatRating": "Ordinary",
+            "description": "Lean, wolf-like predators with eyes that glow with psychic luminescence. Drawn to psychic energy.",
+            "notes": "Quadruped (double movement), Psychic Scent (detect psykers 1km, +30 tracking), Pack Coordination (4+ hounds, free Trip attempt).",
+            "armour": { "value": 0, "description": "None" }
+        },
+        "items": [],
+        "flags": { "dh2e-dread-of-zarovich": { "category": "beast" } }
+    },
+    {
+        "name": "Mongrelfolk",
+        "type": "npc",
+        "img": "modules/dh2e-dread-of-zarovich/assets/tokens/mongrelfolk.webp",
+        "system": {
+            "characteristics": {
+                "ws": { "value": 28 },
+                "bs": { "value": 20 },
+                "s": { "value": 32 },
+                "t": { "value": 35 },
+                "ag": { "value": 28 },
+                "int": { "value": 22 },
+                "per": { "value": 32 },
+                "wp": { "value": 25 },
+                "fel": { "value": 10 }
+            },
+            "wounds": { "value": 12, "max": 12 },
+            "movement": { "half": 3, "full": 6, "charge": 9, "run": 18 },
+            "threatRating": "Minion",
+            "description": "Abaron's experimental subjects — forcibly augmented and mutated through crude bionics, warp exposure, and biological manipulation. No two look alike. Most are pitiable rather than threatening.",
+            "notes": "Characteristics vary (listed are median values, roll within ranges per appendix). Controlled by Abaron via compliance implants. Become confused and non-hostile if Abaron is killed.",
+            "armour": { "value": 2, "description": "Built-in metal plates (AP 2-4 varies)" }
+        },
+        "items": [],
+        "flags": { "dh2e-dread-of-zarovich": { "category": "mutant" } }
+    }
+]

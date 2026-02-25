@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Strahd's Warp-Infused Carapace",
+        "type": "armour",
+        "system": {
+            "ap": { "head": 8, "body": 8, "leftArm": 8, "rightArm": 8, "leftLeg": 8, "rightLeg": 8 },
+            "weight": 15,
+            "description": "Strahd's personal armour. Warp-infused carapace, AP 8 all locations.",
+            "availability": "Unique"
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "category": "npc-gear" } }
+    },
+    {
+        "name": "Carapace Chest Plate (Munitorum Transport)",
+        "type": "armour",
+        "system": {
+            "ap": { "head": 0, "body": 6, "leftArm": 0, "rightArm": 0, "leftLeg": 0, "rightLeg": 0 },
+            "weight": 7,
+            "description": "Officer-grade carapace chest plate salvaged from the Crashed Munitorum Transport. AP 6 to Body location.",
+            "availability": "Unique"
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "category": "transport-loot" } }
+    },
+    {
+        "name": "Flak Armour Set (Munitorum Transport)",
+        "type": "armour",
+        "system": {
+            "ap": { "head": 0, "body": 4, "leftArm": 4, "rightArm": 4, "leftLeg": 4, "rightLeg": 4 },
+            "weight": 8,
+            "description": "Standard Imperial Guard flak armour salvaged from the Crashed Munitorum Transport. 2 sets available.",
+            "availability": "Scarce"
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "category": "transport-loot" } }
+    },
+    {
+        "name": "Elite Guard Carapace Armour",
+        "type": "armour",
+        "system": {
+            "ap": { "head": 6, "body": 6, "leftArm": 6, "rightArm": 6, "leftLeg": 6, "rightLeg": 6 },
+            "weight": 15,
+            "description": "Archaic carapace armour maintained over centuries, worn by Strahd's Elite Guard. Bearing the Zarovich crest.",
+            "availability": "Very Rare"
+        },
+        "flags": { "dh2e-dread-of-zarovich": { "category": "npc-gear" } }
+    }
+]

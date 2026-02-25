@@ -84,6 +84,7 @@ async function buildPack(packDef) {
         keyEncoding: "utf8",
         valueEncoding: "json",
     });
+    await db.open();
 
     let count = 0;
     const batch = db.batch();
@@ -156,6 +157,7 @@ async function buildScenesPack() {
         keyEncoding: "utf8",
         valueEncoding: "json",
     });
+    await db.open();
 
     let count = 0;
     const batch = db.batch();

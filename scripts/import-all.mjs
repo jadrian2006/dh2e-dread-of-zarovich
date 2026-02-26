@@ -2,7 +2,7 @@
  * Dread of Zarovich — One-click import for all compendium content.
  *
  * On first activation, presents the GM with a dialog to import all
- * 110 entries across 14 packs into the world, organized into folders.
+ * 114 entries across 14 packs into the world, organized into folders.
  * If content was already imported without folders, offers to organize it.
  */
 
@@ -82,7 +82,7 @@ function showImportDialog() {
         content: `
             <div style="margin-bottom: 12px;">
                 <p>Import all <strong>Dread of Zarovich</strong> campaign content into this world?</p>
-                <p>This will create <strong>113 entries</strong> across 14 compendium packs,
+                <p>This will create <strong>114 entries</strong> across 14 compendium packs,
                 organized into labelled folders:</p>
                 <ul style="columns: 2; margin-top: 4px; font-size: 12px;">
                     <li>7 Major NPCs</li>
@@ -94,7 +94,7 @@ function showImportDialog() {
                     <li>6 Mission Objectives</li>
                     <li>5 Campaign Traits</li>
                     <li>7 Player Handouts</li>
-                    <li>11 Location entries</li>
+                    <li>12 Location entries</li>
                     <li>9 NPC Profiles</li>
                     <li>2 Campaign Rules</li>
                     <li>19 Scene templates</li>
@@ -132,7 +132,7 @@ function showOrganizeDialog() {
                 <p>Your <strong>Dread of Zarovich</strong> content was imported without
                 folder organization.</p>
                 <p>This will create a <strong>\u201CDread of Zarovich\u201D</strong> folder tree
-                in each sidebar tab and move all 113 imported documents into the
+                in each sidebar tab and move all 114 imported documents into the
                 appropriate sub-folders. No documents will be deleted or modified
                 \u2014 only sorted.</p>
             </div>`,

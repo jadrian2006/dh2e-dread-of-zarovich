@@ -8,6 +8,6 @@
         "build": "node scripts/build-packs.mjs"
     },
     "dependencies": {
-        "classic-level": "^2.0.0"
+        "classic-level": "^1.4.1"
     }
 }

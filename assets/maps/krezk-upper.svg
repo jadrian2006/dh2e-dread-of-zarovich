@@ -97,5 +97,26 @@
   <rect x="2485" y="1185" width="30" height="30" fill="none" stroke="#88cc88" stroke-width="1" />
   <polygon points="2500,1210 2492,1195 2508,1195" fill="#88cc88" opacity="0.6" />
   <text x="2500" y="1228" fill="#88cc88" font-size="9" text-anchor="middle" font-family="monospace" opacity="0.6">Stairs Down</text>
+  <rect x="1620" y="1200" width="60" height="200" fill="#1a2a1a" stroke="#051005" stroke-width="2" />
+  <rect x="1500" y="1400" width="300" height="200" fill="#1a2a1a" stroke="#051005" stroke-width="3" />
+  <text x="1650" y="1492" fill="#88cc88" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Decontamination</text>
+  <text x="1650" y="1510" fill="#88cc88" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Bay</text>
+  <rect x="1640" y="1396" width="20" height="8" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="1900" y="1400" width="300" height="250" fill="#1a2a1a" stroke="#051005" stroke-width="3" />
+  <text x="2050" y="1517" fill="#88cc88" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Chemical</text>
+  <text x="2050" y="1535" fill="#88cc88" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Disposal</text>
+  <circle cx="2050" cy="1400" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
+  <rect x="400" y="1800" width="300" height="250" fill="#1a2a1a" stroke="#051005" stroke-width="3" />
+  <text x="550" y="1925" fill="#88cc88" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Generator Room</text>
+  <rect x="540" y="1796" width="20" height="8" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="2400" y="400" width="300" height="300" fill="#1a2a1a" stroke="#051005" stroke-width="3" />
+  <text x="2550" y="542" fill="#88cc88" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Equipment</text>
+  <text x="2550" y="560" fill="#88cc88" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Closet</text>
+  <rect x="2396" y="540" width="8" height="20" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="1100" y="1700" width="300" height="200" fill="#1a2a1a" stroke="#051005" stroke-width="3" />
+  <text x="1250" y="1800" fill="#88cc88" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Empty Ward</text>
+  <rect x="1238" y="1695" width="24" height="10" fill="#555544" stroke="#887766" stroke-width="1" />
+  <line x1="1242" y1="1696" x2="1258" y2="1704" stroke="#aa8866" stroke-width="2" />
+  <line x1="1258" y1="1696" x2="1242" y2="1704" stroke="#aa8866" stroke-width="2" />
   <text x="2980" y="2485" fill="#ffffff" font-size="20" text-anchor="end" font-family="monospace" opacity="0.15">Krezk Upper Floor</text>
 </svg>

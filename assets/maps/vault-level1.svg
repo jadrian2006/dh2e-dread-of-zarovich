@@ -146,5 +146,27 @@
   <line x1="1310" y1="900" x2="1490" y2="900" stroke="#d4a846" stroke-width="1" opacity="0.3" />
   <line x1="1400" y1="810" x2="1400" y2="990" stroke="#d4a846" stroke-width="1" opacity="0.3" />
   <circle cx="1400" cy="900" r="30" fill="none" stroke="#d4a846" stroke-width="1" opacity="0.4" stroke-dasharray="4,3" />
+  <rect x="2175" y="1100" width="50" height="650" fill="#151535" stroke="#050518" stroke-width="2" />
+  <rect x="1375" y="1750" width="50" height="550" fill="#151535" stroke="#050518" stroke-width="2" />
+  <rect x="500" y="500" width="300" height="250" fill="#151535" stroke="#050518" stroke-width="3" />
+  <text x="650" y="625" fill="#a0a0d0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Sealed Chamber</text>
+  <circle cx="650" cy="750" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
+  <rect x="700" y="2300" width="300" height="250" fill="#151535" stroke="#050518" stroke-width="3" />
+  <text x="850" y="2425" fill="#a0a0d0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Data Node</text>
+  <circle cx="850" cy="2300" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
+  <rect x="2800" y="900" width="250" height="200" fill="#151535" stroke="#050518" stroke-width="3" />
+  <text x="2925" y="1000" fill="#a0a0d0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Energy Conduit</text>
+  <rect x="2796" y="990" width="8" height="20" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="3600" y="2200" width="250" height="200" fill="#151535" stroke="#050518" stroke-width="3" />
+  <text x="3725" y="2292" fill="#a0a0d0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Dormant</text>
+  <text x="3725" y="2310" fill="#a0a0d0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Guardian</text>
+  <circle cx="3725" cy="2200" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
+  <rect x="1400" y="2300" width="300" height="200" fill="#151535" stroke="#050518" stroke-width="3" />
+  <text x="1550" y="2392" fill="#a0a0d0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Containment</text>
+  <text x="1550" y="2410" fill="#a0a0d0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Alcove</text>
+  <circle cx="1550" cy="2300" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
+  <rect x="3200" y="500" width="250" height="200" fill="#151535" stroke="#050518" stroke-width="3" />
+  <text x="3325" y="600" fill="#a0a0d0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Sealed Reliquary</text>
+  <circle cx="3325" cy="700" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
   <text x="4480" y="3485" fill="#ffffff" font-size="20" text-anchor="end" font-family="monospace" opacity="0.15">Empyrean Vault L1</text>
 </svg>

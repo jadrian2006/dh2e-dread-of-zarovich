@@ -5,22 +5,77 @@
         "img": "modules/dh2e-dread-of-zarovich/assets/tokens/plague-revenant.svg",
         "system": {
             "characteristics": {
-                "ws": { "value": 25 },
-                "bs": { "value": 0 },
-                "s": { "value": 30 },
-                "t": { "value": 40 },
-                "ag": { "value": 15 },
-                "int": { "value": 0 },
-                "per": { "value": 20 },
-                "wp": { "value": 20 },
-                "fel": { "value": 0 }
+                "ws": {
+                    "base": 25,
+                    "advances": 0
+                },
+                "bs": {
+                    "base": 0,
+                    "advances": 0
+                },
+                "s": {
+                    "base": 30,
+                    "advances": 0
+                },
+                "t": {
+                    "base": 40,
+                    "advances": 0
+                },
+                "ag": {
+                    "base": 15,
+                    "advances": 0
+                },
+                "int": {
+                    "base": 0,
+                    "advances": 0
+                },
+                "per": {
+                    "base": 20,
+                    "advances": 0
+                },
+                "wp": {
+                    "base": 20,
+                    "advances": 0
+                },
+                "fel": {
+                    "base": 0,
+                    "advances": 0
+                }
             },
-            "wounds": { "value": 15, "max": 15 },
-            "movement": { "half": 1, "full": 2, "charge": 3, "run": 6 },
-            "threatRating": "Ordinary (Dangerous in groups of 6+)",
+            "wounds": {
+                "value": 15,
+                "max": 15
+            },
             "description": "Warp-reanimated corpses, swollen with toxic gases and leaking dark fluid from every orifice. They shamble in groups, drawn to the warmth of living flesh. Their bite and touch carry a virulent warp-tainted infection that eats through tissue like acid.\n\nPlague Revenants are the most common threat on Barovus. The dead do not stay dead here — the warp rift recycles souls imperfectly, animating corpses with fragments of warp-energy rather than true consciousness. They are pitiable at a distance and horrifying up close: bloated skin splitting over blackened muscle, jaws working soundlessly, hands grasping with mechanical persistence.\n\nThey are slow, stupid, and relentless. A single revenant is a nuisance. Six are a serious threat. Twenty are a death sentence.",
-            "notes": "TRAITS: Fear (1), Dark Sight, From Beyond, Undying, Mindless, Shambling.\n\nSPECIAL RULES:\n\n• Undying — On Critical Damage, roll 1d10. On 1–5: ignores Critical Damage entirely, continues fighting. Permanently destroyed only by fire damage, holy/blessed weapons, or head destruction (called shot to head dealing Critical Damage destroys automatically).\n\n• Shambling — May not Run. Always act last in Initiative order regardless of Ag.\n\n• Mindless — Immune to Fear, Pinning, psychic powers targeting the mind (Domination, etc.), and all Fellowship-based tests.\n\n• Toxic — Targets hit by attacks must pass Toughness test or suffer 1d10 additional damage ignoring armour as warp-infection spreads through tissue.\n\nTACTICS: Plague Revenants have no tactics. They advance toward the nearest living thing and attack. They do not use cover, retreat, or coordinate. Their danger is purely numerical — they absorb resources and ammunition while more dangerous threats close in. Strahd sometimes herds them as a distraction.",
-            "armour": { "value": 2, "description": "Rotting flesh (AP 2 all locations)" }
+            "armour": {
+                "head": 0,
+                "rightArm": 0,
+                "leftArm": 0,
+                "body": 0,
+                "rightLeg": 0,
+                "leftLeg": 0
+            },
+            "fate": {
+                "value": 0,
+                "max": 0
+            },
+            "fatigue": 0,
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": {
+                "total": 0,
+                "spent": 0
+            },
+            "aptitudes": [],
+            "defeated": false,
+            "details": {
+                "homeworld": "",
+                "background": "",
+                "role": "",
+                "divination": "",
+                "notes": "Warp-reanimated corpses, swollen with toxic gases and leaking dark fluid from every orifice. They shamble in groups, drawn to the warmth of living flesh. Their bite and touch carry a virulent warp-tainted infection that eats through tissue like acid.\n\nPlague Revenants are the most common threat on Barovus. The dead do not stay dead here — the warp rift recycles souls imperfectly, animating corpses with fragments of warp-energy rather than true consciousness. They are pitiable at a distance and horrifying up close: bloated skin splitting over blackened muscle, jaws working soundlessly, hands grasping with mechanical persistence.\n\nThey are slow, stupid, and relentless. A single revenant is a nuisance. Six are a serious threat. Twenty are a death sentence."
+            }
         },
         "items": [
             {
@@ -28,19 +83,39 @@
                 "name": "Fists and Teeth",
                 "type": "weapon",
                 "system": {
-                    "class": "Melee",
-                    "subtype": "Natural Weapon",
-                    "damage": "1d10+3",
-                    "damageType": "R",
-                    "penetration": 0,
-                    "special": "Toxic — Toughness test or +1d10 damage ignoring armour",
-                    "weight": 0,
                     "description": "Grasping hands and snapping jaws. Every wound festers with warp-taint.",
+                    "class": "melee",
+                    "range": 0,
+                    "rof": {
+                        "single": false,
+                        "semi": 0,
+                        "full": 0
+                    },
+                    "damage": {
+                        "formula": "1d10+3",
+                        "type": "rending",
+                        "bonus": 0
+                    },
+                    "penetration": 0,
+                    "clip": {
+                        "value": 0,
+                        "max": 0
+                    },
+                    "reload": "",
+                    "weight": 0,
+                    "qualities": [
+                        "Toxic — Toughness test or +1d10 damage ignoring armour"
+                    ],
+                    "equipped": true,
                     "availability": "N/A"
                 }
             }
         ],
-        "flags": { "dh2e-dread-of-zarovich": { "category": "undead" } }
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "category": "undead"
+            }
+        }
     },
     {
         "name": "Warp-Thrall",
@@ -48,22 +123,77 @@
         "img": "modules/dh2e-dread-of-zarovich/assets/tokens/warp-thrall.svg",
         "system": {
             "characteristics": {
-                "ws": { "value": 45 },
-                "bs": { "value": 30 },
-                "s": { "value": 45, "modified": 90 },
-                "t": { "value": 40 },
-                "ag": { "value": 50 },
-                "int": { "value": 30 },
-                "per": { "value": 35 },
-                "wp": { "value": 30 },
-                "fel": { "value": 25 }
+                "ws": {
+                    "base": 45,
+                    "advances": 0
+                },
+                "bs": {
+                    "base": 30,
+                    "advances": 0
+                },
+                "s": {
+                    "base": 45,
+                    "advances": 0
+                },
+                "t": {
+                    "base": 40,
+                    "advances": 0
+                },
+                "ag": {
+                    "base": 50,
+                    "advances": 0
+                },
+                "int": {
+                    "base": 30,
+                    "advances": 0
+                },
+                "per": {
+                    "base": 35,
+                    "advances": 0
+                },
+                "wp": {
+                    "base": 30,
+                    "advances": 0
+                },
+                "fel": {
+                    "base": 25,
+                    "advances": 0
+                }
             },
-            "wounds": { "value": 20, "max": 20 },
-            "movement": { "half": 5, "full": 10, "charge": 15, "run": 30 },
-            "threatRating": "Challenging",
+            "wounds": {
+                "value": 20,
+                "max": 20
+            },
             "description": "Those drained by Strahd or his servants become Warp-Thralls — pale, predatory things that are faster and stronger than any unaugmented human, slavishly devoted to their master. They retain fragments of their former personalities, which makes them uniquely unsettling: a thrall might pause mid-attack to straighten its uniform, or weep silently while strangling a victim.\n\nWarp-Thralls are Strahd's soldiers, servants, and surveillance network. He can see and hear through any thrall's senses at will, regardless of distance within Barovus. They wear whatever they died in — scraps of Guard uniforms, civilian clothing, occasionally Ministorum robes. Their eyes are hollow and luminous, their movements too fast, their smiles too wide.\n\nThey are not mindless — they can speak, plan, and even hold conversations. But they cannot act against Strahd's will under any circumstances. Their devotion is absolute and involuntary.",
-            "notes": "TRAITS: Fear (2), Dark Sight, Unnatural Strength (x2), Unnatural Agility (x2), Regeneration (3).\n\nSPECIAL RULES:\n\n• Life Drain (Bite) — When a Warp-Thrall hits with its Bite attack, it heals Wounds equal to damage dealt (before armour/Toughness reductions).\n\n• Dominated — Cannot act against Strahd's will under any circumstances. Strahd can see and hear through any Thrall's senses as Free Action, regardless of distance within Barovus. Can issue telepathic commands to any Thrall at any time.\n\n• Regeneration (3) — Recovers 3 Wounds at start of each turn. Negated for 1 full round by wounds from holy/blessed weapons or silver weapons.\n\n• Weakness — Holy Symbols — When confronted with a genuinely held holy symbol of the God-Emperor (requires bearer's WP test), Warp-Thrall must pass WP test or flee for 1d5 rounds. Will not willingly enter a consecrated area.\n\nTACTICS: Warp-Thralls are intelligent combatants. They use ambush tactics, attack from multiple directions, target isolated party members, and retreat when outmatched to report to Strahd. They prioritize disabling psykers and anyone carrying holy items. They fight in coordinated pairs or trios, with one engaging and others flanking.",
-            "armour": { "value": 2, "description": "Scrounged flak (AP 2–3, varies by individual)" }
+            "armour": {
+                "head": 0,
+                "rightArm": 0,
+                "leftArm": 0,
+                "body": 0,
+                "rightLeg": 0,
+                "leftLeg": 0
+            },
+            "fate": {
+                "value": 0,
+                "max": 0
+            },
+            "fatigue": 0,
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": {
+                "total": 0,
+                "spent": 0
+            },
+            "aptitudes": [],
+            "defeated": false,
+            "details": {
+                "homeworld": "",
+                "background": "",
+                "role": "",
+                "divination": "",
+                "notes": "Those drained by Strahd or his servants become Warp-Thralls — pale, predatory things that are faster and stronger than any unaugmented human, slavishly devoted to their master. They retain fragments of their former personalities, which makes them uniquely unsettling: a thrall might pause mid-attack to straighten its uniform, or weep silently while strangling a victim.\n\nWarp-Thralls are Strahd's soldiers, servants, and surveillance network. He can see and hear through any thrall's senses at will, regardless of distance within Barovus. They wear whatever they died in — scraps of Guard uniforms, civilian clothing, occasionally Ministorum robes. Their eyes are hollow and luminous, their movements too fast, their smiles too wide.\n\nThey are not mindless — they can speak, plan, and even hold conversations. But they cannot act against Strahd's will under any circumstances. Their devotion is absolute and involuntary."
+            }
         },
         "items": [
             {
@@ -71,14 +201,30 @@
                 "name": "Claws",
                 "type": "weapon",
                 "system": {
-                    "class": "Melee",
-                    "subtype": "Natural Weapon",
-                    "damage": "1d10+5",
-                    "damageType": "R",
-                    "penetration": 0,
-                    "special": "Tearing",
-                    "weight": 0,
                     "description": "Elongated fingers hardened into razor-sharp claws by warp mutation.",
+                    "class": "melee",
+                    "range": 0,
+                    "rof": {
+                        "single": false,
+                        "semi": 0,
+                        "full": 0
+                    },
+                    "damage": {
+                        "formula": "1d10+5",
+                        "type": "rending",
+                        "bonus": 0
+                    },
+                    "penetration": 0,
+                    "clip": {
+                        "value": 0,
+                        "max": 0
+                    },
+                    "reload": "",
+                    "weight": 0,
+                    "qualities": [
+                        "Tearing"
+                    ],
+                    "equipped": true,
                     "availability": "N/A"
                 }
             },
@@ -87,19 +233,39 @@
                 "name": "Bite (Life Drain)",
                 "type": "weapon",
                 "system": {
-                    "class": "Melee",
-                    "subtype": "Natural Weapon",
-                    "damage": "1d10+3",
-                    "damageType": "R",
-                    "penetration": 0,
-                    "special": "Life Drain — heals Wounds equal to damage dealt",
-                    "weight": 0,
                     "description": "A savage bite that drains life-force. Heals the thrall equal to damage inflicted.",
+                    "class": "melee",
+                    "range": 0,
+                    "rof": {
+                        "single": false,
+                        "semi": 0,
+                        "full": 0
+                    },
+                    "damage": {
+                        "formula": "1d10+3",
+                        "type": "rending",
+                        "bonus": 0
+                    },
+                    "penetration": 0,
+                    "clip": {
+                        "value": 0,
+                        "max": 0
+                    },
+                    "reload": "",
+                    "weight": 0,
+                    "qualities": [
+                        "Life Drain — heals Wounds equal to damage dealt"
+                    ],
+                    "equipped": true,
                     "availability": "N/A"
                 }
             }
         ],
-        "flags": { "dh2e-dread-of-zarovich": { "category": "warp-touched" } }
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "category": "warp-touched"
+            }
+        }
     },
     {
         "name": "Warp-Mutant",
@@ -107,22 +273,77 @@
         "img": "modules/dh2e-dread-of-zarovich/assets/tokens/warp-mutant.svg",
         "system": {
             "characteristics": {
-                "ws": { "value": 50 },
-                "bs": { "value": 15 },
-                "s": { "value": 50, "modified": 100 },
-                "t": { "value": 45 },
-                "ag": { "value": 40 },
-                "int": { "value": 15 },
-                "per": { "value": 35 },
-                "wp": { "value": 25 },
-                "fel": { "value": 10 }
+                "ws": {
+                    "base": 50,
+                    "advances": 0
+                },
+                "bs": {
+                    "base": 15,
+                    "advances": 0
+                },
+                "s": {
+                    "base": 50,
+                    "advances": 0
+                },
+                "t": {
+                    "base": 45,
+                    "advances": 0
+                },
+                "ag": {
+                    "base": 40,
+                    "advances": 0
+                },
+                "int": {
+                    "base": 15,
+                    "advances": 0
+                },
+                "per": {
+                    "base": 35,
+                    "advances": 0
+                },
+                "wp": {
+                    "base": 25,
+                    "advances": 0
+                },
+                "fel": {
+                    "base": 10,
+                    "advances": 0
+                }
             },
-            "wounds": { "value": 18, "max": 18 },
-            "movement": { "half": 4, "full": 8, "charge": 12, "run": 24 },
-            "threatRating": "Challenging",
+            "wounds": {
+                "value": 18,
+                "max": 18
+            },
             "description": "Humans warped beyond recognition by prolonged warp exposure. Hunched, bestial things with elongated limbs, jutting bone spurs, and too many teeth. They hunt in packs through the forests and ruins of Barovus, communicating in guttural barks and howls.\n\nWarp-Mutants were once people — farmers, labourers, soldiers — who wandered too deep into the mists or lived too long near a warp nexus. The transformation is slow and agonizing, stripping away higher cognition while enhancing strength, speed, and predatory instinct. By the time the change is complete, nothing human remains.\n\nThey are the werewolves of Barovus — savage pack hunters that terrorize the roads between settlements. They are most active at night, when the warp-fog thickens and their mutations strengthen.",
-            "notes": "TRAITS: Fear (1), Dark Sight, Unnatural Strength (x2), Natural Armor (2), Bestial.\n\nSPECIAL RULES:\n\n• Pack Tactics — For each other Warp-Mutant engaged in melee with the same target, each mutant gains +10 WS (maximum +30). Bonus lost immediately when engaged mutants drop.\n\n• Bestial — Immune to Fear and Pinning. Cannot use ranged weapons, read, or perform complex tasks.\n\n• Silver Vulnerability — Take +2 damage from silver weapons. Wounds from silver cause searing pain — mutant must pass WP test or Disengage next turn.\n\nTACTICS: Warp-Mutants use pack ambush tactics. They circle prey at a distance, howling to unnerve, then attack simultaneously from multiple directions to maximize Pack Tactics bonuses. They target stragglers and isolated individuals. They will retreat if half the pack is killed — unless cornered. At night, all combat characteristics gain +10.",
-            "armour": { "value": 2, "description": "Matted hide (Natural Armor AP 2 all locations)" }
+            "armour": {
+                "head": 0,
+                "rightArm": 0,
+                "leftArm": 0,
+                "body": 0,
+                "rightLeg": 0,
+                "leftLeg": 0
+            },
+            "fate": {
+                "value": 0,
+                "max": 0
+            },
+            "fatigue": 0,
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": {
+                "total": 0,
+                "spent": 0
+            },
+            "aptitudes": [],
+            "defeated": false,
+            "details": {
+                "homeworld": "",
+                "background": "",
+                "role": "",
+                "divination": "",
+                "notes": "Humans warped beyond recognition by prolonged warp exposure. Hunched, bestial things with elongated limbs, jutting bone spurs, and too many teeth. They hunt in packs through the forests and ruins of Barovus, communicating in guttural barks and howls.\n\nWarp-Mutants were once people — farmers, labourers, soldiers — who wandered too deep into the mists or lived too long near a warp nexus. The transformation is slow and agonizing, stripping away higher cognition while enhancing strength, speed, and predatory instinct. By the time the change is complete, nothing human remains.\n\nThey are the werewolves of Barovus — savage pack hunters that terrorize the roads between settlements. They are most active at night, when the warp-fog thickens and their mutations strengthen."
+            }
         },
         "items": [
             {
@@ -130,14 +351,30 @@
                 "name": "Claws",
                 "type": "weapon",
                 "system": {
-                    "class": "Melee",
-                    "subtype": "Natural Weapon",
-                    "damage": "1d10+8",
-                    "damageType": "R",
-                    "penetration": 0,
-                    "special": "Tearing",
-                    "weight": 0,
                     "description": "Elongated claws hardened by warp mutation. Primary attack.",
+                    "class": "melee",
+                    "range": 0,
+                    "rof": {
+                        "single": false,
+                        "semi": 0,
+                        "full": 0
+                    },
+                    "damage": {
+                        "formula": "1d10+8",
+                        "type": "rending",
+                        "bonus": 0
+                    },
+                    "penetration": 0,
+                    "clip": {
+                        "value": 0,
+                        "max": 0
+                    },
+                    "reload": "",
+                    "weight": 0,
+                    "qualities": [
+                        "Tearing"
+                    ],
+                    "equipped": true,
                     "availability": "N/A"
                 }
             },
@@ -146,19 +383,37 @@
                 "name": "Bite",
                 "type": "weapon",
                 "system": {
-                    "class": "Melee",
-                    "subtype": "Natural Weapon",
-                    "damage": "1d10+5",
-                    "damageType": "R",
-                    "penetration": 0,
-                    "special": "",
-                    "weight": 0,
                     "description": "Jaws lined with rows of jagged teeth.",
+                    "class": "melee",
+                    "range": 0,
+                    "rof": {
+                        "single": false,
+                        "semi": 0,
+                        "full": 0
+                    },
+                    "damage": {
+                        "formula": "1d10+5",
+                        "type": "rending",
+                        "bonus": 0
+                    },
+                    "penetration": 0,
+                    "clip": {
+                        "value": 0,
+                        "max": 0
+                    },
+                    "reload": "",
+                    "weight": 0,
+                    "qualities": [],
+                    "equipped": true,
                     "availability": "N/A"
                 }
             }
         ],
-        "flags": { "dh2e-dread-of-zarovich": { "category": "mutant" } }
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "category": "mutant"
+            }
+        }
     },
     {
         "name": "Gargoyle-Servitor",
@@ -166,22 +421,77 @@
         "img": "modules/dh2e-dread-of-zarovich/assets/tokens/gargoyle-servitor.svg",
         "system": {
             "characteristics": {
-                "ws": { "value": 35 },
-                "bs": { "value": 0 },
-                "s": { "value": 50, "modified": 100 },
-                "t": { "value": 55, "modified": 110 },
-                "ag": { "value": 20 },
-                "int": { "value": 10 },
-                "per": { "value": 30 },
-                "wp": { "value": 30 },
-                "fel": { "value": 0 }
+                "ws": {
+                    "base": 35,
+                    "advances": 0
+                },
+                "bs": {
+                    "base": 0,
+                    "advances": 0
+                },
+                "s": {
+                    "base": 50,
+                    "advances": 0
+                },
+                "t": {
+                    "base": 55,
+                    "advances": 0
+                },
+                "ag": {
+                    "base": 20,
+                    "advances": 0
+                },
+                "int": {
+                    "base": 10,
+                    "advances": 0
+                },
+                "per": {
+                    "base": 30,
+                    "advances": 0
+                },
+                "wp": {
+                    "base": 30,
+                    "advances": 0
+                },
+                "fel": {
+                    "base": 0,
+                    "advances": 0
+                }
             },
-            "wounds": { "value": 25, "max": 25 },
-            "movement": { "half": 2, "full": 4, "charge": 6, "run": 12 },
-            "threatRating": "Challenging",
+            "wounds": {
+                "value": 25,
+                "max": 25
+            },
             "description": "Stone constructs shaped into leering, inhuman forms — part gargoyle, part Imperial aquila, part something older and less identifiable. They were animated by warp energy bound into Zarovich Spire during its construction four centuries ago, and they perch motionless on walls, parapets, and buttresses, indistinguishable from architectural decoration.\n\nThe grinding of stone on stone is the only warning before a Gargoyle-Servitor strikes. They detach from their perches with terrible speed for something made of solid rock, swooping down on bat-like stone wings to slam into targets with bone-crushing force.\n\nFlying movement: 6/12/18/36.",
-            "notes": "TRAITS: Fear (1), Dark Sight, Unnatural Strength (x2), Unnatural Toughness (x2), Size (Hulking), Flyer (6), Machine (4).\n\nSPECIAL RULES:\n\n• Dormant — Appear as ordinary stone statues until activated. Activated by Strahd (Free Action, anywhere in Spire), proximity triggers (unauthorized person within 5m), or specific programmed conditions. Detecting a dormant Gargoyle requires Hard (–20) Awareness or Scrutiny test.\n\n• Machine (4) — Reduces all incoming damage by 4 (in addition to armour). Immune to Toxic, Fatigue, Stunning, and all mind-affecting abilities.\n\n• Swooping Attack — When charging while flying, adds +2d10 damage to Slam attack instead of normal +1d10 charge bonus.\n\nTACTICS: Gargoyle-Servitors have limited intelligence — they follow simple programmed instructions. Typical behaviour: remain dormant until triggered, swoop to engage nearest target, slam repeatedly until target is destroyed, return to perch. They do not pursue fleeing targets beyond their assigned area. Strahd can override programming to direct them specifically.",
-            "armour": { "value": 8, "description": "Stone body (AP 8 all locations)" }
+            "armour": {
+                "head": 0,
+                "rightArm": 0,
+                "leftArm": 0,
+                "body": 0,
+                "rightLeg": 0,
+                "leftLeg": 0
+            },
+            "fate": {
+                "value": 0,
+                "max": 0
+            },
+            "fatigue": 0,
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": {
+                "total": 0,
+                "spent": 0
+            },
+            "aptitudes": [],
+            "defeated": false,
+            "details": {
+                "homeworld": "",
+                "background": "",
+                "role": "",
+                "divination": "",
+                "notes": "Stone constructs shaped into leering, inhuman forms — part gargoyle, part Imperial aquila, part something older and less identifiable. They were animated by warp energy bound into Zarovich Spire during its construction four centuries ago, and they perch motionless on walls, parapets, and buttresses, indistinguishable from architectural decoration.\n\nThe grinding of stone on stone is the only warning before a Gargoyle-Servitor strikes. They detach from their perches with terrible speed for something made of solid rock, swooping down on bat-like stone wings to slam into targets with bone-crushing force.\n\nFlying movement: 6/12/18/36."
+            }
         },
         "items": [
             {
@@ -189,19 +499,39 @@
                 "name": "Slam",
                 "type": "weapon",
                 "system": {
-                    "class": "Melee",
-                    "subtype": "Natural Weapon",
-                    "damage": "1d10+10",
-                    "damageType": "I",
-                    "penetration": 2,
-                    "special": "Concussive (1); Swooping Attack: +2d10 on flying charge",
-                    "weight": 0,
                     "description": "Massive stone fists that strike with the weight of a falling column.",
+                    "class": "melee",
+                    "range": 0,
+                    "rof": {
+                        "single": false,
+                        "semi": 0,
+                        "full": 0
+                    },
+                    "damage": {
+                        "formula": "1d10+10",
+                        "type": "impact",
+                        "bonus": 0
+                    },
+                    "penetration": 2,
+                    "clip": {
+                        "value": 0,
+                        "max": 0
+                    },
+                    "reload": "",
+                    "weight": 0,
+                    "qualities": [
+                        "Concussive (1); Swooping Attack: +2d10 on flying charge"
+                    ],
+                    "equipped": true,
                     "availability": "N/A"
                 }
             }
         ],
-        "flags": { "dh2e-dread-of-zarovich": { "category": "construct" } }
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "category": "construct"
+            }
+        }
     },
     {
         "name": "Malfunctioning Servitor",
@@ -209,22 +539,77 @@
         "img": "modules/dh2e-dread-of-zarovich/assets/tokens/malfunctioning-servitor.svg",
         "system": {
             "characteristics": {
-                "ws": { "value": 30 },
-                "bs": { "value": 30 },
-                "s": { "value": 35 },
-                "t": { "value": 40 },
-                "ag": { "value": 20 },
-                "int": { "value": 15 },
-                "per": { "value": 25 },
-                "wp": { "value": 15 },
-                "fel": { "value": 0 }
+                "ws": {
+                    "base": 30,
+                    "advances": 0
+                },
+                "bs": {
+                    "base": 30,
+                    "advances": 0
+                },
+                "s": {
+                    "base": 35,
+                    "advances": 0
+                },
+                "t": {
+                    "base": 40,
+                    "advances": 0
+                },
+                "ag": {
+                    "base": 20,
+                    "advances": 0
+                },
+                "int": {
+                    "base": 15,
+                    "advances": 0
+                },
+                "per": {
+                    "base": 25,
+                    "advances": 0
+                },
+                "wp": {
+                    "base": 15,
+                    "advances": 0
+                },
+                "fel": {
+                    "base": 0,
+                    "advances": 0
+                }
             },
-            "wounds": { "value": 12, "max": 12 },
-            "movement": { "half": 2, "full": 4, "charge": 6, "run": 12 },
-            "threatRating": "Ordinary",
+            "wounds": {
+                "value": 12,
+                "max": 12
+            },
             "description": "Once standard Imperial servitors tasked with maintaining hab-blocks and infrastructure, centuries of warp exposure have corroded their programming into erratic, dangerous loops. They wander corridors repeating fragments of old tasks — sweeping floors that no longer exist, delivering messages to the dead — and lash out with integrated tools and weapons when their damaged logic-engines misidentify threats.\n\nThey are deeply unsettling rather than overtly terrifying. A malfunctioning servitor might pause mid-swing to recite a four-hundred-year-old maintenance schedule, or politely announce 'Sector clear, all is well' while its saw-arm is buried in a wall. Their vox-units crackle with garbled messages from people long dead.\n\nSome retain enough programming to operate in groups, forming 'work crews' that patrol on ancient schedules. These are more dangerous — they react to intrusion collectively.",
-            "notes": "TRAITS: Machine (2), Dark Sight.\n\nSPECIAL RULES:\n\n• Erratic — At the start of each servitor's turn, roll 1d10:\n  1–3: Attacks nearest target (friend or foe; random if equidistant)\n  4–6: Repeats last action mindlessly (attacks same target, continues same direction)\n  7–8: Wanders away, random direction, Full Move\n  9–10: Shuts down for 1 round — unresponsive; reactivates next round\n\n• Machine (2) — Reduces all incoming damage by 2. Immune to Toxic, Fatigue, Stunning, and all mind-affecting abilities.\n\nGEAR: Integrated maintenance tools, vox-unit (repeating garbled messages). Some have integrated laspistols.\n\nTACTICS: Malfunctioning Servitors have no tactics. Their behaviour is determined entirely by the Erratic table. They are environmental hazards rather than deliberate enemies — more dangerous in combination with other threats than on their own. Their unpredictability is their primary threat. Strahd can command them via Lair Actions, overriding their erratic behaviour to act with lethal coordination.",
-            "armour": { "value": 4, "description": "Metal frame (AP 4 body, AP 2 limbs)" }
+            "armour": {
+                "head": 0,
+                "rightArm": 0,
+                "leftArm": 0,
+                "body": 0,
+                "rightLeg": 0,
+                "leftLeg": 0
+            },
+            "fate": {
+                "value": 0,
+                "max": 0
+            },
+            "fatigue": 0,
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": {
+                "total": 0,
+                "spent": 0
+            },
+            "aptitudes": [],
+            "defeated": false,
+            "details": {
+                "homeworld": "",
+                "background": "",
+                "role": "",
+                "divination": "",
+                "notes": "Once standard Imperial servitors tasked with maintaining hab-blocks and infrastructure, centuries of warp exposure have corroded their programming into erratic, dangerous loops. They wander corridors repeating fragments of old tasks — sweeping floors that no longer exist, delivering messages to the dead — and lash out with integrated tools and weapons when their damaged logic-engines misidentify threats.\n\nThey are deeply unsettling rather than overtly terrifying. A malfunctioning servitor might pause mid-swing to recite a four-hundred-year-old maintenance schedule, or politely announce 'Sector clear, all is well' while its saw-arm is buried in a wall. Their vox-units crackle with garbled messages from people long dead.\n\nSome retain enough programming to operate in groups, forming 'work crews' that patrol on ancient schedules. These are more dangerous — they react to intrusion collectively."
+            }
         },
         "items": [
             {
@@ -232,14 +617,32 @@
                 "name": "Integrated Tools",
                 "type": "weapon",
                 "system": {
-                    "class": "Melee",
-                    "subtype": "Improvised (Industrial)",
-                    "damage": "1d10+3",
-                    "damageType": "R",
-                    "penetration": 0,
-                    "special": "Varies — saw-arm, piston-fist, welder-torch",
-                    "weight": 0,
                     "description": "Maintenance tools repurposed as weapons — circular saws, pneumatic drills, welding torches.",
+                    "class": "melee",
+                    "range": 0,
+                    "rof": {
+                        "single": false,
+                        "semi": 0,
+                        "full": 0
+                    },
+                    "damage": {
+                        "formula": "1d10+3",
+                        "type": "rending",
+                        "bonus": 0
+                    },
+                    "penetration": 0,
+                    "clip": {
+                        "value": 0,
+                        "max": 0
+                    },
+                    "reload": "",
+                    "weight": 0,
+                    "qualities": [
+                        "Varies — saw-arm",
+                        "piston-fist",
+                        "welder-torch"
+                    ],
+                    "equipped": true,
                     "availability": "N/A"
                 }
             },
@@ -248,23 +651,37 @@
                 "name": "Integrated Laspistol (Some Only)",
                 "type": "weapon",
                 "system": {
-                    "class": "Pistol",
-                    "subtype": "Laspistol (Integrated)",
-                    "damage": "1d10+2",
-                    "damageType": "E",
-                    "penetration": 0,
-                    "range": 30,
-                    "rateOfFire": "S/-/-",
-                    "clip": 15,
-                    "reload": "N/A",
-                    "special": "",
-                    "weight": 0,
                     "description": "Built-in laspistol. Only present on roughly 1 in 3 servitors.",
+                    "class": "ranged",
+                    "range": 30,
+                    "rof": {
+                        "single": true,
+                        "semi": 0,
+                        "full": 0
+                    },
+                    "damage": {
+                        "formula": "1d10+2",
+                        "type": "energy",
+                        "bonus": 0
+                    },
+                    "penetration": 0,
+                    "clip": {
+                        "value": 15,
+                        "max": 15
+                    },
+                    "reload": "N/A",
+                    "weight": 0,
+                    "qualities": [],
+                    "equipped": true,
                     "availability": "N/A"
                 }
             }
         ],
-        "flags": { "dh2e-dread-of-zarovich": { "category": "construct" } }
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "category": "construct"
+            }
+        }
     },
     {
         "name": "Lesser Warp-Daemon",
@@ -272,22 +689,77 @@
         "img": "modules/dh2e-dread-of-zarovich/assets/tokens/lesser-daemon.svg",
         "system": {
             "characteristics": {
-                "ws": { "value": 40 },
-                "bs": { "value": 30 },
-                "s": { "value": 40 },
-                "t": { "value": 35 },
-                "ag": { "value": 45 },
-                "int": { "value": 30 },
-                "per": { "value": 35 },
-                "wp": { "value": 40 },
-                "fel": { "value": 20 }
+                "ws": {
+                    "base": 40,
+                    "advances": 0
+                },
+                "bs": {
+                    "base": 30,
+                    "advances": 0
+                },
+                "s": {
+                    "base": 40,
+                    "advances": 0
+                },
+                "t": {
+                    "base": 35,
+                    "advances": 0
+                },
+                "ag": {
+                    "base": 45,
+                    "advances": 0
+                },
+                "int": {
+                    "base": 30,
+                    "advances": 0
+                },
+                "per": {
+                    "base": 35,
+                    "advances": 0
+                },
+                "wp": {
+                    "base": 40,
+                    "advances": 0
+                },
+                "fel": {
+                    "base": 20,
+                    "advances": 0
+                }
             },
-            "wounds": { "value": 15, "max": 15 },
-            "movement": { "half": 4, "full": 8, "charge": 12, "run": 24 },
-            "threatRating": "Challenging",
+            "wounds": {
+                "value": 15,
+                "max": 15
+            },
             "description": "Minor daemonic entities that have slipped through the thinning veil between materium and immaterium on Barovus. They manifest as shifting, semi-translucent shapes — part smoke, part malice. Their features are indistinct and constantly changing: a face forms and dissolves, a limb extends and retracts, colours shift between bruise-purple and sickly gold. Their claws, however, are all too solid.\n\nThey are drawn to strong emotions — fear, despair, anger — and cluster around places of suffering. The Empyrean Vault, the Drowned Ruins of Berez, and Zarovich Spire's lower levels are all infested. They whisper in the minds of those nearby, feeding on psychic residue.\n\nThey are individually manageable for well-armed Acolytes but terrifying for unprotected civilians. Blessed weapons and holy symbols are the most effective countermeasures.",
-            "notes": "TRAITS: Daemonic, Fear (2), From Beyond, Warp Instability, Dark Sight.\n\nSPECIAL RULES:\n\n• Daemonic — Toughness Bonus increased by Willpower Bonus (4) for damage reduction. Mundane weapons (without Blessed, Holy, Force, or Warp Weapon quality) deal minimum damage — all dice count as 1s.\n\n• Warp Weapon (Claws) — Claws count as Warp Weapons and ignore non-warded armour entirely.\n\n• Warp Instability — If the daemon fails a Willpower test (forced by psychic powers, holy weapon damage, or sanctified effects), roll on the Warp Instability table. Minor results: flickers, loses next turn. Major results: banished entirely, dissolving into warp-smoke.\n\nTACTICS: Lesser daemons are cunning but not strategic. They ambush isolated targets, flee from groups wielding blessed weapons, and prioritise vulnerable targets (wounded, fearful, low WP). They phase in and out of visibility, striking from shadows. During the Witching Hour (02:00–04:00), they are significantly more aggressive and manifest more freely.",
-            "armour": { "value": 0, "description": "None (Daemonic trait provides effective TB increase)" }
+            "armour": {
+                "head": 0,
+                "rightArm": 0,
+                "leftArm": 0,
+                "body": 0,
+                "rightLeg": 0,
+                "leftLeg": 0
+            },
+            "fate": {
+                "value": 0,
+                "max": 0
+            },
+            "fatigue": 0,
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": {
+                "total": 0,
+                "spent": 0
+            },
+            "aptitudes": [],
+            "defeated": false,
+            "details": {
+                "homeworld": "",
+                "background": "",
+                "role": "",
+                "divination": "",
+                "notes": "Minor daemonic entities that have slipped through the thinning veil between materium and immaterium on Barovus. They manifest as shifting, semi-translucent shapes — part smoke, part malice. Their features are indistinct and constantly changing: a face forms and dissolves, a limb extends and retracts, colours shift between bruise-purple and sickly gold. Their claws, however, are all too solid.\n\nThey are drawn to strong emotions — fear, despair, anger — and cluster around places of suffering. The Empyrean Vault, the Drowned Ruins of Berez, and Zarovich Spire's lower levels are all infested. They whisper in the minds of those nearby, feeding on psychic residue.\n\nThey are individually manageable for well-armed Acolytes but terrifying for unprotected civilians. Blessed weapons and holy symbols are the most effective countermeasures."
+            }
         },
         "items": [
             {
@@ -295,19 +767,39 @@
                 "name": "Warp-Claws",
                 "type": "weapon",
                 "system": {
-                    "class": "Melee",
-                    "subtype": "Natural Weapon (Daemonic)",
-                    "damage": "1d10+4",
-                    "damageType": "E",
-                    "penetration": 2,
-                    "special": "Warp Weapon — ignores non-warded armour",
-                    "weight": 0,
                     "description": "Claws formed from solidified warp-energy. They pass through mundane armour as though it weren't there.",
+                    "class": "melee",
+                    "range": 0,
+                    "rof": {
+                        "single": false,
+                        "semi": 0,
+                        "full": 0
+                    },
+                    "damage": {
+                        "formula": "1d10+4",
+                        "type": "energy",
+                        "bonus": 0
+                    },
+                    "penetration": 2,
+                    "clip": {
+                        "value": 0,
+                        "max": 0
+                    },
+                    "reload": "",
+                    "weight": 0,
+                    "qualities": [
+                        "Warp Weapon — ignores non-warded armour"
+                    ],
+                    "equipped": true,
                     "availability": "N/A"
                 }
             }
         ],
-        "flags": { "dh2e-dread-of-zarovich": { "category": "daemon" } }
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "category": "daemon"
+            }
+        }
     },
     {
         "name": "Warp-Hound",
@@ -315,22 +807,77 @@
         "img": "modules/dh2e-dread-of-zarovich/assets/tokens/warp-hound.svg",
         "system": {
             "characteristics": {
-                "ws": { "value": 40 },
-                "bs": { "value": 0 },
-                "s": { "value": 35 },
-                "t": { "value": 30 },
-                "ag": { "value": 50 },
-                "int": { "value": 15 },
-                "per": { "value": 45 },
-                "wp": { "value": 25 },
-                "fel": { "value": 0 }
+                "ws": {
+                    "base": 40,
+                    "advances": 0
+                },
+                "bs": {
+                    "base": 0,
+                    "advances": 0
+                },
+                "s": {
+                    "base": 35,
+                    "advances": 0
+                },
+                "t": {
+                    "base": 30,
+                    "advances": 0
+                },
+                "ag": {
+                    "base": 50,
+                    "advances": 0
+                },
+                "int": {
+                    "base": 15,
+                    "advances": 0
+                },
+                "per": {
+                    "base": 45,
+                    "advances": 0
+                },
+                "wp": {
+                    "base": 25,
+                    "advances": 0
+                },
+                "fel": {
+                    "base": 0,
+                    "advances": 0
+                }
             },
-            "wounds": { "value": 12, "max": 12 },
-            "movement": { "half": 6, "full": 12, "charge": 18, "run": 36 },
-            "threatRating": "Ordinary (Dangerous in packs of 4+)",
+            "wounds": {
+                "value": 12,
+                "max": 12
+            },
             "description": "Lean, wolf-like predators with mottled grey-black hides and eyes that glow with faint psychic luminescence. They are drawn to psychic energy like a predator to blood — psykers and warp-touched beings are their preferred prey.\n\nWarp-Hounds are native to Barovus, evolved (or mutated) from canine stock over centuries of warp exposure. They are eerily silent when hunting, communicating through sub-vocal frequencies and psychic impulse. The first sign of a Warp-Hound pack is usually the feeling of being watched, followed by the soft glow of eyes in the mist.\n\nThey are not intelligent in the human sense, but their pack coordination is extraordinary — more like a single organism with multiple bodies than a group of individuals. A psyker using active powers within 500m is a dinner bell that draws every pack in range.",
-            "notes": "TRAITS: Bestial, Dark Sight, Quadruped.\n\nSPECIAL RULES:\n\n• Quadruped — Double normal movement rates for Agility Bonus (already reflected in movement values).\n\n• Psychic Scent — Detect any psyker or warp-touched entity within 1km. Gain +30 to Awareness and Tracking tests when following a psychic trail. A psyker using active powers within 500m draws all nearby packs.\n\n• Pack Coordination — When 4 or more Warp-Hounds attack a single target, one Hound may make a free Trip attempt (opposed Agility test) at the start of the round. Success knocks target Prone; all Hound attacks that round gain +10 WS.\n\nTACTICS: Warp-Hounds are patient hunters. They shadow prey for hours, waiting for exhaustion or isolation. They attack at night, targeting the most psychically active member of the party. If Ireena is present, she draws them irresistibly. They hit fast — Trip attempt to knock prone, then swarm. They retreat if more than half the pack is killed, but return with reinforcements within 1d5 hours.",
-            "armour": { "value": 0, "description": "None" }
+            "armour": {
+                "head": 0,
+                "rightArm": 0,
+                "leftArm": 0,
+                "body": 0,
+                "rightLeg": 0,
+                "leftLeg": 0
+            },
+            "fate": {
+                "value": 0,
+                "max": 0
+            },
+            "fatigue": 0,
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": {
+                "total": 0,
+                "spent": 0
+            },
+            "aptitudes": [],
+            "defeated": false,
+            "details": {
+                "homeworld": "",
+                "background": "",
+                "role": "",
+                "divination": "",
+                "notes": "Lean, wolf-like predators with mottled grey-black hides and eyes that glow with faint psychic luminescence. They are drawn to psychic energy like a predator to blood — psykers and warp-touched beings are their preferred prey.\n\nWarp-Hounds are native to Barovus, evolved (or mutated) from canine stock over centuries of warp exposure. They are eerily silent when hunting, communicating through sub-vocal frequencies and psychic impulse. The first sign of a Warp-Hound pack is usually the feeling of being watched, followed by the soft glow of eyes in the mist.\n\nThey are not intelligent in the human sense, but their pack coordination is extraordinary — more like a single organism with multiple bodies than a group of individuals. A psyker using active powers within 500m is a dinner bell that draws every pack in range."
+            }
         },
         "items": [
             {
@@ -338,19 +885,39 @@
                 "name": "Jaws",
                 "type": "weapon",
                 "system": {
-                    "class": "Melee",
-                    "subtype": "Natural Weapon",
-                    "damage": "1d10+3",
-                    "damageType": "R",
-                    "penetration": 0,
-                    "special": "Tearing",
-                    "weight": 0,
                     "description": "Powerful jaws that lock onto prey and tear.",
+                    "class": "melee",
+                    "range": 0,
+                    "rof": {
+                        "single": false,
+                        "semi": 0,
+                        "full": 0
+                    },
+                    "damage": {
+                        "formula": "1d10+3",
+                        "type": "rending",
+                        "bonus": 0
+                    },
+                    "penetration": 0,
+                    "clip": {
+                        "value": 0,
+                        "max": 0
+                    },
+                    "reload": "",
+                    "weight": 0,
+                    "qualities": [
+                        "Tearing"
+                    ],
+                    "equipped": true,
                     "availability": "N/A"
                 }
             }
         ],
-        "flags": { "dh2e-dread-of-zarovich": { "category": "beast" } }
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "category": "beast"
+            }
+        }
     },
     {
         "name": "Mongrelfolk",
@@ -358,22 +925,77 @@
         "img": "modules/dh2e-dread-of-zarovich/assets/tokens/mongrelfolk.svg",
         "system": {
             "characteristics": {
-                "ws": { "value": 28 },
-                "bs": { "value": 20 },
-                "s": { "value": 32 },
-                "t": { "value": 35 },
-                "ag": { "value": 28 },
-                "int": { "value": 22 },
-                "per": { "value": 32 },
-                "wp": { "value": 25 },
-                "fel": { "value": 10 }
+                "ws": {
+                    "base": 28,
+                    "advances": 0
+                },
+                "bs": {
+                    "base": 20,
+                    "advances": 0
+                },
+                "s": {
+                    "base": 32,
+                    "advances": 0
+                },
+                "t": {
+                    "base": 35,
+                    "advances": 0
+                },
+                "ag": {
+                    "base": 28,
+                    "advances": 0
+                },
+                "int": {
+                    "base": 22,
+                    "advances": 0
+                },
+                "per": {
+                    "base": 32,
+                    "advances": 0
+                },
+                "wp": {
+                    "base": 25,
+                    "advances": 0
+                },
+                "fel": {
+                    "base": 10,
+                    "advances": 0
+                }
             },
-            "wounds": { "value": 12, "max": 12 },
-            "movement": { "half": 3, "full": 6, "charge": 9, "run": 18 },
-            "threatRating": "Minion (Routine to Ordinary)",
+            "wounds": {
+                "value": 12,
+                "max": 12
+            },
             "description": "Abaron's experimental subjects — humans forcibly augmented and mutated through crude bionics, warp exposure, and biological manipulation. No two look alike. Some have mechanical limbs grafted at wrong angles. Others sport patches of scales, clusters of mismatched eyes, or limbs that bend in directions the Emperor never intended.\n\nMost Mongrelfolk are pitiable rather than threatening. They were villagers of Krezk before Abaron 'improved' them. Many retain enough cognition to be aware of what was done to them. They obey Abaron through implanted compliance devices — not loyalty. Some weep quietly while following orders. Others have retreated so far into themselves that they are barely responsive.\n\nIf Abaron is killed, their compliance devices lose signal. They become confused, frightened, and non-hostile unless provoked. Some can be communicated with. A few might even become allies.\n\nCharacteristics listed are median values. Individual Mongrelfolk vary — roll within ranges: WS 20–35, BS 15–25, S 25–40, T 30–40, Ag 20–35, Int 15–30, Per 25–40, WP 20–30, Fel 5–15. Wounds 8–15.",
-            "notes": "TRAITS: Warp-Touched, Disturbing.\n\nSPECIAL RULES:\n\n• Disturbing — Characters encountering Mongrelfolk for the first time must pass Routine (+20) WP test or suffer –5 to Fellowship tests in their presence for the encounter duration. Not Fear — discomfort and pity.\n\n• Unique Mutations/Augments — Each Mongrelfolk has 1d3 unique mutations. Roll d10 per mutation:\n  1: Extra arm — one additional melee attack/round at –10 WS\n  2: Telescopic eye — +20 Per for ranged visual tests\n  3: Built-in vox — relay messages up to 2km\n  4: Enhanced smell — +20 Awareness when scent-relevant; track by smell\n  5: Reinforced skeleton — +2 AP body, +2 Wounds\n  6: Toxic spit — ranged 5m, 1d5 damage; Toughness test or Blinded 1 round\n  7: Wall-crawling — scale vertical surfaces at half movement, no test\n  8: Warp-sight — see warp entities/psychic auras, +10 Psyniscience untrained\n  9: Redundant organs — ignore first Critical Damage result\n  10: Mechanical voice box — perfectly mimic any voice/sound heard in last 24 hours\n\n• Compliance Device — Implanted control device. Abaron issues commands via device (Free Action). Removing the device requires Hard (–20) Medicae test; removal inflicts 1d10 damage but frees the Mongrelfolk.\n\nTACTICS: Mongrelfolk fight poorly and reluctantly. They mob targets on Abaron's command but break easily if he is killed or incapacitated. They are most dangerous in numbers (Abaron can direct up to 6 at once). Treat them as environmental obstacles during the Krezk encounter rather than genuine threats — the moral dimension is far more important than the combat.",
-            "armour": { "value": 2, "description": "Built-in metal plates (AP 2–4, varies by location)" }
+            "armour": {
+                "head": 0,
+                "rightArm": 0,
+                "leftArm": 0,
+                "body": 0,
+                "rightLeg": 0,
+                "leftLeg": 0
+            },
+            "fate": {
+                "value": 0,
+                "max": 0
+            },
+            "fatigue": 0,
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": {
+                "total": 0,
+                "spent": 0
+            },
+            "aptitudes": [],
+            "defeated": false,
+            "details": {
+                "homeworld": "",
+                "background": "",
+                "role": "",
+                "divination": "",
+                "notes": "Abaron's experimental subjects — humans forcibly augmented and mutated through crude bionics, warp exposure, and biological manipulation. No two look alike. Some have mechanical limbs grafted at wrong angles. Others sport patches of scales, clusters of mismatched eyes, or limbs that bend in directions the Emperor never intended.\n\nMost Mongrelfolk are pitiable rather than threatening. They were villagers of Krezk before Abaron 'improved' them. Many retain enough cognition to be aware of what was done to them. They obey Abaron through implanted compliance devices — not loyalty. Some weep quietly while following orders. Others have retreated so far into themselves that they are barely responsive.\n\nIf Abaron is killed, their compliance devices lose signal. They become confused, frightened, and non-hostile unless provoked. Some can be communicated with. A few might even become allies.\n\nCharacteristics listed are median values. Individual Mongrelfolk vary — roll within ranges: WS 20–35, BS 15–25, S 25–40, T 30–40, Ag 20–35, Int 15–30, Per 25–40, WP 20–30, Fel 5–15. Wounds 8–15."
+            }
         },
         "items": [
             {
@@ -381,19 +1003,39 @@
                 "name": "Crude Tools",
                 "type": "weapon",
                 "system": {
-                    "class": "Melee",
-                    "subtype": "Improvised (Primitive)",
-                    "damage": "1d10+SB",
-                    "damageType": "I",
-                    "penetration": 0,
-                    "special": "Primitive",
-                    "weight": 2,
                     "description": "Whatever they were holding when Abaron modified them — hammers, wrenches, farming tools.",
+                    "class": "melee",
+                    "range": 0,
+                    "rof": {
+                        "single": false,
+                        "semi": 0,
+                        "full": 0
+                    },
+                    "damage": {
+                        "formula": "1d10+SB",
+                        "type": "impact",
+                        "bonus": 0
+                    },
+                    "penetration": 0,
+                    "clip": {
+                        "value": 0,
+                        "max": 0
+                    },
+                    "reload": "",
+                    "weight": 2,
+                    "qualities": [
+                        "Primitive"
+                    ],
+                    "equipped": true,
                     "availability": "Plentiful"
                 }
             }
         ],
-        "flags": { "dh2e-dread-of-zarovich": { "category": "mutant" } }
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "category": "mutant"
+            }
+        }
     },
     {
         "name": "Strahd's Elite Guard",
@@ -401,22 +1043,77 @@
         "img": "modules/dh2e-dread-of-zarovich/assets/tokens/elite-guard.svg",
         "system": {
             "characteristics": {
-                "ws": { "value": 55 },
-                "bs": { "value": 45 },
-                "s": { "value": 50, "modified": 100 },
-                "t": { "value": 45 },
-                "ag": { "value": 45 },
-                "int": { "value": 35 },
-                "per": { "value": 40 },
-                "wp": { "value": 40 },
-                "fel": { "value": 30 }
+                "ws": {
+                    "base": 55,
+                    "advances": 0
+                },
+                "bs": {
+                    "base": 45,
+                    "advances": 0
+                },
+                "s": {
+                    "base": 50,
+                    "advances": 0
+                },
+                "t": {
+                    "base": 45,
+                    "advances": 0
+                },
+                "ag": {
+                    "base": 45,
+                    "advances": 0
+                },
+                "int": {
+                    "base": 35,
+                    "advances": 0
+                },
+                "per": {
+                    "base": 40,
+                    "advances": 0
+                },
+                "wp": {
+                    "base": 40,
+                    "advances": 0
+                },
+                "fel": {
+                    "base": 30,
+                    "advances": 0
+                }
             },
-            "wounds": { "value": 25, "max": 25 },
-            "movement": { "half": 4, "full": 8, "charge": 12, "run": 24 },
-            "threatRating": "Dangerous",
+            "wounds": {
+                "value": 25,
+                "max": 25
+            },
             "description": "The finest of Strahd's Warp-Thralls — ancient warriors who served him in life and were 'rewarded' with immortal servitude. They have fought at his side for centuries, honing their skills across lifetimes of combat. They wear archaic carapace armour maintained over centuries, bearing the Zarovich crest. They wield power weapons with the fluid precision of soldiers who have trained together longer than most civilizations have existed.\n\nElite Guards move with coordinated, predatory grace — never wasted motion, never a gap in their formation. They do not speak. They do not hesitate. They serve until destroyed.\n\nThey are deployed in pairs or trios to guard key locations in Zarovich Spire or sent as hunter-killer teams when Strahd tires of being subtle.",
-            "notes": "SKILLS: Dodge +10, Parry +10, Awareness +10, Command.\n\nTALENTS: Swift Attack, Sure Strike, Counter-Attack.\n\nTRAITS: Fear (2), Dark Sight, Unnatural Strength (x2).\n\nSPECIAL RULES:\n\n• Coordinated Tactics — When 2+ Elite Guards attack the same target in the same round, each engaged Guard gains +10 WS and +1 damage to all attacks that round. Bonus stacks: 3 guards = +20 WS, +2 damage each.\n\n• Life Drain (Touch) — Half Action, melee touch attack vs adjacent target: target suffers 1d5 Wounds ignoring armour and Toughness Bonus. Guard heals equal Wounds.\n\n• Undying Loyalty — Immune to all mind control except Strahd's. Cannot be persuaded, bribed, intimidated, or reasoned with. Serve until destroyed.\n\nTACTICS: Elite Guards are the most dangerous non-unique enemies in the campaign. They fight with military discipline — one engages frontally while others flank. They use Counter-Attack aggressively and coordinate to maximise their Coordinated Tactics bonus. They protect Strahd's coffin, the Heart of the Spire, and key chokepoints. They retreat only on Strahd's explicit order.",
-            "armour": { "value": 6, "description": "Archaic carapace (AP 6 all locations)" }
+            "armour": {
+                "head": 6,
+                "rightArm": 6,
+                "leftArm": 6,
+                "body": 6,
+                "rightLeg": 6,
+                "leftLeg": 6
+            },
+            "fate": {
+                "value": 0,
+                "max": 0
+            },
+            "fatigue": 0,
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": {
+                "total": 0,
+                "spent": 0
+            },
+            "aptitudes": [],
+            "defeated": false,
+            "details": {
+                "homeworld": "",
+                "background": "",
+                "role": "",
+                "divination": "",
+                "notes": "The finest of Strahd's Warp-Thralls — ancient warriors who served him in life and were 'rewarded' with immortal servitude. They have fought at his side for centuries, honing their skills across lifetimes of combat. They wear archaic carapace armour maintained over centuries, bearing the Zarovich crest. They wield power weapons with the fluid precision of soldiers who have trained together longer than most civilizations have existed.\n\nElite Guards move with coordinated, predatory grace — never wasted motion, never a gap in their formation. They do not speak. They do not hesitate. They serve until destroyed.\n\nThey are deployed in pairs or trios to guard key locations in Zarovich Spire or sent as hunter-killer teams when Strahd tires of being subtle."
+            }
         },
         "items": [
             {
@@ -424,14 +1121,31 @@
                 "name": "Power Sword",
                 "type": "weapon",
                 "system": {
-                    "class": "Melee",
-                    "subtype": "Power Sword",
-                    "damage": "1d10+8",
-                    "damageType": "E",
-                    "penetration": 5,
-                    "special": "Power Field, Balanced",
-                    "weight": 3.5,
                     "description": "Centuries-old power sword, maintained with obsessive care.",
+                    "class": "melee",
+                    "range": 0,
+                    "rof": {
+                        "single": false,
+                        "semi": 0,
+                        "full": 0
+                    },
+                    "damage": {
+                        "formula": "1d10+8",
+                        "type": "energy",
+                        "bonus": 0
+                    },
+                    "penetration": 5,
+                    "clip": {
+                        "value": 0,
+                        "max": 0
+                    },
+                    "reload": "",
+                    "weight": 3.5,
+                    "qualities": [
+                        "Power Field",
+                        "Balanced"
+                    ],
+                    "equipped": true,
                     "availability": "Very Rare"
                 }
             },
@@ -440,18 +1154,30 @@
                 "name": "Bolt Pistol",
                 "type": "weapon",
                 "system": {
-                    "class": "Pistol",
-                    "subtype": "Bolt Pistol",
-                    "damage": "1d10+5",
-                    "damageType": "X",
-                    "penetration": 4,
-                    "range": 30,
-                    "rateOfFire": "S/2/-",
-                    "clip": 8,
-                    "reload": "Full",
-                    "special": "Tearing",
-                    "weight": 3.5,
                     "description": "Standard bolt pistol. Loaded with standard rounds.",
+                    "class": "ranged",
+                    "range": 30,
+                    "rof": {
+                        "single": true,
+                        "semi": 2,
+                        "full": 0
+                    },
+                    "damage": {
+                        "formula": "1d10+5",
+                        "type": "explosive",
+                        "bonus": 0
+                    },
+                    "penetration": 4,
+                    "clip": {
+                        "value": 8,
+                        "max": 8
+                    },
+                    "reload": "Full",
+                    "weight": 3.5,
+                    "qualities": [
+                        "Tearing"
+                    ],
+                    "equipped": true,
                     "availability": "Very Rare"
                 }
             },
@@ -460,14 +1186,28 @@
                 "name": "Archaic Carapace Armour",
                 "type": "armour",
                 "system": {
-                    "ap": { "head": 6, "body": 6, "leftArm": 6, "rightArm": 6, "leftLeg": 6, "rightLeg": 6 },
-                    "weight": 15,
                     "description": "Carapace armour bearing the Zarovich crest. Maintained over centuries. AP 6 all locations.",
+                    "locations": {
+                        "head": 6,
+                        "rightArm": 6,
+                        "leftArm": 6,
+                        "body": 6,
+                        "rightLeg": 6,
+                        "leftLeg": 6
+                    },
+                    "maxAgility": 0,
+                    "qualities": [],
+                    "weight": 15,
+                    "equipped": true,
                     "availability": "Very Rare"
                 }
             }
         ],
-        "flags": { "dh2e-dread-of-zarovich": { "category": "warp-touched" } }
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "category": "warp-touched"
+            }
+        }
     },
     {
         "name": "Servitor-Guard",
@@ -475,22 +1215,77 @@
         "img": "modules/dh2e-dread-of-zarovich/assets/tokens/servitor-guard.svg",
         "system": {
             "characteristics": {
-                "ws": { "value": 40 },
-                "bs": { "value": 35 },
-                "s": { "value": 45, "modified": 90 },
-                "t": { "value": 40 },
-                "ag": { "value": 20 },
-                "int": { "value": 10 },
-                "per": { "value": 25 },
-                "wp": { "value": 20 },
-                "fel": { "value": 0 }
+                "ws": {
+                    "base": 40,
+                    "advances": 0
+                },
+                "bs": {
+                    "base": 35,
+                    "advances": 0
+                },
+                "s": {
+                    "base": 45,
+                    "advances": 0
+                },
+                "t": {
+                    "base": 40,
+                    "advances": 0
+                },
+                "ag": {
+                    "base": 20,
+                    "advances": 0
+                },
+                "int": {
+                    "base": 10,
+                    "advances": 0
+                },
+                "per": {
+                    "base": 25,
+                    "advances": 0
+                },
+                "wp": {
+                    "base": 20,
+                    "advances": 0
+                },
+                "fel": {
+                    "base": 0,
+                    "advances": 0
+                }
             },
-            "wounds": { "value": 20, "max": 20 },
-            "movement": { "half": 2, "full": 4, "charge": 6, "run": 12 },
-            "threatRating": "Challenging",
+            "wounds": {
+                "value": 20,
+                "max": 20
+            },
             "description": "Combat servitors stationed in Zarovich Spire's audience chamber and key defensive positions. Unlike the malfunctioning servitors that wander Barovus, these are purpose-built killing machines maintained by Strahd's artificers. They stand dormant in alcoves — twelve in the audience chamber alone — until activated by sitting on the throne or Strahd's command.\n\nWhen activated, they advance with methodical brutality: lascarbine fire at range, power maul strikes in melee. They have no tactics, no self-preservation instinct, and no hesitation. They simply advance and strike until their targets stop moving.",
-            "notes": "TRAITS: Machine (3), Fearless, Unnatural Strength (x2).\n\nSPECIAL RULES:\n\n• Machine (3) — Reduces all incoming damage by 3. Immune to Toxic, Fatigue, Stunning, and all mind-affecting abilities.\n\n• Fearless — Immune to Fear and Pinning. Cannot be intimidated or routed.\n\n• Dormant Activation — Activated by sitting on the audience chamber throne, Strahd's command, or specific security triggers. 12 total in the audience chamber.\n\n• No Tactics — Servitor-Guards have no self-preservation instinct. They advance toward the nearest designated target and attack. They do not use cover, retreat, or coordinate beyond basic spacing. Their threat is in their numbers, durability, and the tight quarters of the Spire.\n\nTACTICS: Pure attrition. They fire lascarbines on approach, then switch to power mauls in melee. They spread to engage as many targets as possible. Used best as a tide that forces the Acolytes to expend ammunition and resources before facing Strahd himself. The audience chamber fight (12 servitors in an enclosed space) should feel like a desperate, resource-draining slog.",
-            "armour": { "value": 5, "description": "Reinforced frame (AP 5 all locations)" }
+            "armour": {
+                "head": 0,
+                "rightArm": 0,
+                "leftArm": 0,
+                "body": 0,
+                "rightLeg": 0,
+                "leftLeg": 0
+            },
+            "fate": {
+                "value": 0,
+                "max": 0
+            },
+            "fatigue": 0,
+            "corruption": 0,
+            "insanity": 0,
+            "influence": 0,
+            "xp": {
+                "total": 0,
+                "spent": 0
+            },
+            "aptitudes": [],
+            "defeated": false,
+            "details": {
+                "homeworld": "",
+                "background": "",
+                "role": "",
+                "divination": "",
+                "notes": "Combat servitors stationed in Zarovich Spire's audience chamber and key defensive positions. Unlike the malfunctioning servitors that wander Barovus, these are purpose-built killing machines maintained by Strahd's artificers. They stand dormant in alcoves — twelve in the audience chamber alone — until activated by sitting on the throne or Strahd's command.\n\nWhen activated, they advance with methodical brutality: lascarbine fire at range, power maul strikes in melee. They have no tactics, no self-preservation instinct, and no hesitation. They simply advance and strike until their targets stop moving."
+            }
         },
         "items": [
             {
@@ -498,18 +1293,30 @@
                 "name": "Lascarbine",
                 "type": "weapon",
                 "system": {
-                    "class": "Basic",
-                    "subtype": "Lascarbine",
-                    "damage": "1d10+3",
-                    "damageType": "E",
-                    "penetration": 0,
-                    "range": 75,
-                    "rateOfFire": "S/2/-",
-                    "clip": 40,
-                    "reload": "N/A",
-                    "special": "Reliable",
-                    "weight": 0,
                     "description": "Integrated lascarbine. Reliable, adequate firepower at range.",
+                    "class": "ranged",
+                    "range": 75,
+                    "rof": {
+                        "single": true,
+                        "semi": 2,
+                        "full": 0
+                    },
+                    "damage": {
+                        "formula": "1d10+3",
+                        "type": "energy",
+                        "bonus": 0
+                    },
+                    "penetration": 0,
+                    "clip": {
+                        "value": 40,
+                        "max": 40
+                    },
+                    "reload": "N/A",
+                    "weight": 0,
+                    "qualities": [
+                        "Reliable"
+                    ],
+                    "equipped": true,
                     "availability": "N/A"
                 }
             },
@@ -518,18 +1325,39 @@
                 "name": "Power Maul",
                 "type": "weapon",
                 "system": {
-                    "class": "Melee",
-                    "subtype": "Power Maul",
-                    "damage": "1d10+6",
-                    "damageType": "E",
-                    "penetration": 4,
-                    "special": "Power Field, Shocking",
-                    "weight": 0,
                     "description": "Integrated power maul. Devastating in melee — the Shocking quality stuns targets.",
+                    "class": "melee",
+                    "range": 0,
+                    "rof": {
+                        "single": false,
+                        "semi": 0,
+                        "full": 0
+                    },
+                    "damage": {
+                        "formula": "1d10+6",
+                        "type": "energy",
+                        "bonus": 0
+                    },
+                    "penetration": 4,
+                    "clip": {
+                        "value": 0,
+                        "max": 0
+                    },
+                    "reload": "",
+                    "weight": 0,
+                    "qualities": [
+                        "Power Field",
+                        "Shocking"
+                    ],
+                    "equipped": true,
                     "availability": "N/A"
                 }
             }
         ],
-        "flags": { "dh2e-dread-of-zarovich": { "category": "construct" } }
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "category": "construct"
+            }
+        }
     }
 ]

@@ -89,5 +89,26 @@
     <line x1="200" y1="1850" x2="2200" y2="1850" />
   </g>
   <text x="1200" y="1650" fill="#c0b090" font-size="12" font-family="monospace" opacity="0.4">Recaf Groves</text>
+  <rect x="1700" y="875" width="400" height="50" fill="#2a2a30" stroke="#0a0a0e" stroke-width="2" />
+  <rect x="2200" y="500" width="250" height="200" fill="#2a2a30" stroke="#0a0a0e" stroke-width="3" />
+  <text x="2325" y="600" fill="#c0b090" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Root Cellar</text>
+  <rect x="2196" y="590" width="8" height="20" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="200" y="900" width="300" height="250" fill="#2a2a30" stroke="#0a0a0e" stroke-width="3" />
+  <text x="350" y="1025" fill="#c0b090" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Worker Latrine</text>
+  <rect x="496" y="1015" width="8" height="20" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="1400" y="1050" width="300" height="200" fill="#2a2a30" stroke="#0a0a0e" stroke-width="3" />
+  <text x="1550" y="1150" fill="#c0b090" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Tool Shed</text>
+  <rect x="1396" y="1140" width="8" height="20" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="2100" y="900" width="250" height="200" fill="#2a2a30" stroke="#0a0a0e" stroke-width="3" />
+  <text x="2225" y="992" fill="#c0b090" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Abandoned</text>
+  <text x="2225" y="1010" fill="#c0b090" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Office</text>
+  <rect x="2095" y="988" width="10" height="24" fill="#555544" stroke="#887766" stroke-width="1" />
+  <line x1="2096" y1="992" x2="2104" y2="1008" stroke="#aa8866" stroke-width="2" />
+  <line x1="2104" y1="992" x2="2096" y2="1008" stroke="#aa8866" stroke-width="2" />
+  <rect x="1700" y="1200" width="300" height="250" fill="#2a2a30" stroke="#0a0a0e" stroke-width="3" />
+  <text x="1850" y="1325" fill="#c0b090" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Collapsed Pantry</text>
+  <rect x="1838" y="1195" width="24" height="10" fill="#555544" stroke="#887766" stroke-width="1" />
+  <line x1="1842" y1="1196" x2="1858" y2="1204" stroke="#aa8866" stroke-width="2" />
+  <line x1="1858" y1="1196" x2="1842" y2="1204" stroke="#aa8866" stroke-width="2" />
   <text x="2480" y="1985" fill="#ffffff" font-size="20" text-anchor="end" font-family="monospace" opacity="0.15">Recaf Distillery</text>
 </svg>

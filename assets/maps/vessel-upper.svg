@@ -1,113 +1,193 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 4000 2500" width="4000" height="2500">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 6000 3500" width="6000" height="3500">
   <defs>
     <radialGradient id="bgGrad" cx="50%" cy="50%" r="70%">
       <stop offset="0%" stop-color="#323439" />
       <stop offset="100%" stop-color="#14161b" />
     </radialGradient>
   </defs>
-  <rect x="0" y="0" width="4000" height="2500" fill="url(#bgGrad)" />
+  <rect x="0" y="0" width="6000" height="3500" fill="url(#bgGrad)" />
   <g opacity="0.05" stroke="#ffffff" stroke-width="1">
-    <line x1="0" y1="0" x2="0" y2="2500" />
-    <line x1="100" y1="0" x2="100" y2="2500" />
-    <line x1="200" y1="0" x2="200" y2="2500" />
-    <line x1="300" y1="0" x2="300" y2="2500" />
-    <line x1="400" y1="0" x2="400" y2="2500" />
-    <line x1="500" y1="0" x2="500" y2="2500" />
-    <line x1="600" y1="0" x2="600" y2="2500" />
-    <line x1="700" y1="0" x2="700" y2="2500" />
-    <line x1="800" y1="0" x2="800" y2="2500" />
-    <line x1="900" y1="0" x2="900" y2="2500" />
-    <line x1="1000" y1="0" x2="1000" y2="2500" />
-    <line x1="1100" y1="0" x2="1100" y2="2500" />
-    <line x1="1200" y1="0" x2="1200" y2="2500" />
-    <line x1="1300" y1="0" x2="1300" y2="2500" />
-    <line x1="1400" y1="0" x2="1400" y2="2500" />
-    <line x1="1500" y1="0" x2="1500" y2="2500" />
-    <line x1="1600" y1="0" x2="1600" y2="2500" />
-    <line x1="1700" y1="0" x2="1700" y2="2500" />
-    <line x1="1800" y1="0" x2="1800" y2="2500" />
-    <line x1="1900" y1="0" x2="1900" y2="2500" />
-    <line x1="2000" y1="0" x2="2000" y2="2500" />
-    <line x1="2100" y1="0" x2="2100" y2="2500" />
-    <line x1="2200" y1="0" x2="2200" y2="2500" />
-    <line x1="2300" y1="0" x2="2300" y2="2500" />
-    <line x1="2400" y1="0" x2="2400" y2="2500" />
-    <line x1="2500" y1="0" x2="2500" y2="2500" />
-    <line x1="2600" y1="0" x2="2600" y2="2500" />
-    <line x1="2700" y1="0" x2="2700" y2="2500" />
-    <line x1="2800" y1="0" x2="2800" y2="2500" />
-    <line x1="2900" y1="0" x2="2900" y2="2500" />
-    <line x1="3000" y1="0" x2="3000" y2="2500" />
-    <line x1="3100" y1="0" x2="3100" y2="2500" />
-    <line x1="3200" y1="0" x2="3200" y2="2500" />
-    <line x1="3300" y1="0" x2="3300" y2="2500" />
-    <line x1="3400" y1="0" x2="3400" y2="2500" />
-    <line x1="3500" y1="0" x2="3500" y2="2500" />
-    <line x1="3600" y1="0" x2="3600" y2="2500" />
-    <line x1="3700" y1="0" x2="3700" y2="2500" />
-    <line x1="3800" y1="0" x2="3800" y2="2500" />
-    <line x1="3900" y1="0" x2="3900" y2="2500" />
-    <line x1="4000" y1="0" x2="4000" y2="2500" />
-    <line x1="0" y1="0" x2="4000" y2="0" />
-    <line x1="0" y1="100" x2="4000" y2="100" />
-    <line x1="0" y1="200" x2="4000" y2="200" />
-    <line x1="0" y1="300" x2="4000" y2="300" />
-    <line x1="0" y1="400" x2="4000" y2="400" />
-    <line x1="0" y1="500" x2="4000" y2="500" />
-    <line x1="0" y1="600" x2="4000" y2="600" />
-    <line x1="0" y1="700" x2="4000" y2="700" />
-    <line x1="0" y1="800" x2="4000" y2="800" />
-    <line x1="0" y1="900" x2="4000" y2="900" />
-    <line x1="0" y1="1000" x2="4000" y2="1000" />
-    <line x1="0" y1="1100" x2="4000" y2="1100" />
-    <line x1="0" y1="1200" x2="4000" y2="1200" />
-    <line x1="0" y1="1300" x2="4000" y2="1300" />
-    <line x1="0" y1="1400" x2="4000" y2="1400" />
-    <line x1="0" y1="1500" x2="4000" y2="1500" />
-    <line x1="0" y1="1600" x2="4000" y2="1600" />
-    <line x1="0" y1="1700" x2="4000" y2="1700" />
-    <line x1="0" y1="1800" x2="4000" y2="1800" />
-    <line x1="0" y1="1900" x2="4000" y2="1900" />
-    <line x1="0" y1="2000" x2="4000" y2="2000" />
-    <line x1="0" y1="2100" x2="4000" y2="2100" />
-    <line x1="0" y1="2200" x2="4000" y2="2200" />
-    <line x1="0" y1="2300" x2="4000" y2="2300" />
-    <line x1="0" y1="2400" x2="4000" y2="2400" />
-    <line x1="0" y1="2500" x2="4000" y2="2500" />
+    <line x1="0" y1="0" x2="0" y2="3500" />
+    <line x1="100" y1="0" x2="100" y2="3500" />
+    <line x1="200" y1="0" x2="200" y2="3500" />
+    <line x1="300" y1="0" x2="300" y2="3500" />
+    <line x1="400" y1="0" x2="400" y2="3500" />
+    <line x1="500" y1="0" x2="500" y2="3500" />
+    <line x1="600" y1="0" x2="600" y2="3500" />
+    <line x1="700" y1="0" x2="700" y2="3500" />
+    <line x1="800" y1="0" x2="800" y2="3500" />
+    <line x1="900" y1="0" x2="900" y2="3500" />
+    <line x1="1000" y1="0" x2="1000" y2="3500" />
+    <line x1="1100" y1="0" x2="1100" y2="3500" />
+    <line x1="1200" y1="0" x2="1200" y2="3500" />
+    <line x1="1300" y1="0" x2="1300" y2="3500" />
+    <line x1="1400" y1="0" x2="1400" y2="3500" />
+    <line x1="1500" y1="0" x2="1500" y2="3500" />
+    <line x1="1600" y1="0" x2="1600" y2="3500" />
+    <line x1="1700" y1="0" x2="1700" y2="3500" />
+    <line x1="1800" y1="0" x2="1800" y2="3500" />
+    <line x1="1900" y1="0" x2="1900" y2="3500" />
+    <line x1="2000" y1="0" x2="2000" y2="3500" />
+    <line x1="2100" y1="0" x2="2100" y2="3500" />
+    <line x1="2200" y1="0" x2="2200" y2="3500" />
+    <line x1="2300" y1="0" x2="2300" y2="3500" />
+    <line x1="2400" y1="0" x2="2400" y2="3500" />
+    <line x1="2500" y1="0" x2="2500" y2="3500" />
+    <line x1="2600" y1="0" x2="2600" y2="3500" />
+    <line x1="2700" y1="0" x2="2700" y2="3500" />
+    <line x1="2800" y1="0" x2="2800" y2="3500" />
+    <line x1="2900" y1="0" x2="2900" y2="3500" />
+    <line x1="3000" y1="0" x2="3000" y2="3500" />
+    <line x1="3100" y1="0" x2="3100" y2="3500" />
+    <line x1="3200" y1="0" x2="3200" y2="3500" />
+    <line x1="3300" y1="0" x2="3300" y2="3500" />
+    <line x1="3400" y1="0" x2="3400" y2="3500" />
+    <line x1="3500" y1="0" x2="3500" y2="3500" />
+    <line x1="3600" y1="0" x2="3600" y2="3500" />
+    <line x1="3700" y1="0" x2="3700" y2="3500" />
+    <line x1="3800" y1="0" x2="3800" y2="3500" />
+    <line x1="3900" y1="0" x2="3900" y2="3500" />
+    <line x1="4000" y1="0" x2="4000" y2="3500" />
+    <line x1="4100" y1="0" x2="4100" y2="3500" />
+    <line x1="4200" y1="0" x2="4200" y2="3500" />
+    <line x1="4300" y1="0" x2="4300" y2="3500" />
+    <line x1="4400" y1="0" x2="4400" y2="3500" />
+    <line x1="4500" y1="0" x2="4500" y2="3500" />
+    <line x1="4600" y1="0" x2="4600" y2="3500" />
+    <line x1="4700" y1="0" x2="4700" y2="3500" />
+    <line x1="4800" y1="0" x2="4800" y2="3500" />
+    <line x1="4900" y1="0" x2="4900" y2="3500" />
+    <line x1="5000" y1="0" x2="5000" y2="3500" />
+    <line x1="5100" y1="0" x2="5100" y2="3500" />
+    <line x1="5200" y1="0" x2="5200" y2="3500" />
+    <line x1="5300" y1="0" x2="5300" y2="3500" />
+    <line x1="5400" y1="0" x2="5400" y2="3500" />
+    <line x1="5500" y1="0" x2="5500" y2="3500" />
+    <line x1="5600" y1="0" x2="5600" y2="3500" />
+    <line x1="5700" y1="0" x2="5700" y2="3500" />
+    <line x1="5800" y1="0" x2="5800" y2="3500" />
+    <line x1="5900" y1="0" x2="5900" y2="3500" />
+    <line x1="6000" y1="0" x2="6000" y2="3500" />
+    <line x1="0" y1="0" x2="6000" y2="0" />
+    <line x1="0" y1="100" x2="6000" y2="100" />
+    <line x1="0" y1="200" x2="6000" y2="200" />
+    <line x1="0" y1="300" x2="6000" y2="300" />
+    <line x1="0" y1="400" x2="6000" y2="400" />
+    <line x1="0" y1="500" x2="6000" y2="500" />
+    <line x1="0" y1="600" x2="6000" y2="600" />
+    <line x1="0" y1="700" x2="6000" y2="700" />
+    <line x1="0" y1="800" x2="6000" y2="800" />
+    <line x1="0" y1="900" x2="6000" y2="900" />
+    <line x1="0" y1="1000" x2="6000" y2="1000" />
+    <line x1="0" y1="1100" x2="6000" y2="1100" />
+    <line x1="0" y1="1200" x2="6000" y2="1200" />
+    <line x1="0" y1="1300" x2="6000" y2="1300" />
+    <line x1="0" y1="1400" x2="6000" y2="1400" />
+    <line x1="0" y1="1500" x2="6000" y2="1500" />
+    <line x1="0" y1="1600" x2="6000" y2="1600" />
+    <line x1="0" y1="1700" x2="6000" y2="1700" />
+    <line x1="0" y1="1800" x2="6000" y2="1800" />
+    <line x1="0" y1="1900" x2="6000" y2="1900" />
+    <line x1="0" y1="2000" x2="6000" y2="2000" />
+    <line x1="0" y1="2100" x2="6000" y2="2100" />
+    <line x1="0" y1="2200" x2="6000" y2="2200" />
+    <line x1="0" y1="2300" x2="6000" y2="2300" />
+    <line x1="0" y1="2400" x2="6000" y2="2400" />
+    <line x1="0" y1="2500" x2="6000" y2="2500" />
+    <line x1="0" y1="2600" x2="6000" y2="2600" />
+    <line x1="0" y1="2700" x2="6000" y2="2700" />
+    <line x1="0" y1="2800" x2="6000" y2="2800" />
+    <line x1="0" y1="2900" x2="6000" y2="2900" />
+    <line x1="0" y1="3000" x2="6000" y2="3000" />
+    <line x1="0" y1="3100" x2="6000" y2="3100" />
+    <line x1="0" y1="3200" x2="6000" y2="3200" />
+    <line x1="0" y1="3300" x2="6000" y2="3300" />
+    <line x1="0" y1="3400" x2="6000" y2="3400" />
+    <line x1="0" y1="3500" x2="6000" y2="3500" />
   </g>
-  <polygon points="400,100 3900,100 3900,2400 400,2400 100,1250" fill="none" stroke="#15171a" stroke-width="5" />
-  <rect x="500" y="1200" width="3200" height="100" fill="#2d3035" stroke="#15171a" stroke-width="2" />
-  <rect x="500" y="900" width="600" height="400" fill="#c8a832" stroke="#15171a" stroke-width="4" />
-  <rect x="504" y="904" width="592" height="392" fill="none" stroke="#a0a8b0" stroke-width="1" stroke-dasharray="8,4" opacity="0.5" />
-  <text x="800" y="1100" fill="#a0a8b0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">UD1: Bridge</text>
-  <rect x="1096" y="1090" width="8" height="20" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
-  <rect x="1200" y="700" width="400" height="300" fill="#2d3035" stroke="#15171a" stroke-width="3" />
-  <text x="1400" y="842" fill="#a0a8b0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">UD2: Officers'</text>
-  <text x="1400" y="860" fill="#a0a8b0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Quarters</text>
-  <rect x="1390" y="996" width="20" height="8" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
-  <rect x="1200" y="1400" width="400" height="400" fill="#2d3035" stroke="#15171a" stroke-width="3" />
-  <text x="1400" y="1592" fill="#a0a8b0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">UD3: Observation</text>
-  <text x="1400" y="1610" fill="#a0a8b0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Dome</text>
-  <polygon points="1400,1582 1412,1600 1400,1618 1388,1600" fill="#d4a846" stroke="#ffffff" stroke-width="2" opacity="0.9" />
-  <rect x="1700" y="700" width="300" height="300" fill="#2d3035" stroke="#15171a" stroke-width="3" />
-  <text x="1850" y="850" fill="#a0a8b0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">UD4: Armory</text>
-  <circle cx="1850" cy="1000" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
-  <rect x="1840" y="840" width="20" height="20" fill="#c8a832" stroke="#a0a8b0" stroke-width="2" opacity="0.7" />
-  <rect x="2100" y="700" width="300" height="300" fill="#2d3035" stroke="#15171a" stroke-width="3" />
-  <text x="2250" y="842" fill="#a0a8b0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">UD5: Medicae</text>
-  <text x="2250" y="860" fill="#a0a8b0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Bay</text>
-  <rect x="2240" y="996" width="20" height="8" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
-  <rect x="2500" y="700" width="400" height="300" fill="#2d3035" stroke="#15171a" stroke-width="3" />
-  <text x="2700" y="850" fill="#a0a8b0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">UD6: Storage</text>
-  <rect x="2590" y="840" width="20" height="20" fill="#c8a832" stroke="#a0a8b0" stroke-width="2" opacity="0.7" />
-  <rect x="2740" y="840" width="20" height="20" fill="#c8a832" stroke="#a0a8b0" stroke-width="2" opacity="0.7" />
-  <rect x="2100" y="1400" width="300" height="200" fill="#2d3035" stroke="#15171a" stroke-width="3" />
-  <text x="2250" y="1492" fill="#a0a8b0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">UD7: Children's</text>
-  <text x="2250" y="1510" fill="#a0a8b0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Cabin</text>
-  <polygon points="2250,1390 2242,1406 2258,1406" fill="#ff6600" stroke="#ffcc00" stroke-width="2" />
-  <rect x="3185" y="1235" width="30" height="30" fill="none" stroke="#a0a8b0" stroke-width="1" />
-  <polygon points="3200,1260 3192,1245 3208,1245" fill="#a0a8b0" opacity="0.6" />
-  <text x="3200" y="1278" fill="#a0a8b0" font-size="9" text-anchor="middle" font-family="monospace" opacity="0.6">Stairs Down</text>
-  <text x="3980" y="2485" fill="#ffffff" font-size="20" text-anchor="end" font-family="monospace" opacity="0.15">Vessel Upper Deck</text>
+  <polygon points="600,1500 650,1447 700,1394 750,1341 800,1288 850,1236 900,1183 950,1130 1000,1077 1050,1025 1100,972 1150,919 1200,866 1250,813 1300,761 1350,708 1400,655 1450,602 1500,550 1550,542 1600,535 1650,528 1700,521 1750,514 1800,507 1850,500 1900,492 1950,485 2000,478 2050,471 2100,464 2150,457 2200,450 2250,450 2300,450 2350,450 2400,450 2450,450 2500,450 2550,450 2600,450 2650,450 2700,450 2750,450 2800,450 2850,450 2900,450 2950,450 3000,450 3050,450 3100,450 3150,450 3200,450 3250,450 3300,450 3350,450 3400,450 3450,450 3500,450 3550,450 3600,450 3650,450 3700,450 3750,450 3800,450 3850,450 3900,450 3950,450 4000,450 4050,450 4100,450 4150,450 4200,450 4250,450 4300,450 4350,450 4400,450 4450,450 4500,450 4550,450 4600,450 4650,450 4700,450 4750,467 4800,485 4850,503 4900,521 4950,539 5000,557 5050,575 5100,592 5150,610 5200,628 5250,646 5300,664 5350,682 5400,700 5400,2800 5350,2817 5300,2835 5250,2853 5200,2871 5150,2889 5100,2907 5050,2925 5000,2942 4950,2960 4900,2978 4850,2996 4800,3014 4750,3032 4700,3050 4650,3050 4600,3050 4550,3050 4500,3050 4450,3050 4400,3050 4350,3050 4300,3050 4250,3050 4200,3050 4150,3050 4100,3050 4050,3050 4000,3050 3950,3050 3900,3050 3850,3050 3800,3050 3750,3050 3700,3050 3650,3050 3600,3050 3550,3050 3500,3050 3450,3050 3400,3050 3350,3050 3300,3050 3250,3050 3200,3050 3150,3050 3100,3050 3050,3050 3000,3050 2950,3050 2900,3050 2850,3050 2800,3050 2750,3050 2700,3050 2650,3050 2600,3050 2550,3050 2500,3050 2450,3050 2400,3050 2350,3050 2300,3050 2250,3050 2200,3050 2150,3042 2100,3035 2050,3028 2000,3021 1950,3014 1900,3007 1850,3000 1800,2992 1750,2985 1700,2978 1650,2971 1600,2964 1550,2957 1500,2950 1450,2897 1400,2844 1350,2791 1300,2738 1250,2686 1200,2633 1150,2580 1100,2527 1050,2475 1000,2422 950,2369 900,2316 850,2263 800,2211 750,2158 700,2105 650,2052 600,2000" fill="#1e2025" stroke="#15171a" stroke-width="6" id="hull-outline" />
+  <polygon points="600,1500 1500,500 1500,1550 600,1550" fill="#c8a832" stroke="#15171a" stroke-width="4" />
+  <text x="1050" y="1275" fill="#a0a8b0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">UD1: Bridge</text>
+  <rect x="985" y="885" width="30" height="30" fill="#c8a832" stroke="#a0a8b0" stroke-width="2" opacity="0.7" />
+  <text x="1000" y="928" fill="#a0a8b0" font-size="10" text-anchor="middle" font-family="monospace" opacity="0.7">Command</text>
+  <rect x="1235" y="735" width="30" height="30" fill="#c8a832" stroke="#a0a8b0" stroke-width="2" opacity="0.7" />
+  <text x="1250" y="778" fill="#a0a8b0" font-size="10" text-anchor="middle" font-family="monospace" opacity="0.7">Helm</text>
+  <rect x="1190" y="1546" width="20" height="8" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <polygon points="600,1950 1500,1950 1500,3000 600,2000" fill="#2d3035" stroke="#15171a" stroke-width="3" />
+  <text x="1050" y="2217" fill="#a0a8b0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Captain's</text>
+  <text x="1050" y="2235" fill="#a0a8b0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Ready Room</text>
+  <rect x="985" y="2535" width="30" height="30" fill="#c8a832" stroke="#a0a8b0" stroke-width="2" opacity="0.7" />
+  <rect x="1190" y="1946" width="20" height="8" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <polygon points="1500,550 2050,471 2050,1550 1500,1550" fill="#2d3035" stroke="#15171a" stroke-width="3" />
+  <text x="1775" y="1030" fill="#a0a8b0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Chartroom</text>
+  <rect x="1765" y="1546" width="20" height="8" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="2050" y="450" width="650" height="1100" fill="#c8a832" stroke="#15171a" stroke-width="4" />
+  <rect x="2054" y="454" width="642" height="1092" fill="none" stroke="#a0a8b0" stroke-width="1" stroke-dasharray="8,4" opacity="0.5" />
+  <text x="2375" y="992" fill="#a0a8b0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">UD2: Officers'</text>
+  <text x="2375" y="1010" fill="#a0a8b0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Quarters</text>
+  <rect x="2365" y="1546" width="20" height="8" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="2700" y="450" width="450" height="1100" fill="#2d3035" stroke="#15171a" stroke-width="3" />
+  <text x="2925" y="1000" fill="#a0a8b0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Vox Station</text>
+  <rect x="2915" y="1546" width="20" height="8" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="3150" y="450" width="550" height="1100" fill="#c8a832" stroke="#15171a" stroke-width="4" />
+  <rect x="3154" y="454" width="542" height="1092" fill="none" stroke="#a0a8b0" stroke-width="1" stroke-dasharray="8,4" opacity="0.5" />
+  <text x="3425" y="1000" fill="#a0a8b0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">UD4: Armory</text>
+  <circle cx="3425" cy="1550" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
+  <rect x="3700" y="450" width="600" height="1100" fill="#c8a832" stroke="#15171a" stroke-width="4" />
+  <rect x="3704" y="454" width="592" height="1092" fill="none" stroke="#a0a8b0" stroke-width="1" stroke-dasharray="8,4" opacity="0.5" />
+  <text x="4000" y="992" fill="#a0a8b0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">UD5: Medicae</text>
+  <text x="4000" y="1010" fill="#a0a8b0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Bay</text>
+  <rect x="3990" y="1546" width="20" height="8" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="4300" y="450" width="400" height="1100" fill="#2d3035" stroke="#15171a" stroke-width="3" />
+  <text x="4500" y="1000" fill="#a0a8b0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Data-Shrine</text>
+  <rect x="4490" y="1546" width="20" height="8" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <polygon points="4700,450 5100,592 5100,1550 4700,1550" fill="#2d3035" stroke="#15171a" stroke-width="3" />
+  <text x="4900" y="1035" fill="#a0a8b0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Escape Pods</text>
+  <circle cx="4900" cy="1550" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
+  <polygon points="1500,1950 2000,1950 2000,3021 1500,2950" fill="#2d3035" stroke="#15171a" stroke-width="3" />
+  <text x="1750" y="2459" fill="#a0a8b0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Astropath</text>
+  <text x="1750" y="2477" fill="#a0a8b0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Chamber</text>
+  <rect x="1740" y="1946" width="20" height="8" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="2000" y="1950" width="700" height="1100" fill="#c8a832" stroke="#15171a" stroke-width="4" />
+  <rect x="2004" y="1954" width="692" height="1092" fill="none" stroke="#a0a8b0" stroke-width="1" stroke-dasharray="8,4" opacity="0.5" />
+  <text x="2350" y="2492" fill="#a0a8b0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">UD3: Observation</text>
+  <text x="2350" y="2510" fill="#a0a8b0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Dome</text>
+  <rect x="2340" y="1946" width="20" height="8" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="2700" y="1950" width="500" height="1100" fill="#2d3035" stroke="#15171a" stroke-width="3" />
+  <text x="2950" y="2492" fill="#a0a8b0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Security</text>
+  <text x="2950" y="2510" fill="#a0a8b0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Station</text>
+  <rect x="2940" y="1946" width="20" height="8" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="3200" y="1950" width="500" height="1100" fill="#c8a832" stroke="#15171a" stroke-width="4" />
+  <rect x="3204" y="1954" width="492" height="1092" fill="none" stroke="#a0a8b0" stroke-width="1" stroke-dasharray="8,4" opacity="0.5" />
+  <text x="3450" y="2492" fill="#a0a8b0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">UD7: Children's</text>
+  <text x="3450" y="2510" fill="#a0a8b0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Cabin</text>
+  <polygon points="3450,1940 3442,1956 3458,1956" fill="#ff6600" stroke="#ffcc00" stroke-width="2" />
+  <rect x="3700" y="1950" width="400" height="1100" fill="#2d3035" stroke="#15171a" stroke-width="3" />
+  <text x="3900" y="2500" fill="#a0a8b0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Head</text>
+  <rect x="3890" y="1946" width="20" height="8" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="4100" y="1950" width="400" height="1100" fill="#2d3035" stroke="#15171a" stroke-width="3" />
+  <text x="4300" y="2492" fill="#a0a8b0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Servo-Skull</text>
+  <text x="4300" y="2510" fill="#a0a8b0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Bay</text>
+  <rect x="4290" y="1946" width="20" height="8" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <polygon points="4500,1950 5100,1950 5100,2907 4500,3050" fill="#2d3035" stroke="#15171a" stroke-width="3" />
+  <text x="4800" y="2456" fill="#a0a8b0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Trophy</text>
+  <text x="4800" y="2474" fill="#a0a8b0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Display</text>
+  <rect x="4790" y="1946" width="20" height="8" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="5100" y="592" width="300" height="2314" fill="#2d3035" stroke="#15171a" stroke-width="3" />
+  <text x="5250" y="1749" fill="#a0a8b0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Stairs</text>
+  <rect x="5235" y="1735" width="30" height="30" fill="none" stroke="#a0a8b0" stroke-width="1" />
+  <polygon points="5250,1760 5242,1745 5258,1745" fill="#a0a8b0" opacity="0.6" />
+  <text x="5250" y="1778" fill="#a0a8b0" font-size="9" text-anchor="middle" font-family="monospace" opacity="0.6">Stairs Down</text>
+  <rect x="1735" y="1185" width="30" height="30" fill="#c8a832" stroke="#a0a8b0" stroke-width="2" opacity="0.7" />
+  <text x="1750" y="1228" fill="#a0a8b0" font-size="10" text-anchor="middle" font-family="monospace" opacity="0.7">Nav</text>
+  <rect x="2935" y="1085" width="30" height="30" fill="#c8a832" stroke="#a0a8b0" stroke-width="2" opacity="0.7" />
+  <text x="2950" y="1128" fill="#a0a8b0" font-size="10" text-anchor="middle" font-family="monospace" opacity="0.7">Vox</text>
+  <rect x="3390" y="990" width="20" height="20" fill="#c8a832" stroke="#a0a8b0" stroke-width="2" opacity="0.7" />
+  <rect x="3540" y="990" width="20" height="20" fill="#c8a832" stroke="#a0a8b0" stroke-width="2" opacity="0.7" />
+  <rect x="3985" y="985" width="30" height="30" fill="#c8a832" stroke="#a0a8b0" stroke-width="2" opacity="0.7" />
+  <text x="4000" y="1028" fill="#a0a8b0" font-size="10" text-anchor="middle" font-family="monospace" opacity="0.7">Slab</text>
+  <polygon points="1750.0,2482.0 1753.4,2491.7 1762.7,2487.3 1758.3,2496.6 1768.0,2500.0 1758.3,2503.4 1762.7,2512.7 1753.4,2508.3 1750.0,2518.0 1746.6,2508.3 1737.3,2512.7 1741.7,2503.4 1732.0,2500.0 1741.7,2496.6 1737.3,2487.3 1746.6,2491.7" fill="#cc44aa" stroke="#ff88dd" stroke-width="1" opacity="0.8" />
+  <polygon points="2400,2482 2412,2500 2400,2518 2388,2500" fill="#d4a846" stroke="#ffffff" stroke-width="2" opacity="0.9" />
+  <text x="5980" y="3485" fill="#ffffff" font-size="20" text-anchor="end" font-family="monospace" opacity="0.15">Vessel Upper Deck</text>
 </svg>

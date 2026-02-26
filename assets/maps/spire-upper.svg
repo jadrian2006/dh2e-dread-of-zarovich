@@ -128,5 +128,35 @@
   <rect x="3185" y="1085" width="30" height="30" fill="none" stroke="#c0a0a0" stroke-width="1" />
   <polygon points="3200,1090 3192,1105 3208,1105" fill="#c0a0a0" opacity="0.6" />
   <text x="3200" y="1128" fill="#c0a0a0" font-size="9" text-anchor="middle" font-family="monospace" opacity="0.6">Stairs Up</text>
+  <rect x="1870" y="1300" width="60" height="300" fill="#2e1515" stroke="#0e0505" stroke-width="2" />
+  <rect x="525" y="700" width="50" height="400" fill="#2e1515" stroke="#0e0505" stroke-width="2" />
+  <rect x="200" y="400" width="350" height="300" fill="#2e1515" stroke="#0e0505" stroke-width="3" />
+  <text x="375" y="542" fill="#c0a0a0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Servant</text>
+  <text x="375" y="560" fill="#c0a0a0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Passage</text>
+  <rect x="546" y="540" width="8" height="20" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="200" y="1100" width="350" height="250" fill="#2e1515" stroke="#0e0505" stroke-width="3" />
+  <text x="375" y="1217" fill="#c0a0a0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Empty</text>
+  <text x="375" y="1235" fill="#c0a0a0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Bedchamber</text>
+  <rect x="546" y="1215" width="8" height="20" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="3000" y="400" width="350" height="300" fill="#2e1515" stroke="#0e0505" stroke-width="3" />
+  <text x="3175" y="542" fill="#c0a0a0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Secret Study</text>
+  <text x="3175" y="560" fill="#c0a0a0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Annex</text>
+  <circle cx="3000" cy="550" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
+  <rect x="1600" y="1600" width="300" height="250" fill="#2e1515" stroke="#0e0505" stroke-width="3" />
+  <text x="1750" y="1717" fill="#c0a0a0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Collapsed</text>
+  <text x="1750" y="1735" fill="#c0a0a0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Hallway</text>
+  <rect x="1738" y="1595" width="24" height="10" fill="#555544" stroke="#887766" stroke-width="1" />
+  <line x1="1742" y1="1596" x2="1758" y2="1604" stroke="#aa8866" stroke-width="2" />
+  <line x1="1758" y1="1596" x2="1742" y2="1604" stroke="#aa8866" stroke-width="2" />
+  <rect x="700" y="1900" width="400" height="300" fill="#2e1515" stroke="#0e0505" stroke-width="3" />
+  <text x="900" y="2042" fill="#c0a0a0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Wine Cellar</text>
+  <text x="900" y="2060" fill="#c0a0a0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Hatch</text>
+  <circle cx="900" cy="1900" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
+  <rect x="2400" y="1600" width="350" height="250" fill="#2e1515" stroke="#0e0505" stroke-width="3" />
+  <text x="2575" y="1725" fill="#c0a0a0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Prayer Alcove</text>
+  <rect x="2565" y="1596" width="20" height="8" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="1200" y="1600" width="300" height="200" fill="#2e1515" stroke="#0e0505" stroke-width="3" />
+  <text x="1350" y="1700" fill="#c0a0a0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Guard Nook</text>
+  <rect x="1340" y="1596" width="20" height="8" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
   <text x="3980" y="3485" fill="#ffffff" font-size="20" text-anchor="end" font-family="monospace" opacity="0.15">Spire Upper Levels</text>
 </svg>

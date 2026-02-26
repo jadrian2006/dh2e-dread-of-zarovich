@@ -12,6 +12,7 @@ Output:
     assets/maps/*.svg (19 files)
 """
 
+import json
 import math
 import os
 import xml.etree.ElementTree as ET
@@ -175,6 +176,49 @@ def render_room(parent, x, y, w, h, label, palette, highlight=False):
             txt.text = label
 
 
+def render_poly_room(parent, points, label, palette, highlight=False):
+    """Polygon room defined by a list of (x, y) tuples. For non-rectangular rooms."""
+    fill = palette["accent"] if highlight else palette["floor"]
+    stroke_w = "4" if highlight else "3"
+    pts_str = " ".join(f"{x},{y}" for x, y in points)
+    _se(
+        parent, "polygon",
+        points=pts_str,
+        fill=fill, stroke=palette["wall"], stroke_width=stroke_w,
+    )
+    if label:
+        # Center label at centroid of polygon
+        cx = sum(p[0] for p in points) // len(points)
+        cy = sum(p[1] for p in points) // len(points)
+        parts = label.split("/")
+        if len(parts) > 1:
+            _se(
+                parent, "text",
+                x=str(cx), y=str(cy - 8),
+                fill=palette["text"],
+                font_size="14", font_weight="bold",
+                text_anchor="middle", dominant_baseline="central",
+                font_family="monospace",
+            ).text = parts[0].strip()
+            _se(
+                parent, "text",
+                x=str(cx), y=str(cy + 10),
+                fill=palette["text"],
+                font_size="12", text_anchor="middle",
+                dominant_baseline="central",
+                font_family="monospace",
+            ).text = parts[1].strip()
+        else:
+            _se(
+                parent, "text",
+                x=str(cx), y=str(cy),
+                fill=palette["text"],
+                font_size="14", font_weight="bold",
+                text_anchor="middle", dominant_baseline="central",
+                font_family="monospace",
+            ).text = label
+
+
 def render_corridor(parent, x1, y1, x2, y2, width, palette):
     """Rectangle corridor connecting two points."""
     if x1 == x2:
@@ -211,7 +255,7 @@ def render_corridor(parent, x1, y1, x2, y2, width, palette):
 
 
 def render_door(parent, x, y, orientation="h", door_type="normal"):
-    """Door marker: rect=normal, circle=locked, triangle=trapped."""
+    """Door marker: rect=normal, circle=locked, triangle=trapped, X=damaged."""
     if door_type == "locked":
         _se(
             parent, "circle",
@@ -228,6 +272,28 @@ def render_door(parent, x, y, orientation="h", door_type="normal"):
             points=pts,
             fill="#ff6600", stroke="#ffcc00", stroke_width="2",
         )
+    elif door_type == "damaged":
+        # Damaged/collapsed doorway — X mark with rubble color
+        if orientation == "h":
+            _se(parent, "rect", x=str(x - 12), y=str(y - 5),
+                width="24", height="10",
+                fill="#555544", stroke="#887766", stroke_width="1")
+            _se(parent, "line", x1=str(x - 8), y1=str(y - 4),
+                x2=str(x + 8), y2=str(y + 4),
+                stroke="#aa8866", stroke_width="2")
+            _se(parent, "line", x1=str(x + 8), y1=str(y - 4),
+                x2=str(x - 8), y2=str(y + 4),
+                stroke="#aa8866", stroke_width="2")
+        else:
+            _se(parent, "rect", x=str(x - 5), y=str(y - 12),
+                width="10", height="24",
+                fill="#555544", stroke="#887766", stroke_width="1")
+            _se(parent, "line", x1=str(x - 4), y1=str(y - 8),
+                x2=str(x + 4), y2=str(y + 8),
+                stroke="#aa8866", stroke_width="2")
+            _se(parent, "line", x1=str(x + 4), y1=str(y - 8),
+                x2=str(x - 4), y2=str(y + 8),
+                stroke="#aa8866", stroke_width="2")
     else:
         # Normal door — small gap
         if orientation == "h":
@@ -418,32 +484,59 @@ def render_hex_corridor(parent, x1, y1, x2, y2, width, palette):
     )
 
 
-def render_hull_outline(parent, w, h, palette, organic=False):
-    """Elongated ship hull outline (pointed bow on left, flat stern on right)."""
-    margin = 100
-    bow_indent = 300
-    pts = [
-        (margin + bow_indent, margin),                     # bow top
-        (w - margin, margin),                               # stern top
-        (w - margin, h - margin),                           # stern bottom
-        (margin + bow_indent, h - margin),                  # bow bottom
-        (margin, h // 2),                                   # bow point
-    ]
+def render_hull_outline(parent, w, h, palette, organic=False, margin=None,
+                        bow_indent=None, hull_curve_fn=None):
+    """Elongated ship hull outline (pointed bow on left, flat stern on right).
+
+    Bow is on the LEFT (low x), stern is on the RIGHT (high x).
+    If hull_curve_fn is provided, uses it for a smooth curved hull.
+    Otherwise falls back to the simple 5-point pentagon.
+    """
+    cy = h // 2
+
+    if hull_curve_fn:
+        # Smooth hull using the curve function — sample at regular intervals
+        x_start = 600
+        x_end = 5400
+        step = 50
+        top_pts = []
+        bot_pts = []
+        for x in range(x_start, x_end + 1, step):
+            ht, hb = hull_curve_fn(x, cy)
+            top_pts.append((x, int(ht)))
+            bot_pts.append((x, int(hb)))
+        # Build polygon: top edge left→right, then bottom edge right→left
+        pts = top_pts + list(reversed(bot_pts))
+    else:
+        if margin is None:
+            margin = max(100, w // 40)
+        if bow_indent is None:
+            bow_indent = max(300, w // 12)
+        pts = [
+            (margin + bow_indent, margin),
+            (w - margin, margin),
+            (w - margin, h - margin),
+            (margin + bow_indent, h - margin),
+            (margin, cy),
+        ]
+
     pts_str = " ".join(f"{x},{y}" for x, y in pts)
-    _se(
+    hull = _se(
         parent, "polygon",
         points=pts_str,
-        fill="none", stroke=palette["wall"], stroke_width="5",
+        fill=palette["bg"], stroke=palette["wall"], stroke_width="6",
     )
+    hull.set("id", "hull-outline")
     # If organic, add wavy vein lines inside
     if organic:
         g = _se(parent, "g", opacity="0.15", stroke=palette["accent"], stroke_width="2")
-        for i in range(5):
-            y_off = margin + 100 + i * ((h - 2 * margin - 200) // 4)
-            # Wavy line using a polyline
+        for i in range(7):
+            m = margin if margin else max(100, w // 40)
+            bi = bow_indent if bow_indent else max(300, w // 12)
+            y_off = m + 100 + i * ((h - 2 * m - 200) // 6)
             wave_pts = []
-            for px in range(margin + bow_indent, w - margin, 40):
-                py = y_off + 20 * math.sin(px / 80.0 + i)
+            for px in range(m + bi, w - m, 40):
+                py = y_off + 25 * math.sin(px / 150.0 + i)
                 wave_pts.append(f"{px:.0f},{py:.0f}")
             _se(g, "polyline", points=" ".join(wave_pts), fill="none")
 
@@ -474,11 +567,12 @@ def render_outer_wall(parent, x, y, w, h, palette, gaps=None):
                 _se(parent, "line", x1=str(sx), y1=str(sy), x2=str(ex), y2=str(ey),
                     stroke=palette["wall"], stroke_width="4")
     else:
-        _se(
+        wall = _se(
             parent, "rect",
             x=str(x), y=str(y), width=str(w), height=str(h),
             fill="none", stroke=palette["wall"], stroke_width="4",
         )
+        wall.set("id", "outer-wall")
 
 
 def render_road(parent, points, palette, width=80):
@@ -557,6 +651,48 @@ def render_stairs(parent, x, y, orientation="down", palette=None):
 
 
 # ---------------------------------------------------------------------------
+# Fluff Rooms — data-driven from fluff-rooms.json
+# ---------------------------------------------------------------------------
+
+_FLUFF_DATA = None
+
+
+def _load_fluff_data():
+    """Load fluff-rooms.json once and cache it."""
+    global _FLUFF_DATA
+    if _FLUFF_DATA is None:
+        json_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fluff-rooms.json")
+        if os.path.isfile(json_path):
+            with open(json_path) as f:
+                _FLUFF_DATA = json.load(f)
+        else:
+            _FLUFF_DATA = {}
+    return _FLUFF_DATA
+
+
+def render_fluff_rooms(parent, map_name, palette):
+    """Render all fluff rooms and cross corridors for a map from fluff-rooms.json."""
+    data = _load_fluff_data()
+    entry = data.get(map_name)
+    if not entry:
+        return
+
+    # Render cross corridors first (under rooms)
+    for cc in entry.get("cross_corridors", []):
+        render_corridor(parent, cc["x1"], cc["y1"], cc["x2"], cc["y2"],
+                        cc.get("width", 60), palette)
+
+    # Render rooms and their doors
+    for room in entry.get("rooms", []):
+        render_room(parent, room["x"], room["y"], room["w"], room["h"],
+                    room["label"], palette)
+        door = room.get("door")
+        if door:
+            render_door(parent, door["x"], door["y"],
+                        door.get("orient", "h"), door.get("type", "normal"))
+
+
+# ---------------------------------------------------------------------------
 # Map Layout Functions
 # ---------------------------------------------------------------------------
 
@@ -601,141 +737,365 @@ def layout_village_barovus(parent, palette):
     render_feature(parent, 600, 1400, "crate", "Supplies", palette)
 
 
+def _vessel_hull_y(x, cy, corr_half=200):
+    """Return (hull_top, hull_bottom) at given x for the vessel hull profile.
+
+    The hull narrows at the bow (left) and slightly at the stern (right).
+    Rooms use this to know how far from center they can extend.
+    cy = vertical center of canvas, corr_half = half corridor width.
+    """
+    # How far from center the hull extends (half-width)
+    if x <= 600:
+        hw = corr_half + 50  # bow tip — just barely wider than corridor
+    elif x <= 1500:
+        t = (x - 600) / 900.0
+        hw = corr_half + 50 + t * 950  # ramps from 250 to 1200
+    elif x <= 2200:
+        t = (x - 1500) / 700.0
+        hw = 1200 + t * 100  # 1200 to 1300
+    elif x <= 4700:
+        hw = 1300  # full width mid-section
+    elif x <= 5400:
+        t = (x - 4700) / 700.0
+        hw = 1300 - t * 250  # 1300 to 1050 (stern taper)
+    else:
+        hw = 1050
+    return cy - hw, cy + hw
+
+
 def layout_vessel_upper(parent, palette):
-    """Map 2: Vessel Upper Deck — 4000x2500"""
-    render_hull_outline(parent, 4000, 2500, palette)
+    """Map 2: Vessel Upper Deck (Command) — 6000x3500
 
-    # Central corridor spine
-    render_corridor(parent, 500, 1250, 3700, 1250, 100, palette)
+    Frigate upper deck: bridge, officers' area, command facilities.
+    Grid: 100px = 1.5m. Main corridor 400px = 6m wide.
 
-    # Bridge (UD1) — bow
-    render_room(parent, 500, 900, 600, 400, "UD1: Bridge", palette, highlight=True)
-    render_door(parent, 1100, 1100, "v")
+    Rooms pack tightly to DEFINE the hull shape:
+    - Bridge fills the entire pointed bow as a polygon
+    - Port rooms (north) extend from corridor to hull top edge
+    - Starboard rooms (south) extend from corridor to hull bottom edge
+    - Corridor is negative space between room rows
+    - Hull polygon provides background fill; rooms are drawn on top
+    """
+    W, H = 6000, 3500
+    CY = H // 2        # 1750 — ship centerline
+    CT = CY - 200      # 1550 — corridor top edge
+    CB = CY + 200      # 1950 — corridor bottom edge
 
-    # Officers' Quarters (UD2)
-    render_room(parent, 1200, 700, 400, 300, "UD2: Officers'/Quarters", palette)
-    render_door(parent, 1400, 1000, "h")
+    # Hull background — smooth curve matching room edges, rooms drawn on top
+    render_hull_outline(parent, W, H, palette,
+                        hull_curve_fn=lambda x, cy: _vessel_hull_y(x, cy))
 
-    # Observation Dome (UD3)
-    render_room(parent, 1200, 1400, 400, 400, "UD3: Observation/Dome", palette)
-    render_feature(parent, 1400, 1600, "crystal", "", palette)
+    # === BRIDGE (UD1) — fills the entire pointed bow ===
+    # Upper bridge: polygon from bow tip to where port rooms start
+    bow_tip_top, bow_tip_bot = _vessel_hull_y(600, CY)
+    bow_mid_top, _ = _vessel_hull_y(1000, CY)
+    render_poly_room(parent, [
+        (600, int(bow_tip_top)),   # bow tip upper hull edge
+        (1500, 500),               # where port rooms start (hull top)
+        (1500, CT),                # corridor edge
+        (600, CT),                 # corridor at bow
+    ], "UD1: Bridge", palette, highlight=True)
+    render_feature(parent, 1000, 900, "table", "Command", palette)
+    render_feature(parent, 1250, 750, "table", "Helm", palette)
+    render_door(parent, 1200, CT, "h")
 
-    # Armory (UD4)
-    render_room(parent, 1700, 700, 300, 300, "UD4: Armory", palette)
-    render_door(parent, 1850, 1000, "h", "locked")
-    render_feature(parent, 1850, 850, "crate", "", palette)
+    # Lower bridge / Captain's Ready Room — mirror polygon below corridor
+    render_poly_room(parent, [
+        (600, CB),                  # corridor at bow
+        (1500, CB),                 # corridor edge
+        (1500, 3000),               # where starboard rooms start
+        (600, int(bow_tip_bot)),    # bow tip lower hull edge
+    ], "Captain's/Ready Room", palette)
+    render_feature(parent, 1000, 2550, "table", "", palette)
+    render_door(parent, 1200, CB, "h")
 
-    # Medicae Bay (UD5)
-    render_room(parent, 2100, 700, 300, 300, "UD5: Medicae/Bay", palette)
-    render_door(parent, 2250, 1000, "h")
+    # === PORT SIDE ROOMS (north, above corridor) ===
+    # Each room: x_start, x_end, then top = hull edge, bottom = CT (1550)
+    port_rooms = [
+        # (x_start, x_end, label, highlight, door_type)
+        (1500, 2050, "Chartroom", False, "normal"),
+        (2050, 2700, "UD2: Officers'/Quarters", True, "normal"),
+        (2700, 3150, "Vox Station", False, "normal"),
+        (3150, 3700, "UD4: Armory", True, "locked"),
+        (3700, 4300, "UD5: Medicae/Bay", True, "normal"),
+        (4300, 4700, "Data-Shrine", False, "normal"),
+        (4700, 5100, "Escape Pods", False, "locked"),
+    ]
 
-    # Storage (UD6)
-    render_room(parent, 2500, 700, 400, 300, "UD6: Storage", palette)
-    render_feature(parent, 2600, 850, "crate", "", palette)
-    render_feature(parent, 2750, 850, "crate", "", palette)
+    for xs, xe, label, hl, dt in port_rooms:
+        ht_l, _ = _vessel_hull_y(xs, CY)
+        ht_r, _ = _vessel_hull_y(xe, CY)
+        # Use polygon for rooms where hull curves (different top at left vs right)
+        top_l = int(ht_l)
+        top_r = int(ht_r)
+        if abs(top_l - top_r) > 30:
+            # Trapezoidal room follows hull curve
+            render_poly_room(parent, [
+                (xs, top_l), (xe, top_r), (xe, CT), (xs, CT)
+            ], label, palette, highlight=hl)
+        else:
+            # Rectangular room in straight hull section
+            top = min(top_l, top_r)
+            render_room(parent, xs, top, xe - xs, CT - top, label, palette, highlight=hl)
+        render_door(parent, (xs + xe) // 2, CT, "h", dt)
 
-    # Children's Cabin (UD7)
-    render_room(parent, 2100, 1400, 300, 200, "UD7: Children's/Cabin", palette)
-    render_door(parent, 2250, 1400, "h", "trapped")
+    # === STARBOARD SIDE ROOMS (south, below corridor) ===
+    # Each room: top = CB (1950), bottom = hull edge
+    star_rooms = [
+        (1500, 2000, "Astropath/Chamber", False, "normal"),
+        (2000, 2700, "UD3: Observation/Dome", True, "normal"),
+        (2700, 3200, "Security/Station", False, "normal"),
+        (3200, 3700, "UD7: Children's/Cabin", True, "trapped"),
+        (3700, 4100, "Head", False, "normal"),
+        (4100, 4500, "Servo-Skull/Bay", False, "normal"),
+        (4500, 5100, "Trophy/Display", False, "normal"),
+    ]
 
-    # Stairs down
-    render_stairs(parent, 3200, 1250, "down", palette)
+    for xs, xe, label, hl, dt in star_rooms:
+        _, hb_l = _vessel_hull_y(xs, CY)
+        _, hb_r = _vessel_hull_y(xe, CY)
+        bot_l = int(hb_l)
+        bot_r = int(hb_r)
+        if abs(bot_l - bot_r) > 30:
+            render_poly_room(parent, [
+                (xs, CB), (xe, CB), (xe, bot_r), (xs, bot_l)
+            ], label, palette, highlight=hl)
+        else:
+            bot = max(bot_l, bot_r)
+            render_room(parent, xs, CB, xe - xs, bot - CB, label, palette, highlight=hl)
+        render_door(parent, (xs + xe) // 2, CB, "h", dt)
+
+    # === STAIRS — stern, aligned at x=5200 across all decks ===
+    st_top, st_bot = _vessel_hull_y(5100, CY)
+    render_room(parent, 5100, int(st_top), 300, int(st_bot - st_top),
+                "Stairs", palette)
+    render_stairs(parent, 5250, CY, "down", palette)
+
+    # === Features inside rooms ===
+    render_feature(parent, 1750, 1200, "table", "Nav", palette)        # Chartroom
+    render_feature(parent, 2950, 1100, "table", "Vox", palette)        # Vox Station
+    render_feature(parent, 3400, 1000, "crate", "", palette)           # Armory
+    render_feature(parent, 3550, 1000, "crate", "", palette)           # Armory
+    render_feature(parent, 4000, 1000, "table", "Slab", palette)       # Medicae
+    render_feature(parent, 1750, 2500, "warp", "", palette)            # Astropath
+    render_feature(parent, 2400, 2500, "crystal", "", palette)         # Observation
 
 
 def layout_vessel_mid(parent, palette):
-    """Map 3: Vessel Mid Deck — 4000x2500"""
-    render_hull_outline(parent, 4000, 2500, palette)
+    """Map 3: Vessel Mid Deck (Operations) — 6000x3500
 
-    # Central corridor
-    render_corridor(parent, 500, 1250, 3700, 1250, 100, palette)
+    Frigate mid deck: crew living spaces, cargo, worship, operations.
+    Grid: 100px = 1.5m. Main corridor 400px = 6m wide.
+    """
+    render_hull_outline(parent, 6000, 3500, palette)
 
-    # Crew Quarters (MD1)
-    render_room(parent, 500, 700, 500, 400, "MD1: Crew/Quarters", palette)
-    render_door(parent, 750, 1100, "h")
+    # === Main arterial corridor ===
+    render_corridor(parent, 700, 1750, 5400, 1750, 400, palette)
 
-    # Mess Hall (MD2)
-    render_room(parent, 1100, 700, 400, 400, "MD2: Mess Hall", palette)
-    render_door(parent, 1300, 1100, "h")
-    render_feature(parent, 1200, 900, "table", "", palette)
-    render_feature(parent, 1400, 900, "table", "", palette)
+    # === PORT SIDE (north) ===
 
-    # Chapel (MD3)
-    render_room(parent, 1600, 700, 300, 400, "MD3: Chapel", palette)
-    render_door(parent, 1750, 1100, "h")
-    render_feature(parent, 1750, 800, "altar", "Altar", palette)
+    # Crew Quarters (MD1) — large barracks (12x9m)
+    render_room(parent, 500, 600, 800, 600, "MD1: Crew/Quarters", palette)
+    render_corridor(parent, 900, 1200, 900, 1550, 200, palette)
+    render_door(parent, 900, 1200, "h")
 
-    # Cargo Bay (MD4) — large room
-    render_room(parent, 2000, 600, 600, 500, "MD4: Cargo Bay", palette)
-    render_door(parent, 2300, 1100, "h")
-    render_feature(parent, 2100, 750, "crate", "", palette)
-    render_feature(parent, 2200, 850, "crate", "", palette)
-    render_feature(parent, 2400, 750, "crate", "", palette)
+    # Mess Hall (MD2) — dining area (9x9m)
+    render_room(parent, 1400, 700, 600, 600, "MD2: Mess Hall", palette)
+    render_feature(parent, 1550, 950, "table", "", palette)
+    render_feature(parent, 1750, 950, "table", "", palette)
+    render_feature(parent, 1550, 1100, "table", "", palette)
+    render_feature(parent, 1750, 1100, "table", "", palette)
+    render_corridor(parent, 1700, 1300, 1700, 1550, 200, palette)
+    render_door(parent, 1700, 1300, "h")
 
-    # Preparation Chamber (MD5)
-    render_room(parent, 1100, 1400, 300, 300, "MD5: Prep/Chamber", palette)
-    render_door(parent, 1250, 1400, "h")
+    # Ship's Galley — kitchen (6x6m)
+    render_room(parent, 2100, 850, 400, 400, "Ship's Galley", palette)
+    render_feature(parent, 2300, 1050, "table", "", palette)
+    render_corridor(parent, 2300, 1250, 2300, 1550, 200, palette)
+    render_door(parent, 2300, 1250, "h")
 
-    # Navigator Cell (MD6)
-    render_room(parent, 1500, 1400, 300, 300, "MD6: Navigator/Cell", palette)
-    render_door(parent, 1650, 1400, "h", "locked")
-    render_feature(parent, 1650, 1550, "warp", "", palette)
+    # Chapel (MD3) — worship space (7.5x9m)
+    render_room(parent, 2600, 700, 500, 600, "MD3: Chapel", palette)
+    render_feature(parent, 2850, 850, "altar", "Altar", palette)
+    render_corridor(parent, 2850, 1300, 2850, 1550, 200, palette)
+    render_door(parent, 2850, 1300, "h")
 
-    # Power Junction (MD7)
-    render_room(parent, 1900, 1400, 300, 300, "MD7: Power/Junction", palette)
-    render_door(parent, 2050, 1400, "h")
+    # Cargo Bay (MD4) — large hold (13.5x10.5m)
+    render_room(parent, 3200, 600, 900, 700, "MD4: Cargo Bay", palette)
+    render_feature(parent, 3400, 800, "crate", "", palette)
+    render_feature(parent, 3600, 800, "crate", "", palette)
+    render_feature(parent, 3800, 800, "crate", "", palette)
+    render_feature(parent, 3400, 1000, "crate", "", palette)
+    render_feature(parent, 3600, 1000, "crate", "", palette)
+    render_corridor(parent, 3650, 1300, 3650, 1550, 200, palette)
+    render_door(parent, 3650, 1300, "h")
 
-    # Access Stairs (MD8)
-    render_room(parent, 2800, 1050, 200, 200, "MD8: Stairs", palette)
-    render_stairs(parent, 2900, 1150, "down", palette)
-    render_stairs(parent, 2900, 1050, "up", palette)
+    # Vox Relay — comms relay (4.5x6m)
+    render_room(parent, 4200, 900, 300, 400, "Vox Relay", palette)
+    render_corridor(parent, 4350, 1300, 4350, 1550, 200, palette)
+    render_door(parent, 4350, 1300, "h")
+
+    # Water Reclamation (4.5x6m)
+    render_room(parent, 4600, 900, 300, 400, "Water/Reclamation", palette)
+    render_corridor(parent, 4750, 1300, 4750, 1550, 200, palette)
+    render_door(parent, 4750, 1300, "h")
+
+    # === STARBOARD SIDE (south) ===
+
+    # Commissary / Stores (6x6m)
+    render_room(parent, 600, 1950, 400, 400, "Commissary", palette)
+    render_feature(parent, 800, 2150, "crate", "", palette)
+    render_door(parent, 800, 1950, "h")
+
+    # Preparation Chamber (MD5) (6x6m)
+    render_room(parent, 1100, 1950, 400, 400, "MD5: Prep/Chamber", palette)
+    render_door(parent, 1300, 1950, "h")
+
+    # Navigator Cell (MD6) (6x6m) — locked, warp-tainted
+    render_room(parent, 1600, 1950, 400, 400, "MD6: Navigator/Cell", palette)
+    render_feature(parent, 1800, 2150, "warp", "", palette)
+    render_door(parent, 1800, 1950, "h", "locked")
+
+    # Brig / Holding Cells (6x6m)
+    render_room(parent, 2100, 1950, 400, 400, "Brig", palette)
+    render_door(parent, 2300, 1950, "h", "locked")
+
+    # Power Junction (MD7) (6x6m)
+    render_room(parent, 2600, 1950, 400, 400, "MD7: Power/Junction", palette)
+    render_feature(parent, 2800, 2150, "brazier", "", palette)
+    render_door(parent, 2800, 1950, "h")
+
+    # Crew Latrine (3.75x4.5m)
+    render_room(parent, 3100, 1950, 250, 300, "Crew/Latrine", palette)
+    render_door(parent, 3225, 1950, "h")
+
+    # Air Processing (4.5x6m)
+    render_room(parent, 3450, 1950, 300, 400, "Air/Processing", palette)
+    render_door(parent, 3600, 1950, "h")
+
+    # Tool Storage (4.5x4.5m)
+    render_room(parent, 3850, 1950, 300, 300, "Tool Storage", palette)
+    render_feature(parent, 4000, 2100, "crate", "", palette)
+    render_door(parent, 4000, 1950, "h")
+
+    # Recreation Area (6x6m)
+    render_room(parent, 4250, 1950, 400, 400, "Recreation/Area", palette)
+    render_feature(parent, 4450, 2150, "table", "", palette)
+    render_door(parent, 4450, 1950, "h")
+
+    # === STAIRS — aligned at x=5200 across all decks ===
+    render_room(parent, 5050, 1500, 300, 500, "MD8: Stairs", palette)
+    render_stairs(parent, 5200, 1650, "up", palette)
+    render_stairs(parent, 5200, 1850, "down", palette)
 
 
 def layout_vessel_lower(parent, palette):
-    """Map 4: Vessel Lower Deck — 4000x2500 (organic/corrupt)"""
-    render_hull_outline(parent, 4000, 2500, palette, organic=True)
+    """Map 4: Vessel Lower Deck (Engineering, corrupted) — 6000x3500
 
-    # Twisted central corridor
+    Frigate lower deck: warp-corrupted engineering spaces.
+    Organic corruption, twisted corridors, horror atmosphere.
+    Grid: 100px = 1.5m. Main corridor 400px = 6m (but twisted/organic).
+    """
+    render_hull_outline(parent, 6000, 3500, palette, organic=True)
+
+    # === Twisted main corridor (organic corruption warps the path) ===
     corr_pts = []
-    for px in range(500, 3700, 50):
-        py = 1250 + 30 * math.sin(px / 200.0)
+    for px in range(700, 5400, 40):
+        py = 1750 + 40 * math.sin(px / 250.0)
         corr_pts.append(f"{px},{py:.0f}")
     _se(
         parent, "polyline",
         points=" ".join(corr_pts),
-        fill="none", stroke=palette["floor"], stroke_width="100",
+        fill="none", stroke=palette["floor"], stroke_width="400",
         stroke_linecap="round",
     )
 
-    # Enginarium (LD1)
-    render_room(parent, 500, 750, 600, 500, "LD1: Enginarium", palette)
-    render_door(parent, 800, 1250, "h")
+    # === PORT SIDE (north) ===
 
-    # Warp Drive (LD2) — BOSS ROOM
-    render_room(parent, 1300, 700, 500, 500, "LD2: Warp Drive/BOSS ROOM", palette, highlight=True)
-    render_door(parent, 1550, 1200, "h", "locked")
-    render_feature(parent, 1550, 950, "warp", "Warp Core", palette)
+    # Enginarium (LD1) — massive engine room (13.5x10.5m)
+    render_room(parent, 500, 500, 900, 700, "LD1: Enginarium", palette)
+    render_feature(parent, 750, 800, "brazier", "Reactor", palette)
+    render_feature(parent, 1100, 800, "brazier", "Reactor", palette)
+    render_corridor(parent, 950, 1200, 950, 1550, 200, palette)
+    render_door(parent, 950, 1200, "h")
 
-    # Altar Chamber (LD3)
-    render_room(parent, 2000, 750, 400, 400, "LD3: Altar/Chamber", palette)
-    render_door(parent, 2200, 1150, "h", "trapped")
-    render_feature(parent, 2200, 950, "altar", "Dark Altar", palette)
+    # Warp Drive (LD2) — BOSS ROOM (12x10.5m)
+    render_room(parent, 1600, 500, 800, 700, "LD2: Warp Drive/BOSS ROOM", palette, highlight=True)
+    render_feature(parent, 2000, 850, "warp", "Warp Core", palette)
+    render_corridor(parent, 2000, 1200, 2000, 1550, 200, palette)
+    render_door(parent, 2000, 1200, "h", "locked")
 
-    # Cell Block (LD4)
-    render_room(parent, 2600, 800, 400, 300, "LD4: Cell Block", palette)
-    render_door(parent, 2800, 1100, "h")
+    # Altar Chamber (LD3) — dark worship (9x9m)
+    render_room(parent, 2600, 600, 600, 600, "LD3: Altar/Chamber", palette)
+    render_feature(parent, 2900, 900, "altar", "Dark Altar", palette)
+    render_corridor(parent, 2900, 1200, 2900, 1550, 200, palette)
+    render_door(parent, 2900, 1200, "h", "trapped")
 
-    # Ritual Store (LD5)
-    render_room(parent, 1200, 1400, 300, 300, "LD5: Ritual/Store", palette)
-    render_door(parent, 1350, 1400, "h")
-    render_feature(parent, 1350, 1550, "crate", "", palette)
+    # Fuel Storage — flammable (6x6m)
+    render_room(parent, 3300, 800, 400, 400, "Fuel Storage", palette)
+    render_feature(parent, 3500, 1000, "crate", "", palette)
+    render_corridor(parent, 3500, 1200, 3500, 1550, 200, palette)
+    render_door(parent, 3500, 1200, "h")
 
-    # Maintenance (LD6)
-    render_room(parent, 1600, 1400, 300, 300, "LD6: Maintenance/Crawlway", palette)
-    render_door(parent, 1750, 1400, "h")
+    # Munitions Magazine (6x6m) — locked
+    render_room(parent, 3800, 800, 400, 400, "Munitions/Magazine", palette)
+    render_feature(parent, 4000, 1000, "crate", "", palette)
+    render_corridor(parent, 4000, 1200, 4000, 1550, 200, palette)
+    render_door(parent, 4000, 1200, "h", "locked")
 
-    # Bilge (LD7) — long narrow at bottom
-    render_room(parent, 600, 1900, 800, 200, "LD7: Bilge", palette)
-    render_water(parent, 620, 1920, 760, 160, "0.2")
+    # Containment Chamber (4.5x6m) — sealed
+    render_room(parent, 4300, 900, 300, 400, "Sealed/Containment", palette)
+    render_corridor(parent, 4450, 1300, 4450, 1550, 200, palette)
+    render_door(parent, 4450, 1300, "h", "locked")
+
+    # === STARBOARD SIDE (south) ===
+
+    # Cell Block (LD4) — prisoners/test subjects (9x6m)
+    render_room(parent, 600, 1950, 600, 400, "LD4: Cell Block", palette)
+    render_door(parent, 900, 1950, "h")
+
+    # Ritual Store (LD5) (6x6m)
+    render_room(parent, 1300, 1950, 400, 400, "LD5: Ritual/Store", palette)
+    render_feature(parent, 1500, 2150, "crate", "", palette)
+    render_door(parent, 1500, 1950, "h")
+
+    # Maintenance Crawlway (LD6) (6x6m)
+    render_room(parent, 1800, 1950, 400, 400, "LD6: Maintenance/Crawlway", palette)
+    render_door(parent, 2000, 1950, "h")
+
+    # Corrupted Shrine (6x6m) — warp tainted
+    render_room(parent, 2300, 1950, 400, 400, "Corrupted/Shrine", palette)
+    render_feature(parent, 2500, 2150, "warp", "", palette)
+    render_door(parent, 2500, 1950, "h", "damaged")
+
+    # Mutant Nest (6x6m) — damaged
+    render_room(parent, 2800, 1950, 400, 400, "Mutant Nest", palette)
+    render_door(parent, 3000, 1950, "h", "damaged")
+
+    # Collapsed Crawlway (4.5x4.5m) — damaged
+    render_room(parent, 3300, 1950, 300, 300, "Collapsed/Crawlway", palette)
+    render_door(parent, 3450, 1950, "h", "damaged")
+
+    # Servo-Skull Bay (4.5x4.5m) — damaged
+    render_room(parent, 3700, 1950, 300, 300, "Servo-Skull/Bay", palette)
+    render_door(parent, 3850, 1950, "h", "damaged")
+
+    # Bone Niche (4.5x4.5m) — horror
+    render_room(parent, 4100, 1950, 300, 300, "Bone Niche", palette)
+    render_door(parent, 4250, 1950, "h", "damaged")
+
+    # Bilge (LD7) — long flooded section (18x4.5m)
+    render_room(parent, 600, 2600, 1200, 300, "LD7: Bilge", palette)
+    render_water(parent, 620, 2620, 1160, 260, "0.3")
+
+    # Flooded Crawlway — connected to bilge (6x4.5m)
+    render_room(parent, 1900, 2600, 400, 300, "Flooded/Crawlway", palette)
+    render_water(parent, 1920, 2620, 360, 260, "0.2")
+    render_door(parent, 1900, 2750, "v", "damaged")
+
+    # === STAIRS — aligned at x=5200 across all decks ===
+    render_room(parent, 5050, 1500, 300, 500, "LD8: Stairs", palette)
+    render_stairs(parent, 5200, 1750, "up", palette)
 
 
 def layout_fortress_vallak(parent, palette):
@@ -1338,9 +1698,9 @@ def main():
 
     maps = [
         ("village-of-barovus.svg",   "Village of Barovus",    4000, 3000, "gothic_imperial",  layout_village_barovus),
-        ("vessel-upper.svg",         "Vessel Upper Deck",     4000, 2500, "imperial_metal",   layout_vessel_upper),
-        ("vessel-mid.svg",           "Vessel Mid Deck",       4000, 2500, "imperial_metal",   layout_vessel_mid),
-        ("vessel-lower.svg",         "Vessel Lower Deck",     4000, 2500, "organic_corrupt",  layout_vessel_lower),
+        ("vessel-upper.svg",         "Vessel Upper Deck",     6000, 3500, "imperial_metal",   layout_vessel_upper),
+        ("vessel-mid.svg",           "Vessel Mid Deck",       6000, 3500, "imperial_metal",   layout_vessel_mid),
+        ("vessel-lower.svg",         "Vessel Lower Deck",     6000, 3500, "organic_corrupt",  layout_vessel_lower),
         ("fortress-vallak.svg",      "Fortress Vallak",       5000, 4000, "gothic_imperial",  layout_fortress_vallak),
         ("krezk-ground.svg",         "Krezk Ground Floor",    3000, 2500, "clinical_horror",  layout_krezk_ground),
         ("krezk-upper.svg",          "Krezk Upper Floor",     3000, 2500, "clinical_horror",  layout_krezk_upper),
@@ -1364,6 +1724,9 @@ def main():
         render_background(svg, w, h, palette)
         render_grid(svg, w, h)
         layout_fn(svg, palette)
+        # Add fluff rooms from fluff-rooms.json
+        map_name = filename.replace(".svg", "")
+        render_fluff_rooms(svg, map_name, palette)
         render_title(svg, w, h, scene_name)
         write_svg(svg, os.path.join(output_dir, filename))
 

@@ -139,5 +139,51 @@
   <circle cx="2000" cy="2200" r="12" fill="#cc6600" stroke="#ffaa00" stroke-width="2" />
   <circle cx="2000" cy="2200" r="6" fill="#ff8800" stroke="none" opacity="0.6" />
   <text x="2000" y="2228" fill="#c0a0a0" font-size="10" text-anchor="middle" font-family="monospace" opacity="0.7">Brazier</text>
+  <rect x="775" y="1050" width="50" height="1400" fill="#2e1515" stroke="#0e0505" stroke-width="2" />
+  <rect x="3175" y="1050" width="50" height="1400" fill="#2e1515" stroke="#0e0505" stroke-width="2" />
+  <rect x="1300" y="2475" width="500" height="50" fill="#2e1515" stroke="#0e0505" stroke-width="2" />
+  <rect x="400" y="400" width="250" height="200" fill="#2e1515" stroke="#0e0505" stroke-width="3" />
+  <text x="525" y="500" fill="#c0a0a0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Sealed Tomb</text>
+  <circle cx="650" cy="500" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
+  <rect x="3400" y="400" width="250" height="200" fill="#2e1515" stroke="#0e0505" stroke-width="3" />
+  <text x="3525" y="500" fill="#c0a0a0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Bone Niche</text>
+  <rect x="3395" y="488" width="10" height="24" fill="#555544" stroke="#887766" stroke-width="1" />
+  <line x1="3396" y1="492" x2="3404" y2="508" stroke="#aa8866" stroke-width="2" />
+  <line x1="3404" y1="492" x2="3396" y2="508" stroke="#aa8866" stroke-width="2" />
+  <rect x="400" y="1500" width="250" height="250" fill="#2e1515" stroke="#0e0505" stroke-width="3" />
+  <text x="525" y="1617" fill="#c0a0a0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Collapsed</text>
+  <text x="525" y="1635" fill="#c0a0a0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Passage</text>
+  <rect x="645" y="1613" width="10" height="24" fill="#555544" stroke="#887766" stroke-width="1" />
+  <line x1="646" y1="1617" x2="654" y2="1633" stroke="#aa8866" stroke-width="2" />
+  <line x1="654" y1="1617" x2="646" y2="1633" stroke="#aa8866" stroke-width="2" />
+  <rect x="3400" y="1500" width="250" height="250" fill="#2e1515" stroke="#0e0505" stroke-width="3" />
+  <text x="3525" y="1617" fill="#c0a0a0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Containment</text>
+  <text x="3525" y="1635" fill="#c0a0a0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Alcove</text>
+  <circle cx="3400" cy="1625" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
+  <rect x="400" y="2900" width="250" height="250" fill="#2e1515" stroke="#0e0505" stroke-width="3" />
+  <text x="525" y="3025" fill="#c0a0a0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Sealed Ossuary</text>
+  <circle cx="650" cy="3025" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
+  <rect x="3400" y="2900" width="250" height="250" fill="#2e1515" stroke="#0e0505" stroke-width="3" />
+  <text x="3525" y="3025" fill="#c0a0a0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Warded Crypt</text>
+  <circle cx="3400" cy="3025" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
+  <rect x="1300" y="1500" width="250" height="200" fill="#2e1515" stroke="#0e0505" stroke-width="3" />
+  <text x="1425" y="1592" fill="#c0a0a0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Empty</text>
+  <text x="1425" y="1610" fill="#c0a0a0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Sarcophagus</text>
+  <rect x="1546" y="1590" width="8" height="20" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="2500" y="1500" width="250" height="200" fill="#2e1515" stroke="#0e0505" stroke-width="3" />
+  <text x="2625" y="1592" fill="#c0a0a0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Rubble-Filled</text>
+  <text x="2625" y="1610" fill="#c0a0a0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Alcove</text>
+  <rect x="2495" y="1588" width="10" height="24" fill="#555544" stroke="#887766" stroke-width="1" />
+  <line x1="2496" y1="1592" x2="2504" y2="1608" stroke="#aa8866" stroke-width="2" />
+  <line x1="2504" y1="1592" x2="2496" y2="1608" stroke="#aa8866" stroke-width="2" />
+  <rect x="1300" y="3200" width="250" height="200" fill="#2e1515" stroke="#0e0505" stroke-width="3" />
+  <text x="1425" y="3292" fill="#c0a0a0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Trapped</text>
+  <text x="1425" y="3310" fill="#c0a0a0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Ante-Chamber</text>
+  <circle cx="1550" cy="3300" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
+  <rect x="2500" y="3200" width="250" height="200" fill="#2e1515" stroke="#0e0505" stroke-width="3" />
+  <text x="2625" y="3300" fill="#c0a0a0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Collapsed Crypt</text>
+  <rect x="2495" y="3288" width="10" height="24" fill="#555544" stroke="#887766" stroke-width="1" />
+  <line x1="2496" y1="3292" x2="2504" y2="3308" stroke="#aa8866" stroke-width="2" />
+  <line x1="2504" y1="3292" x2="2496" y2="3308" stroke="#aa8866" stroke-width="2" />
   <text x="3980" y="3985" fill="#ffffff" font-size="20" text-anchor="end" font-family="monospace" opacity="0.15">Spire Crypts</text>
 </svg>

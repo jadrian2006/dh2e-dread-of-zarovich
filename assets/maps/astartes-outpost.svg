@@ -114,5 +114,43 @@
   <text x="400" y="2700" fill="#c0b090" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Tower</text>
   <rect x="3100" y="2600" width="200" height="200" fill="#2a2a30" stroke="#0a0a0e" stroke-width="3" />
   <text x="3200" y="2700" fill="#c0b090" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Tower</text>
+  <rect x="1800" y="1375" width="700" height="50" fill="#2a2a30" stroke="#0a0a0e" stroke-width="2" />
+  <rect x="475" y="1200" width="50" height="200" fill="#2a2a30" stroke="#0a0a0e" stroke-width="2" />
+  <rect x="2500" y="1000" width="350" height="250" fill="#2a2a30" stroke="#0a0a0e" stroke-width="3" />
+  <text x="2675" y="1117" fill="#c0b090" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Ruined</text>
+  <text x="2675" y="1135" fill="#c0b090" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Guardroom</text>
+  <rect x="2495" y="1113" width="10" height="24" fill="#555544" stroke="#887766" stroke-width="1" />
+  <line x1="2496" y1="1117" x2="2504" y2="1133" stroke="#aa8866" stroke-width="2" />
+  <line x1="2504" y1="1117" x2="2496" y2="1133" stroke="#aa8866" stroke-width="2" />
+  <rect x="300" y="1400" width="400" height="300" fill="#2a2a30" stroke="#0a0a0e" stroke-width="3" />
+  <text x="500" y="1550" fill="#c0b090" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Collapsed Cellar</text>
+  <rect x="695" y="1538" width="10" height="24" fill="#555544" stroke="#887766" stroke-width="1" />
+  <line x1="696" y1="1542" x2="704" y2="1558" stroke="#aa8866" stroke-width="2" />
+  <line x1="704" y1="1542" x2="696" y2="1558" stroke="#aa8866" stroke-width="2" />
+  <rect x="1700" y="1600" width="300" height="250" fill="#2a2a30" stroke="#0a0a0e" stroke-width="3" />
+  <text x="1850" y="1717" fill="#c0b090" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Ammunition</text>
+  <text x="1850" y="1735" fill="#c0b090" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Bunker</text>
+  <circle cx="1700" cy="1725" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
+  <rect x="2500" y="1500" width="300" height="300" fill="#2a2a30" stroke="#0a0a0e" stroke-width="3" />
+  <text x="2650" y="1650" fill="#c0b090" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Generator Ruin</text>
+  <rect x="2495" y="1638" width="10" height="24" fill="#555544" stroke="#887766" stroke-width="1" />
+  <line x1="2496" y1="1642" x2="2504" y2="1658" stroke="#aa8866" stroke-width="2" />
+  <line x1="2504" y1="1642" x2="2496" y2="1658" stroke="#aa8866" stroke-width="2" />
+  <rect x="1000" y="2000" width="350" height="250" fill="#2a2a30" stroke="#0a0a0e" stroke-width="3" />
+  <text x="1175" y="2117" fill="#c0b090" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Rubble-Filled</text>
+  <text x="1175" y="2135" fill="#c0b090" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Room</text>
+  <rect x="1163" y="1995" width="24" height="10" fill="#555544" stroke="#887766" stroke-width="1" />
+  <line x1="1167" y1="1996" x2="1183" y2="2004" stroke="#aa8866" stroke-width="2" />
+  <line x1="1183" y1="1996" x2="1167" y2="2004" stroke="#aa8866" stroke-width="2" />
+  <rect x="300" y="2000" width="300" height="300" fill="#2a2a30" stroke="#0a0a0e" stroke-width="3" />
+  <text x="450" y="2150" fill="#c0b090" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Latrine Ruin</text>
+  <rect x="595" y="2138" width="10" height="24" fill="#555544" stroke="#887766" stroke-width="1" />
+  <line x1="596" y1="2142" x2="604" y2="2158" stroke="#aa8866" stroke-width="2" />
+  <line x1="604" y1="2142" x2="596" y2="2158" stroke="#aa8866" stroke-width="2" />
+  <rect x="2500" y="2200" width="300" height="250" fill="#2a2a30" stroke="#0a0a0e" stroke-width="3" />
+  <text x="2650" y="2325" fill="#c0b090" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Comms Post</text>
+  <rect x="2495" y="2313" width="10" height="24" fill="#555544" stroke="#887766" stroke-width="1" />
+  <line x1="2496" y1="2317" x2="2504" y2="2333" stroke="#aa8866" stroke-width="2" />
+  <line x1="2504" y1="2317" x2="2496" y2="2333" stroke="#aa8866" stroke-width="2" />
   <text x="3480" y="2985" fill="#ffffff" font-size="20" text-anchor="end" font-family="monospace" opacity="0.15">Fallen Outpost</text>
 </svg>

@@ -3,16 +3,19 @@
         "name": "Strahd's Warp-Infused Carapace",
         "type": "armour",
         "system": {
-            "ap": {
-                "head": 8,
-                "body": 8,
-                "leftArm": 8,
-                "rightArm": 8,
-                "leftLeg": 8,
-                "rightLeg": 8
-            },
-            "weight": 15,
             "description": "<p>Archaic officer's carapace from Strahd's mortal days as Lord-Governor, now suffused with four centuries of warp energy. The ceramite plates shift colour subtly — deep crimson bleeding into black and back again — as though the armour is breathing. Hairline cracks seal themselves shut when you look away. It feels alive beneath the hand, faintly warm, and wearing it produces the uncomfortable sensation of being <em>held</em>.</p><p><em>This armour was forged for a mortal man who became something else.</em> The pact with the Daemon Prince Tenebrous did not merely change Strahd — it changed everything he wore, everything he touched. The carapace has become an extension of his warp-touched physiology, self-repairing, self-maintaining, and subtly resistant to being removed by anyone other than its master.</p><p><strong>AP 8 all locations.</strong> Warp-infused — the armour regenerates minor damage over time and cannot be sundered by mundane means. It provides no protection against holy or sanctified weapons, which bypass its warp-reinforcement entirely.</p><p><strong>GM note:</strong> If the Acolytes somehow claim this armour, wearing it inflicts <em>1d5 Corruption Points</em> upon donning and <em>1 CP per day</em> thereafter. The armour whispers to its wearer. It misses Strahd.</p>",
+            "locations": {
+                "head": 8,
+                "rightArm": 8,
+                "leftArm": 8,
+                "body": 8,
+                "rightLeg": 8,
+                "leftLeg": 8
+            },
+            "maxAgility": 0,
+            "qualities": [],
+            "weight": 15,
+            "equipped": true,
             "availability": "Unique"
         },
         "flags": {
@@ -25,16 +28,19 @@
         "name": "Carapace Chest Plate (Munitorum Transport)",
         "type": "armour",
         "system": {
-            "ap": {
-                "head": 0,
-                "body": 6,
-                "leftArm": 0,
-                "rightArm": 0,
-                "leftLeg": 0,
-                "rightLeg": 0
-            },
-            "weight": 7,
             "description": "<p>An officer-grade carapace chest plate in dark grey ceramite, its surface stamped with Departmento Munitorum serial numbers and a logistics code that traces back to a supply depot on a world that no longer remembers Barovus exists. The plate is scratched and dented from the transport crash but structurally sound. Someone has cleaned the interior — removed the previous owner's blood from the padding — though faint stains remain in the seams. Barely.</p><p><em>Salvaged from the Crashed Munitorum Transport in the foothills near Fortress Vallak.</em> Intended for an officer who never received it, in a resupply convoy that never arrived. It has waited fifty years in a sealed cargo bay for someone to claim it.</p><p><strong>AP 6 to Body location.</strong> Officer-grade construction — superior to standard-issue flak. A significant defensive upgrade for any Acolyte.</p><p><strong>Tactical note:</strong> Body is the most commonly hit location. This single plate provides better torso protection than full flak armour. Pair it with flak limb pieces for comprehensive coverage.</p>",
+            "locations": {
+                "head": 0,
+                "rightArm": 0,
+                "leftArm": 0,
+                "body": 6,
+                "rightLeg": 0,
+                "leftLeg": 0
+            },
+            "maxAgility": 0,
+            "qualities": [],
+            "weight": 7,
+            "equipped": true,
             "availability": "Unique"
         },
         "flags": {
@@ -47,16 +53,19 @@
         "name": "Flak Armour Set (Munitorum Transport)",
         "type": "armour",
         "system": {
-            "ap": {
-                "head": 0,
-                "body": 4,
-                "leftArm": 4,
-                "rightArm": 4,
-                "leftLeg": 4,
-                "rightLeg": 4
-            },
-            "weight": 8,
             "description": "<p>Standard Imperial Guard flak armour — olive-drab ablative plates over a flexible weave undersuit, sized for baseline humans of average build. The sets are musty and stiff from decades sealed in moisture-proof packaging, and they carry the faint chemical smell of long-term preservatives. The Munitorum stamps on the shoulder plates identify them as manufactured on a forge-world whose tithe shipments to Barovus ceased three centuries ago.</p><p><em>Salvaged from the Crashed Munitorum Transport — two complete sets, still in their original crating.</em> Standard issue for a world that the Imperium forgot. On Barovus, this is the best protection most people will ever see.</p><p><strong>AP 4 to Body, Arms, and Legs.</strong> No head protection. Two sets available — enough for a pair of Acolytes. Reliable, unglamorous, life-saving.</p><p><strong>Tactical note:</strong> Flak will not stop a power weapon or a warp-mutant's claws, but it turns aside shrapnel, autostubber rounds, and the improvised weapons of Barovian cultists. Do not underestimate the value of simply not dying to stray fire.</p>",
+            "locations": {
+                "head": 0,
+                "rightArm": 4,
+                "leftArm": 4,
+                "body": 4,
+                "rightLeg": 4,
+                "leftLeg": 4
+            },
+            "maxAgility": 0,
+            "qualities": [],
+            "weight": 8,
+            "equipped": true,
             "availability": "Scarce"
         },
         "flags": {
@@ -69,16 +78,19 @@
         "name": "Elite Guard Carapace Armour",
         "type": "armour",
         "system": {
-            "ap": {
-                "head": 6,
-                "body": 6,
-                "leftArm": 6,
-                "rightArm": 6,
-                "leftLeg": 6,
-                "rightLeg": 6
-            },
-            "weight": 15,
             "description": "<p>Full carapace armour of archaic Imperial design, maintained with obsessive precision over centuries by hands that no longer tire or age. Each plate is polished to a dark mirror finish, and the left pauldron bears the Zarovich crest — a raven clutching a lightning bolt, rendered in tarnished silver. The armour moves with its wearer as though tailored to their body, because it was — fitted to soldiers who have worn nothing else for four hundred years.</p><p><em>Worn by Strahd's Elite Guard — ancient warriors who served him in life and were rewarded with immortal servitude as Warp-Thralls.</em> The armour is older than most Imperial institutions on Barovus, yet it shows no decay, no fatigue, no neglect. The Guard maintain their kit with the same discipline they had in life, because that discipline is all they have left.</p><p><strong>AP 6 all locations</strong> including head. Archaic but well-crafted — equivalent to modern carapace in protection. A significant upgrade if claimed from a fallen guard.</p><p><strong>Tactical note:</strong> Full-body AP 6 is exceptional protection at this stage of the campaign. Looting it requires killing an Elite Guard first — and they fight with WS 55, centuries of experience, and undying loyalty to Strahd.</p>",
+            "locations": {
+                "head": 6,
+                "rightArm": 6,
+                "leftArm": 6,
+                "body": 6,
+                "rightLeg": 6,
+                "leftLeg": 6
+            },
+            "maxAgility": 0,
+            "qualities": [],
+            "weight": 15,
+            "equipped": true,
             "availability": "Very Rare"
         },
         "flags": {

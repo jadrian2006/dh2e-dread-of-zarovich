@@ -162,5 +162,38 @@
   <text x="1500" y="1028" fill="#d088cc" font-size="10" text-anchor="middle" font-family="monospace" opacity="0.7">Marina's/Monument</text>
   <rect x="300" y="2800" width="200" height="80" fill="#2a1530" stroke="#0e050f" stroke-width="2" opacity="0.5" />
   <text x="400" y="2860" fill="#d088cc" font-size="10" text-anchor="middle" font-family="monospace" opacity="0.4">Dock Ruins</text>
+  <rect x="600" y="1400" width="300" height="250" fill="#2a1530" stroke="#0e050f" stroke-width="3" />
+  <text x="750" y="1517" fill="#d088cc" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Sunken</text>
+  <text x="750" y="1535" fill="#d088cc" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Root Cellar</text>
+  <rect x="738" y="1395" width="24" height="10" fill="#555544" stroke="#887766" stroke-width="1" />
+  <line x1="742" y1="1396" x2="758" y2="1404" stroke="#aa8866" stroke-width="2" />
+  <line x1="758" y1="1396" x2="742" y2="1404" stroke="#aa8866" stroke-width="2" />
+  <rect x="2800" y="1400" width="300" height="250" fill="#2a1530" stroke="#0e050f" stroke-width="3" />
+  <text x="2950" y="1517" fill="#d088cc" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Collapsed</text>
+  <text x="2950" y="1535" fill="#d088cc" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Building</text>
+  <rect x="2938" y="1395" width="24" height="10" fill="#555544" stroke="#887766" stroke-width="1" />
+  <line x1="2942" y1="1396" x2="2958" y2="1404" stroke="#aa8866" stroke-width="2" />
+  <line x1="2958" y1="1396" x2="2942" y2="1404" stroke="#aa8866" stroke-width="2" />
+  <rect x="1800" y="2400" width="350" height="250" fill="#2a1530" stroke="#0e050f" stroke-width="3" />
+  <text x="1975" y="2525" fill="#d088cc" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Flooded Shrine</text>
+  <rect x="1963" y="2395" width="24" height="10" fill="#555544" stroke="#887766" stroke-width="1" />
+  <line x1="1967" y1="2396" x2="1983" y2="2404" stroke="#aa8866" stroke-width="2" />
+  <line x1="1983" y1="2396" x2="1967" y2="2404" stroke="#aa8866" stroke-width="2" />
+  <rect x="3400" y="1000" width="300" height="200" fill="#2a1530" stroke="#0e050f" stroke-width="3" />
+  <text x="3550" y="1100" fill="#d088cc" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Rubble Island</text>
+  <rect x="3538" y="995" width="24" height="10" fill="#555544" stroke="#887766" stroke-width="1" />
+  <line x1="3542" y1="996" x2="3558" y2="1004" stroke="#aa8866" stroke-width="2" />
+  <line x1="3558" y1="996" x2="3542" y2="1004" stroke="#aa8866" stroke-width="2" />
+  <rect x="700" y="2600" width="250" height="200" fill="#2a1530" stroke="#0e050f" stroke-width="3" />
+  <text x="825" y="2692" fill="#d088cc" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Dock Warehouse</text>
+  <text x="825" y="2710" fill="#d088cc" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Ruin</text>
+  <rect x="813" y="2595" width="24" height="10" fill="#555544" stroke="#887766" stroke-width="1" />
+  <line x1="817" y1="2596" x2="833" y2="2604" stroke="#aa8866" stroke-width="2" />
+  <line x1="833" y1="2596" x2="817" y2="2604" stroke="#aa8866" stroke-width="2" />
+  <rect x="2500" y="2300" width="300" height="200" fill="#2a1530" stroke="#0e050f" stroke-width="3" />
+  <text x="2650" y="2400" fill="#d088cc" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Abandoned Home</text>
+  <rect x="2638" y="2295" width="24" height="10" fill="#555544" stroke="#887766" stroke-width="1" />
+  <line x1="2642" y1="2296" x2="2658" y2="2304" stroke="#aa8866" stroke-width="2" />
+  <line x1="2658" y1="2296" x2="2642" y2="2304" stroke="#aa8866" stroke-width="2" />
   <text x="3980" y="3485" fill="#ffffff" font-size="20" text-anchor="end" font-family="monospace" opacity="0.15">Drowned Ruins</text>
 </svg>

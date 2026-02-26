@@ -81,5 +81,24 @@
   <rect x="960" y="1700" width="80" height="200" fill="#2e1515" stroke="#0e0505" stroke-width="2" />
   <circle cx="1000" cy="1700" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
   <text x="1000" y="1950" fill="#c0a0a0" font-size="12" text-anchor="middle" font-family="monospace" opacity="0.5">Entrance</text>
+  <rect x="100" y="100" width="250" height="200" fill="#2e1515" stroke="#0e0505" stroke-width="3" />
+  <text x="225" y="200" fill="#c0a0a0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Sealed Alcove</text>
+  <circle cx="350" cy="200" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
+  <rect x="1650" y="100" width="250" height="200" fill="#2e1515" stroke="#0e0505" stroke-width="3" />
+  <text x="1775" y="192" fill="#c0a0a0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Containment</text>
+  <text x="1775" y="210" fill="#c0a0a0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Node</text>
+  <circle cx="1650" cy="200" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
+  <rect x="100" y="1700" width="250" height="200" fill="#2e1515" stroke="#0e0505" stroke-width="3" />
+  <text x="225" y="1792" fill="#c0a0a0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Collapsed</text>
+  <text x="225" y="1810" fill="#c0a0a0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Passage</text>
+  <rect x="345" y="1788" width="10" height="24" fill="#555544" stroke="#887766" stroke-width="1" />
+  <line x1="346" y1="1792" x2="354" y2="1808" stroke="#aa8866" stroke-width="2" />
+  <line x1="354" y1="1792" x2="346" y2="1808" stroke="#aa8866" stroke-width="2" />
+  <rect x="1650" y="1700" width="250" height="200" fill="#2e1515" stroke="#0e0505" stroke-width="3" />
+  <text x="1775" y="1792" fill="#c0a0a0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Warp Conduit</text>
+  <text x="1775" y="1810" fill="#c0a0a0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Vent</text>
+  <rect x="1645" y="1788" width="10" height="24" fill="#555544" stroke="#887766" stroke-width="1" />
+  <line x1="1646" y1="1792" x2="1654" y2="1808" stroke="#aa8866" stroke-width="2" />
+  <line x1="1654" y1="1792" x2="1646" y2="1808" stroke="#aa8866" stroke-width="2" />
   <text x="1980" y="1985" fill="#ffffff" font-size="20" text-anchor="end" font-family="monospace" opacity="0.15">Heart Chamber</text>
 </svg>

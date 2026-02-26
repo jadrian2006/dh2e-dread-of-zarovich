@@ -152,5 +152,29 @@
   <rect x="2235" y="3185" width="30" height="30" fill="none" stroke="#a0a0d0" stroke-width="1" />
   <polygon points="2250,3190 2242,3205 2258,3205" fill="#a0a0d0" opacity="0.6" />
   <text x="2250" y="3228" fill="#a0a0d0" font-size="9" text-anchor="middle" font-family="monospace" opacity="0.6">Stairs Up</text>
+  <rect x="500" y="500" width="300" height="250" fill="#151535" stroke="#050518" stroke-width="3" />
+  <text x="650" y="617" fill="#a0a0d0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Sealed</text>
+  <text x="650" y="635" fill="#a0a0d0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Data Vault</text>
+  <circle cx="650" cy="750" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
+  <rect x="4000" y="500" width="300" height="250" fill="#151535" stroke="#050518" stroke-width="3" />
+  <text x="4150" y="617" fill="#a0a0d0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Energy Conduit</text>
+  <text x="4150" y="635" fill="#a0a0d0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Hub</text>
+  <rect x="3996" y="615" width="8" height="20" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="500" y="2800" width="300" height="250" fill="#151535" stroke="#050518" stroke-width="3" />
+  <text x="650" y="2917" fill="#a0a0d0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Dormant</text>
+  <text x="650" y="2935" fill="#a0a0d0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Guardian</text>
+  <circle cx="800" cy="2925" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
+  <rect x="4000" y="2800" width="300" height="250" fill="#151535" stroke="#050518" stroke-width="3" />
+  <text x="4150" y="2917" fill="#a0a0d0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Containment</text>
+  <text x="4150" y="2935" fill="#a0a0d0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Cell Zeta</text>
+  <circle cx="4000" cy="2925" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
+  <rect x="800" y="1700" width="250" height="200" fill="#151535" stroke="#050518" stroke-width="3" />
+  <text x="925" y="1792" fill="#a0a0d0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Power Relay</text>
+  <text x="925" y="1810" fill="#a0a0d0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Node</text>
+  <rect x="1046" y="1790" width="8" height="20" fill="#8b7355" stroke="#c0b090" stroke-width="1" />
+  <rect x="3400" y="2500" width="250" height="200" fill="#151535" stroke="#050518" stroke-width="3" />
+  <text x="3525" y="2592" fill="#a0a0d0" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Xenos Artifact</text>
+  <text x="3525" y="2610" fill="#a0a0d0" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Store</text>
+  <circle cx="3400" cy="2600" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
   <text x="4480" y="3485" fill="#ffffff" font-size="20" text-anchor="end" font-family="monospace" opacity="0.15">Empyrean Vault L2</text>
 </svg>

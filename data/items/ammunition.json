@@ -3,9 +3,14 @@
         "name": "Blessed Bolt Rounds (1 Magazine)",
         "type": "ammunition",
         "system": {
-            "quantity": 8,
-            "weaponType": "Bolt",
             "description": "<p>Each round is a masterwork of devotion: a standard bolt shell hand-inscribed with micro-litanies in gold ink so fine it can only be read under magnification. The casing bears a faint golden sheen that intensifies near warp phenomena, and the propellant smells faintly of sanctified incense rather than cordite.</p><p>Blessed by a sanctioned Ministorum priest — Father Donavich, the spirit of Sergei, or recovered from Inquisitor Van Richten's dwindling cache or the Fallen Astartes Outpost armory. Each blessing covers a single magazine; the infrastructure for mass-production does not exist on Barovus.</p><p><strong>Holy/Blessed ammunition.</strong> Counts as sanctified for all purposes. On hit against a warp-touched entity, <strong>negates the target's Regeneration trait for 1 full round.</strong> Multiple hits in the same round do not extend the duration — it resets from the most recent hit. <em>Availability: Extremely Rare.</em></p><p>Only 8 rounds in this magazine. Each one is irreplaceable. Do not waste them on lesser threats — save them for the moment Strahd's Regeneration needs to stop.</p>",
+            "damageModifier": 0,
+            "damageType": "",
+            "penetrationModifier": 0,
+            "qualities": [],
+            "quantity": 8,
+            "weight": 0,
+            "weaponGroup": "Bolt",
             "availability": "Extremely Rare"
         },
         "flags": {
@@ -18,9 +23,14 @@
         "name": "Silver Autogun Rounds (30)",
         "type": "ammunition",
         "system": {
-            "quantity": 30,
-            "weaponType": "Autogun",
             "description": "<p>Hand-cast rounds with dull silver tips, each one slightly irregular — the mark of artisan manufacture rather than Munitorum production lines. The silver has a tarnished, bluish quality, and close inspection reveals faint tool-marks where reliquary fixtures were melted down and recast into killing implements.</p><p>The silver itself was sourced from Ecclesiarchy reliquary fittings — candlesticks, chalice rims, icon frames — melted down by the Martikov family or resourceful Acolytes. Blasphemy in the eyes of the Ministorum, pragmatism in the eyes of survivors. The Martikovs can provide enough for 2-3 clips if the Acolytes earn their trust.</p><p><strong>Silvered ammunition.</strong> Effective against Warp-Mutants: <strong>+2 damage</strong> per hit. Silver disrupts certain warp-bonds, causing intense pain — struck Warp-Mutants must pass a <strong>Willpower Test or disengage</strong> from melee. Also negates Regeneration on Warp-Thralls. Can be manufactured with a successful <strong>Trade (Armourer)</strong> test and access to a silver source. <em>Availability: Rare.</em></p><p>Thirty rounds sounds generous until the first Warp-Mutant pack charges your position. Prioritise aimed shots — every silver tip that misses is a reliquary that died for nothing.</p>",
+            "damageModifier": 0,
+            "damageType": "",
+            "penetrationModifier": 0,
+            "qualities": [],
+            "quantity": 30,
+            "weight": 0,
+            "weaponGroup": "Autogun",
             "availability": "Very Rare"
         },
         "flags": {
@@ -33,9 +43,14 @@
         "name": "Reloaded Rounds (Generic)",
         "type": "ammunition",
         "system": {
-            "quantity": 20,
-            "weaponType": "Various",
             "description": "<p>Ugly, functional, desperate. Scavenged brass casings — some dented, some scorched, all cleaned and resized by hand. The propellant is repacked from salvaged agri-chemical stores, and the projectiles are hand-seated with whatever tools are available. No two rounds look quite the same, and none of them look trustworthy.</p><p>The mark of Barovus: a world where nothing is wasted because nothing is supplied. Every spent casing is a resource. Every quiet hour at a workbench is an investment in survival. The Vostra have been reloading rounds for centuries; for off-world Acolytes, it is a grim education in scarcity.</p><p><strong>Reloaded ammunition.</strong> Functions as standard ammunition with a critical flaw: <strong>10% jam chance per round fired</strong> (on a roll of 96-00, the weapon jams as if it had the <em>Unreliable</em> quality). Production rate: <strong>2d10 rounds per hour</strong> of work with a successful <strong>Trade (Armourer)</strong> test, basic tools, and raw materials. <em>Availability: Crafted.</em></p><p>Better than an empty magazine. Worse than anything else. Use reloaded rounds when you have no alternative, and clear your weapon's jam before the next thing tries to kill you.</p>",
+            "damageModifier": 0,
+            "damageType": "",
+            "penetrationModifier": 0,
+            "qualities": [],
+            "quantity": 20,
+            "weight": 0,
+            "weaponGroup": "Various",
             "availability": "Crafted"
         },
         "flags": {
@@ -48,9 +63,14 @@
         "name": "Sacred Oil Application (3 uses)",
         "type": "ammunition",
         "system": {
-            "quantity": 3,
-            "weaponType": "Any Melee",
             "description": "<p>Thick amber oil in a ceramite vial sealed with wax the colour of old bone. The oil is viscous, almost gelatinous, and catches the light with an inner luminescence. It smells of temple incense and ozone — the scent of a place where the Emperor's presence was once absolute. When poured, it flows with deliberate slowness, as if aware of its own sanctity.</p><p>Consecrated by the Silver Drake chaplains during their centuries-long vigil at the Fallen Astartes Outpost. Each vial was blessed over years of continuous prayer, absorbing the psychic resonance of Astartes faith. Awarded as the sacred reward for passing the Trial of Faith — proof that the revenants of the Silver Drakes judged the bearer worthy.</p><p><strong>Weapon Anointing.</strong> Each application grants the <strong>Sanctified</strong> quality to one melee weapon for <strong>24 hours.</strong> Sanctified weapons deal full damage to Daemonic and Incorporeal entities and bypass warp-based defences. <strong>3 applications total</strong> — a one-time reward from the Fallen Astartes Outpost. <em>Availability: Unique.</em></p><p>Three doses. Three chances to turn a common blade into an instrument of the Emperor's wrath. Anoint your weapons before the assault on the Spire — the things within will not fall to unsanctified steel.</p>",
+            "damageModifier": 0,
+            "damageType": "",
+            "penetrationModifier": 0,
+            "qualities": [],
+            "quantity": 3,
+            "weight": 0,
+            "weaponGroup": "Any Melee",
             "availability": "Unique"
         },
         "flags": {

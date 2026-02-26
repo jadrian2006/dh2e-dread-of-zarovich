@@ -109,5 +109,28 @@
   <line x1="1500" y1="1500" x2="1627" y2="1372" stroke="#cc44aa" stroke-width="2" opacity="0.4" />
   <polyline points="1500,2900 1500,2700 1400,2500 1500,2300" fill="none" stroke="#2a1530" stroke-width="60" stroke-linecap="round" stroke-linejoin="round" opacity="0.6" />
   <polygon points="1500.0,1482.0 1503.4,1491.7 1512.7,1487.3 1508.3,1496.6 1518.0,1500.0 1508.3,1503.4 1512.7,1512.7 1503.4,1508.3 1500.0,1518.0 1496.6,1508.3 1487.3,1512.7 1491.7,1503.4 1482.0,1500.0 1491.7,1496.6 1487.3,1487.3 1496.6,1491.7" fill="#cc44aa" stroke="#ff88dd" stroke-width="1" opacity="0.8" />
+  <rect x="300" y="1350" width="250" height="200" fill="#2a1530" stroke="#0e050f" stroke-width="3" />
+  <text x="425" y="1442" fill="#d088cc" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Sealed</text>
+  <text x="425" y="1460" fill="#d088cc" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Warp Tomb</text>
+  <circle cx="550" cy="1450" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
+  <rect x="2450" y="1350" width="250" height="200" fill="#2a1530" stroke="#0e050f" stroke-width="3" />
+  <text x="2575" y="1442" fill="#d088cc" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Containment</text>
+  <text x="2575" y="1460" fill="#d088cc" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Alcove</text>
+  <circle cx="2450" cy="1450" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
+  <rect x="1350" y="2400" width="300" height="200" fill="#2a1530" stroke="#0e050f" stroke-width="3" />
+  <text x="1500" y="2492" fill="#d088cc" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Collapsed</text>
+  <text x="1500" y="2510" fill="#d088cc" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Passage</text>
+  <rect x="1488" y="2395" width="24" height="10" fill="#555544" stroke="#887766" stroke-width="1" />
+  <line x1="1492" y1="2396" x2="1508" y2="2404" stroke="#aa8866" stroke-width="2" />
+  <line x1="1508" y1="2396" x2="1492" y2="2404" stroke="#aa8866" stroke-width="2" />
+  <rect x="700" y="2100" width="250" height="200" fill="#2a1530" stroke="#0e050f" stroke-width="3" />
+  <text x="825" y="2200" fill="#d088cc" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Bone Niche</text>
+  <rect x="813" y="2095" width="24" height="10" fill="#555544" stroke="#887766" stroke-width="1" />
+  <line x1="817" y1="2096" x2="833" y2="2104" stroke="#aa8866" stroke-width="2" />
+  <line x1="833" y1="2096" x2="817" y2="2104" stroke="#aa8866" stroke-width="2" />
+  <rect x="2200" y="600" width="250" height="200" fill="#2a1530" stroke="#0e050f" stroke-width="3" />
+  <text x="2325" y="692" fill="#d088cc" font-size="14" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="monospace">Dormant</text>
+  <text x="2325" y="710" fill="#d088cc" font-size="12" text-anchor="middle" dominant-baseline="central" font-family="monospace">Guardian</text>
+  <circle cx="2325" cy="800" r="8" fill="#cc3333" stroke="#ffcc00" stroke-width="2" />
   <text x="2980" y="2985" fill="#ffffff" font-size="20" text-anchor="end" font-family="monospace" opacity="0.15">Warp Nexus</text>
 </svg>

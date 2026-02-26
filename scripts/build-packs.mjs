@@ -104,57 +104,52 @@ async function buildPack(packDef) {
             };
         }
 
-        // Prepare embedded documents BEFORE storing parent (so parent has complete data)
+        // Foundry v13 LevelDB format: embedded documents (items, pages, results)
+        // are stored as SEPARATE sublevel keys. The parent document's array
+        // contains ONLY ID strings, not full objects.
 
-        // Embedded items for actors
+        // Embedded items for actors → sublevel keys + ID-only array
         if (packDef.collection === "actors" && Array.isArray(entry.items)) {
+            const itemIds = [];
             for (const item of entry.items) {
                 if (typeof item === "object") {
                     if (!item._id) item._id = foundryId();
                     if (!item._stats) item._stats = { ...entry._stats };
+                    batch.put(`!actors.items!${entry._id}.${item._id}`, item);
+                    itemIds.push(item._id);
                 }
             }
+            entry.items = itemIds;
         }
 
-        // Embedded pages for journal entries
+        // Embedded pages for journal entries → sublevel keys + ID-only array
         if (packDef.collection === "journal" && Array.isArray(entry.pages)) {
+            const pageIds = [];
             for (const page of entry.pages) {
                 if (!page._id) page._id = foundryId();
                 if (!page._stats) page._stats = { ...entry._stats };
+                batch.put(`!journal.pages!${entry._id}.${page._id}`, page);
+                pageIds.push(page._id);
             }
+            entry.pages = pageIds;
         }
 
-        // Embedded results for roll tables
+        // Embedded results for roll tables → sublevel keys + ID-only array
         if (packDef.collection === "tables" && Array.isArray(entry.results)) {
+            const resultIds = [];
             for (const result of entry.results) {
                 if (!result._id) result._id = foundryId();
                 if (!result._stats) result._stats = { ...entry._stats };
+                batch.put(`!tables.results!${entry._id}.${result._id}`, result);
+                resultIds.push(result._id);
             }
+            entry.results = resultIds;
         }
 
-        // Store parent document (now includes complete embedded data)
+        // Store parent document (embedded arrays now contain only ID strings)
         const key = `!${packDef.collection}!${entry._id}`;
         batch.put(key, entry);
         count++;
-
-        // Store embedded sub-keys (Foundry v13 LevelDB format)
-        if (packDef.collection === "actors" && Array.isArray(entry.items)) {
-            for (const item of entry.items) {
-                if (typeof item === "object" && item._id) {
-                    batch.put(`!actors.items!${entry._id}.${item._id}`, item);
-                }
-            }
-        }
-        if (packDef.collection === "journal" && Array.isArray(entry.pages)) {
-            for (const page of entry.pages) {
-                batch.put(`!journal.pages!${entry._id}.${page._id}`, page);
-            }
-        }
-        if (packDef.collection === "tables" && Array.isArray(entry.results)) {
-            for (const result of entry.results) {
-                batch.put(`!tables.results!${entry._id}.${result._id}`, result);
-            }
-        }
     }
 
     await batch.write();

@@ -100,31 +100,59 @@ async function buildPack(packDef) {
                 systemVersion: "0.1.0",
                 createdTime: now(),
                 modifiedTime: now(),
-                lastModifiedBy: "dh2e-dread-of-zarovich",
+                lastModifiedBy: "dh2eDreadZarvch0",
             };
         }
 
-        const key = `!${packDef.collection}!${entry._id}`;
-        batch.put(key, entry);
-        count++;
+        // Prepare embedded documents BEFORE storing parent (so parent has complete data)
 
-        // Handle embedded items for actors (e.g., NPC equipped items)
+        // Embedded items for actors
         if (packDef.collection === "actors" && Array.isArray(entry.items)) {
             for (const item of entry.items) {
-                if (typeof item === "object" && item._id) {
-                    const itemKey = `!actors.items!${entry._id}.${item._id}`;
-                    batch.put(itemKey, item);
+                if (typeof item === "object") {
+                    if (!item._id) item._id = foundryId();
+                    if (!item._stats) item._stats = { ...entry._stats };
                 }
             }
         }
 
-        // Handle embedded pages for journal entries
+        // Embedded pages for journal entries
         if (packDef.collection === "journal" && Array.isArray(entry.pages)) {
             for (const page of entry.pages) {
                 if (!page._id) page._id = foundryId();
                 if (!page._stats) page._stats = { ...entry._stats };
-                const pageKey = `!journal.pages!${entry._id}.${page._id}`;
-                batch.put(pageKey, page);
+            }
+        }
+
+        // Embedded results for roll tables
+        if (packDef.collection === "tables" && Array.isArray(entry.results)) {
+            for (const result of entry.results) {
+                if (!result._id) result._id = foundryId();
+                if (!result._stats) result._stats = { ...entry._stats };
+            }
+        }
+
+        // Store parent document (now includes complete embedded data)
+        const key = `!${packDef.collection}!${entry._id}`;
+        batch.put(key, entry);
+        count++;
+
+        // Store embedded sub-keys (Foundry v13 LevelDB format)
+        if (packDef.collection === "actors" && Array.isArray(entry.items)) {
+            for (const item of entry.items) {
+                if (typeof item === "object" && item._id) {
+                    batch.put(`!actors.items!${entry._id}.${item._id}`, item);
+                }
+            }
+        }
+        if (packDef.collection === "journal" && Array.isArray(entry.pages)) {
+            for (const page of entry.pages) {
+                batch.put(`!journal.pages!${entry._id}.${page._id}`, page);
+            }
+        }
+        if (packDef.collection === "tables" && Array.isArray(entry.results)) {
+            for (const result of entry.results) {
+                batch.put(`!tables.results!${entry._id}.${result._id}`, result);
             }
         }
     }
@@ -186,7 +214,7 @@ async function buildScenesPack() {
                     systemVersion: "0.1.0",
                     createdTime: now(),
                     modifiedTime: now(),
-                    lastModifiedBy: "dh2e-dread-of-zarovich",
+                    lastModifiedBy: "dh2eDreadZarvch0",
                 };
             }
             batch.put(`!scenes!${scene._id}`, scene);

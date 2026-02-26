@@ -5,11 +5,15 @@
         "system": {
             "format": "parchment",
             "status": "active",
-            "description": "Board and investigate the derelict vessel designated 'Durst's Lament.' Determine the source and nature of the warp anomaly surrounding it. Recover any intelligence assets. Eliminate any hostile entities encountered. Report findings to Inquisitor Thorne via astropathic relay.",
+            "description": "<p><strong>Operation Pale Threshold</strong> is the original mission briefing issued by <strong>Inquisitor Aldric Thorne</strong> of the Ordo Malleus. Twelve days prior to deployment, a void-ship of unknown origin translated from the warp into the Noctis Subsector. The vessel &mdash; designated <strong>Durst&rsquo;s Lament</strong> &mdash; broadcasts a repeating distress signal on Imperial frequencies, approximately 280 years old: <em>&ldquo;Emperor preserve us. Do not board this ship.&rdquo;</em></p><p>The Acolytes are to board the derelict via shuttle from the frigate <em>Dawn&rsquo;s Reproach</em>, determine the vessel&rsquo;s origin and the nature of its anomalous warp signature, recover any intelligence assets, and eliminate hostile entities. Standard Chaos exposure protocols apply. If contact is not re-established within forty-eight hours, the <em>Dawn&rsquo;s Reproach</em> withdraws and reports the cell lost.</p><p>This objective is <strong>superseded</strong> upon crash-landing on Barovus, but it is never truly complete. The Acolytes still carry their Inquisitorial mandate &mdash; they must survive, gather intelligence on the warp rift, and find a way to report their findings to Thorne. If they ever escape Barovus, this is the report they owe.</p>",
             "issuer": "Inquisitor Aldric Thorne, Ordo Malleus",
-            "notes": "Initial mission brief. Superseded by events upon arrival on Barovus."
+            "notes": "<p>Initial mission brief from Act I, Chapter 1. Becomes functionally superseded when the Vessel of Lament crashes on Barovus, but remains listed as <strong>active</strong> &mdash; the Acolytes have no way to file a report while trapped in the warp rift. This objective reframes their entire campaign: everything they do on Barovus is intelligence they must eventually deliver. If the rift collapses in the finale, completing this objective becomes possible again. The secondary objectives (recover intelligence on Barovus, Van Richten, and the warp anomaly) become the campaign&rsquo;s spine.</p>"
         },
-        "flags": { "dh2e-dread-of-zarovich": { "act": "1" } }
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "act": "1"
+            }
+        }
     },
     {
         "name": "Escort Ireena Kolyana to Safety",
@@ -17,11 +21,15 @@
         "system": {
             "format": "vox",
             "status": "pending",
-            "description": "Ireena Kolyana, daughter of the late Burgomaster of Barovus Village, is a target of Lord-Governor Strahd's obsessive attention. She must be escorted to a place of safety — Fortress Vallak, Krezk, or the Fallen Astartes Outpost. Her survival may be critical to breaking Strahd's power over Barovus.",
+            "description": "<p><strong>Ireena Kolyana</strong> is the adopted daughter of the late Burgomaster of Barovus Village and the latest reincarnation of <strong>Tatyana</strong> &mdash; the woman Lord-Governor Strahd has obsessively pursued for centuries. She is also a <strong>latent psyker</strong> whose dormant abilities are awakening under the stress of Strahd&rsquo;s attention. She does not understand what she is or why Strahd wants her; she knows only that he has visited her twice, that her father died trying to protect her, and that his servants watch her home every night.</p><p>The Acolytes must escort Ireena to one of three potential safe havens, each with different consequences: <strong>Fortress Vallak</strong> offers walls and soldiers but is politically unstable; <strong>Krezk Biologis Facility</strong> is remote but shelters the corrupted Magos Abaron; the <strong>Fallen Astartes Outpost</strong> holds genuine sanctity but is haunted by the spirits of dead Silver Drakes. No destination is truly safe &mdash; Strahd&rsquo;s reach extends across all of Barovus.</p><p>If Ireena is taken by Strahd, the campaign&rsquo;s emotional core shifts to rescue or tragedy. Her fate is one of four possible outcomes in the finale, and her survival &mdash; or sacrifice &mdash; may be the key to breaking the reincarnation cycle that binds her soul.</p>",
             "issuer": "Self-assigned / Ismark Kolyana",
-            "notes": "Acquired in Act I, Chapter 3."
+            "notes": "<p>Acquired in Act I, Chapter 3 when the Acolytes reach Barovus Village. This objective <strong>evolves</strong> throughout the campaign: &ldquo;safety&rdquo; is relative on Barovus, and each destination introduces new complications. Ireena is a non-combatant but her latent psyker abilities may manifest under stress. Her brother <strong>Ismark</strong> accompanies her as a capable fighter. Strahd will test the Acolytes&rsquo; commitment to protecting her &mdash; sending minions, extending invitations, and offering to &ldquo;spare&rdquo; them if they surrender her. Track Ireena&rsquo;s emotional state: she grows bolder with supportive Acolytes, more fragile if treated as cargo.</p>"
         },
-        "flags": { "dh2e-dread-of-zarovich": { "act": "1-2" } }
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "act": "1-2"
+            }
+        }
     },
     {
         "name": "Recover the Three Relics",
@@ -29,11 +37,15 @@
         "system": {
             "format": "vox",
             "status": "pending",
-            "description": "The Emperor's Tarot reading has identified three artifacts essential to confronting Lord-Governor Strahd: Dawn's Edge (a relic power sword), the Rosette of Saint Markovia (an Inquisitorial rosette), and the Tome of Strahd (an encrypted data-cogitator). Their locations have been divined. Recover all three.",
+            "description": "<p>The <strong>Emperor&rsquo;s Tarot</strong> reading performed by Madam Eva has identified three artifacts essential to confronting Lord-Governor Strahd. Without all three, he cannot be permanently destroyed &mdash; he will regenerate within days and resume his reign.</p><p><strong>Dawn&rsquo;s Edge</strong> is a relic power sword of extraordinary sanctity. It emits golden light anathema to warp entities, deals devastating bonus damage against warp-touched creatures, and its wounds cannot be regenerated. It is the weapon that must deliver the killing blow. <strong>The Rosette of Saint Markovia</strong> is an Inquisitorial rosette carried by a martyred Ordo Malleus Inquisitor &mdash; it provides powerful protective wards against warp phenomena and can turn back Strahd&rsquo;s domination abilities. <strong>The Tome of Strahd</strong> is an encrypted data-cogitator containing Strahd&rsquo;s personal journals, the history of his pact with the Daemon Prince Tenebrous, and &mdash; critically &mdash; the three conditions required for his permanent destruction.</p><p>The Tarot reading has divined the location of each relic. Some may be hidden in relatively accessible locations; others may lie in the most dangerous places on Barovus. Recovery is the strategic spine of Act II.</p>",
             "issuer": "Madam Eva / Emperor's Tarot",
-            "notes": "Locations determined by the 5-card Tarot draw in Act I, Chapter 4."
+            "notes": "<p>Locations are determined by the 5-card Tarot draw in Act I, Chapter 4 &mdash; the GM should consult the <strong>Emperor&rsquo;s Tarot Tables</strong> in the Appendices. Some possible locations include Zarovich Spire itself, the Empyrean Vault, and the Drowned Ruins &mdash; extremely dangerous areas that may require significant preparation. The Tome is the most immediately useful (it reveals Strahd&rsquo;s weaknesses and the three kill conditions), while Dawn&rsquo;s Edge is the most combat-critical. The Rosette provides essential defensive capability. Recovering all three before assaulting the Spire is strongly recommended but not required.</p>"
         },
-        "flags": { "dh2e-dread-of-zarovich": { "act": "2" } }
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "act": "2"
+            }
+        }
     },
     {
         "name": "Liberate the Recaf Distillery",
@@ -41,11 +53,15 @@
         "system": {
             "format": "vox",
             "status": "pending",
-            "description": "The Recaf Distillery is under siege by warp-corrupted flora and Nature-Corruption Devotees. Liberate the facility and recover the three Sacred Seeds to restore its production. Seeds located at: Warp Nexus, Berez, Zarovich Spire.",
+            "description": "<p>The <strong>Recaf Distillery</strong> is the last source of untainted sustenance on Barovus &mdash; its crops grow despite the ambient warp corruption, and its recaf has mild anti-corruption properties (+5 to the next Corruption Test after consumption). The facility is operated by the <strong>Martikov family</strong>, warp-mutant shapeshifters who can assume raven form, and who have secretly worked against Strahd for generations.</p><p>The distillery is currently under siege by <strong>corrupted plant-forms</strong> and <strong>Nature-Corruption Devotees</strong> &mdash; cultists who worship the warp&rsquo;s corrosive influence on the natural world. The Acolytes must clear the facility and, ideally, recover the <strong>three Sacred Seeds</strong>: blessed relics planted by a Ministorum saint centuries ago that are the source of the distillery&rsquo;s resistance to corruption. The seeds have been stolen and scattered: one to the <strong>Warp Nexus</strong> (embedded in the base of the Warp-Tree), one to <strong>Berez</strong> (held by Baba Lysaga as a trophy), and one to <strong>Zarovich Spire</strong> itself.</p><p>Recovering even one seed restores partial function. All three fully restores the distillery and provides a significant morale boost across all settlements. A secured distillery establishes critical supply lines to Fortress Vallak and Krezk.</p>",
             "issuer": "Martikov Family",
-            "notes": "Act II side quest. Securing the Distillery establishes supply lines."
+            "notes": "<p>Act II side quest, but functionally a gateway to the broader <strong>resupply system</strong>. Securing the distillery provides: unlimited ration packs, anti-corruption recaf, 2d10 Thrones per visit, and +10 to Fellowship Tests in supplied settlements. The Sacred Seed sub-quests connect to three other major locations (Warp Nexus, Berez, Zarovich Spire), making this objective a narrative hub. <strong>Complication:</strong> Liberating the distillery reveals the Martikovs&rsquo; mutant nature &mdash; they shift forms during combat without thinking to hide it. The Acolytes face a doctrinal dilemma: purge the mutants or embrace their best intelligence network.</p>"
         },
-        "flags": { "dh2e-dread-of-zarovich": { "act": "2" } }
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "act": "2"
+            }
+        }
     },
     {
         "name": "Investigate Fortress Vallak",
@@ -53,11 +69,15 @@
         "system": {
             "format": "vox",
             "status": "pending",
-            "description": "Fortress Vallak is the largest surviving settlement on Barovus. Investigate the political situation: Burgomaster Vallakovich's paranoid regime, Lady Fiona Wachter's secret Chaos cult, and the location of Inquisitor Van Richten (hiding as 'Dr. Richtus').",
+            "description": "<p><strong>Fortress Vallak</strong> is the largest surviving settlement on Barovus &mdash; a garrison town of approximately five hundred souls, walled in rockcrete and held together by paranoia, enforced joy, and the desperate pretence that everything is fine. Three intertwined quest threads await the Acolytes here.</p><p><strong>Burgomaster Vallakovich&rsquo;s Regime:</strong> The military governor enforces mandatory &ldquo;Festivals of Joy&rdquo; under armed guard, punishing insufficient enthusiasm with imprisonment or worse. His enforcer, the mutant <strong>Izek</strong>, terrorises the populace with a warp-fire arm. Vallakovich is a tyrant &mdash; but his walls hold, and removing him creates a power vacuum. <strong>Lady Fiona Wachter&rsquo;s Cult:</strong> Behind a faade of aristocratic concern, Fiona leads <strong>The Devoted</strong> &mdash; a secret Chaos cult that worships Strahd as a living saint. She plans a coup to open the gates to Strahd&rsquo;s direct rule, presenting herself as the reasonable alternative to Vallakovich&rsquo;s madness. <strong>Inquisitor Van Richten:</strong> An Ordo Malleus veteran hiding under the alias &ldquo;Dr. Richtus,&rdquo; Van Richten has spent decades researching Strahd&rsquo;s weaknesses. Finding him requires investigation through the Martikovs at the Blue Water Inn.</p><p>The Acolytes&rsquo; choices here reshape the settlement&rsquo;s future. A <strong>Stability Tracker</strong> (starting at 50) rises and falls based on their actions. If it drops below 20, open conflict erupts. Below 0, Fortress Vallak falls.</p>",
             "issuer": "Self-assigned",
-            "notes": "Act II primary location. Multiple quest threads converge here."
+            "notes": "<p>Act II primary location and the campaign&rsquo;s political hub. Multiple branching paths with <strong>no clean resolution</strong>: supporting Vallakovich perpetuates tyranny; supporting Wachter installs a heretic; removing both creates anarchy. Key sub-quests include the <strong>Festival of Joy</strong> (disruption vs. compliance), the <strong>Bones of Saint Andral</strong> (recover stolen relics to protect the chapel from warp-thrall assault), and <strong>Fiona&rsquo;s Coup</strong> (which can be aided, prevented, or exploited). Van Richten&rsquo;s alliance is invaluable &mdash; he provides blessed ammunition, +20 to Forbidden Lore (Warp) tests regarding Strahd, and critical tactical intelligence. Track Stability score carefully; it carries directly into Act III consequences.</p>"
         },
-        "flags": { "dh2e-dread-of-zarovich": { "act": "2" } }
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "act": "2"
+            }
+        }
     },
     {
         "name": "Destroy the Heart of Sorrow",
@@ -65,10 +85,14 @@
         "system": {
             "format": "vox",
             "status": "pending",
-            "description": "The Heart of Sorrow is a warp crystal at the core of Zarovich Spire that anchors Strahd's immortality. It must be destroyed before Strahd can be permanently killed. Located in the upper levels of the Spire, heavily guarded.",
+            "description": "<p>The <strong>Heart of the Spire</strong> is a warp crystal &mdash; roughly a metre across, translucent, pulsing with deep arterial red light in time with a rhythm that echoes Strahd&rsquo;s own heartbeat. Suspended in a spherical chamber behind three sets of hexagrammically warded doors in the upper levels of <strong>Zarovich Spire</strong>, it is the nexus through which the Daemon Prince <strong>Tenebrous</strong> channels power into the physical world and into Strahd himself.</p><p>While the Heart exists, Strahd benefits from <strong>Regeneration (5)</strong>, healing 5 Wounds per turn, and gains Unnatural Toughness (+4) and damage reduction of 4 while within the Spire. The Heart is immune to non-physical damage, takes half damage from energy weapons, full damage from sanctified weapons, and <strong>double damage</strong> from Dawn&rsquo;s Edge. It has Armour 8 and Structural Integrity 50. Two bound <strong>Warp Stalkers</strong> &mdash; lesser daemons of Slaanesh &mdash; guard the chamber.</p><p>Destroying the Heart strips Strahd of his regeneration permanently, destabilises the Spire&rsquo;s structure, and sends every warp-touched creature in the castle reeling. It is <strong>one of three conditions</strong> for Strahd&rsquo;s permanent destruction &mdash; alongside destroying his coffin in the crypts and striking the killing blow with a weapon of faith.</p>",
             "issuer": "Intelligence from Tome of Strahd / Van Richten",
-            "notes": "Act III objective. One of three conditions for Strahd's destruction."
+            "notes": "<p>Act III objective &mdash; should ideally be completed <strong>before</strong> the final confrontation with Strahd, not during it. Attempting to destroy the Heart while fighting Strahd simultaneously is extremely dangerous: he will defend it with absolute ferocity and becomes <strong>Frenzied</strong> if it is destroyed. The three warded doors require <strong>Challenging (&ndash;10) Forbidden Lore (Warp)</strong> or <strong>Security</strong> tests to open, or brute force (Armour 10, SI 35 each). Intelligence about the Heart comes from the <strong>Tome of Strahd</strong> and/or <strong>Van Richten&rsquo;s research</strong> &mdash; without either source, the Acolytes may not know this objective exists until they stumble upon the chamber.</p>"
         },
-        "flags": { "dh2e-dread-of-zarovich": { "act": "3" } }
+        "flags": {
+            "dh2e-dread-of-zarovich": {
+                "act": "3"
+            }
+        }
     }
 ]

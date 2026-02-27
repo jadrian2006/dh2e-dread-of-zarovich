@@ -363,7 +363,7 @@ def bump_version():
         data = json.load(f)
 
     old_version = data.get("version", "")
-    new_version = "0.4.7"
+    new_version = "0.4.8"
 
     if old_version == new_version:
         print(f"module.json already at v{new_version}")

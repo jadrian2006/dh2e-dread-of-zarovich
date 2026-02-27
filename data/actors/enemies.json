@@ -128,9 +128,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:fear",
-                            "value": 1
+                            "key": "RollOption",
+                            "option": "self:fear"
                         }
                     ],
                     "hasRating": true,
@@ -148,8 +147,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:dark-sight"
+                            "key": "RollOption",
+                            "option": "self:dark-sight"
                         }
                     ],
                     "hasRating": false,
@@ -167,8 +166,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:from-beyond"
+                            "key": "RollOption",
+                            "option": "self:from-beyond"
                         }
                     ],
                     "hasRating": false,
@@ -190,8 +189,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:undying"
+                            "key": "RollOption",
+                            "option": "self:undying"
                         }
                     ],
                     "hasRating": false,
@@ -209,8 +208,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:mindless"
+                            "key": "RollOption",
+                            "option": "self:mindless"
                         }
                     ],
                     "hasRating": false,
@@ -232,8 +231,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:shambling"
+                            "key": "RollOption",
+                            "option": "self:shambling"
                         }
                     ],
                     "hasRating": false,
@@ -251,8 +250,8 @@
                     "description": "Targets hit by attacks must pass Toughness test or suffer 1d10 additional damage ignoring armour as warp-infection spreads through tissue.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:toxic"
+                            "key": "RollOption",
+                            "option": "self:toxic"
                         }
                     ],
                     "hasRating": false,
@@ -437,9 +436,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:fear",
-                            "value": 2
+                            "key": "RollOption",
+                            "option": "self:fear"
                         }
                     ],
                     "hasRating": true,
@@ -457,8 +455,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:dark-sight"
+                            "key": "RollOption",
+                            "option": "self:dark-sight"
                         }
                     ],
                     "hasRating": false,
@@ -476,9 +474,9 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "FlatModifier",
-                            "key": "damage:melee",
-                            "value": 2
+                            "key": "FlatModifier",
+                            "domain": "damage",
+                            "value": "rating"
                         }
                     ],
                     "hasRating": true,
@@ -496,9 +494,9 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "FlatModifier",
-                            "key": "characteristic:ag",
-                            "value": 2
+                            "key": "FlatModifier",
+                            "domain": "characteristic:ag",
+                            "value": "rating"
                         }
                     ],
                     "hasRating": true,
@@ -516,9 +514,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:regeneration",
-                            "value": 3
+                            "key": "RollOption",
+                            "option": "self:regeneration"
                         }
                     ],
                     "hasRating": true,
@@ -536,8 +533,8 @@
                     "description": "When a Warp-Thrall hits with its Bite attack, it heals Wounds equal to damage dealt (before armour/Toughness reductions).",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:life-drain"
+                            "key": "RollOption",
+                            "option": "self:life-drain"
                         }
                     ],
                     "hasRating": false,
@@ -555,8 +552,8 @@
                     "description": "Cannot act against Strahd's will under any circumstances. Strahd can see and hear through any Thrall's senses as Free Action, regardless of distance within Barovus. Can issue telepathic commands to any Thrall at any time.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:dominated"
+                            "key": "RollOption",
+                            "option": "self:dominated"
                         }
                     ],
                     "hasRating": false,
@@ -574,8 +571,8 @@
                     "description": "Holy Symbols — When confronted with a genuinely held holy symbol of the God-Emperor (requires bearer's WP test), Warp-Thrall must pass WP test or flee for 1d5 rounds. Will not willingly enter a consecrated area.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:weakness"
+                            "key": "RollOption",
+                            "option": "self:weakness"
                         }
                     ],
                     "hasRating": false,
@@ -758,9 +755,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:fear",
-                            "value": 1
+                            "key": "RollOption",
+                            "option": "self:fear"
                         }
                     ],
                     "hasRating": true,
@@ -778,8 +774,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:dark-sight"
+                            "key": "RollOption",
+                            "option": "self:dark-sight"
                         }
                     ],
                     "hasRating": false,
@@ -797,9 +793,9 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "FlatModifier",
-                            "key": "damage:melee",
-                            "value": 2
+                            "key": "FlatModifier",
+                            "domain": "damage",
+                            "value": "rating"
                         }
                     ],
                     "hasRating": true,
@@ -817,9 +813,9 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "FlatModifier",
-                            "key": "armour:all",
-                            "value": 2
+                            "key": "FlatModifier",
+                            "domain": "armour",
+                            "value": "rating"
                         }
                     ],
                     "hasRating": true,
@@ -837,8 +833,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:bestial"
+                            "key": "RollOption",
+                            "option": "self:bestial"
                         }
                     ],
                     "hasRating": false,
@@ -856,8 +852,8 @@
                     "description": "For each other Warp-Mutant engaged in melee with the same target, each mutant gains +10 WS (maximum +30). Bonus lost immediately when engaged mutants drop.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:pack-tactics"
+                            "key": "RollOption",
+                            "option": "self:pack-tactics"
                         }
                     ],
                     "hasRating": false,
@@ -875,8 +871,8 @@
                     "description": "Take +2 damage from silver weapons. Wounds from silver cause searing pain — mutant must pass WP test or Disengage next turn.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:silver-vulnerability"
+                            "key": "RollOption",
+                            "option": "self:silver-vulnerability"
                         }
                     ],
                     "hasRating": false,
@@ -1021,9 +1017,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:fear",
-                            "value": 1
+                            "key": "RollOption",
+                            "option": "self:fear"
                         }
                     ],
                     "hasRating": true,
@@ -1041,8 +1036,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:dark-sight"
+                            "key": "RollOption",
+                            "option": "self:dark-sight"
                         }
                     ],
                     "hasRating": false,
@@ -1060,9 +1055,9 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "FlatModifier",
-                            "key": "damage:melee",
-                            "value": 2
+                            "key": "FlatModifier",
+                            "domain": "damage",
+                            "value": "rating"
                         }
                     ],
                     "hasRating": true,
@@ -1080,9 +1075,9 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "AdjustToughness",
+                            "key": "AdjustToughness",
                             "mode": "add",
-                            "value": 2
+                            "value": "rating"
                         }
                     ],
                     "hasRating": true,
@@ -1100,8 +1095,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:size:hulking"
+                            "key": "RollOption",
+                            "option": "self:size:hulking"
                         }
                     ],
                     "hasRating": false,
@@ -1119,8 +1114,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:flyer"
+                            "key": "RollOption",
+                            "option": "self:flyer"
                         }
                     ],
                     "hasRating": true,
@@ -1138,13 +1133,13 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "FlatModifier",
-                            "key": "armour:all",
-                            "value": 4
+                            "key": "FlatModifier",
+                            "domain": "armour",
+                            "value": "rating"
                         },
                         {
-                            "type": "RollOption",
-                            "key": "self:machine"
+                            "key": "RollOption",
+                            "option": "self:machine"
                         }
                     ],
                     "hasRating": true,
@@ -1167,8 +1162,8 @@
                     "description": "Appear as ordinary stone statues until activated. Activated by Strahd (Free Action, anywhere in Spire), proximity triggers (unauthorized person within 5m), or specific programmed conditions. Detecting a dormant Gargoyle requires Hard (–20) Awareness or Scrutiny test.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:dormant"
+                            "key": "RollOption",
+                            "option": "self:dormant"
                         }
                     ],
                     "hasRating": false,
@@ -1186,8 +1181,8 @@
                     "description": "When charging while flying, adds +2d10 damage to Slam attack instead of normal +1d10 charge bonus.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:swooping-attack"
+                            "key": "RollOption",
+                            "option": "self:swooping-attack"
                         }
                     ],
                     "hasRating": false,
@@ -1372,13 +1367,13 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "FlatModifier",
-                            "key": "armour:all",
-                            "value": 2
+                            "key": "FlatModifier",
+                            "domain": "armour",
+                            "value": "rating"
                         },
                         {
-                            "type": "RollOption",
-                            "key": "self:machine"
+                            "key": "RollOption",
+                            "option": "self:machine"
                         }
                     ],
                     "hasRating": true,
@@ -1401,8 +1396,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:dark-sight"
+                            "key": "RollOption",
+                            "option": "self:dark-sight"
                         }
                     ],
                     "hasRating": false,
@@ -1420,8 +1415,8 @@
                     "description": "At the start of each servitor's turn, roll 1d10:\n  1–3: Attacks nearest target (friend or foe; random if equidistant)\n  4–6: Repeats last action mindlessly (attacks same target, continues same direction)\n  7–8: Wanders away, random direction, Full Move\n  9–10: Shuts down for 1 round — unresponsive; reactivates next round",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:erratic"
+                            "key": "RollOption",
+                            "option": "self:erratic"
                         }
                     ],
                     "hasRating": false,
@@ -1566,13 +1561,13 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "AdjustToughness",
+                            "key": "AdjustToughness",
                             "mode": "add",
-                            "value": 0
+                            "value": "rating"
                         },
                         {
-                            "type": "RollOption",
-                            "key": "self:daemonic"
+                            "key": "RollOption",
+                            "option": "self:daemonic"
                         }
                     ],
                     "hasRating": false,
@@ -1595,9 +1590,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:fear",
-                            "value": 2
+                            "key": "RollOption",
+                            "option": "self:fear"
                         }
                     ],
                     "hasRating": true,
@@ -1615,8 +1609,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:from-beyond"
+                            "key": "RollOption",
+                            "option": "self:from-beyond"
                         }
                     ],
                     "hasRating": false,
@@ -1638,8 +1632,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:warp-instability"
+                            "key": "RollOption",
+                            "option": "self:warp-instability"
                         }
                     ],
                     "hasRating": false,
@@ -1657,8 +1651,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:dark-sight"
+                            "key": "RollOption",
+                            "option": "self:dark-sight"
                         }
                     ],
                     "hasRating": false,
@@ -1676,8 +1670,8 @@
                     "description": "Claws count as Warp Weapons and ignore non-warded armour entirely.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:warp-weapon"
+                            "key": "RollOption",
+                            "option": "self:warp-weapon"
                         }
                     ],
                     "hasRating": false,
@@ -1822,8 +1816,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:bestial"
+                            "key": "RollOption",
+                            "option": "self:bestial"
                         }
                     ],
                     "hasRating": false,
@@ -1841,8 +1835,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:dark-sight"
+                            "key": "RollOption",
+                            "option": "self:dark-sight"
                         }
                     ],
                     "hasRating": false,
@@ -1860,8 +1854,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:quadruped"
+                            "key": "RollOption",
+                            "option": "self:quadruped"
                         }
                     ],
                     "hasRating": false,
@@ -1879,8 +1873,8 @@
                     "description": "Detect any psyker or warp-touched entity within 1km. Gain +30 to Awareness and Tracking tests when following a psychic trail. A psyker using active powers within 500m draws all nearby packs.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:psychic-scent"
+                            "key": "RollOption",
+                            "option": "self:psychic-scent"
                         }
                     ],
                     "hasRating": false,
@@ -1898,8 +1892,8 @@
                     "description": "When 4 or more Warp-Hounds attack a single target, one Hound may make a free Trip attempt (opposed Agility test) at the start of the round. Success knocks target Prone; all Hound attacks that round gain +10 WS.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:pack-coordination"
+                            "key": "RollOption",
+                            "option": "self:pack-coordination"
                         }
                     ],
                     "hasRating": false,
@@ -2044,8 +2038,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:warp-touched"
+                            "key": "RollOption",
+                            "option": "self:warp-touched"
                         }
                     ],
                     "hasRating": false,
@@ -2063,8 +2057,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:disturbing"
+                            "key": "RollOption",
+                            "option": "self:disturbing"
                         }
                     ],
                     "hasRating": false,
@@ -2082,8 +2076,8 @@
                     "description": "Each Mongrelfolk has 1d3 unique mutations. Roll d10 per mutation:\n  1: Extra arm — one additional melee attack/round at –10 WS\n  2: Telescopic eye — +20 Per for ranged visual tests\n  3: Built-in vox — relay messages up to 2km\n  4: Enhanced smell — +20 Awareness when scent-relevant; track by smell\n  5: Reinforced skeleton — +2 AP body, +2 Wounds\n  6: Toxic spit — ranged 5m, 1d5 damage; Toughness test or Blinded 1 round\n  7: Wall-crawling — scale vertical surfaces at half movement, no test\n  8: Warp-sight — see warp entities/psychic auras, +10 Psyniscience untrained\n  9: Redundant organs — ignore first Critical Damage result\n  10: Mechanical voice box — perfectly mimic any voice/sound heard in last 24 hours",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:unique-mutations-augments"
+                            "key": "RollOption",
+                            "option": "self:unique-mutations-augments"
                         }
                     ],
                     "hasRating": false,
@@ -2101,8 +2095,8 @@
                     "description": "Implanted control device. Abaron issues commands via device (Free Action). Removing the device requires Hard (–20) Medicae test; removal inflicts 1d10 damage but frees the Mongrelfolk.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:compliance-device"
+                            "key": "RollOption",
+                            "option": "self:compliance-device"
                         }
                     ],
                     "hasRating": false,
@@ -2401,9 +2395,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:fear",
-                            "value": 2
+                            "key": "RollOption",
+                            "option": "self:fear"
                         }
                     ],
                     "hasRating": true,
@@ -2421,8 +2414,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:dark-sight"
+                            "key": "RollOption",
+                            "option": "self:dark-sight"
                         }
                     ],
                     "hasRating": false,
@@ -2440,9 +2433,9 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "FlatModifier",
-                            "key": "damage:melee",
-                            "value": 2
+                            "key": "FlatModifier",
+                            "domain": "damage",
+                            "value": "rating"
                         }
                     ],
                     "hasRating": true,
@@ -2460,8 +2453,8 @@
                     "description": "When 2+ Elite Guards attack the same target in the same round, each engaged Guard gains +10 WS and +1 damage to all attacks that round. Bonus stacks: 3 guards = +20 WS, +2 damage each.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:coordinated-tactics"
+                            "key": "RollOption",
+                            "option": "self:coordinated-tactics"
                         }
                     ],
                     "hasRating": false,
@@ -2479,8 +2472,8 @@
                     "description": "Half Action, melee touch attack vs adjacent target: target suffers 1d5 Wounds ignoring armour and Toughness Bonus. Guard heals equal Wounds.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:life-drain"
+                            "key": "RollOption",
+                            "option": "self:life-drain"
                         }
                     ],
                     "hasRating": false,
@@ -2498,8 +2491,8 @@
                     "description": "Immune to all mind control except Strahd's. Cannot be persuaded, bribed, intimidated, or reasoned with. Serve until destroyed.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:undying-loyalty"
+                            "key": "RollOption",
+                            "option": "self:undying-loyalty"
                         }
                     ],
                     "hasRating": false,
@@ -2685,13 +2678,13 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "FlatModifier",
-                            "key": "armour:all",
-                            "value": 3
+                            "key": "FlatModifier",
+                            "domain": "armour",
+                            "value": "rating"
                         },
                         {
-                            "type": "RollOption",
-                            "key": "self:machine"
+                            "key": "RollOption",
+                            "option": "self:machine"
                         }
                     ],
                     "hasRating": true,
@@ -2714,8 +2707,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:fearless"
+                            "key": "RollOption",
+                            "option": "self:fearless"
                         }
                     ],
                     "hasRating": false,
@@ -2735,9 +2728,9 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "FlatModifier",
-                            "key": "damage:melee",
-                            "value": 2
+                            "key": "FlatModifier",
+                            "domain": "damage",
+                            "value": "rating"
                         }
                     ],
                     "hasRating": true,
@@ -2755,8 +2748,8 @@
                     "description": "Activated by sitting on the audience chamber throne, Strahd's command, or specific security triggers. 12 total in the audience chamber.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:dormant-activation"
+                            "key": "RollOption",
+                            "option": "self:dormant-activation"
                         }
                     ],
                     "hasRating": false,
@@ -2774,8 +2767,8 @@
                     "description": "Servitor-Guards have no self-preservation instinct. They advance toward the nearest designated target and attack. They do not use cover, retreat, or coordinate beyond basic spacing. Their threat is in their numbers, durability, and the tight quarters of the Spire.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:no-tactics"
+                            "key": "RollOption",
+                            "option": "self:no-tactics"
                         }
                     ],
                     "hasRating": false,

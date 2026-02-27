@@ -447,9 +447,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:fear",
-                            "value": 4
+                            "key": "RollOption",
+                            "option": "self:fear"
                         }
                     ],
                     "hasRating": true,
@@ -467,8 +466,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:dark-sight"
+                            "key": "RollOption",
+                            "option": "self:dark-sight"
                         }
                     ],
                     "hasRating": false,
@@ -486,9 +485,9 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "FlatModifier",
-                            "key": "damage:melee",
-                            "value": 2
+                            "key": "FlatModifier",
+                            "domain": "damage",
+                            "value": "rating"
                         }
                     ],
                     "hasRating": true,
@@ -506,9 +505,9 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "AdjustToughness",
+                            "key": "AdjustToughness",
                             "mode": "add",
-                            "value": 2
+                            "value": "rating"
                         }
                     ],
                     "hasRating": true,
@@ -526,9 +525,9 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "FlatModifier",
-                            "key": "characteristic:wp",
-                            "value": 2
+                            "key": "FlatModifier",
+                            "domain": "characteristic:wp",
+                            "value": "rating"
                         }
                     ],
                     "hasRating": true,
@@ -546,8 +545,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:from-beyond"
+                            "key": "RollOption",
+                            "option": "self:from-beyond"
                         }
                     ],
                     "hasRating": false,
@@ -569,8 +568,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:warp-touched"
+                            "key": "RollOption",
+                            "option": "self:warp-touched"
                         }
                     ],
                     "hasRating": false,
@@ -588,9 +587,8 @@
                     "description": "Recovers 10 Wounds at start of each turn. Negated for 1 full round by wounds from Dawn's Edge, holy weapons, or blessed ammunition.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:regeneration",
-                            "value": 10
+                            "key": "RollOption",
+                            "option": "self:regeneration"
                         }
                     ],
                     "hasRating": true,
@@ -608,8 +606,8 @@
                     "description": "Half Action: becomes incorporeal. Immune to mundane attacks, passes through solid matter. Psychic attacks, force weapons, and holy weapons still affect him. Remains phased indefinitely; returns to corporeal as Free Action.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:warp-phase"
+                            "key": "RollOption",
+                            "option": "self:warp-phase"
                         }
                     ],
                     "hasRating": false,
@@ -627,8 +625,8 @@
                     "description": "Locks eyes with target within 20m. Target must pass Opposed WP test at –20 or fall under Strahd's control for 1d5 rounds. Dominated targets act on Strahd's turn, follow telepathic commands including attacking allies. New WP test at –10 per round to break free (Half Action).",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:domination"
+                            "key": "RollOption",
+                            "option": "self:domination"
                         }
                     ],
                     "hasRating": false,
@@ -646,8 +644,8 @@
                     "description": "Melee touch attack: target suffers 1d10 Wounds ignoring armour and Toughness Bonus. Strahd heals equal damage dealt. Target reduced to 0 by Life Drain dies and rises as Warp-Thrall within 1d5 rounds.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:life-drain"
+                            "key": "RollOption",
+                            "option": "self:life-drain"
                         }
                     ],
                     "hasRating": false,
@@ -665,8 +663,8 @@
                     "description": "Psychic bolt, 30m range: 2d10+8 E damage, Pen 6. May target up to 3 enemies within 5m of each other.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:warp-lightning"
+                            "key": "RollOption",
+                            "option": "self:warp-lightning"
                         }
                     ],
                     "hasRating": false,
@@ -1297,8 +1295,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:latent-psyker"
+                            "key": "RollOption",
+                            "option": "self:latent-psyker"
                         }
                     ],
                     "hasRating": false,
@@ -1316,8 +1314,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:barovus-native"
+                            "key": "RollOption",
+                            "option": "self:barovus-native"
                         }
                     ],
                     "hasRating": false,
@@ -1335,8 +1333,8 @@
                     "description": "Unconscious warp connection grants +10 to Initiative rolls. GM may grant brief, fragmented visions of imminent danger ('Don't open that door,' 'He's behind us'). Not mechanically reliable — narrative warnings only.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:precognition"
+                            "key": "RollOption",
+                            "option": "self:precognition"
                         }
                     ],
                     "hasRating": false,
@@ -1354,8 +1352,8 @@
                     "description": "Senses strong emotions within 10m. Automatically detects hostility, deception (grants allies +10 to Scrutiny against source), and warp-taint in nearby individuals.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:empathic-reading"
+                            "key": "RollOption",
+                            "option": "self:empathic-reading"
                         }
                     ],
                     "hasRating": false,
@@ -1373,8 +1371,8 @@
                     "description": "Triggered when directly threatened with violence or when Strahd attempts Domination. All creatures within 5m must pass WP test or be Stunned for 1 round. Warp-touched entities in area also suffer 1d10 E damage ignoring armour. Ireena cannot control this — leaves her Fatigued afterward. Each use has 20% chance of triggering Psychic Phenomena.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:psychic-scream"
+                            "key": "RollOption",
+                            "option": "self:psychic-scream"
                         }
                     ],
                     "hasRating": false,
@@ -1711,8 +1709,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:barovus-native"
+                            "key": "RollOption",
+                            "option": "self:barovus-native"
                         }
                     ],
                     "hasRating": false,
@@ -2053,8 +2051,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:mechanicus-implants"
+                            "key": "RollOption",
+                            "option": "self:mechanicus-implants"
                         }
                     ],
                     "hasRating": false,
@@ -2072,8 +2070,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:multiple-arms"
+                            "key": "RollOption",
+                            "option": "self:multiple-arms"
                         }
                     ],
                     "hasRating": true,
@@ -2091,8 +2089,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:dark-sight"
+                            "key": "RollOption",
+                            "option": "self:dark-sight"
                         }
                     ],
                     "hasRating": false,
@@ -2110,8 +2108,8 @@
                     "description": "Free Action: directs up to 6 Mongrelfolk per round via implanted compliance devices. Obey without question. If Abaron is killed, Mongrelfolk become confused and non-hostile (unless provoked).",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:command-mongrelfolk"
+                            "key": "RollOption",
+                            "option": "self:command-mongrelfolk"
                         }
                     ],
                     "hasRating": false,
@@ -2129,8 +2127,8 @@
                     "description": "Half Action, melee touch attack: target must pass Toughness test or suffer 1d10 damage and gain a temporary mutation (roll on Temporary Mutation table — extra finger-limbs, translucent skin, migrating eye, etc.). Mutation fades after 1d10 days. Even on successful test, target suffers 1d5 damage as flesh briefly distorts.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:flesh-warp"
+                            "key": "RollOption",
+                            "option": "self:flesh-warp"
                         }
                     ],
                     "hasRating": false,
@@ -2148,8 +2146,8 @@
                     "description": "Once per encounter, Full Action: restores 1d10+5 Wounds via internal repair protocols.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:emergency-self-repair"
+                            "key": "RollOption",
+                            "option": "self:emergency-self-repair"
                         }
                     ],
                     "hasRating": false,
@@ -2167,8 +2165,8 @@
                     "description": "Target hit by injector claw must pass Toughness test or suffer –20 to all tests for 1d10 rounds.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:injector-claw-toxin"
+                            "key": "RollOption",
+                            "option": "self:injector-claw-toxin"
                         }
                     ],
                     "hasRating": false,
@@ -2481,8 +2479,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:psyker"
+                            "key": "RollOption",
+                            "option": "self:psyker"
                         }
                     ],
                     "hasRating": true,
@@ -2500,8 +2498,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:warp-seer"
+                            "key": "RollOption",
+                            "option": "self:warp-seer"
                         }
                     ],
                     "hasRating": false,
@@ -2519,8 +2517,8 @@
                     "description": "Once per day, performs an Emperor's Tarot reading. May answer one question truthfully, though answers are often cryptic and symbolic. GM should provide genuine guidance wrapped in metaphor. Functions even within the Mists (extraordinary — nothing else does).",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:true-divination"
+                            "key": "RollOption",
+                            "option": "self:true-divination"
                         }
                     ],
                     "hasRating": false,
@@ -2538,8 +2536,8 @@
                     "description": "Guides travel through the Mists without travellers becoming lost. Groups following her instructions precisely avoid disorientation and Insanity effects of Mist travel.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:warp-navigation"
+                            "key": "RollOption",
+                            "option": "self:warp-navigation"
                         }
                     ],
                     "hasRating": false,
@@ -2557,8 +2555,8 @@
                     "description": "Completely immune to Strahd's Domination and all warp-based scrying/divination. Strahd cannot locate her, read her thoughts, or influence her mind. Protection extends 5m radius: those within gain +30 to WP tests to resist Strahd's Domination.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:unreadable"
+                            "key": "RollOption",
+                            "option": "self:unreadable"
                         }
                     ],
                     "hasRating": false,
@@ -2830,8 +2828,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:psyker"
+                            "key": "RollOption",
+                            "option": "self:psyker"
                         }
                     ],
                     "hasRating": true,
@@ -2849,9 +2847,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:fear",
-                            "value": 3
+                            "key": "RollOption",
+                            "option": "self:fear"
                         }
                     ],
                     "hasRating": true,
@@ -2869,8 +2866,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:dark-sight"
+                            "key": "RollOption",
+                            "option": "self:dark-sight"
                         }
                     ],
                     "hasRating": false,
@@ -2888,8 +2885,8 @@
                     "description": "",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:warp-touched"
+                            "key": "RollOption",
+                            "option": "self:warp-touched"
                         }
                     ],
                     "hasRating": false,
@@ -2907,8 +2904,8 @@
                     "description": "Lysaga fights from within. Uses vehicle Armour/SI instead of personal Wounds/AP. Can only be targeted separately via called shot at –20 through observation slit. See hab-unit stats in description.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:walking-hab-unit"
+                            "key": "RollOption",
+                            "option": "self:walking-hab-unit"
                         }
                     ],
                     "hasRating": false,
@@ -2926,8 +2923,8 @@
                     "description": "If hab-unit destroyed, Lysaga fights on foot at personal stats. Much more vulnerable but still Psy Rating 7.",
                     "rules": [
                         {
-                            "type": "RollOption",
-                            "key": "self:destroy-to-strand"
+                            "key": "RollOption",
+                            "option": "self:destroy-to-strand"
                         }
                     ],
                     "hasRating": false,

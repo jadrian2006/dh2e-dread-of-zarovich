@@ -64,82 +64,82 @@ def get_trait_rules_and_immunities(name, rating):
     immunities = []
 
     if base == "Fear":
-        rules.append({"type": "RollOption", "key": "self:fear", "value": rating})
+        rules.append({"key": "RollOption", "option": "self:fear"})
 
     elif base == "Dark Sight":
-        rules.append({"type": "RollOption", "key": "self:dark-sight"})
+        rules.append({"key": "RollOption", "option": "self:dark-sight"})
 
     elif base == "Unnatural Strength":
-        rules.append({"type": "FlatModifier", "key": "damage:melee", "value": rating})
+        rules.append({"key": "FlatModifier", "domain": "damage", "value": "rating"})
 
     elif base == "Unnatural Toughness":
-        rules.append({"type": "AdjustToughness", "mode": "add", "value": rating})
+        rules.append({"key": "AdjustToughness", "mode": "add", "value": "rating"})
 
     elif base == "Unnatural Willpower":
-        rules.append({"type": "FlatModifier", "key": "characteristic:wp", "value": rating})
+        rules.append({"key": "FlatModifier", "domain": "characteristic:wp", "value": "rating"})
 
     elif base == "Unnatural Agility":
-        rules.append({"type": "FlatModifier", "key": "characteristic:ag", "value": rating})
+        rules.append({"key": "FlatModifier", "domain": "characteristic:ag", "value": "rating"})
 
     elif base == "From Beyond":
-        rules.append({"type": "RollOption", "key": "self:from-beyond"})
+        rules.append({"key": "RollOption", "option": "self:from-beyond"})
         immunities = ["Fear", "Pinning", "Insanity"]
 
     elif base == "Regeneration":
-        rules.append({"type": "RollOption", "key": "self:regeneration", "value": rating})
+        rules.append({"key": "RollOption", "option": "self:regeneration"})
 
     elif base in ("Natural Armor", "Natural Armour"):
-        rules.append({"type": "FlatModifier", "key": "armour:all", "value": rating})
+        rules.append({"key": "FlatModifier", "domain": "armour", "value": "rating"})
 
     elif base == "Daemonic":
-        rules.append({"type": "AdjustToughness", "mode": "add", "value": rating})
-        rules.append({"type": "RollOption", "key": "self:daemonic"})
+        rules.append({"key": "AdjustToughness", "mode": "add", "value": "rating"})
+        rules.append({"key": "RollOption", "option": "self:daemonic"})
         immunities = ["Fear", "Pinning", "Disease", "Poison"]
 
     elif base == "Machine":
-        rules.append({"type": "FlatModifier", "key": "armour:all", "value": rating})
-        rules.append({"type": "RollOption", "key": "self:machine"})
+        rules.append({"key": "FlatModifier", "domain": "armour", "value": "rating"})
+        rules.append({"key": "RollOption", "option": "self:machine"})
         immunities = ["Fear", "Pinning", "Disease", "Poison"]
 
     elif base == "Mindless":
-        rules.append({"type": "RollOption", "key": "self:mindless"})
+        rules.append({"key": "RollOption", "option": "self:mindless"})
         immunities = ["Fear", "Pinning", "psychic-mind"]
 
     elif base == "Fearless":
-        rules.append({"type": "RollOption", "key": "self:fearless"})
+        rules.append({"key": "RollOption", "option": "self:fearless"})
         immunities = ["Fear"]
 
     elif base == "Stuff of Nightmares":
-        rules.append({"type": "RollOption", "key": "self:stuff-of-nightmares"})
+        rules.append({"key": "RollOption", "option": "self:stuff-of-nightmares"})
         immunities = ["critical", "bleeding", "stun"]
 
     elif base == "Incorporeal":
-        rules.append({"type": "Resistance", "key": "impact", "value": "half"})
-        rules.append({"type": "Resistance", "key": "rending", "value": "half"})
-        rules.append({"type": "Resistance", "key": "explosive", "value": "half"})
-        rules.append({"type": "RollOption", "key": "self:incorporeal"})
+        rules.append({"key": "Resistance", "damageType": "impact", "mode": "half"})
+        rules.append({"key": "Resistance", "damageType": "rending", "mode": "half"})
+        rules.append({"key": "Resistance", "damageType": "explosive", "mode": "half"})
+        rules.append({"key": "RollOption", "option": "self:incorporeal"})
 
     elif base == "Brutal Charge":
         rules.append({
-            "type": "FlatModifier", "key": "damage:melee",
-            "value": rating, "predicate": "action:charge",
+            "key": "FlatModifier", "domain": "damage",
+            "value": "rating", "predicate": ["action:charge"],
         })
 
     elif base == "Size":
         # Extract size category from full name
         m = re.match(r'^Size\s*\((.+?)\)$', name)
         cat = slugify(m.group(1)) if m else "average"
-        rules.append({"type": "RollOption", "key": f"self:size:{cat}"})
+        rules.append({"key": "RollOption", "option": f"self:size:{cat}"})
 
     elif base in ("Flyer", "Toxic", "Shambling", "Quadruped", "Bestial",
                    "Undying", "Warp Instability", "Warp-Touched",
                    "Multiple Arms", "Mechanicus Implants", "Psyker",
                    "Warp Seer", "Disturbing", "Warp-Animated"):
-        rules.append({"type": "RollOption", "key": f"self:{slugify(base)}"})
+        rules.append({"key": "RollOption", "option": f"self:{slugify(base)}"})
 
     else:
         # Unknown/campaign-custom: generic RollOption
-        rules.append({"type": "RollOption", "key": f"self:{slugify(base)}"})
+        rules.append({"key": "RollOption", "option": f"self:{slugify(base)}"})
 
     return rules, immunities
 
@@ -201,14 +201,13 @@ def refactor_trait(sys, name):
     rating = sys.get("rating", 0)
     rules, immunities = get_trait_rules_and_immunities(name, rating)
 
-    # Add immunities (always — setdefault won't overwrite existing)
+    # Always set immunities from mapping
     sys.setdefault("immunities", [])
-    # Populate immunities if currently empty
-    if not sys["immunities"] and immunities:
+    if immunities:
         sys["immunities"] = immunities
 
-    # Populate rules if currently empty
-    if not sys.get("rules") and rules:
+    # Always regenerate rules from mapping (overwrite old wrong-format rules)
+    if rules:
         sys["rules"] = rules
 
 
@@ -230,17 +229,17 @@ def refactor_standalone_trait(item):
     sys.setdefault("category", "")
     sys.setdefault("immunities", [])
 
-    # Add campaign-specific rules if rules still empty
+    # Always regenerate campaign-specific rules (overwrite old wrong-format rules)
     name = item.get("name", "")
-    if not sys["rules"]:
+    if True:
         slug = slugify(name)
         if name == "Latent Psyker":
             sys["rules"] = [
-                {"type": "FlatModifier", "key": "initiative", "value": 10},
-                {"type": "RollOption", "key": "self:latent-psyker"},
+                {"key": "FlatModifier", "domain": "initiative", "value": 10},
+                {"key": "RollOption", "option": "self:latent-psyker"},
             ]
         else:
-            sys["rules"] = [{"type": "RollOption", "key": f"self:{slug}"}]
+            sys["rules"] = [{"key": "RollOption", "option": f"self:{slug}"}]
 
 
 def refactor_objective(sys):

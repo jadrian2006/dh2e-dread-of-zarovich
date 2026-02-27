@@ -6,8 +6,8 @@
             "description": "<p>Prolonged exposure to the warp rift of Barovus has fused empyric energy into this entity&rsquo;s physical form at a fundamental level. They are no longer merely tainted &mdash; the warp is woven into their flesh, their blood, their being. They bleed iridescent fluid that evaporates before it hits the ground. Their wounds close with an unnatural, peristaltic motion that is deeply disturbing to observe. The air around them carries a faint scent of ozone and something sweeter, like overripe fruit &mdash; a signature of Slaaneshi corruption.</p><p>Mechanically, this entity is treated as <strong>daemonic</strong> for all interactions with holy weapons, blessed ammunition, sanctified items, and faith-based abilities. <strong>Dawn&rsquo;s Edge</strong> deals bonus damage against them. The <strong>Rosette of Saint Markovia&rsquo;s</strong> abilities affect them as though they were a daemon. Prayers and litanies of faith cause them genuine, visible pain &mdash; they flinch from the sign of the aquila and recoil from consecrated ground.</p>\n<p>Applied to <strong>Strahd</strong>, <strong>Warp-Thralls</strong>, <strong>Warp-Mutants</strong>, <strong>Warp Stalkers</strong>, and other campaign-specific entities with deep warp exposure. This trait is the mechanical reason why the three relics are effective against Strahd &mdash; without it, he would be treated as a mortal target and holy weapons would have no special effect. NPCs and enemies with this trait should be described with subtle wrongness: too-fluid movement, eyes that reflect light they shouldn&rsquo;t, voices with faint harmonic undertones.</p>",
             "rules": [
                 {
-                    "type": "RollOption",
-                    "key": "self:warp-touched"
+                    "key": "RollOption",
+                    "option": "self:warp-touched"
                 }
             ],
             "hasRating": false,
@@ -26,8 +26,8 @@
             "description": "<p>The warp rift that imprisons Barovus does not release its dead. When a character with this trait dies, <strong>Slaanesh</strong> catches the departing soul like a spider snagging a fly in its web. The soul is held, examined, tasted &mdash; and then pushed back. The body reforms in agony, warp energy knitting flesh and bone together with sickening precision. The character gasps awake at the nearest site of significance to them, drenched in iridescent fluid, with memories of the warp still burning behind their eyes.</p><p>The return is not gentle. Each death leaves a deeper mark: <strong>1st death</strong> costs 1d10 CP and 1d10 IP, and the killing weapon is dissolved by warp energy. <strong>2nd death</strong> costs 2d10 CP/IP, all carried gear is scattered, and the character develops a Minor Mutation. <strong>3rd death</strong> costs 3d10 CP/IP, triggers a Major Mutation, and permanently reduces a random Characteristic by 1d5. <strong>4th death</strong> is permanent &mdash; Slaanesh has finished playing, and the soul is claimed. See the full rules in the <strong>Death on Barovus</strong> journal entry.</p>\n<p>Applied to <strong>all player characters</strong> upon arrival on Barovus. This is a campaign-specific resurrection mechanic &mdash; it should feel <em>wrong</em> every time it triggers. Strahd is aware of each reclamation and will comment on it with escalating contempt. The accumulating Corruption and Insanity costs are designed to make death increasingly terrifying even though it is technically survivable. Replacement Acolytes may also be introduced if a character is permanently lost.</p>",
             "rules": [
                 {
-                    "type": "RollOption",
-                    "key": "self:warp-reclamation"
+                    "key": "RollOption",
+                    "option": "self:warp-reclamation"
                 }
             ],
             "hasRating": false,
@@ -46,8 +46,8 @@
             "description": "<p>This character was born on Barovus, beneath a sky that never clears, in a world cut off from the Astronomican&rsquo;s light for over three centuries. They were raised on stories of an Emperor whose protection they have never felt, in settlements where the warp-fog presses against the walls every night and the dead do not always stay buried. They are <strong>adapted</strong> to the ambient warp exposure &mdash; immune to Corruption from low-level background warp phenomena &mdash; but that very adaptation has left them vulnerable in other ways.</p><p>Generations of living under Strahd&rsquo;s psychic dominion have conditioned the people of Barovus into a deep, inherited submission. Characters with this trait suffer <strong>&ndash;10 to Willpower Tests</strong> to resist Strahd&rsquo;s <strong>Domination</strong> ability. This is not cowardice &mdash; it is the weight of centuries pressing down on their souls. Their grandparents obeyed. Their parents obeyed. Their bodies remember, even when their minds resist.</p>\n<p>Applied to all <strong>Barovian NPCs</strong>: Ireena, Ismark, Burgomaster Vallakovich, the Martikovs, common villagers, PDF soldiers, and others born on-world. The warp-immunity applies only to ambient exposure (the persistent low-level corruption of daily life in the rift), <strong>not</strong> to direct contact with entities, artifacts, or rituals. The &ndash;10 WP penalty against Domination stacks with any other modifiers and represents a cultural/psychic conditioning that cannot be overcome through training alone.</p>",
             "rules": [
                 {
-                    "type": "RollOption",
-                    "key": "self:barovus-native"
+                    "key": "RollOption",
+                    "option": "self:barovus-native"
                 }
             ],
             "hasRating": false,
@@ -66,13 +66,13 @@
             "description": "<p>This character possesses untrained, dormant psychic potential that is slowly awakening under the pressure of warp exposure and extreme stress. They do not understand what is happening to them. They simply <em>know</em> things &mdash; a stranger&rsquo;s name before it is spoken, the presence of danger moments before it arrives, the layout of rooms they have never entered. They dream of lives they never lived, seeing faces and places from centuries past with perfect clarity. Sometimes, when they are frightened, objects move on their own &mdash; cups shatter, doors slam, candle flames flare and die.</p><p>Mechanically, the character gains <strong>+10 to Initiative</strong> (instinctive precognition) and can sense warp phenomena within close range without a test. They are a <strong>beacon to warp-sensitive entities</strong> &mdash; daemons, warp-touched creatures, and psykers can detect their presence at extended range. Involuntary psychic manifestations may occur at the GM&rsquo;s discretion during moments of high stress or emotional intensity.</p>\n<p>Applied specifically to <strong>Ireena Kolyana</strong>. Her psychic awakening is tied to her nature as the reincarnation of <strong>Tatyana</strong> &mdash; each incarnation has carried latent potential, but the intensifying warp rift is accelerating the process. Her abilities make her valuable as a narrative tool (precognitive warnings, visions of Strahd&rsquo;s history) but also dangerous &mdash; she attracts warp entities and Strahd can sense her psychic signature across Barovus. Her powers should manifest unpredictably, never on demand.</p>",
             "rules": [
                 {
-                    "type": "FlatModifier",
-                    "key": "initiative",
+                    "key": "FlatModifier",
+                    "domain": "initiative",
                     "value": 10
                 },
                 {
-                    "type": "RollOption",
-                    "key": "self:latent-psyker"
+                    "key": "RollOption",
+                    "option": "self:latent-psyker"
                 }
             ],
             "hasRating": false,
@@ -91,8 +91,8 @@
             "description": "<p>Strahd von Zarovich has taken a <strong>personal interest</strong> in this character, and his attention is a physical weight. The marked character feels watched at all times &mdash; a prickling between the shoulder blades, a sensation of cold breath on the back of the neck in empty rooms. They dream of his voice: calm, cultured, commenting on their choices with the detached amusement of a connoisseur evaluating a vintage. They catch glimpses of him in mirrors and reflective surfaces, standing just behind them, though when they turn, nothing is there.</p><p>Strahd can sense the marked character&rsquo;s <strong>general location and emotional state</strong> at all times while they remain on Barovus. He sends gifts &mdash; fine weapons, rare medicines, bottles of amasec with handwritten notes &mdash; and ensures the character survives encounters that should kill them. He is not protecting them out of kindness. He is <strong>not finished with them yet</strong>. When he decides he is, the gifts will stop and the killing will begin.</p>\n<p>Acquired by <strong>accepting 3 or more gifts</strong> from Strahd, or by drawing his personal attention through noteworthy actions (e.g., defying him publicly, impressing him in combat, or threatening Ireena). This trait has no direct mechanical penalty but should be roleplayed as deeply unsettling. Strahd&rsquo;s awareness of the character&rsquo;s location means ambushes and stealth operations against his forces are compromised &mdash; he always knows where the marked character is. The gifts themselves may carry subtle corruption (1d5 CP per gift accepted after the trait is acquired).</p>",
             "rules": [
                 {
-                    "type": "RollOption",
-                    "key": "self:strahd-s-marked"
+                    "key": "RollOption",
+                    "option": "self:strahd-s-marked"
                 }
             ],
             "hasRating": false,

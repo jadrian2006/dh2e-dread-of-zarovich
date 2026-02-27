@@ -75,7 +75,8 @@
                 "role": "",
                 "divination": "",
                 "notes": "The immortal master of Barovus. Four centuries ago, Lord-Governor Strahd von Zarovich was the most decorated Imperial commander in the subsector — a brilliant strategist who conquered this world for the Imperium through sheer tactical genius and ruthless efficiency. When the brother he loved was ordained as a Ministorum priest and wed the woman Strahd coveted, he bargained with a Daemon Prince of Slaanesh for immortality, murdered Sergei on his wedding night, and damned the entire world.\n\nHe appears as a tall, gaunt man in archaic officer's regalia — dress uniform of a pattern not worn for four hundred years, immaculately maintained. His features are noble but corpse-pale, cheekbones sharp as blades, eyes burning with cold warp-light that shifts between violet and pale gold. His voice is a deep, cultured baritone. He moves with the fluid precision of a master swordsman and the patience of something that has all the time in the world.\n\nAfter four centuries, Strahd is profoundly, dangerously BORED. He has read every book, mastered every skill, broken every soul on Barovus. The Acolytes are the first interesting thing to happen in decades. He will toy with them, test them, invite them to dinner, compliment their courage, and ultimately try to destroy everything they care about — not from malice, but because their suffering is the only thing that makes him feel alive.\n\nHe loves Tatyana/Ireena with the obsessive, possessive love of a collector for a masterwork. Every generation she reincarnates, and every generation she dies before he can claim her. This is his curse, and he refuses to accept it.\n\nTHREAT RATING: Dire\n\nMOVEMENT: Half 6, Full 12, Charge 18, Run 36\n\nSKILLS: Command +20, Deceive +20, Intimidate +30, Scrutiny +20, Awareness +20, Dodge +20, Parry +20, Forbidden Lore (Warp) +20, Scholastic Lore (Imperial) +10.\n\nTALENTS: Swift Attack, Lightning Attack, Crushing Blow, Step Aside, Counter-Attack, Combat Master, True Grit, Iron Jaw, Peer (Nobility).\n\nTRAITS: Fear (4), Dark Sight, Unnatural Strength (x2), Unnatural Toughness (x2), Unnatural Willpower (x2), From Beyond, Warp-Touched.\n\nSPECIAL ABILITIES:\n\n• Regeneration (10) — Recovers 10 Wounds at start of each turn. Negated for 1 full round by wounds from Dawn's Edge, holy weapons, or blessed ammunition.\n\n• Warp Phase — Half Action: becomes incorporeal. Immune to mundane attacks, passes through solid matter. Psychic attacks, force weapons, and holy weapons still affect him. Remains phased indefinitely; returns to corporeal as Free Action.\n\n• Domination — Locks eyes with target within 20m. Target must pass Opposed WP test at –20 or fall under Strahd's control for 1d5 rounds. Dominated targets act on Strahd's turn, follow telepathic commands including attacking allies. New WP test at –10 per round to break free (Half Action).\n\n• Life Drain — Melee touch attack: target suffers 1d10 Wounds ignoring armour and Toughness Bonus. Strahd heals equal damage dealt. Target reduced to 0 by Life Drain dies and rises as Warp-Thrall within 1d5 rounds.\n\n• Warp Lightning — Psychic bolt, 30m range: 2d10+8 E damage, Pen 6. May target up to 3 enemies within 5m of each other.\n\nCASTLE COMMAND (Lair Actions) — While within Zarovich Spire, Strahd takes one Lair Action at Initiative 0 each round:\n  – Phase through walls to reposition anywhere in the Spire\n  – Command up to 6 Gargoyle-Servitors or Malfunctioning Servitors; they activate and act immediately\n  – Seal exits: blast doors lock (Strength –30 or Tech-Use –20 to force)\n  – Warp Surge: one room floods with warp energy — occupants take 1d10 E (ignoring armour) and WP test or gain 1d5 Corruption Points\n\nPHASE ESCALATION:\n\n• Phase 2 (below 50 Wounds or Heart/Coffin threatened): All Characteristics +10. Fear increases to (5). Gains Psy Rating 5 — Warp Lightning, Telekinetic Storm (15m, Ag test or Prone + 1d10+5 I), Psychic Shriek (10m, WP test or Stunned 1 round + 1d10 Insanity Points).\n\n• Phase 3 (below 20 Wounds or Heart destroyed): Gains Daemonic trait. Unnatural multipliers increase to x3. Fear (6). Warp Instability — if fails WP at 0 Wounds, banished unless Dawn's Edge struck killing blow while Rosette active. Burning Pact: loses 5 Wounds/turn (cannot be healed). Phase 3 lasts ~8 rounds.\n\nDESTRUCTION CONDITIONS — ALL THREE must be met simultaneously:\n  1. Heart of the Spire destroyed\n  2. Strahd's coffin destroyed\n  3. Killing blow struck with Dawn's Edge while Rosette active\nIf any condition unmet, Strahd regenerates within 1d10 days.\n\nGM GUIDANCE: Before the Acolytes acquire holy artifacts, Strahd should feel functionally invincible — regeneration outpaces any damage they can inflict. Only with Dawn's Edge and the Rosette should they have a genuine chance. Strahd fights defensively, retreats when pressed, uses the environment as a weapon. He never raises his voice. He should appear early and often — not just at the finale. Run the dinner scene at the Spire to establish his character. He is unfailingly polite until he decides to be terrifying, and the transition should be instant and chilling."
-            }
+            },
+            "eliteAdvances": []
         },
         "items": [
             {
@@ -87,7 +88,7 @@
                     "class": "melee",
                     "range": 0,
                     "rof": {
-                        "single": false,
+                        "single": true,
                         "semi": 0,
                         "full": 0
                     },
@@ -97,10 +98,6 @@
                         "bonus": 0
                     },
                     "penetration": 7,
-                    "clip": {
-                        "value": 0,
-                        "max": 0
-                    },
                     "reload": "",
                     "weight": 3.5,
                     "qualities": [
@@ -108,7 +105,19 @@
                         "Balanced"
                     ],
                     "equipped": true,
-                    "availability": "Unique"
+                    "availability": "Unique",
+                    "magazine": {
+                        "value": 0,
+                        "max": 0
+                    },
+                    "craftsmanship": "common",
+                    "weaponGroup": "",
+                    "loadedAmmoId": "",
+                    "loadedMagazineName": "",
+                    "loadedRounds": [],
+                    "reloadProgress": 0,
+                    "rules": [],
+                    "loadType": ""
                 }
             },
             {
@@ -130,15 +139,23 @@
                         "bonus": 0
                     },
                     "penetration": 12,
-                    "clip": {
-                        "value": 3,
-                        "max": 3
-                    },
                     "reload": "2 Full",
                     "weight": 0,
                     "qualities": [],
                     "equipped": true,
-                    "availability": "Unique"
+                    "availability": "Unique",
+                    "magazine": {
+                        "value": 3,
+                        "max": 3
+                    },
+                    "craftsmanship": "common",
+                    "weaponGroup": "",
+                    "loadedAmmoId": "",
+                    "loadedMagazineName": "",
+                    "loadedRounds": [],
+                    "reloadProgress": 0,
+                    "rules": [],
+                    "loadType": "magazine"
                 }
             },
             {
@@ -159,7 +176,8 @@
                     "qualities": [],
                     "weight": 15,
                     "equipped": true,
-                    "availability": "Unique"
+                    "availability": "Unique",
+                    "craftsmanship": "common"
                 }
             },
             {
@@ -170,7 +188,8 @@
                     "description": "Master control signet ring for Zarovich Spire. Activates lair actions, commands servitors, seals/opens all doors.",
                     "weight": 0,
                     "quantity": 1,
-                    "availability": "Unique"
+                    "availability": "Unique",
+                    "craftsmanship": "common"
                 }
             },
             {
@@ -181,7 +200,8 @@
                     "description": "Allows instantaneous relocation to any point within Zarovich Spire. Spire only — does not function outside.",
                     "weight": 0,
                     "quantity": 1,
-                    "availability": "Unique"
+                    "availability": "Unique",
+                    "craftsmanship": "common"
                 }
             },
             {
@@ -425,10 +445,17 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:fear",
+                            "value": 4
+                        }
+                    ],
                     "hasRating": true,
                     "rating": 4,
-                    "category": "mental"
+                    "category": "mental",
+                    "immunities": []
                 }
             },
             {
@@ -438,10 +465,16 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:dark-sight"
+                        }
+                    ],
                     "hasRating": false,
                     "rating": 0,
-                    "category": "physical"
+                    "category": "physical",
+                    "immunities": []
                 }
             },
             {
@@ -451,10 +484,17 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "FlatModifier",
+                            "key": "damage:melee",
+                            "value": 2
+                        }
+                    ],
                     "hasRating": true,
                     "rating": 2,
-                    "category": "physical"
+                    "category": "physical",
+                    "immunities": []
                 }
             },
             {
@@ -464,10 +504,17 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "AdjustToughness",
+                            "mode": "add",
+                            "value": 2
+                        }
+                    ],
                     "hasRating": true,
                     "rating": 2,
-                    "category": "physical"
+                    "category": "physical",
+                    "immunities": []
                 }
             },
             {
@@ -477,10 +524,17 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "FlatModifier",
+                            "key": "characteristic:wp",
+                            "value": 2
+                        }
+                    ],
                     "hasRating": true,
                     "rating": 2,
-                    "category": "mental"
+                    "category": "mental",
+                    "immunities": []
                 }
             },
             {
@@ -490,10 +544,20 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:from-beyond"
+                        }
+                    ],
                     "hasRating": false,
                     "rating": 0,
-                    "category": "warp"
+                    "category": "warp",
+                    "immunities": [
+                        "Fear",
+                        "Pinning",
+                        "Insanity"
+                    ]
                 }
             },
             {
@@ -503,10 +567,16 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:warp-touched"
+                        }
+                    ],
                     "hasRating": false,
                     "rating": 0,
-                    "category": "warp"
+                    "category": "warp",
+                    "immunities": []
                 }
             },
             {
@@ -516,10 +586,17 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "Recovers 10 Wounds at start of each turn. Negated for 1 full round by wounds from Dawn's Edge, holy weapons, or blessed ammunition.",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:regeneration",
+                            "value": 10
+                        }
+                    ],
                     "hasRating": true,
                     "rating": 10,
-                    "category": "physical"
+                    "category": "physical",
+                    "immunities": []
                 }
             },
             {
@@ -529,10 +606,16 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "Half Action: becomes incorporeal. Immune to mundane attacks, passes through solid matter. Psychic attacks, force weapons, and holy weapons still affect him. Remains phased indefinitely; returns to corporeal as Free Action.",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:warp-phase"
+                        }
+                    ],
                     "hasRating": false,
                     "rating": 0,
-                    "category": ""
+                    "category": "",
+                    "immunities": []
                 }
             },
             {
@@ -542,10 +625,16 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "Locks eyes with target within 20m. Target must pass Opposed WP test at –20 or fall under Strahd's control for 1d5 rounds. Dominated targets act on Strahd's turn, follow telepathic commands including attacking allies. New WP test at –10 per round to break free (Half Action).",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:domination"
+                        }
+                    ],
                     "hasRating": false,
                     "rating": 0,
-                    "category": ""
+                    "category": "",
+                    "immunities": []
                 }
             },
             {
@@ -555,10 +644,16 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "Melee touch attack: target suffers 1d10 Wounds ignoring armour and Toughness Bonus. Strahd heals equal damage dealt. Target reduced to 0 by Life Drain dies and rises as Warp-Thrall within 1d5 rounds.",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:life-drain"
+                        }
+                    ],
                     "hasRating": false,
                     "rating": 0,
-                    "category": ""
+                    "category": "",
+                    "immunities": []
                 }
             },
             {
@@ -568,10 +663,16 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "Psychic bolt, 30m range: 2d10+8 E damage, Pen 6. May target up to 3 enemies within 5m of each other.",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:warp-lightning"
+                        }
+                    ],
                     "hasRating": false,
                     "rating": 0,
-                    "category": ""
+                    "category": "",
+                    "immunities": []
                 }
             }
         ],
@@ -658,7 +759,8 @@
                 "role": "",
                 "divination": "",
                 "notes": "An elderly Ordo Malleus Inquisitor who has been trapped on Barovus for twenty-seven years, surviving through extreme competence, ruthlessness, and a refusal to die. He hides in Fortress Vallak under the identity 'Dr. Richtus,' a travelling physician — a cover that lets him move freely while gathering intelligence on Strahd.\n\nHis face is a roadmap of scars. One eye is augmetic, clicking faintly as it refocuses. His hands are steady but liver-spotted, and he moves with the careful economy of a man who knows exactly how much strength he has left. He speaks with quiet authority, each word chosen with the precision of a man who has learned that careless speech kills.\n\nVan Richten arrived on Barovus with a full retinue — acolytes, savants, a combat servitor. All dead within three years. He carries their names like wounds. He talks to them sometimes, in the small hours, when he thinks no one can hear. He trusts no one, least of all himself. Prone to long suspicious silences and sudden agitation.\n\nHis core conviction remains unbroken: duty to the Inquisition, duty to the Emperor. He wants to destroy Strahd, redeem his failure, and die with purpose. He will not reveal his true identity unless the Acolytes demonstrate genuine competence and commitment. Once convinced, he becomes an invaluable ally — not as a combatant, but as a strategist and intelligence source.\n\nTHREAT RATING: Challenging\n\nMOVEMENT: Half 3, Full 6, Charge 9, Run 18\n\nSKILLS: Forbidden Lore (Daemonology) +30, Inquiry +20, Scrutiny +20, Medicae +10, Scholastic Lore (Occult) +20, Awareness +10, Common Lore (Imperial, Ecclesiarchy) +10.\n\nTALENTS: Resistance (Psychic Powers), Strong Minded, Hatred (Warp-Touched), Nerves of Steel, Jaded.\n\nSPECIAL NOTES:\n\n• Knowledge Value — Van Richten's true value is intelligence. If the Acolytes ask the right questions, he provides +20 bonuses to all tests related to Strahd's weaknesses, warp-touched entities, and Barovus geography. He has decades of research data-slates with comprehensive intelligence.\n\n• Non-combatant Strategist — Will not charge headlong into danger. Too old and damaged for frontline combat. Fights only when cornered. His bolt pistol has blessed rounds effective against warp-touched entities.\n\n• Hidden Identity — 'Dr. Richtus,' travelling physician. Players must discover his true nature through investigation. He tests them before revealing himself.\n\n• Hexagrammic Wards — Personal wards grant +10 WP vs daemonic psychic powers.\n\nGEAR: Inquisitorial rosette (hidden), decades of research data-slates, blessed ammunition (3 spare clips), hexagrammic wards, medikit, micro-bead.\n\nGM GUIDANCE: Van Richten is held together by willpower and bitterness. Play him as paranoid, exhausted, haunted — but never broken. He is the campaign's primary exposition NPC for Strahd's weaknesses and the three destruction conditions. Reveal him gradually. If the Acolytes are reckless with his identity, Strahd will find and kill him — and the campaign becomes much harder without his intelligence. He should feel like a real person weighed down by decades of failure, not a quest-giver."
-            }
+            },
+            "eliteAdvances": []
         },
         "items": [
             {
@@ -680,10 +782,6 @@
                         "bonus": 0
                     },
                     "penetration": 4,
-                    "clip": {
-                        "value": 8,
-                        "max": 8
-                    },
                     "reload": "Full",
                     "weight": 3.5,
                     "qualities": [
@@ -691,7 +789,19 @@
                         "Blessed"
                     ],
                     "equipped": true,
-                    "availability": "Very Rare"
+                    "availability": "Very Rare",
+                    "magazine": {
+                        "value": 8,
+                        "max": 8
+                    },
+                    "craftsmanship": "common",
+                    "weaponGroup": "",
+                    "loadedAmmoId": "",
+                    "loadedMagazineName": "",
+                    "loadedRounds": [],
+                    "reloadProgress": 0,
+                    "rules": [],
+                    "loadType": "magazine"
                 }
             },
             {
@@ -703,7 +813,7 @@
                     "class": "melee",
                     "range": 0,
                     "rof": {
-                        "single": false,
+                        "single": true,
                         "semi": 0,
                         "full": 0
                     },
@@ -713,15 +823,23 @@
                         "bonus": 0
                     },
                     "penetration": 2,
-                    "clip": {
-                        "value": 0,
-                        "max": 0
-                    },
                     "reload": "",
                     "weight": 3,
                     "qualities": [],
                     "equipped": true,
-                    "availability": "Scarce"
+                    "availability": "Scarce",
+                    "magazine": {
+                        "value": 0,
+                        "max": 0
+                    },
+                    "craftsmanship": "common",
+                    "weaponGroup": "",
+                    "loadedAmmoId": "",
+                    "loadedMagazineName": "",
+                    "loadedRounds": [],
+                    "reloadProgress": 0,
+                    "rules": [],
+                    "loadType": ""
                 }
             },
             {
@@ -743,10 +861,6 @@
                         "bonus": 0
                     },
                     "penetration": 2,
-                    "clip": {
-                        "value": 1,
-                        "max": 1
-                    },
                     "reload": "2 Full",
                     "weight": 4,
                     "qualities": [
@@ -754,7 +868,19 @@
                         "Accurate"
                     ],
                     "equipped": true,
-                    "availability": "Unique"
+                    "availability": "Unique",
+                    "magazine": {
+                        "value": 1,
+                        "max": 1
+                    },
+                    "craftsmanship": "common",
+                    "weaponGroup": "",
+                    "loadedAmmoId": "",
+                    "loadedMagazineName": "",
+                    "loadedRounds": [],
+                    "reloadProgress": 0,
+                    "rules": [],
+                    "loadType": "magazine"
                 }
             },
             {
@@ -775,7 +901,8 @@
                     "qualities": [],
                     "weight": 12,
                     "equipped": true,
-                    "availability": "Scarce"
+                    "availability": "Scarce",
+                    "craftsmanship": "common"
                 }
             },
             {
@@ -786,7 +913,8 @@
                     "description": "Personal hexagrammic wards inscribed on sub-dermal plates. +10 WP vs daemonic psychic powers.",
                     "weight": 0.5,
                     "quantity": 1,
-                    "availability": "Extremely Rare"
+                    "availability": "Extremely Rare",
+                    "craftsmanship": "common"
                 }
             },
             {
@@ -797,7 +925,8 @@
                     "description": "Decades of intelligence on Strahd, warp-thralls, Barovus geography, and the three destruction conditions. Grants +20 to relevant Lore tests when consulted.",
                     "weight": 2,
                     "quantity": 1,
-                    "availability": "Unique"
+                    "availability": "Unique",
+                    "craftsmanship": "common"
                 }
             },
             {
@@ -1053,7 +1182,8 @@
                 "role": "",
                 "divination": "",
                 "notes": "The latest reincarnation of Tatyana — the woman Strahd murdered his brother to possess, and who has died in every incarnation before he could claim her. Ireena does not know any of this. She knows only that the Lord-Governor is obsessed with her, that her adopted father died trying to protect her, and that something is awakening inside her mind.\n\nShe is a young woman with dark hair and pale, sharp features — striking rather than beautiful, with eyes that seem to look through people rather than at them. She carries an autopistol she barely knows how to use, and wears her father's aquila pendant.\n\nIreena is brave, intelligent, practical, and deeply compassionate. She is also angry — at Strahd, at her helplessness, at the entire situation. She does not trust easily and she will not be a passive damsel. She will fight, argue, make her own decisions, sometimes to the Acolytes' frustration. She is grieving her father but functional.\n\nShe feels a strange, unwanted pull toward Strahd — a residual soul-bond from centuries of reincarnation. She hates this. She loves Ismark deeply and worries about his self-destructive protectiveness.\n\nHer latent psychic abilities are emerging under the stress of the campaign — precognitive flashes, empathic sensitivity, and an involuntary psychic scream when directly threatened. Each use risks psychic phenomena and draws the attention of warp-sensitive entities.\n\nTHREAT RATING: Non-combatant\n\nMOVEMENT: Half 3, Full 6, Charge 9, Run 18\n\nSKILLS: Awareness +10, Dodge, Common Lore (Imperial), Linguistics (Local Barovian dialect).\n\nTRAITS: Latent Psyker, Barovus Native.\n\nSPECIAL ABILITIES:\n\n• Precognition (Passive) — Unconscious warp connection grants +10 to Initiative rolls. GM may grant brief, fragmented visions of imminent danger ('Don't open that door,' 'He's behind us'). Not mechanically reliable — narrative warnings only.\n\n• Empathic Reading — Senses strong emotions within 10m. Automatically detects hostility, deception (grants allies +10 to Scrutiny against source), and warp-taint in nearby individuals.\n\n• Psychic Scream (Involuntary) — Triggered when directly threatened with violence or when Strahd attempts Domination. All creatures within 5m must pass WP test or be Stunned for 1 round. Warp-touched entities in area also suffer 1d10 E damage ignoring armour. Ireena cannot control this — leaves her Fatigued afterward. Each use has 20% chance of triggering Psychic Phenomena.\n\nFOUR POSSIBLE FATES:\n  1. Claimed by Strahd (tragic ending)\n  2. Killed before Strahd can claim her (bittersweet)\n  3. Psychic awakening — destroys soul-bond, becomes sanctioned psyker (heroic)\n  4. Self-sacrifice — channels all psychic power to weaken Strahd permanently (noble)\n\nGM GUIDANCE: Ireena is a person, not a quest item. Play her as a fully-realized character with opinions, fears, and agency. If stashed 'safely' and ignored, she makes dangerous independent decisions. If included and respected, she develops her psychic abilities and becomes a powerful narrative ally. She is doomed — in every previous incarnation Tatyana dies before Strahd claims her. This cycle breaks only if the Acolytes destroy Strahd. Make the tension palpable: close calls, near misses, death almost claiming her. Never let the players forget she is fragile and vital."
-            }
+            },
+            "eliteAdvances": []
         },
         "items": [
             {
@@ -1075,15 +1205,23 @@
                         "bonus": 0
                     },
                     "penetration": 0,
-                    "clip": {
-                        "value": 18,
-                        "max": 18
-                    },
                     "reload": "Full",
                     "weight": 1.5,
                     "qualities": [],
                     "equipped": true,
-                    "availability": "Average"
+                    "availability": "Average",
+                    "magazine": {
+                        "value": 18,
+                        "max": 18
+                    },
+                    "craftsmanship": "common",
+                    "weaponGroup": "",
+                    "loadedAmmoId": "",
+                    "loadedMagazineName": "",
+                    "loadedRounds": [],
+                    "reloadProgress": 0,
+                    "rules": [],
+                    "loadType": "magazine"
                 }
             },
             {
@@ -1094,7 +1232,8 @@
                     "description": "Burgomaster Kolyan's aquila pendant. No mechanical effect, but deeply personal. Ireena will not willingly part with it.",
                     "weight": 0.1,
                     "quantity": 1,
-                    "availability": "Common"
+                    "availability": "Common",
+                    "craftsmanship": "common"
                 }
             },
             {
@@ -1156,10 +1295,16 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:latent-psyker"
+                        }
+                    ],
                     "hasRating": false,
                     "rating": 0,
-                    "category": "warp"
+                    "category": "warp",
+                    "immunities": []
                 }
             },
             {
@@ -1169,10 +1314,16 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:barovus-native"
+                        }
+                    ],
                     "hasRating": false,
                     "rating": 0,
-                    "category": "physical"
+                    "category": "physical",
+                    "immunities": []
                 }
             },
             {
@@ -1182,10 +1333,16 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "Unconscious warp connection grants +10 to Initiative rolls. GM may grant brief, fragmented visions of imminent danger ('Don't open that door,' 'He's behind us'). Not mechanically reliable — narrative warnings only.",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:precognition"
+                        }
+                    ],
                     "hasRating": false,
                     "rating": 0,
-                    "category": ""
+                    "category": "",
+                    "immunities": []
                 }
             },
             {
@@ -1195,10 +1352,16 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "Senses strong emotions within 10m. Automatically detects hostility, deception (grants allies +10 to Scrutiny against source), and warp-taint in nearby individuals.",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:empathic-reading"
+                        }
+                    ],
                     "hasRating": false,
                     "rating": 0,
-                    "category": ""
+                    "category": "",
+                    "immunities": []
                 }
             },
             {
@@ -1208,10 +1371,16 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "Triggered when directly threatened with violence or when Strahd attempts Domination. All creatures within 5m must pass WP test or be Stunned for 1 round. Warp-touched entities in area also suffer 1d10 E damage ignoring armour. Ireena cannot control this — leaves her Fatigued afterward. Each use has 20% chance of triggering Psychic Phenomena.",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:psychic-scream"
+                        }
+                    ],
                     "hasRating": false,
                     "rating": 0,
-                    "category": ""
+                    "category": "",
+                    "immunities": []
                 }
             }
         ],
@@ -1298,7 +1467,8 @@
                 "role": "",
                 "divination": "",
                 "notes": "Ireena's brother and the son of the late Burgomaster Kolyan of Barovus Village. Ismark served three years in the planetary defence militia — close enough to Imperial Guard training to make him a competent fighter, far enough from real war to leave him unprepared for what Barovus has become.\n\nHe is broad-shouldered and solid, with the calloused hands of a man who works the land when he isn't fighting. His face is open and honest — a terrible quality on Barovus. He wears battered flak armour and carries a chainsword he maintains with religious devotion.\n\nIsmark is practical, brave, and deeply protective of Ireena — sometimes to a self-destructive degree. He will fight to the death to protect her without hesitation. He is not reckless, but he is not clever either; he follows orders well and fights steadily, but complex plans confuse him. He is grieving his father and terrified for his sister, though he hides both behind a mask of gruff competence.\n\nHe drinks too much Vostra spirit and sleeps too little. He is a good man in a place where goodness is a liability.\n\nTHREAT RATING: Ordinary\n\nMOVEMENT: Half 3, Full 6, Charge 9, Run 18\n\nSKILLS: Common Lore (War), Dodge, Parry, Awareness, Survival, Intimidate.\n\nTALENTS: Rapid Reload, Quick Draw, Sound Constitution (x2), Nerves of Steel.\n\nTRAITS: Barovus Native.\n\nSPECIAL NOTES:\n\n• Escort NPC — Accompanies the party during Acts I-II as Ireena's protector. Solid melee combatant. Will follow Acolyte orders unless they endanger Ireena.\n\n• Protect Ireena — Will fight to the death to protect his sister. If Ireena is in immediate danger, Ismark abandons all other objectives to reach her. This can be exploited by enemies (and Strahd knows it).\n\n• Leadership Potential — If the Acolytes encourage him, Ismark can rally Barovus Village militia (up to 12 poorly-armed civilians, WS 20, BS 15, 6 Wounds). This is a narrative option, not a given.\n\nGM GUIDANCE: Ismark is the party's first ally and their barometer for Barovian morale. Play him as earnest, loyal, and slightly out of his depth. He's the NPC the players will like and want to protect — which makes him an excellent target for Strahd's cruelty. If Strahd wants to hurt the party emotionally, Ismark is the softest target. Do not kill him cheaply; make it devastating if it happens."
-            }
+            },
+            "eliteAdvances": []
         },
         "items": [
             {
@@ -1310,7 +1480,7 @@
                     "class": "melee",
                     "range": 0,
                     "rof": {
-                        "single": false,
+                        "single": true,
                         "semi": 0,
                         "full": 0
                     },
@@ -1320,10 +1490,6 @@
                         "bonus": 0
                     },
                     "penetration": 2,
-                    "clip": {
-                        "value": 0,
-                        "max": 0
-                    },
                     "reload": "",
                     "weight": 6,
                     "qualities": [
@@ -1331,7 +1497,19 @@
                         "Balanced"
                     ],
                     "equipped": true,
-                    "availability": "Average"
+                    "availability": "Average",
+                    "magazine": {
+                        "value": 0,
+                        "max": 0
+                    },
+                    "craftsmanship": "common",
+                    "weaponGroup": "",
+                    "loadedAmmoId": "",
+                    "loadedMagazineName": "",
+                    "loadedRounds": [],
+                    "reloadProgress": 0,
+                    "rules": [],
+                    "loadType": ""
                 }
             },
             {
@@ -1353,15 +1531,23 @@
                         "bonus": 0
                     },
                     "penetration": 0,
-                    "clip": {
-                        "value": 18,
-                        "max": 18
-                    },
                     "reload": "Full",
                     "weight": 1.5,
                     "qualities": [],
                     "equipped": true,
-                    "availability": "Average"
+                    "availability": "Average",
+                    "magazine": {
+                        "value": 18,
+                        "max": 18
+                    },
+                    "craftsmanship": "common",
+                    "weaponGroup": "",
+                    "loadedAmmoId": "",
+                    "loadedMagazineName": "",
+                    "loadedRounds": [],
+                    "reloadProgress": 0,
+                    "rules": [],
+                    "loadType": "magazine"
                 }
             },
             {
@@ -1382,7 +1568,8 @@
                     "qualities": [],
                     "weight": 8,
                     "equipped": true,
-                    "availability": "Common"
+                    "availability": "Common",
+                    "craftsmanship": "common"
                 }
             },
             {
@@ -1522,10 +1709,16 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:barovus-native"
+                        }
+                    ],
                     "hasRating": false,
                     "rating": 0,
-                    "category": "physical"
+                    "category": "physical",
+                    "immunities": []
                 }
             }
         ],
@@ -1612,7 +1805,8 @@
                 "role": "",
                 "divination": "",
                 "notes": "A Magos-Biologis of the Adeptus Mechanicus who came to Barovus decades ago on a research expedition and never left. The warp rift corroded his logic-engines and his sanity in equal measure. He now operates out of the Krezk Biologis Facility — once a legitimate medicae installation, now a charnel house of unethical experimentation.\n\nAbaron is a grotesque fusion of corroded machinery and pulsing, mutated flesh. His body is largely hidden beneath augmetics, stained robes, and professional apparatus. His face is unnaturally smooth and waxy — he has been practicing flesh-sculpting on himself. His eyes are multi-spectral augmetic lenses that whir and refocus constantly. His hands are the real horror: surgical tools fused directly into his fingers, blades and syringes extending from his knuckles, the boundary between tool and flesh deliberately erased.\n\nHe retains the cold logic and obsessive focus of the Mechanicus, but warped into something grotesque. He speaks calmly and precisely about procedures that would make a Chirurgeon vomit. He genuinely believes he is helping. He regards organ harvesting, flesh-sculpting, and constructing abominable servitor-constructs from the villagers of Krezk as necessary steps toward salvation.\n\nHis project: building a 'perfect vessel' — a bride for Strahd, constructed from harvested biological components. He believes completing this gift will earn Krezk's freedom. He does not recognize that his plan is morally abhorrent and practically impossible.\n\nHe is the only individual on Barovus who can maintain cybernetics — at escalating moral cost (1d5 CP per visit).\n\nTHREAT RATING: Dangerous\n\nMOVEMENT: Half 3, Full 6, Charge 9, Run 18\n\nSKILLS: Tech-Use +30, Medicae +30, Forbidden Lore (Xenos, Warp) +20, Scholastic Lore (Chymistry) +20, Awareness +10.\n\nTALENTS: Mechadendrite Use (all), Technical Knock, Luminen Charge.\n\nTRAITS: Mechanicus Implants, Multiple Arms (4 mechadendrites), Dark Sight.\n\nSPECIAL ABILITIES:\n\n• Command Mongrelfolk — Free Action: directs up to 6 Mongrelfolk per round via implanted compliance devices. Obey without question. If Abaron is killed, Mongrelfolk become confused and non-hostile (unless provoked).\n\n• Flesh-Warp — Half Action, melee touch attack: target must pass Toughness test or suffer 1d10 damage and gain a temporary mutation (roll on Temporary Mutation table — extra finger-limbs, translucent skin, migrating eye, etc.). Mutation fades after 1d10 days. Even on successful test, target suffers 1d5 damage as flesh briefly distorts.\n\n• Emergency Self-Repair — Once per encounter, Full Action: restores 1d10+5 Wounds via internal repair protocols.\n\n• Injector Claw Toxin — Target hit by injector claw must pass Toughness test or suffer –20 to all tests for 1d10 rounds.\n\nGEAR: Surgical tools, chymistry lab equipment, experimental compound vials, research data-slates, mongrelfolk remote control device.\n\nGM GUIDANCE: Abaron is polite, helpful, and utterly insane. He offers cybernetics maintenance (the only source on Barovus) but every visit costs 1d5 Corruption Points as his 'improvements' inch toward the obscene. He's an NPC the Acolytes may need but should never trust. Play the body horror carefully — the revulsion should build, not peak on first meeting. His mongrelfolk are pitiable, not threatening. If the Acolytes discover what he's doing to the Krezk villagers, the moral choice is sharp: destroy the only tech-priest on the planet, or tolerate his atrocities."
-            }
+            },
+            "eliteAdvances": []
         },
         "items": [
             {
@@ -1624,7 +1818,7 @@
                     "class": "melee",
                     "range": 0,
                     "rof": {
-                        "single": false,
+                        "single": true,
                         "semi": 0,
                         "full": 0
                     },
@@ -1634,17 +1828,25 @@
                         "bonus": 0
                     },
                     "penetration": 0,
-                    "clip": {
-                        "value": 0,
-                        "max": 0
-                    },
                     "reload": "",
                     "weight": 0,
                     "qualities": [
                         "May attack with up to 4 per round as Full Action"
                     ],
                     "equipped": true,
-                    "availability": "Very Rare"
+                    "availability": "Very Rare",
+                    "magazine": {
+                        "value": 0,
+                        "max": 0
+                    },
+                    "craftsmanship": "common",
+                    "weaponGroup": "",
+                    "loadedAmmoId": "",
+                    "loadedMagazineName": "",
+                    "loadedRounds": [],
+                    "reloadProgress": 0,
+                    "rules": [],
+                    "loadType": ""
                 }
             },
             {
@@ -1666,15 +1868,23 @@
                         "bonus": 0
                     },
                     "penetration": 0,
-                    "clip": {
-                        "value": 30,
-                        "max": 30
-                    },
                     "reload": "Full",
                     "weight": 0,
                     "qualities": [],
                     "equipped": true,
-                    "availability": "Common"
+                    "availability": "Common",
+                    "magazine": {
+                        "value": 30,
+                        "max": 30
+                    },
+                    "craftsmanship": "common",
+                    "weaponGroup": "",
+                    "loadedAmmoId": "",
+                    "loadedMagazineName": "",
+                    "loadedRounds": [],
+                    "reloadProgress": 0,
+                    "rules": [],
+                    "loadType": "magazine"
                 }
             },
             {
@@ -1686,7 +1896,7 @@
                     "class": "melee",
                     "range": 0,
                     "rof": {
-                        "single": false,
+                        "single": true,
                         "semi": 0,
                         "full": 0
                     },
@@ -1696,17 +1906,25 @@
                         "bonus": 0
                     },
                     "penetration": 0,
-                    "clip": {
-                        "value": 0,
-                        "max": 0
-                    },
                     "reload": "",
                     "weight": 0,
                     "qualities": [
                         "Toxic — target must pass Toughness test or –20 all tests for 1d10 rounds"
                     ],
                     "equipped": true,
-                    "availability": "Unique"
+                    "availability": "Unique",
+                    "magazine": {
+                        "value": 0,
+                        "max": 0
+                    },
+                    "craftsmanship": "common",
+                    "weaponGroup": "",
+                    "loadedAmmoId": "",
+                    "loadedMagazineName": "",
+                    "loadedRounds": [],
+                    "reloadProgress": 0,
+                    "rules": [],
+                    "loadType": ""
                 }
             },
             {
@@ -1833,10 +2051,16 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:mechanicus-implants"
+                        }
+                    ],
                     "hasRating": false,
                     "rating": 0,
-                    "category": "physical"
+                    "category": "physical",
+                    "immunities": []
                 }
             },
             {
@@ -1846,10 +2070,16 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:multiple-arms"
+                        }
+                    ],
                     "hasRating": true,
                     "rating": 4,
-                    "category": "physical"
+                    "category": "physical",
+                    "immunities": []
                 }
             },
             {
@@ -1859,10 +2089,16 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:dark-sight"
+                        }
+                    ],
                     "hasRating": false,
                     "rating": 0,
-                    "category": "physical"
+                    "category": "physical",
+                    "immunities": []
                 }
             },
             {
@@ -1872,10 +2108,16 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "Free Action: directs up to 6 Mongrelfolk per round via implanted compliance devices. Obey without question. If Abaron is killed, Mongrelfolk become confused and non-hostile (unless provoked).",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:command-mongrelfolk"
+                        }
+                    ],
                     "hasRating": false,
                     "rating": 0,
-                    "category": ""
+                    "category": "",
+                    "immunities": []
                 }
             },
             {
@@ -1885,10 +2127,16 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "Half Action, melee touch attack: target must pass Toughness test or suffer 1d10 damage and gain a temporary mutation (roll on Temporary Mutation table — extra finger-limbs, translucent skin, migrating eye, etc.). Mutation fades after 1d10 days. Even on successful test, target suffers 1d5 damage as flesh briefly distorts.",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:flesh-warp"
+                        }
+                    ],
                     "hasRating": false,
                     "rating": 0,
-                    "category": ""
+                    "category": "",
+                    "immunities": []
                 }
             },
             {
@@ -1898,10 +2146,16 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "Once per encounter, Full Action: restores 1d10+5 Wounds via internal repair protocols.",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:emergency-self-repair"
+                        }
+                    ],
                     "hasRating": false,
                     "rating": 0,
-                    "category": ""
+                    "category": "",
+                    "immunities": []
                 }
             },
             {
@@ -1911,10 +2165,16 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "Target hit by injector claw must pass Toughness test or suffer –20 to all tests for 1d10 rounds.",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:injector-claw-toxin"
+                        }
+                    ],
                     "hasRating": false,
                     "rating": 0,
-                    "category": ""
+                    "category": "",
+                    "immunities": []
                 }
             }
         ],
@@ -2001,7 +2261,8 @@
                 "role": "",
                 "divination": "",
                 "notes": "The ancient matriarch of the Vostra — a clan of warp-touched Rogue Traders who navigate the mists of Barovus where others go mad. She is impossibly old. No one knows how old. She may not know herself.\n\nShe is wrapped in layers of dark fabric and bone-bead necklaces, each bead carved with a tiny hexagrammic ward. Her face is a landscape of wrinkles so deep they cast their own shadows. Her eyes are sharp, black as polished obsidian — and completely blind. She sees with something else entirely. Her hands are steady as stone. She smells of incense, warp-ozone, and something older than either.\n\nMadam Eva speaks in riddles — not from mystical affectation, but because the future she perceives is genuinely non-linear and cannot be expressed in straight sentences. She is darkly amused by suffering, not from cruelty but from the exhaustion of someone who has seen every possible outcome and knows most of them end badly.\n\nShe is neither good nor evil in any simple sense. She serves the Tarot — fate's will, the Emperor's will, or some incomprehensible force that supersedes all other loyalties. She aids those who oppose Strahd, yet her relationship with him is ancient and ambiguous. She knows things she should not know: the Acolytes' names, what they had for breakfast, the secret fears they have never spoken aloud.\n\nHer Tarot readings are genuine. The cards do not lie, though they are often cruel.\n\nTHREAT RATING: Non-combatant\n\nMOVEMENT: Half 2, Full 4, Charge 6, Run 12\n\nSKILLS: Psyniscience +30, Forbidden Lore (Warp) +20, Scrutiny +30, Charm +20, Common Lore (Vostra Traditions) +20, Linguistics (Imperial, Barovian, Vostra).\n\nTALENTS: Strong Minded, Resistance (Psychic Powers), Warp Sense.\n\nTRAITS: Psyker (Psy Rating 4), Warp Seer.\n\nSPECIAL ABILITIES:\n\n• True Divination — Once per day, performs an Emperor's Tarot reading. May answer one question truthfully, though answers are often cryptic and symbolic. GM should provide genuine guidance wrapped in metaphor. Functions even within the Mists (extraordinary — nothing else does).\n\n• Warp Navigation — Guides travel through the Mists without travellers becoming lost. Groups following her instructions precisely avoid disorientation and Insanity effects of Mist travel.\n\n• Unreadable — Completely immune to Strahd's Domination and all warp-based scrying/divination. Strahd cannot locate her, read her thoughts, or influence her mind. Protection extends 5m radius: those within gain +30 to WP tests to resist Strahd's Domination.\n\nGEAR: Emperor's Tarot deck (genuine psychically-attuned set), warp-warding charms (AP 3 vs psychic attacks only), Vostra wagon with esoteric supplies, decades of collected lore, walking stick.\n\nGM GUIDANCE: The Tarot reading scene is one of the campaign's most important moments. Play it with full dramatic weight — dim the lights, lower your voice, take your time. Every card should feel significant. Address each Acolyte individually with at least one unsettlingly accurate observation about them. Madam Eva should feel genuinely alien — not hostile, but operating on a different plane of understanding. She answers questions with questions, smiles at inappropriate moments, and occasionally says something so precisely true that it's more frightening than anything Strahd could do."
-            }
+            },
+            "eliteAdvances": []
         },
         "items": [
             {
@@ -2012,7 +2273,8 @@
                     "description": "A genuine psychically-attuned Emperor's Tarot deck. The cards are warm to the touch and faintly luminescent. Used for the campaign's central randomization mechanic (5-card draw).",
                     "weight": 0.5,
                     "quantity": 1,
-                    "availability": "Unique"
+                    "availability": "Unique",
+                    "craftsmanship": "common"
                 }
             },
             {
@@ -2023,7 +2285,8 @@
                     "description": "Dozens of bone-bead necklaces and woven talismans. Provide AP 3 against psychic attacks only. Also serve as the anchor for her 5m Unreadable aura.",
                     "weight": 0.3,
                     "quantity": 1,
-                    "availability": "Unique"
+                    "availability": "Unique",
+                    "craftsmanship": "common"
                 }
             },
             {
@@ -2035,7 +2298,7 @@
                     "class": "melee",
                     "range": 0,
                     "rof": {
-                        "single": false,
+                        "single": true,
                         "semi": 0,
                         "full": 0
                     },
@@ -2045,17 +2308,25 @@
                         "bonus": 0
                     },
                     "penetration": 0,
-                    "clip": {
-                        "value": 0,
-                        "max": 0
-                    },
                     "reload": "",
                     "weight": 1,
                     "qualities": [
                         "Primitive"
                     ],
                     "equipped": true,
-                    "availability": "Plentiful"
+                    "availability": "Plentiful",
+                    "magazine": {
+                        "value": 0,
+                        "max": 0
+                    },
+                    "craftsmanship": "common",
+                    "weaponGroup": "",
+                    "loadedAmmoId": "",
+                    "loadedMagazineName": "",
+                    "loadedRounds": [],
+                    "reloadProgress": 0,
+                    "rules": [],
+                    "loadType": ""
                 }
             },
             {
@@ -2208,10 +2479,16 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:psyker"
+                        }
+                    ],
                     "hasRating": true,
                     "rating": 4,
-                    "category": "warp"
+                    "category": "warp",
+                    "immunities": []
                 }
             },
             {
@@ -2221,10 +2498,16 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:warp-seer"
+                        }
+                    ],
                     "hasRating": false,
                     "rating": 0,
-                    "category": "warp"
+                    "category": "warp",
+                    "immunities": []
                 }
             },
             {
@@ -2234,10 +2517,16 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "Once per day, performs an Emperor's Tarot reading. May answer one question truthfully, though answers are often cryptic and symbolic. GM should provide genuine guidance wrapped in metaphor. Functions even within the Mists (extraordinary — nothing else does).",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:true-divination"
+                        }
+                    ],
                     "hasRating": false,
                     "rating": 0,
-                    "category": ""
+                    "category": "",
+                    "immunities": []
                 }
             },
             {
@@ -2247,10 +2536,16 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "Guides travel through the Mists without travellers becoming lost. Groups following her instructions precisely avoid disorientation and Insanity effects of Mist travel.",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:warp-navigation"
+                        }
+                    ],
                     "hasRating": false,
                     "rating": 0,
-                    "category": ""
+                    "category": "",
+                    "immunities": []
                 }
             },
             {
@@ -2260,10 +2555,16 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "Completely immune to Strahd's Domination and all warp-based scrying/divination. Strahd cannot locate her, read her thoughts, or influence her mind. Protection extends 5m radius: those within gain +30 to WP tests to resist Strahd's Domination.",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:unreadable"
+                        }
+                    ],
                     "hasRating": false,
                     "rating": 0,
-                    "category": ""
+                    "category": "",
+                    "immunities": []
                 }
             }
         ],
@@ -2350,7 +2651,8 @@
                 "role": "",
                 "divination": "",
                 "notes": "Baba Lysaga dwells in the Drowned Ruins of Berez, in a walking hab-unit animated by warp energy. She is impossibly old — ancient beyond biology, her body sustained by centuries of warp-infusion. Her skin ripples and shifts like water. Her fingers are too long, her smile too wide, her eyes solid black from edge to edge.\n\nShe claims to be Strahd's 'spiritual mother' — she was present at his birth, whispered dark lore to him throughout his childhood, and considers herself responsible for shaping him into the creature he became. Her devotion to Strahd is absolute, maternal, and deeply insane. She will destroy anything that threatens her 'son.'\n\nShe is Psy Rating 7 — the most powerful psyker on Barovus after Strahd himself. She commands warp-fire, telekinesis, domination, flesh-warping, and can sustain a devastating warp storm. She fights from inside her walking hab-unit, using its bulk and armour as both weapon and shield.\n\nShe holds the second Sacred Seed, stolen from the Recaf Distillery.\n\nWALKING HAB-UNIT:\n  Type: Walker / Warp-Animated Construct\n  Structural Integrity: 30\n  Armour: 20 (all facings)\n  Movement: 4/8/12/16\n  Weapons: 2x Stomping Legs (2d10+10 I, Pen 5, Concussive [2]); Warp-Animated Tendrils (1d10+8 R, Snare — Strength –10 or Grappled, 1d10+8 R/round while grappled)\n  Traits: Size (Enormous), Warp-Animated\n  Special: Not a true machine — animated by warp energy. Cannot be affected by Tech-Use or haywire. Vulnerable to holy/blessed weapons (ignore 10 points of Armour). If reduced to 0 SI, collapses — Lysaga passes Ag test or takes 2d10 I, then fights on foot.\n\nTHREAT RATING: Severe\n\nMOVEMENT: Half 3, Full 6, Charge 9, Run 18\n\nSKILLS: Psyniscience +20, Forbidden Lore (Warp, Daemonology) +30, Intimidate +20, Survival +20, Awareness +10.\n\nTALENTS: Warp Lock, Strong Minded.\n\nTRAITS: Psyker (Psy Rating 7), Fear (3), Dark Sight, Warp-Touched.\n\nPSYCHIC POWERS:\n\n• Warp Fire — Half Action, 20m cone: 3d10+7 E damage, Pen 4, Flame quality. Targets taking damage are On Fire.\n\n• Telekinesis — Half Action: hurl object up to Size (Hulking) at target within 30m (2d10+5 I damage), OR shove all creatures within 10m backward 1d10 metres (Agility test or Prone).\n\n• Domination — Half Action, single target within 15m: Willpower test at –10 or controlled for 1d5 rounds.\n\n• Flesh Warp — Full Action, touch: target passes Toughness test at –10 or suffers 2d10 damage (ignoring armour) and gains permanent mutation. Even on success, 1d5 damage.\n\n• Warp Storm — Full Action (sustained): 15m radius, point within 30m. Creatures in area at start of turn suffer 2d10 E damage and WP test or gain 1d5 Corruption Points. Sustained as Half Action each round.\n\nSPECIAL RULES:\n\n• Walking Hab-Unit — Lysaga fights from within. Uses vehicle Armour/SI instead of personal Wounds/AP. Can only be targeted separately via called shot at –20 through observation slit. See hab-unit stats in description.\n\n• Destroy to Strand — If hab-unit destroyed, Lysaga fights on foot at personal stats. Much more vulnerable but still Psy Rating 7.\n\nGM GUIDANCE: Baba Lysaga is a boss encounter. The fight should feel like fighting a small vehicle that also casts devastating psychic powers. Phase 1: the hab-unit stomps and grabs while Lysaga casts from inside. Phase 2 (hab-unit destroyed): desperate, on-foot psyker fight. She fights to the death — retreat is beneath her. The moral dimension: the Mongrelfolk of Berez are her servants and she treats them with contemptuous affection. She calls them 'my little ones' while using them as human shields."
-            }
+            },
+            "eliteAdvances": []
         },
         "items": [
             {
@@ -2362,7 +2664,7 @@
                     "class": "melee",
                     "range": 0,
                     "rof": {
-                        "single": false,
+                        "single": true,
                         "semi": 0,
                         "full": 0
                     },
@@ -2372,15 +2674,23 @@
                         "bonus": 0
                     },
                     "penetration": 0,
-                    "clip": {
-                        "value": 0,
-                        "max": 0
-                    },
                     "reload": "",
                     "weight": 2,
                     "qualities": [],
                     "equipped": true,
-                    "availability": "Unique"
+                    "availability": "Unique",
+                    "magazine": {
+                        "value": 0,
+                        "max": 0
+                    },
+                    "craftsmanship": "common",
+                    "weaponGroup": "",
+                    "loadedAmmoId": "",
+                    "loadedMagazineName": "",
+                    "loadedRounds": [],
+                    "reloadProgress": 0,
+                    "rules": [],
+                    "loadType": ""
                 }
             },
             {
@@ -2391,7 +2701,8 @@
                     "description": "The second Sacred Seed, stolen from the Recaf Distillery. Blessed by a Ministorum saint centuries ago. Lysaga keeps it as a trophy.",
                     "weight": 0.1,
                     "quantity": 1,
-                    "availability": "Unique"
+                    "availability": "Unique",
+                    "craftsmanship": "common"
                 }
             },
             {
@@ -2402,7 +2713,8 @@
                     "description": "A collection of stolen holy relics — aquila pendants, prayer beads, Ministorum icons — all defiled and repurposed as warp-fetishes. Carrying these inflicts 1d5 CP.",
                     "weight": 3,
                     "quantity": 1,
-                    "availability": "Unique"
+                    "availability": "Unique",
+                    "craftsmanship": "common"
                 }
             },
             {
@@ -2516,10 +2828,16 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:psyker"
+                        }
+                    ],
                     "hasRating": true,
                     "rating": 7,
-                    "category": "warp"
+                    "category": "warp",
+                    "immunities": []
                 }
             },
             {
@@ -2529,10 +2847,17 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:fear",
+                            "value": 3
+                        }
+                    ],
                     "hasRating": true,
                     "rating": 3,
-                    "category": "mental"
+                    "category": "mental",
+                    "immunities": []
                 }
             },
             {
@@ -2542,10 +2867,16 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:dark-sight"
+                        }
+                    ],
                     "hasRating": false,
                     "rating": 0,
-                    "category": "physical"
+                    "category": "physical",
+                    "immunities": []
                 }
             },
             {
@@ -2555,10 +2886,16 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:warp-touched"
+                        }
+                    ],
                     "hasRating": false,
                     "rating": 0,
-                    "category": "warp"
+                    "category": "warp",
+                    "immunities": []
                 }
             },
             {
@@ -2568,10 +2905,16 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "Lysaga fights from within. Uses vehicle Armour/SI instead of personal Wounds/AP. Can only be targeted separately via called shot at –20 through observation slit. See hab-unit stats in description.",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:walking-hab-unit"
+                        }
+                    ],
                     "hasRating": false,
                     "rating": 0,
-                    "category": ""
+                    "category": "",
+                    "immunities": []
                 }
             },
             {
@@ -2581,10 +2924,16 @@
                 "img": "systems/dh2e/icons/default-icons/trait.svg",
                 "system": {
                     "description": "If hab-unit destroyed, Lysaga fights on foot at personal stats. Much more vulnerable but still Psy Rating 7.",
-                    "rules": [],
+                    "rules": [
+                        {
+                            "type": "RollOption",
+                            "key": "self:destroy-to-strand"
+                        }
+                    ],
                     "hasRating": false,
                     "rating": 0,
-                    "category": ""
+                    "category": "",
+                    "immunities": []
                 }
             },
             {

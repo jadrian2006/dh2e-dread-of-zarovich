@@ -16,7 +16,8 @@
             "qualities": [],
             "weight": 15,
             "equipped": true,
-            "availability": "Unique"
+            "availability": "Unique",
+            "craftsmanship": "common"
         },
         "flags": {
             "dh2e-dread-of-zarovich": {
@@ -41,7 +42,8 @@
             "qualities": [],
             "weight": 7,
             "equipped": true,
-            "availability": "Unique"
+            "availability": "Unique",
+            "craftsmanship": "common"
         },
         "flags": {
             "dh2e-dread-of-zarovich": {
@@ -66,7 +68,8 @@
             "qualities": [],
             "weight": 8,
             "equipped": true,
-            "availability": "Scarce"
+            "availability": "Scarce",
+            "craftsmanship": "common"
         },
         "flags": {
             "dh2e-dread-of-zarovich": {
@@ -91,7 +94,8 @@
             "qualities": [],
             "weight": 15,
             "equipped": true,
-            "availability": "Very Rare"
+            "availability": "Very Rare",
+            "craftsmanship": "common"
         },
         "flags": {
             "dh2e-dread-of-zarovich": {

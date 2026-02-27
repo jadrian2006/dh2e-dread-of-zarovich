@@ -8,7 +8,7 @@
             "class": "melee",
             "range": 0,
             "rof": {
-                "single": false,
+                "single": true,
                 "semi": 0,
                 "full": 0
             },
@@ -18,10 +18,6 @@
                 "bonus": 0
             },
             "penetration": 8,
-            "clip": {
-                "value": 0,
-                "max": 0
-            },
             "reload": "",
             "weight": 3.5,
             "qualities": [
@@ -31,7 +27,19 @@
                 "Bane (Warp)"
             ],
             "equipped": true,
-            "availability": "Unique"
+            "availability": "Unique",
+            "magazine": {
+                "value": 0,
+                "max": 0
+            },
+            "craftsmanship": "common",
+            "weaponGroup": "",
+            "loadedAmmoId": "",
+            "loadedMagazineName": "",
+            "loadedRounds": [],
+            "reloadProgress": 0,
+            "rules": [],
+            "loadType": ""
         },
         "flags": {
             "dh2e-dread-of-zarovich": {
@@ -49,7 +57,7 @@
             "class": "melee",
             "range": 0,
             "rof": {
-                "single": false,
+                "single": true,
                 "semi": 0,
                 "full": 0
             },
@@ -59,10 +67,6 @@
                 "bonus": 0
             },
             "penetration": 7,
-            "clip": {
-                "value": 0,
-                "max": 0
-            },
             "reload": "",
             "weight": 3.5,
             "qualities": [
@@ -70,7 +74,19 @@
                 "Balanced"
             ],
             "equipped": true,
-            "availability": "Unique"
+            "availability": "Unique",
+            "magazine": {
+                "value": 0,
+                "max": 0
+            },
+            "craftsmanship": "common",
+            "weaponGroup": "",
+            "loadedAmmoId": "",
+            "loadedMagazineName": "",
+            "loadedRounds": [],
+            "reloadProgress": 0,
+            "rules": [],
+            "loadType": ""
         },
         "flags": {
             "dh2e-dread-of-zarovich": {
@@ -97,15 +113,23 @@
                 "bonus": 0
             },
             "penetration": 12,
-            "clip": {
-                "value": 3,
-                "max": 3
-            },
             "reload": "2 Full",
             "weight": 0,
             "qualities": [],
             "equipped": true,
-            "availability": "Unique"
+            "availability": "Unique",
+            "magazine": {
+                "value": 3,
+                "max": 3
+            },
+            "craftsmanship": "common",
+            "weaponGroup": "",
+            "loadedAmmoId": "",
+            "loadedMagazineName": "",
+            "loadedRounds": [],
+            "reloadProgress": 0,
+            "rules": [],
+            "loadType": "magazine"
         },
         "flags": {
             "dh2e-dread-of-zarovich": {
@@ -131,10 +155,6 @@
                 "bonus": 0
             },
             "penetration": 2,
-            "clip": {
-                "value": 1,
-                "max": 1
-            },
             "reload": "2 Full",
             "weight": 4,
             "qualities": [
@@ -142,7 +162,19 @@
                 "Accurate"
             ],
             "equipped": true,
-            "availability": "Unique"
+            "availability": "Unique",
+            "magazine": {
+                "value": 1,
+                "max": 1
+            },
+            "craftsmanship": "common",
+            "weaponGroup": "",
+            "loadedAmmoId": "",
+            "loadedMagazineName": "",
+            "loadedRounds": [],
+            "reloadProgress": 0,
+            "rules": [],
+            "loadType": "magazine"
         },
         "flags": {
             "dh2e-dread-of-zarovich": {
@@ -158,7 +190,7 @@
             "class": "melee",
             "range": 0,
             "rof": {
-                "single": false,
+                "single": true,
                 "semi": 0,
                 "full": 0
             },
@@ -168,17 +200,25 @@
                 "bonus": 0
             },
             "penetration": 0,
-            "clip": {
-                "value": 0,
-                "max": 0
-            },
             "reload": "",
             "weight": 3,
             "qualities": [
                 "Balanced"
             ],
             "equipped": true,
-            "availability": "Unique"
+            "availability": "Unique",
+            "magazine": {
+                "value": 0,
+                "max": 0
+            },
+            "craftsmanship": "common",
+            "weaponGroup": "",
+            "loadedAmmoId": "",
+            "loadedMagazineName": "",
+            "loadedRounds": [],
+            "reloadProgress": 0,
+            "rules": [],
+            "loadType": ""
         },
         "flags": {
             "dh2e-dread-of-zarovich": {
@@ -204,15 +244,23 @@
                 "bonus": 0
             },
             "penetration": 0,
-            "clip": {
-                "value": 18,
-                "max": 18
-            },
             "reload": "Full",
             "weight": 1.5,
             "qualities": [],
             "equipped": true,
-            "availability": "Unique"
+            "availability": "Unique",
+            "magazine": {
+                "value": 18,
+                "max": 18
+            },
+            "craftsmanship": "common",
+            "weaponGroup": "",
+            "loadedAmmoId": "",
+            "loadedMagazineName": "",
+            "loadedRounds": [],
+            "reloadProgress": 0,
+            "rules": [],
+            "loadType": "magazine"
         },
         "flags": {
             "dh2e-dread-of-zarovich": {
@@ -228,7 +276,7 @@
             "class": "melee",
             "range": 0,
             "rof": {
-                "single": false,
+                "single": true,
                 "semi": 0,
                 "full": 0
             },
@@ -238,17 +286,25 @@
                 "bonus": 0
             },
             "penetration": 2,
-            "clip": {
-                "value": 0,
-                "max": 0
-            },
             "reload": "",
             "weight": 0.5,
             "qualities": [
                 "Sanctified"
             ],
             "equipped": true,
-            "availability": "Unique"
+            "availability": "Unique",
+            "magazine": {
+                "value": 0,
+                "max": 0
+            },
+            "craftsmanship": "common",
+            "weaponGroup": "",
+            "loadedAmmoId": "",
+            "loadedMagazineName": "",
+            "loadedRounds": [],
+            "reloadProgress": 0,
+            "rules": [],
+            "loadType": ""
         },
         "flags": {
             "dh2e-dread-of-zarovich": {
@@ -264,7 +320,7 @@
             "class": "melee",
             "range": 0,
             "rof": {
-                "single": false,
+                "single": true,
                 "semi": 0,
                 "full": 0
             },
@@ -274,17 +330,25 @@
                 "bonus": 0
             },
             "penetration": 1,
-            "clip": {
-                "value": 0,
-                "max": 0
-            },
             "reload": "",
             "weight": 0.5,
             "qualities": [
                 "Chaos-tainted"
             ],
             "equipped": true,
-            "availability": "Unique"
+            "availability": "Unique",
+            "magazine": {
+                "value": 0,
+                "max": 0
+            },
+            "craftsmanship": "common",
+            "weaponGroup": "",
+            "loadedAmmoId": "",
+            "loadedMagazineName": "",
+            "loadedRounds": [],
+            "reloadProgress": 0,
+            "rules": [],
+            "loadType": ""
         },
         "flags": {
             "dh2e-dread-of-zarovich": {

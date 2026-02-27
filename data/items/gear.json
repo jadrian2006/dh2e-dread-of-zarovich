@@ -6,7 +6,8 @@
             "description": "<p>A heavy Inquisitorial rosette of blackened silver, the iconic I-symbol encrusted with microscopic prayer-text visible only under magnification. The metal is warm to faithful touch — not body-heat warmth, but something deeper, like holding a coal that refuses to cool. To the corrupt, that warmth becomes a searing burn. The rosette's chain is forged from links of consecrated adamantine, each one stamped with the Ordo Malleus seal.</p><p>This rosette belonged to Inquisitor Markovia of the Ordo Malleus, who led the last serious assault on Zarovich Spire over a century ago. She breached the Spire, fought through Strahd's guards, and confronted him in his throne room. She nearly succeeded. The scar her faith left on him has never healed. He kept the rosette as a trophy — or perhaps as a reminder that even he can know fear.</p><p><strong>Invoke Faith (1/encounter):</strong> Half Action, all Warp-Touched/Daemonic entities within 10m flee <strong>1d5 rounds</strong> on failed <strong>WP Test at -20.</strong> <strong>Holy Radiance (1/day):</strong> Full Action, 20m radius, <strong>2d10 E damage</strong> (ignoring armour) to Daemonic/Warp-Touched; allies gain +10 WP for 1d5 rounds. <strong>Passive: +20 WP</strong> vs all psychic powers and warp phenomena. <strong>Against Strahd:</strong> 3m exclusion zone (WP at -30 to approach, 1d5 E/round if he does), Domination auto-fails within 5m, Regeneration halved within 20m.</p><p>The second key to Strahd's permanent destruction. Without the Rosette active when the killing blow falls, he will rise again. Carry it openly — let the darkness see what it faces.</p>",
             "weight": 0.5,
             "quantity": 1,
-            "availability": "Unique"
+            "availability": "Unique",
+            "craftsmanship": "common"
         },
         "flags": {
             "dh2e-dread-of-zarovich": {
@@ -22,7 +23,8 @@
             "description": "<p>A battered metal data-cogitator case the size of a thick book, its surface etched with Strahd's personal cipher — dense, spiralling script that shifts subtly when viewed from different angles. The case is dented, scorched, and scarred by what appears to be both weapon fire and claw marks. A faint hum emanates from within, and the data-ports are crusted with centuries of oxidised machine-oil.</p><p>Strahd began this record in the early years of his transformation, when he still believed he could rationalise what he had become. Over four centuries, the entries grew less coherent — part operational logs, part philosophical confession, part obsessive love letters to Tatyana. The machine-spirit within is old and hostile, resisting decryption as if afraid of what it contains. Reading the full contents costs <strong>1d5 Insanity Points</strong> from exposure to an immortal predator's inner monologue.</p><p><strong>Decryption:</strong> <strong>Hard (-20) Tech-Use</strong> or <strong>Cipher</strong> test (cumulative +5 per failed attempt; Forbidden Lore (Warp) may substitute at -10). <strong>Once Decoded:</strong> <strong>+20</strong> to tests identifying Strahd's weaknesses or predicting his behaviour. <strong>+10 WP</strong> to resist Strahd's powers. <strong>Reveals</strong> coffin location and the three conditions for permanent destruction: Heart of Sorrow destroyed, coffin destroyed, killing blow with Dawn's Edge while Rosette is active.</p><p>Pure intelligence — the most dangerous weapon on Barovus. Strahd wrote down every weakness, every contingency, every fear. Decode it, study it, and use his own four centuries of paranoia against him.</p>",
             "weight": 2,
             "quantity": 1,
-            "availability": "Unique"
+            "availability": "Unique",
+            "craftsmanship": "common"
         },
         "flags": {
             "dh2e-dread-of-zarovich": {
@@ -38,7 +40,8 @@
             "description": "<p>A small talisman of bone and wire strung on a leather cord, no two ever alike. This one is fashioned from the finger-bone of a Vostra elder wrapped in copper wire inscribed with protective sigils. The bone is yellowed and smooth from decades of handling, and the charm hums faintly — a vibration felt in the teeth rather than heard — when warp phenomena draw near.</p><p>Crafted by Vostra wise-women using traditional methods passed down through centuries of living alongside the warp rift. The materials are scavenged — animal bone, salvaged wire, cured hide — but the knowledge woven into each charm is ancient and genuine. Madam Eva may gift one to a favoured Acolyte. Available for trade at the Vostra Encampment.</p><p><strong>Passive: +5 WP</strong> vs warp phenomena (psychic powers, Corruption tests from warp exposure). <strong>Emergency Absorption (single-use):</strong> when the bearer would suffer damage from a psychic attack, expend the charm to <strong>absorb the attack entirely.</strong> The charm then crumbles to dust, leaving a burn-mark on the wearer's skin in the shape of the talisman. <em>Only one charm active at a time — carrying multiples does not stack the +5 bonus.</em></p><p>Wear it and forget about it until the moment a psyker tries to boil your brain. Then you will be grateful for Vostra superstition — and the burn-scar it leaves behind.</p>",
             "weight": 0.1,
             "quantity": 1,
-            "availability": "Scarce"
+            "availability": "Scarce",
+            "craftsmanship": "common"
         },
         "flags": {
             "dh2e-dread-of-zarovich": {
@@ -53,7 +56,8 @@
             "description": "<p>Clear liquid in a leather flask, with a faint opalescent shimmer when held to the light. It smells like promethium cut with something floral and unknowable. The first sip burns a line of white fire from throat to stomach; the second numbs the burn; the third makes the galaxy seem almost tolerable. The Vostra drink it like water. Everyone else drinks it like medicine.</p><p>Brewed by the Vostra from warp-touched grain harvested on Barovus — technically tainted, but the traditional distillation process purifies it. Mostly. The recipe is a closely guarded secret, and the Vostra claim it has remained unchanged for three centuries. Common in the Vostra encampment; rare and expensive elsewhere on Barovus. <em>\"The warp can't touch what you can't feel.\"</em> — Vostra saying.</p><p><strong>On consumption: +10 WP</strong> for 1 hour. <strong>Penalty: -10 BS and Agility</strong> for the same duration (the spirit is extraordinarily potent). <strong>Trauma Relief:</strong> if consumed within 1 hour of a traumatic event (any event requiring an Insanity test), <strong>remove 1d5 Insanity Points.</strong> This removal may be used <em>once per day</em> regardless of how much Spirit is consumed.</p><p>Liquid courage with a mechanical payoff. Drink before a psychic confrontation for the WP boost; drink after a horror for the IP removal. Do not drink before a firefight unless you enjoy missing.</p>",
             "weight": 0.5,
             "quantity": 1,
-            "availability": "Common (Vostra), Rare (elsewhere)"
+            "availability": "Common (Vostra), Rare (elsewhere)",
+            "craftsmanship": "common"
         },
         "flags": {
             "dh2e-dread-of-zarovich": {
@@ -68,7 +72,8 @@
             "description": "<p>Thin, bitter, grey liquid served in whatever vessel is available — tin cups, canteen lids, cupped hands. It tastes of ash and old machinery, with a faintly metallic aftertaste that lingers on the tongue for hours. The recaf plants on Barovus are warp-touched, and no amount of processing entirely removes the taint from the flavour. The colour never quite reaches brown.</p><p>Grown in the blighted fields of Barovus where warp-touched soil produces crops that are technically edible but spiritually suspect. Standard recaf is brewed everywhere on the planet — every settlement, every camp, every desperate huddle of survivors has a pot going. It is the universal constant of Barovus: bad recaf, shared without complaint.</p><p><strong>Removes 1 level of Fatigue.</strong> No additional benefits. No additional penalties (beyond the taste). <em>Availability: Common.</em></p><p>It works. That is the kindest thing anyone has ever said about Barovus recaf. Drink it, grimace, and keep moving.</p>",
             "weight": 0.2,
             "quantity": 1,
-            "availability": "Common"
+            "availability": "Common",
+            "craftsmanship": "common"
         },
         "flags": {
             "dh2e-dread-of-zarovich": {
@@ -83,7 +88,8 @@
             "description": "<p>Rich amber liquid with a faint luminescence that is visible in dim light — the cup seems to glow from within, casting warm shadows. The aroma is earthy and clean, with notes of loam and something almost sweet. It tastes of earth and hope — the only thing on Barovus that does. The warmth it spreads through the body feels less like caffeine and more like a benediction.</p><p>Brewed at the Krezk Recaf Distillery using water drawn from the Sacred Pool — the only unpolluted water source on Barovus. The Martikov family guards the recipe and the process with their lives. The distillery's unique properties derive from three sacred seeds blessed by a Ministorum saint centuries ago. When all three seeds are in place, the harvest is miraculous. When they are stolen, the light fades from every cup.</p><p><strong>Removes 1 level of Fatigue</strong> and grants <strong>+5 WP for 1d5 hours.</strong> The WP bonus reflects genuine spiritual fortification — faith in a cup. Only available from the Krezk distillery or the Blue Water Inn's private stock. <em>Availability: Scarce.</em></p><p>Worth more than Thrones on Barovus. Share it with allies before a difficult mission; the WP bonus has saved more lives than any weapon in the Acolytes' arsenal.</p>",
             "weight": 0.2,
             "quantity": 1,
-            "availability": "Scarce"
+            "availability": "Scarce",
+            "craftsmanship": "common"
         },
         "flags": {
             "dh2e-dread-of-zarovich": {
@@ -98,7 +104,8 @@
             "description": "<p>Heavy cream parchment of a quality unseen elsewhere on Barovus, sealed with black wax bearing the Zarovich crest — a double-headed aquila clutching a bleeding heart. The ink shifts colour in certain light, from black to deep crimson. Strahd's handwriting is elegant, precise, and four centuries practiced: every letter perfect, every word chosen with the care of a man who has had eternity to refine his penmanship.</p><p>Delivered personally by one of Strahd's servitors or left where the Acolytes will find it — always at the moment of maximum psychological impact. The letter is courteous, even warm. Strahd extends his hospitality and his protection. He means every word. He also means the trap woven into the parchment's fibres: a psychic beacon, invisible to all but the most sensitive.</p><p><strong>Protection:</strong> While carried openly, Strahd's servitors — Warp-Thralls, Gargoyle-Servitors, controlled entities — <strong>will not attack the bearer.</strong> Grants free passage through Strahd's checkpoints and patrols. <strong>Hidden Cost:</strong> Functions as a <strong>psychic beacon</strong> — Strahd always knows the bearer's exact location and emotional state. Detecting this requires <strong>Challenging (-10) Psyniscience</strong> or <strong>Hard (-20) Forbidden Lore (Warp).</strong> Strahd may revoke protection at any time.</p><p>A gilded leash. The protection is real and valuable — but so is the surveillance. Carry it when you need safe passage; destroy it when you need to disappear. Strahd is always listening.</p>",
             "weight": 0.1,
             "quantity": 1,
-            "availability": "Unique"
+            "availability": "Unique",
+            "craftsmanship": "common"
         },
         "flags": {
             "dh2e-dread-of-zarovich": {
@@ -114,7 +121,8 @@
             "description": "<p>A battered cylindrical device the size of a large datapad, trailing burned-out cables and cracked power couplings. The casing is bare metal — unpainted, undecorated, purely functional Imperial engineering. Status runes along its spine flicker between amber and red, and the device emits a faint, irregular pulse: the dying heartbeat of a machine-spirit that has held vigil for two centuries in the dark.</p><p>Salvaged from the Vessel of Lament's hidden Gellar field generator housing (LD7) — a chamber sealed behind the warp drive, preserved by the generator's own residual anti-warp properties while the rest of the lower decks drowned in corruption. The generator itself was cannibalised for the altar-engine, but this portable modulator survived, its single charge intact. One last miracle from a dying machine.</p><p><strong>Single charge.</strong> When activated, creates a <strong>10m radius warp-ward for 8 hours.</strong> Within the ward: <strong>no warp phenomena manifest, Corruption Tests gain +20, warp-touched creatures suffer -10 to all characteristics.</strong> The equivalent of a safe campsite on Barovus. <strong>One use only</strong> — once expended, the modulator is permanently dead. <em>Availability: Unique.</em></p><p>Eight hours of sanctuary on a world that offers none. Save it for the moment it matters most — the night before the Spire, a desperate rest in hostile territory, or the hour when corruption threatens to consume your team.</p>",
             "weight": 2,
             "quantity": 1,
-            "availability": "Unique"
+            "availability": "Unique",
+            "craftsmanship": "common"
         },
         "flags": {
             "dh2e-dread-of-zarovich": {
@@ -129,7 +137,8 @@
             "description": "<p>A small bronze censer shaped like a two-headed aquila, its wings forming the bowl and its twin beaks serving as ventilation ports. The metal is blackened by centuries of use, patinated to a deep greenish-brown, with traces of gold leaf still visible in the deepest recesses of the Imperial iconography. The incense within smells of myrrh and something electric — ozone, or perhaps the memory of lightning.</p><p>A relic from the Vessel of Lament's original Ministorum supplies, overlooked by the Durst cult when they converted the ship to Slaaneshi worship. Found half-hidden behind a cargo pallet in the cargo hold (MD8), it survived two centuries of corruption untouched. The incense was pre-blessed by a Ministorum priest before the vessel's final voyage — genuine sanctity, not the pale imitations found elsewhere on Barovus.</p><p><strong>3 charges of sanctified incense.</strong> When lit: creates a <strong>5m radius of purified air for 10 minutes</strong> per charge. Within the radius, all Acolytes gain <strong>+10 WP vs warp phenomena, fear, and psychic attacks.</strong> The smoke forms prayer-shapes that dissolve warp taint on contact — a visible, tangible manifestation of the Emperor's protection.</p><p>Three charges for the entire campaign. Use them at thresholds: before entering a warp-saturated location, during a psychic assault, or when the team's sanity is fraying. The smell of sacred incense is the closest thing to hope you will find on Barovus.</p>",
             "weight": 1,
             "quantity": 1,
-            "availability": "Unique"
+            "availability": "Unique",
+            "craftsmanship": "common"
         },
         "flags": {
             "dh2e-dread-of-zarovich": {
@@ -144,7 +153,8 @@
             "description": "<p>A smooth grey stone the size of a clenched fist, carved with psychic amplification runes that glow faintly blue when touched by bare skin. It tingles against the palm — not unpleasantly, but with an unmistakable sense of presence, as though the stone is aware of being held. The runes are worn smooth by centuries of an Astropath's meditative grip, and a faint warmth radiates from its core.</p><p>Found among the personal effects of the Vessel of Lament's Astropath (UD7), who died in peaceful meditation after sealing themselves away from the spreading corruption. Their dying psychic imprint saturated the stone, giving it resonance with the altar-engine's psychic frequency. The Astropath's last act of faith — a weapon forged from the refusal to surrender.</p><p><strong>Passive: +20 to attacks against the altar-engine</strong> in LD3 (the stone disrupts the bond between daemon and machine). <strong>Phase 2 Activation (Half Action):</strong> During the boss fight, dissolves all warp-echo cultists, <strong>stops room constriction</strong>, and deals <strong>2d10 E damage</strong> (ignoring armour) to the entity via psychic feedback. <strong>Crumbles to dust</strong> after the altar-engine is destroyed. <em>Availability: Unique.</em></p><p>Crucial in the Vessel of Lament's climax. Activating it during Phase 2 can turn a desperate fight into a manageable one. The stone was waiting for someone with the courage to finish what the Astropath started.</p>",
             "weight": 0.3,
             "quantity": 1,
-            "availability": "Unique"
+            "availability": "Unique",
+            "craftsmanship": "common"
         },
         "flags": {
             "dh2e-dread-of-zarovich": {
@@ -159,7 +169,8 @@
             "description": "<p>A scratched metal data-slate in a stasis-field case that kept it pristine while the ship around it rotted. The case is military-grade, stamped with Munitorum supply codes, and the slate itself is a standard naval-issue model — sturdy, unglamorous, built to survive void combat. The screen still works, casting a pale green glow, and the text scrolls in Captain Durst's cramped, precise handwriting.</p><p>Captain Gustav Durst recorded everything: the early days of Strahd's rule before the rift sealed Barovus away, the world as it was before the warp-fog descended, the names and locations of key sites, and the slow, terrible transformation of his own family. The final entries are fragmented — written in haste, stained with what might be tears or blood. Durst knew what his wife had become. He wrote it down anyway, because someone had to remember.</p><p><strong>Campaign-long intelligence asset.</strong> Grants <strong>+10 to all Common Lore (Barovus) tests</strong> for the remainder of the campaign. Contains references to Strahd's \"pact with the powers beyond the veil,\" the sealing of the planet by the \"Mists of the Prince,\" and the locations of key sites across the region. <em>Availability: Unique.</em></p><p>A dead man's testimony and your best field guide to a world that wants you dead. Consult it before every expedition — the +10 bonus applies to navigation, local customs, threat identification, and anything else tied to understanding Barovus.</p>",
             "weight": 0.5,
             "quantity": 1,
-            "availability": "Unique"
+            "availability": "Unique",
+            "craftsmanship": "common"
         },
         "flags": {
             "dh2e-dread-of-zarovich": {
@@ -174,7 +185,8 @@
             "description": "<p>A smooth, luminous seed the size of a human thumb, warm to the touch regardless of ambient temperature. Its surface has a faint golden sheen, like amber lit from within, and it pulses with a slow, rhythmic glow — a heartbeat of light. Holding it produces a sensation of profound calm, a momentary silence in the psychic static of Barovus. It smells of clean soil and growing things — scents that do not exist naturally on this world.</p><p>Three were blessed by a Ministorum saint centuries ago and planted in the soil of the Recaf Distillery, where they became the source of the harvest's miraculous properties. Their theft is killing the distillery and starving the resistance. <strong>Seed One:</strong> embedded in the Warp-Tree at the Warp Nexus. <strong>Seed Two:</strong> held by Baba Lysaga in Berez as a corrupted power source. <strong>Seed Three:</strong> kept in Zarovich Spire as a trophy.</p><p><strong>Quest item.</strong> Each seed must be recovered and <strong>replanted at the Recaf Distillery</strong> to restore its function. Recovering even one seed partially restores the harvest; all three fully restore the distillery's miraculous anti-corruption recaf production and fulfill the Martikovs' faction quest conditions. <em>Availability: Unique (3 exist).</em></p><p>Three seeds. Three enemies who hold them. Each recovery is a full quest in itself — destroying the Warp-Tree, confronting Baba Lysaga, or infiltrating the Spire. The distillery cannot be saved without them, and the coalition cannot be built without the distillery.</p>",
             "weight": 0.1,
             "quantity": 1,
-            "availability": "Unique"
+            "availability": "Unique",
+            "craftsmanship": "common"
         },
         "flags": {
             "dh2e-dread-of-zarovich": {
@@ -189,7 +201,8 @@
             "description": "<p>Clear water in a small glass vial, sealed with wax stamped by a Ministorum priest's signet ring. The water is perfectly still regardless of movement — it does not slosh or ripple when the vial is shaken. A faint warmth radiates through the glass, and in complete darkness, the vial produces a barely perceptible glow. It looks like nothing. It is everything a daemon fears.</p><p>Sanctified through the Rite of Consecration by a Ministorum priest — Father Donavich in Barovus, or purchased from the Vostra at significant cost (100 Thrones per vial). The blessing binds a fragment of the Emperor's will into the water itself, transforming a mundane liquid into a weapon of faith. On Barovus, where genuine holiness is scarce, each vial represents hours of prayer and irreplaceable spiritual investment.</p><p><strong>Single-use holy weapon.</strong> Thrown as a ranged attack: <strong>5m range, 1d5 E damage to daemons and warp-touched entities, ignoring all armour.</strong> The water flash-boils on contact with daemonic flesh, producing a burst of steam and a sound like a scream cut short. Ineffective against mundane targets. <em>Availability: Rare.</em></p><p>Keep one in your belt pouch. When a daemon closes to melee range and your weapon is not sanctified, a vial of blessed water buys you one round of breathing room — and sometimes one round is all you need.</p>",
             "weight": 0.2,
             "quantity": 1,
-            "availability": "Rare"
+            "availability": "Rare",
+            "craftsmanship": "common"
         },
         "flags": {
             "dh2e-dread-of-zarovich": {

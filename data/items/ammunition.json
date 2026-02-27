@@ -11,7 +11,11 @@
             "quantity": 8,
             "weight": 0,
             "weaponGroup": "Bolt",
-            "availability": "Extremely Rare"
+            "availability": "Extremely Rare",
+            "craftsmanship": "common",
+            "capacity": 8,
+            "loadedRounds": [],
+            "forWeapon": ""
         },
         "flags": {
             "dh2e-dread-of-zarovich": {
@@ -31,7 +35,11 @@
             "quantity": 30,
             "weight": 0,
             "weaponGroup": "Autogun",
-            "availability": "Very Rare"
+            "availability": "Very Rare",
+            "craftsmanship": "common",
+            "capacity": 30,
+            "loadedRounds": [],
+            "forWeapon": ""
         },
         "flags": {
             "dh2e-dread-of-zarovich": {
@@ -51,7 +59,11 @@
             "quantity": 20,
             "weight": 0,
             "weaponGroup": "Various",
-            "availability": "Crafted"
+            "availability": "Crafted",
+            "craftsmanship": "common",
+            "capacity": 20,
+            "loadedRounds": [],
+            "forWeapon": ""
         },
         "flags": {
             "dh2e-dread-of-zarovich": {
@@ -71,7 +83,11 @@
             "quantity": 3,
             "weight": 0,
             "weaponGroup": "Any Melee",
-            "availability": "Unique"
+            "availability": "Unique",
+            "craftsmanship": "common",
+            "capacity": 3,
+            "loadedRounds": [],
+            "forWeapon": ""
         },
         "flags": {
             "dh2e-dread-of-zarovich": {

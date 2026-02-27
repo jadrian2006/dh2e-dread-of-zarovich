@@ -14,7 +14,8 @@
                 "category": "relic",
                 "tarotItem": true
             }
-        }
+        },
+        "_id": "d016fe77c9be5bc3"
     },
     {
         "name": "Tome of Strahd (Data-Cogitator)",
@@ -31,7 +32,8 @@
                 "category": "relic",
                 "tarotItem": true
             }
-        }
+        },
+        "_id": "c6f7a32207e8b4d3"
     },
     {
         "name": "Warp-Warding Charm",
@@ -47,7 +49,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "consumable"
             }
-        }
+        },
+        "_id": "600f4ddd1c637c62"
     },
     {
         "name": "Vostra Spirit",
@@ -63,7 +66,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "consumable"
             }
-        }
+        },
+        "_id": "010029b87fc3b8bf"
     },
     {
         "name": "Barovus Recaf (Standard)",
@@ -79,7 +83,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "consumable"
             }
-        }
+        },
+        "_id": "a8a6f760b16201d7"
     },
     {
         "name": "Barovus Recaf (Blessed Distillery)",
@@ -95,7 +100,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "consumable"
             }
-        }
+        },
+        "_id": "bd7a81878f88e26d"
     },
     {
         "name": "Strahd's Letter of Passage",
@@ -112,7 +118,8 @@
                 "category": "document",
                 "tainted": true
             }
-        }
+        },
+        "_id": "f1b8b828e63a41be"
     },
     {
         "name": "Gellar Field Modulator",
@@ -128,7 +135,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "vessel-loot"
             }
-        }
+        },
+        "_id": "43f0f96aebbac106"
     },
     {
         "name": "Sanctified Incense Censer",
@@ -144,7 +152,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "vessel-loot"
             }
-        }
+        },
+        "_id": "c2c17c0e62a1bdff"
     },
     {
         "name": "Astropath's Sending-Stone",
@@ -160,7 +169,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "vessel-loot"
             }
-        }
+        },
+        "_id": "ce69b11a552d1917"
     },
     {
         "name": "Durst's Data-Slate",
@@ -176,7 +186,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "vessel-loot"
             }
-        }
+        },
+        "_id": "e361c548534390a5"
     },
     {
         "name": "Sacred Seed",
@@ -192,7 +203,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "quest-item"
             }
-        }
+        },
+        "_id": "6f299543ad737b77"
     },
     {
         "name": "Blessed Water (Vial)",
@@ -208,6 +220,7 @@
             "dh2e-dread-of-zarovich": {
                 "category": "consumable"
             }
-        }
+        },
+        "_id": "4fdc7ae5280072b6"
     }
 ]

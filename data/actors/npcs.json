@@ -679,7 +679,8 @@
                 "role": "major-npc",
                 "act": "all"
             }
-        }
+        },
+        "_id": "0900b84bfc87dfd4"
     },
     {
         "name": "Inquisitor Van Richten",
@@ -1102,7 +1103,8 @@
                 "role": "major-npc",
                 "act": "2-4"
             }
-        }
+        },
+        "_id": "e5030f7a5e0e6755"
     },
     {
         "name": "Ireena Kolyana",
@@ -1387,7 +1389,8 @@
                 "role": "major-npc",
                 "act": "1-4"
             }
-        }
+        },
+        "_id": "34a5d18e70752f86"
     },
     {
         "name": "Ismark Kolyana",
@@ -1725,7 +1728,8 @@
                 "role": "major-npc",
                 "act": "1-2"
             }
-        }
+        },
+        "_id": "119de5df4e4f9275"
     },
     {
         "name": "Magos-Biologis Abaron",
@@ -2181,7 +2185,8 @@
                 "role": "major-npc",
                 "act": "2-3"
             }
-        }
+        },
+        "_id": "6c75ce84c4276812"
     },
     {
         "name": "Madam Eva",
@@ -2571,7 +2576,8 @@
                 "role": "major-npc",
                 "act": "1-4"
             }
-        }
+        },
+        "_id": "af4bcad17e8433b4"
     },
     {
         "name": "Baba Lysaga — The Warp-Hag",
@@ -3034,6 +3040,7 @@
                 "role": "boss-npc",
                 "act": "2-3"
             }
-        }
+        },
+        "_id": "294f3efa7ad79352"
     }
 ]

@@ -43,7 +43,8 @@
             "dh2e-dread-of-zarovich": {
                 "role": "antagonist"
             }
-        }
+        },
+        "_id": "c1d4ac2539e5c9f0"
     },
     {
         "name": "Ireena Kolyana",
@@ -89,7 +90,8 @@
             "dh2e-dread-of-zarovich": {
                 "role": "escort-npc"
             }
-        }
+        },
+        "_id": "284036f2693229f1"
     },
     {
         "name": "Ismark Kolyana",
@@ -126,7 +128,8 @@
             "dh2e-dread-of-zarovich": {
                 "role": "ally-npc"
             }
-        }
+        },
+        "_id": "3ad16e8144bf70af"
     },
     {
         "name": "Madam Eva",
@@ -163,7 +166,8 @@
             "dh2e-dread-of-zarovich": {
                 "role": "quest-npc"
             }
-        }
+        },
+        "_id": "3afed9a3a4efcd94"
     },
     {
         "name": "Inquisitor Van Richten",
@@ -209,7 +213,8 @@
             "dh2e-dread-of-zarovich": {
                 "role": "ally-npc"
             }
-        }
+        },
+        "_id": "50eb478f5451d24b"
     },
     {
         "name": "Magos-Biologis Abaron",
@@ -255,7 +260,8 @@
             "dh2e-dread-of-zarovich": {
                 "role": "ambiguous-npc"
             }
-        }
+        },
+        "_id": "ffadff9bd66c3861"
     },
     {
         "name": "Baba Lysaga — The Warp-Hag",
@@ -301,7 +307,8 @@
             "dh2e-dread-of-zarovich": {
                 "role": "boss-npc"
             }
-        }
+        },
+        "_id": "24ef6b928f0e2468"
     },
     {
         "name": "Burgomaster Vallakovich",
@@ -338,7 +345,8 @@
             "dh2e-dread-of-zarovich": {
                 "role": "political-npc"
             }
-        }
+        },
+        "_id": "d7f73e56f44116af"
     },
     {
         "name": "Lady Fiona Wachter",
@@ -384,6 +392,7 @@
             "dh2e-dread-of-zarovich": {
                 "role": "antagonist-npc"
             }
-        }
+        },
+        "_id": "84779b7e57b85cd3"
     }
 ]

@@ -265,7 +265,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "undead"
             }
-        }
+        },
+        "_id": "d23f702127d57553"
     },
     {
         "name": "Warp-Thrall",
@@ -586,7 +587,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "warp-touched"
             }
-        }
+        },
+        "_id": "bea798c737f29e0c"
     },
     {
         "name": "Warp-Mutant",
@@ -886,7 +888,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "mutant"
             }
-        }
+        },
+        "_id": "de06190a9a46474f"
     },
     {
         "name": "Gargoyle-Servitor",
@@ -1196,7 +1199,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "construct"
             }
-        }
+        },
+        "_id": "6f170507cb092ec9"
     },
     {
         "name": "Malfunctioning Servitor",
@@ -1430,7 +1434,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "construct"
             }
-        }
+        },
+        "_id": "cea3e8641490b4b3"
     },
     {
         "name": "Lesser Warp-Daemon",
@@ -1685,7 +1690,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "daemon"
             }
-        }
+        },
+        "_id": "343318fc4613e8d0"
     },
     {
         "name": "Warp-Hound",
@@ -1907,7 +1913,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "beast"
             }
-        }
+        },
+        "_id": "077476e4262610aa"
     },
     {
         "name": "Mongrelfolk",
@@ -2110,7 +2117,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "mutant"
             }
-        }
+        },
+        "_id": "83de07a42fc0ba6c"
     },
     {
         "name": "Strahd's Elite Guard",
@@ -2506,7 +2514,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "warp-touched"
             }
-        }
+        },
+        "_id": "df626a454523a483"
     },
     {
         "name": "Servitor-Guard",
@@ -2782,6 +2791,7 @@
             "dh2e-dread-of-zarovich": {
                 "category": "construct"
             }
-        }
+        },
+        "_id": "91a5cd29e2254ce0"
     }
 ]

@@ -26,7 +26,8 @@
                 "act": "1",
                 "handoutNumber": 1
             }
-        }
+        },
+        "_id": "fde3fc4889f13121"
     },
     {
         "name": "Captain Durst's Journal",
@@ -55,7 +56,8 @@
                 "act": "1",
                 "handoutNumber": 2
             }
-        }
+        },
+        "_id": "3c3cb7211e76ef5b"
     },
     {
         "name": "Elisabeth Durst's Letter",
@@ -84,7 +86,8 @@
                 "act": "1",
                 "handoutNumber": 3
             }
-        }
+        },
+        "_id": "b45ae60169b099e9"
     },
     {
         "name": "Strahd's Dinner Invitation",
@@ -113,7 +116,8 @@
                 "act": "2",
                 "handoutNumber": 4
             }
-        }
+        },
+        "_id": "e6d47325a07f04a2"
     },
     {
         "name": "Tome of Strahd — Decoded Excerpts",
@@ -142,7 +146,8 @@
                 "act": "2-3",
                 "handoutNumber": 5
             }
-        }
+        },
+        "_id": "ad244254bee874ef"
     },
     {
         "name": "Van Richten's Intelligence Brief",
@@ -171,7 +176,8 @@
                 "act": "2",
                 "handoutNumber": 6
             }
-        }
+        },
+        "_id": "661299d84769024e"
     },
     {
         "name": "Strahd's Post-Resurrection Note",
@@ -200,6 +206,7 @@
                 "act": "any",
                 "handoutNumber": 7
             }
-        }
+        },
+        "_id": "9e34ef31e89655cc"
     }
 ]

@@ -46,7 +46,8 @@
                 "category": "relic",
                 "tarotItem": true
             }
-        }
+        },
+        "_id": "b4cc984ccbeb478d"
     },
     {
         "name": "Grief (Strahd's Power Sword)",
@@ -92,7 +93,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "npc-weapon"
             }
-        }
+        },
+        "_id": "36aeca01b574990c"
     },
     {
         "name": "Strahd's Inferno Pistol",
@@ -135,7 +137,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "npc-weapon"
             }
-        }
+        },
+        "_id": "a8bacd00f72c3894"
     },
     {
         "name": "Van Richten's Stake-Crossbow",
@@ -180,7 +183,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "npc-weapon"
             }
-        }
+        },
+        "_id": "b4fb25131cc77c1f"
     },
     {
         "name": "Boarding Cutlass (Vessel of Lament)",
@@ -224,7 +228,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "vessel-loot"
             }
-        }
+        },
+        "_id": "2639157c2d2cde0e"
     },
     {
         "name": "Naval Pistol (Vessel of Lament)",
@@ -266,7 +271,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "vessel-loot"
             }
-        }
+        },
+        "_id": "2b7e6fa32e667439"
     },
     {
         "name": "Sanctified Mono-Knife",
@@ -310,7 +316,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "vessel-loot"
             }
-        }
+        },
+        "_id": "125b2615e7da4715"
     },
     {
         "name": "Chaos Ritual Knife",
@@ -355,6 +362,7 @@
                 "category": "vessel-loot",
                 "tainted": true
             }
-        }
+        },
+        "_id": "c5bdf275c460ee9c"
     }
 ]

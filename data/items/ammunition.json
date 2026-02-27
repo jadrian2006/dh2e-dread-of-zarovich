@@ -21,7 +21,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "blessed"
             }
-        }
+        },
+        "_id": "eb05ba9ab6b1b991"
     },
     {
         "name": "Silver Autogun Rounds (30)",
@@ -45,7 +46,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "special"
             }
-        }
+        },
+        "_id": "35695b7c1feba342"
     },
     {
         "name": "Reloaded Rounds (Generic)",
@@ -69,7 +71,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "crafted"
             }
-        }
+        },
+        "_id": "075b7f3dfa4939af"
     },
     {
         "name": "Sacred Oil Application (3 uses)",
@@ -93,6 +96,7 @@
             "dh2e-dread-of-zarovich": {
                 "category": "blessed"
             }
-        }
+        },
+        "_id": "2c48cd16ba57b0a6"
     }
 ]

@@ -43,7 +43,8 @@
             "dh2e-dread-of-zarovich": {
                 "ruleCategory": "death"
             }
-        }
+        },
+        "_id": "6bd82c0b69a6b0f5"
     },
     {
         "name": "Resupply and Survival — The Logistics of Damnation",
@@ -89,6 +90,7 @@
             "dh2e-dread-of-zarovich": {
                 "ruleCategory": "resupply"
             }
-        }
+        },
+        "_id": "364298670ca46980"
     }
 ]

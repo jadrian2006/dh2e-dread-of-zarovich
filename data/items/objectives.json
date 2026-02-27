@@ -15,7 +15,8 @@
             "dh2e-dread-of-zarovich": {
                 "act": "1"
             }
-        }
+        },
+        "_id": "ef40bf1a02c85124"
     },
     {
         "name": "Escort Ireena Kolyana to Safety",
@@ -33,7 +34,8 @@
             "dh2e-dread-of-zarovich": {
                 "act": "1-2"
             }
-        }
+        },
+        "_id": "02ba271239d263ad"
     },
     {
         "name": "Recover the Three Relics",
@@ -51,7 +53,8 @@
             "dh2e-dread-of-zarovich": {
                 "act": "2"
             }
-        }
+        },
+        "_id": "8f4a6af8281692ab"
     },
     {
         "name": "Liberate the Recaf Distillery",
@@ -69,7 +72,8 @@
             "dh2e-dread-of-zarovich": {
                 "act": "2"
             }
-        }
+        },
+        "_id": "8d84cca2b16084b0"
     },
     {
         "name": "Investigate Fortress Vallak",
@@ -87,7 +91,8 @@
             "dh2e-dread-of-zarovich": {
                 "act": "2"
             }
-        }
+        },
+        "_id": "7ecf336af6150e65"
     },
     {
         "name": "Destroy the Heart of Sorrow",
@@ -105,6 +110,7 @@
             "dh2e-dread-of-zarovich": {
                 "act": "3"
             }
-        }
+        },
+        "_id": "682750cf456c9e0f"
     }
 ]

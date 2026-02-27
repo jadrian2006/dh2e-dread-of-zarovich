@@ -17,7 +17,8 @@
         },
         "flags": {
             "dh2e-dread-of-zarovich": {}
-        }
+        },
+        "_id": "0dfebc010ebf1656"
     },
     {
         "name": "Warp Reclamation",
@@ -37,7 +38,8 @@
         },
         "flags": {
             "dh2e-dread-of-zarovich": {}
-        }
+        },
+        "_id": "9e295a8bf7225a43"
     },
     {
         "name": "Barovus Native",
@@ -57,7 +59,8 @@
         },
         "flags": {
             "dh2e-dread-of-zarovich": {}
-        }
+        },
+        "_id": "dd6c385cbe219278"
     },
     {
         "name": "Latent Psyker",
@@ -82,7 +85,8 @@
         },
         "flags": {
             "dh2e-dread-of-zarovich": {}
-        }
+        },
+        "_id": "b1c7d0f9773e012c"
     },
     {
         "name": "Strahd's Marked",
@@ -102,6 +106,7 @@
         },
         "flags": {
             "dh2e-dread-of-zarovich": {}
-        }
+        },
+        "_id": "e0c971b25859d0af"
     }
 ]

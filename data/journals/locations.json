@@ -53,7 +53,8 @@
                 "act": "1",
                 "mapRef": "Map 1"
             }
-        }
+        },
+        "_id": "717ca1fc47f374cc"
     },
     {
         "name": "The Vessel of Lament",
@@ -118,7 +119,8 @@
                 "act": "1",
                 "mapRef": "Map 2"
             }
-        }
+        },
+        "_id": "99379e2c02ff75fa"
     },
     {
         "name": "Fortress Vallak",
@@ -183,7 +185,8 @@
                 "act": "2",
                 "mapRef": "Map 3"
             }
-        }
+        },
+        "_id": "769b87217f11dfc2"
     },
     {
         "name": "Krezk Biologis Facility",
@@ -239,7 +242,8 @@
                 "act": "2",
                 "mapRef": "Map 4"
             }
-        }
+        },
+        "_id": "9367c618b6370031"
     },
     {
         "name": "Fallen Astartes Outpost (Silver Drakes)",
@@ -295,7 +299,8 @@
                 "act": "2",
                 "mapRef": "Map 5"
             }
-        }
+        },
+        "_id": "94c0016a2a38e496"
     },
     {
         "name": "The Warp Nexus (Yester Hill)",
@@ -351,7 +356,8 @@
                 "act": "2",
                 "mapRef": "Map 6"
             }
-        }
+        },
+        "_id": "16ecd6cf6fc5450d"
     },
     {
         "name": "Crashed Munitorum Transport",
@@ -398,7 +404,8 @@
                 "act": "2",
                 "mapRef": "Map 7"
             }
-        }
+        },
+        "_id": "0040f786e28006dc"
     },
     {
         "name": "The Recaf Distillery",
@@ -454,7 +461,8 @@
                 "act": "2",
                 "mapRef": "Map 8"
             }
-        }
+        },
+        "_id": "473312c6c10b066a"
     },
     {
         "name": "Berez — The Drowned Ruins",
@@ -510,7 +518,8 @@
                 "act": "2",
                 "mapRef": "Map 9"
             }
-        }
+        },
+        "_id": "7641cfc2880a1661"
     },
     {
         "name": "The Empyrean Vault (Amber Temple)",
@@ -575,7 +584,8 @@
                 "act": "2",
                 "mapRef": "Map 10"
             }
-        }
+        },
+        "_id": "ae316b54403ac5b2"
     },
     {
         "name": "Zarovich Spire",
@@ -640,7 +650,8 @@
                 "act": "3",
                 "mapRef": "Map 11"
             }
-        }
+        },
+        "_id": "2ce49538e527c509"
     },
     {
         "name": "The Roads of Barovus",
@@ -678,6 +689,7 @@
                 "act": "2",
                 "mapRef": "Overworld"
             }
-        }
+        },
+        "_id": "58837419a684b364"
     }
 ]

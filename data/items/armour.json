@@ -23,7 +23,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "npc-gear"
             }
-        }
+        },
+        "_id": "1c8f13fd593d458b"
     },
     {
         "name": "Carapace Chest Plate (Munitorum Transport)",
@@ -49,7 +50,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "transport-loot"
             }
-        }
+        },
+        "_id": "0be036dc2b8295c8"
     },
     {
         "name": "Flak Armour Set (Munitorum Transport)",
@@ -75,7 +77,8 @@
             "dh2e-dread-of-zarovich": {
                 "category": "transport-loot"
             }
-        }
+        },
+        "_id": "e97674c005f8e922"
     },
     {
         "name": "Elite Guard Carapace Armour",
@@ -101,6 +104,7 @@
             "dh2e-dread-of-zarovich": {
                 "category": "npc-gear"
             }
-        }
+        },
+        "_id": "dff9cab790f5599c"
     }
 ]

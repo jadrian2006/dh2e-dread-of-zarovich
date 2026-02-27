@@ -53,6 +53,16 @@ Hooks.once("init", () => {
         type: Boolean,
         default: false,
     });
+
+    // Visible button in Module Settings to re-import content
+    game.settings.registerMenu(MODULE_ID, "reimportMenu", {
+        name: "Re-import & Overwrite Content",
+        label: "Re-import All",
+        hint: "Delete all previously imported Dread of Zarovich content and re-import fresh from the compendium packs. Use this after a module update to get the latest data.",
+        icon: "fas fa-sync-alt",
+        type: ReimportFormApplication,
+        restricted: true, // GM only
+    });
 });
 
 /* ------------------------------------------------------------------ */
@@ -238,14 +248,6 @@ async function organizeExistingContent() {
     ui.notifications.info("Dread of Zarovich: Creating folder structure\u2026");
     const folderMap = await createFolderStructure();
 
-    const COLLECTIONS = {
-        Actor: game.actors,
-        Item: game.items,
-        JournalEntry: game.journal,
-        Scene: game.scenes,
-        RollTable: game.tables,
-    };
-
     let moved = 0;
     let errors = 0;
 
@@ -255,7 +257,7 @@ async function organizeExistingContent() {
         if (!pack) continue;
 
         const folderId = folderMap.get(packName);
-        const collection = COLLECTIONS[cfg.type];
+        const collection = COLLECTIONS[cfg.type]?.();
         if (!collection) continue;
 
         try {
@@ -303,6 +305,14 @@ async function organizeExistingContent() {
  * Import all documents from every compendium pack in this module,
  * placing each into the correct folder.
  */
+const COLLECTIONS = {
+    Actor: () => game.actors,
+    Item: () => game.items,
+    JournalEntry: () => game.journal,
+    Scene: () => game.scenes,
+    RollTable: () => game.tables,
+};
+
 async function importAllContent() {
     const mod = game.modules.get(MODULE_ID);
     if (!mod) {
@@ -365,5 +375,152 @@ async function importAllContent() {
         ui.notifications.info(
             `Dread of Zarovich: Successfully imported ${total} entries into folders!`
         );
+    }
+}
+
+/* ------------------------------------------------------------------ */
+/*  Re-import — delete existing + fresh import from compendium        */
+/* ------------------------------------------------------------------ */
+
+/**
+ * Delete all previously imported documents (matched by compendium ID)
+ * and re-import fresh from the module's compendium packs.
+ */
+async function reimportAllContent() {
+    const mod = game.modules.get(MODULE_ID);
+    if (!mod) {
+        ui.notifications.error("Dread of Zarovich module not found.");
+        return;
+    }
+
+    ui.notifications.info("Dread of Zarovich: Preparing re-import\u2026");
+    const folderMap = await createFolderStructure();
+
+    const packIds = mod.packs.map((p) => `${MODULE_ID}.${p.name}`);
+    let deleted = 0;
+    let imported = 0;
+    let errors = 0;
+
+    for (const packId of packIds) {
+        const pack = game.packs.get(packId);
+        if (!pack) {
+            console.warn(`DoZ Re-import: Pack ${packId} not found, skipping.`);
+            errors++;
+            continue;
+        }
+
+        try {
+            const packName = pack.metadata.name;
+            const cfg = PACK_FOLDERS[packName];
+            if (!cfg) continue;
+
+            const cls = pack.documentClass;
+            const collection = COLLECTIONS[cfg.type]?.();
+            if (!collection) continue;
+
+            // Get compendium document IDs
+            const index = await pack.getIndex();
+            const compendiumIds = new Set(index.map((e) => e._id));
+
+            // Delete existing world documents that match compendium IDs
+            const toDelete = collection
+                .filter((d) => compendiumIds.has(d.id))
+                .map((d) => d.id);
+
+            if (toDelete.length > 0) {
+                await cls.deleteDocuments(toDelete);
+                deleted += toDelete.length;
+                console.log(
+                    `DoZ Re-import: Deleted ${toDelete.length} existing entries from ${packName}`
+                );
+            }
+
+            // Re-import fresh from compendium
+            const documents = await pack.getDocuments();
+            if (documents.length === 0) continue;
+
+            const folderId = folderMap.get(packName) ?? null;
+            const data = documents.map((d) => {
+                const obj = d.toObject();
+                if (folderId) obj.folder = folderId;
+                return obj;
+            });
+
+            await cls.createDocuments(data, { keepId: true });
+            imported += documents.length;
+
+            console.log(
+                `DoZ Re-import: ${pack.metadata.label} — ${documents.length} entries imported`
+            );
+        } catch (err) {
+            console.error(`DoZ Re-import: Failed on ${packId}`, err);
+            errors++;
+        }
+    }
+
+    await game.settings.set(MODULE_ID, "imported", true);
+    await game.settings.set(MODULE_ID, "organized", true);
+
+    if (errors > 0) {
+        ui.notifications.warn(
+            `Dread of Zarovich: Re-imported ${imported} entries (deleted ${deleted}) with ${errors} error(s).`
+        );
+    } else {
+        ui.notifications.info(
+            `Dread of Zarovich: Re-imported ${imported} entries (replaced ${deleted} existing). All content is up to date!`
+        );
+    }
+}
+
+/* ------------------------------------------------------------------ */
+/*  Settings menu FormApplication — confirmation dialog               */
+/* ------------------------------------------------------------------ */
+
+class ReimportFormApplication extends FormApplication {
+    static get defaultOptions() {
+        return foundry.utils.mergeObject(super.defaultOptions, {
+            id: "doz-reimport",
+            title: "Dread of Zarovich \u2014 Re-import Content",
+            template: `modules/${MODULE_ID}/templates/reimport.html`,
+            width: 480,
+        });
+    }
+
+    /** If template file doesn't exist, render inline */
+    async _renderInner(data) {
+        try {
+            return await super._renderInner(data);
+        } catch {
+            // Fallback: inline HTML if template missing
+            const html = document.createElement("form");
+            html.innerHTML = `
+                <div style="margin-bottom: 16px;">
+                    <p><strong>This will delete and re-import all Dread of Zarovich
+                    content</strong> in this world from the module's compendium packs.</p>
+                    <p style="color: #ff6644; margin-top: 8px;">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        Any manual edits you have made to imported actors, items,
+                        journals, scenes, or tables will be <strong>overwritten</strong>.
+                    </p>
+                    <p style="margin-top: 8px;">Use this after updating the module to
+                    get the latest NPC stats, items, and other data.</p>
+                </div>
+                <div style="text-align: center; margin-top: 12px;">
+                    <button type="submit" style="padding: 6px 24px;">
+                        <i class="fas fa-sync-alt"></i> Re-import &amp; Overwrite All
+                    </button>
+                </div>
+            `;
+            return $(html);
+        }
+    }
+
+    getData() {
+        return {};
+    }
+
+    async _updateObject(event, formData) {
+        await reimportAllContent();
+        this.close();
     }
 }
